@@ -1,0 +1,30 @@
+
+country_data : country.data.washington
+{
+	country_id: 47
+
+	name: "Washington"
+	name_localized: "@@washington@@"
+	country_code: "WA"
+	iso_country_code: uswa
+
+	pos: (-93000, 0, -62500)
+
+	fuel_price: 1.918999	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.401353
+
+	lights_mandatory: false
+	imperial_units: true
+	driving_tired_offence: true
+
+	time_zone: -420		# -7 hours in minutes verão
+	# time_zone: -480		# -8 hours in minutes inverno
+	time_zone_name: "@@tz_pdt@@"	# verão
+	# time_zone_name: "PST"	# inverno
+
+	mass_limit_per_axle_count[]: 18143.7	# 40000 lb	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 27215.6	# 60000 lb
+	mass_limit_per_axle_count[]: 36287.4	# 80000 lb
+	mass_limit_per_axle_count[]: 45359.3	# 100000 lb
+	mass_limit_per_axle_count[]: 47854.0	# 105500 lb
+}

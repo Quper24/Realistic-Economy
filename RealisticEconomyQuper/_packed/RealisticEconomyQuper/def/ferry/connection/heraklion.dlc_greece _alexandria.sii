@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.heraklion.dlc_greece.alexandria {
+	price: 364
+	time: 3621
+	distance: 1800
+}
+}
+

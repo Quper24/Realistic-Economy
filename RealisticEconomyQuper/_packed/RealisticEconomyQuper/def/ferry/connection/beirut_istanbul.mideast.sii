@@ -1,0 +1,37 @@
+SiiNunit
+{
+ferry_connection : conn.beirut.istanbul{
+	price: 226
+	time: 2221
+	distance: 1100
+
+	# NODE POSITIONS #######    x*256  , 0,  z*256
+	connection_positions[0]:  (28962560, 0, 20521908)
+	connection_positions[1]:  (28971776, 0, 20456524)
+	connection_positions[2]:  (28923392, 0, 20423500)
+	connection_positions[3]:  (25559500, 0, 20770868)
+	connection_positions[4]:  (19428224, 0, 20252442)
+	connection_positions[5]:  (16255030, 0, 17334600)
+	connection_positions[6]:  (16685600, 0, 14739180)
+	connection_positions[7]:  (16807400, 0, 14299240)
+	connection_positions[8]:  (17048192, 0, 14137010)
+	connection_positions[9]:  (17056150, 0, 14019610)
+	connection_positions[10]: (17349220, 0, 13583590)
+	connection_positions[11]: (17401900, 0, 13560960)
+
+	# NODE ROTATIONS #######   -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]:  ( 0.70711, 0, -0.70711)
+	connection_directions[1]:  (-0.57358, 0, -0.81915)
+	connection_directions[2]:  (-1,       0,  0      )
+	connection_directions[3]:  (-0.99144, 0,  0.13053)
+	connection_directions[4]:  (-0.86603, 0, -0.5    )
+	connection_directions[5]:  (-0.64279, 0, -0.76604)
+	connection_directions[6]:  ( 0.34202, 0, -0.93969)
+	connection_directions[7]:  ( 0.86603, 0, -0.5    )
+	connection_directions[8]:  ( 0.70711, 0, -0.70711)
+	connection_directions[9]:  ( 0.57358, 0, -0.81915)
+	connection_directions[10]: ( 0.5,     0, -0.86603)
+	connection_directions[11]: ( 0.93969, 0, -0.34202)
+}
+}
+

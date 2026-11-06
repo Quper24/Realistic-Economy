@@ -1,0 +1,23 @@
+SiiNunit
+{
+ferry_connection : conn.vestmann.landeyjahofn{
+	price: 7
+	time: 47
+	distance: 13
+
+	# NODE POSITIONS #######    x*256  , 0,   z*256
+	connection_positions[0]: (-23199360, 0, -23286860)
+	connection_positions[1]: (-23202356, 0, -23292928)
+	connection_positions[2]: (-23186842, 0, -23330356)
+	connection_positions[3]: (-22876134, 0, -23337600)
+	connection_positions[4]: (-22795546, 0, -23417318)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: (-0.99619, 0, -0.08716)
+	connection_directions[1]: ( 0.08716, 0, -0.99619)
+	connection_directions[2]: ( 1,       0,  0      )
+	connection_directions[3]: ( 0.96593, 0, -0.25882)
+	connection_directions[4]: (-0.08716, 0, -0.99619)
+}
+}
+

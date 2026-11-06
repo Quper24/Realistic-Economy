@@ -1,0 +1,11 @@
+SiiNunit
+{
+ferry_connection: conn.manaus.portovelho
+{
+	price: 164
+	time: 1621
+	distance: 800
+
+}
+}
+

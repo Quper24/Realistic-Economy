@@ -1,0 +1,8 @@
+SiiNunit
+{
+ferry_connection : conn.byxelkrok.portoska{
+    price: 43
+    time: 401
+    distance: 190
+}
+}

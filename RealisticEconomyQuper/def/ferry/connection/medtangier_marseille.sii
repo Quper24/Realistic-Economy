@@ -1,0 +1,17 @@
+SiiNunit
+{
+ferry_connection : conn.medtangier.marseille {
+	price: 349
+	time: 3453
+	distance: 1716
+
+
+	# NODE POSITIONS #######    x*256 , 0,   z*256
+	connection_positions[0]: (-15680256, 0, 18397184)
+	connection_positions[1]: ( -6345472, 0, 14253568)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: ( 0.99612, 0, -0.08716)
+	connection_directions[1]: (     0.5, 0, -0.86603)
+}
+}

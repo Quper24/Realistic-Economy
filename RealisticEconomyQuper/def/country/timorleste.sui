@@ -1,0 +1,26 @@
+
+country_data : country.data.timorleste
+{
+	country_id: 55
+
+	name: "Timor Leste"
+	name_localized: "@@Timor Leste@@"
+	country_code: "TL"
+        iso_country_code: tls
+
+	pos: (676500, 0, -227500)
+
+	fuel_price: 1
+
+	lights_mandatory: false
+	leftside_traffic: true
+	driving_tired_offence: true
+
+	time_zone: 600		# +9 hours in minutes
+	time_zone_name: "@@ETST@@"
+
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 36000
+	mass_limit_per_axle_count[]: 40000
+}

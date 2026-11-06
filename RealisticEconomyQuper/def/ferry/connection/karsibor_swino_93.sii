@@ -1,0 +1,8 @@
+SiiNunit
+{
+ferry_connection : conn.karsibor.swino_93 {
+	price: 7
+	time: 23
+	distance: 1
+}
+}

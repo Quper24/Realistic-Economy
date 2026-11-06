@@ -1,0 +1,11 @@
+SiiNunit
+{
+ferry_connection: conn.ohiggins.cochrane
+{
+	price: 7
+	time: 41
+	distance: 10
+
+}
+}
+

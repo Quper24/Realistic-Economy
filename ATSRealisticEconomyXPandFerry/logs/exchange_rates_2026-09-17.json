@@ -1,0 +1,64 @@
+{
+  "timestamp": "2026-09-17T18:07:03.735Z",
+  "baseCurrency": "USD",
+  "source": "Frankfurter API v2",
+  "apiUrl": "https://api.frankfurter.dev/v2/rates?base=USD&quotes=CAD,MXN,EUR,RUB,UAH,KZT,BYN,CNY",
+  "rates": {
+    "USD": 1,
+    "BYN": 3.0328,
+    "CAD": 1.3946,
+    "CNY": 6.706,
+    "EUR": 0.86804,
+    "KZT": 446.18,
+    "MXN": 17.1754,
+    "RUB": 84.37,
+    "UAH": 44.626
+  },
+  "currencies": [
+    {
+      "code": "USD",
+      "oldRatio": 1,
+      "newRatio": 1
+    },
+    {
+      "code": "CAD",
+      "oldRatio": 1.4,
+      "newRatio": 1.39
+    },
+    {
+      "code": "MXN",
+      "oldRatio": 17.19,
+      "newRatio": 17.18
+    },
+    {
+      "code": "EUR",
+      "oldRatio": 0.87,
+      "newRatio": 0.87
+    },
+    {
+      "code": "RUB",
+      "oldRatio": 85.79,
+      "newRatio": 84.37
+    },
+    {
+      "code": "UAH",
+      "oldRatio": 37.02,
+      "newRatio": 44.63
+    },
+    {
+      "code": "KZT",
+      "oldRatio": 435.5,
+      "newRatio": 446.18
+    },
+    {
+      "code": "BYN",
+      "oldRatio": 3.05,
+      "newRatio": 3.03
+    },
+    {
+      "code": "CNY",
+      "oldRatio": 6.71,
+      "newRatio": 6.71
+    }
+  ]
+}

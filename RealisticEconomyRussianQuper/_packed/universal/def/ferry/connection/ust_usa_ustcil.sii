@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.ust_usa.ustcil {
+	price: 62
+	time: 623
+	distance: 301
+}
+}
+

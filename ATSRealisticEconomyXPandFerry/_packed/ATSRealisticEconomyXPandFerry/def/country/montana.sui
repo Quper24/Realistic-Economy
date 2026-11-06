@@ -1,0 +1,32 @@
+
+country_data : country.data.montana
+{
+	country_id: 27
+
+	name: "Montana"
+	name_localized: "@@montana@@"
+	country_code: "MT"
+	iso_country_code: usmt
+
+	pos: (-52000, 0, -48000)
+
+	fuel_price: 1.630417	# 1 liter = 0.264172052 US gallons kworey
+	petrol_price: 1.161934
+
+	lights_mandatory: false
+	imperial_units: true
+	driving_tired_offence: true
+
+	time_zone: -360		# -6 hours in minutes verão
+	# time_zone: -420		# -7 hours in minutes inverno
+	time_zone_name: "@@tz_mdt@@"	# verão
+	# time_zone_name: "@@tz_mst@@"	# inverno
+
+	mass_limit_per_axle_count[]: 18143.7	# 40000 lb	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 27215.6	# 60000 lb
+	mass_limit_per_axle_count[]: 36287.4	# 80000 lb
+	mass_limit_per_axle_count[]: 45359.3	# 100000 lb
+	mass_limit_per_axle_count[]: 50076.6	# 110400 lb
+	mass_limit_per_axle_count[]: 58967.0	# 130000 lb
+	mass_limit_per_axle_count[]: 59447.9	# 131060 lb
+}

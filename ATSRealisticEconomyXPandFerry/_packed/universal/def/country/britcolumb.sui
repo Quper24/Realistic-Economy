@@ -1,0 +1,31 @@
+
+country_data : country.data.britcolumb
+{
+	country_id: 201
+
+	name: "British Columbia"
+	name_localized: "@@British Columbia@@"
+	country_code: "BC"
+	iso_country_code: canbc
+
+	pos:(-90500, 0, -117000)
+
+	fuel_price: 2.053150	# 1 US gallon = 3.78541178 liter Victoria
+	petrol_price: 1.408664
+
+	lights_mandatory: false
+	imperial_units: false
+	driving_tired_offence: true
+
+	time_zone: -420		# -7 hours in minutes verão
+	# time_zone: -480		# -8 hours in minutes inverno
+	time_zone_name: "@@tz_pdt@@"	# verão
+	# time_zone_name: "PST"	# inverno
+
+	mass_limit_per_axle_count[]: 18143.7	# 40000 lb	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 27215.6	# 60000 lb
+	mass_limit_per_axle_count[]: 36287.4	# 80000 lb
+	mass_limit_per_axle_count[]: 45359.3	# 100000 lb
+	mass_limit_per_axle_count[]: 54431.1	# 120000 lb
+	mass_limit_per_axle_count[]: 63502.9	# 140000 lb
+}

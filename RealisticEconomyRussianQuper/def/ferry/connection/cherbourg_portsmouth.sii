@@ -1,0 +1,29 @@
+SiiNunit
+{
+ferry_connection : conn.cherbourg.portsmouth{
+	price: 32
+	time: 305
+	distance: 142
+
+	# NODE POSITIONS #######    x*256  , 0,   z*256
+	connection_positions[0]: (-11466752, 0,  -238174)
+	connection_positions[1]: (-11477632, 0,  -260268)
+	connection_positions[2]: (-11478938, 0,  -268446)
+	connection_positions[3]: (-11469492, 0,  -278584)
+	connection_positions[4]: (-11405798, 0,  -310694)
+	connection_positions[5]: (-11389082, 0,  -339520)
+	connection_positions[6]: (-11070004, 0, -1320130)
+	connection_positions[7]: (-11066880, 0, -1342034)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: (-0.5,     0, -0.86603)
+	connection_directions[1]: (-0.5,     0, -0.86603)
+	connection_directions[2]: ( 0.25882, 0, -0.96593)
+	connection_directions[3]: ( 0.86603, 0, -0.5    )
+	connection_directions[4]: ( 0.86603, 0, -0.5    )
+	connection_directions[5]: ( 0.34202, 0, -0.93969)
+	connection_directions[6]: ( 0.21644, 0, -0.9763 )
+	connection_directions[7]: ( 0,       0, -1      )
+}
+}
+

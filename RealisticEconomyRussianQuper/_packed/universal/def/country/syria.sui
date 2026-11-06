@@ -1,0 +1,20 @@
+country_data: country.data.syria
+{
+	country_id: 83
+
+	name: "Sūriyā"
+	name_localized: "@@syria@@"
+	country_code: "SYR"
+	iso_country_code: syr
+
+	pos:(126000, 0, 70000)
+
+	fuel_price: 1.202
+
+	lights_mandatory: false
+	leftside_traffic: false
+	driving_tired_offence: true
+
+	time_zone: 180		# +3 hours in minutes
+	time_zone_name: "@@tz_eest@@"
+}

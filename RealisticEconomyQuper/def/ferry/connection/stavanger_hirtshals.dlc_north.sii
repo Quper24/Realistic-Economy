@@ -1,0 +1,27 @@
+SiiNunit
+{
+ferry_connection : conn.stavanger.hirtshals {
+	price: 82
+	time: 791
+	distance: 385
+
+	# NODE POSITIONS #######    x*256 , 0,   z*256
+	connection_positions[0]: (-2994560, 0, -12526388)
+	connection_positions[1]: (-3067596, 0, -12540134)
+	connection_positions[2]: (-3062144, 0, -11635456)
+	connection_positions[3]: (  454620, 0, -10152780)
+	connection_positions[4]: (  477660, 0, -10134196)
+	connection_positions[5]: (  495928, 0, -10077388)
+	connection_positions[6]: (  511388, 0, -10051380)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: (-0.70711, 0, -0.70711)
+	connection_directions[1]: (-0.70711, 0,  0.70711)
+	connection_directions[2]: ( 0.34202, 0,  0.93969)
+	connection_directions[3]: ( 0.98481, 0,  0.17365)
+	connection_directions[4]: ( 0.25882, 0,  0.96593)
+	connection_directions[5]: ( 0.25882, 0,  0.96593)
+	connection_directions[6]: ( 0,       0,  1      )
+}
+}
+

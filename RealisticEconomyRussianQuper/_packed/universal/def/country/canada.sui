@@ -1,0 +1,31 @@
+
+country_data : country.data.canada
+{
+	country_id: 151
+
+	name: "Canada"
+	name_localized: "@@Canada@@"
+	country_code: "CA"
+	iso_country_code: can
+
+	pos: (-183958, 0, -192600)
+
+	fuel_price: 1.534
+
+	lights_mandatory: true
+	driving_tired_offence: true
+	
+	time_zone: 2
+	time_zone_name: ""
+	
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 38000
+	mass_limit_per_axle_count[]: 42000
+	mass_limit_per_axle_count[]: 50000
+	mass_limit_per_axle_count[]: 56000
+}
+
+
+
+

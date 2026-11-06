@@ -1,0 +1,21 @@
+SiiNunit
+{
+ferry_connection : conn.silifke.beirut{
+	price: 65
+	time: 643
+	distance: 311
+
+	# NODE POSITIONS #######   x*256  , 0,  z*256
+	connection_positions[0]: (26316800, 0, 17997160)
+	connection_positions[1]: (27340288, 0, 18380264)
+	connection_positions[2]: (28971776, 0, 20456526)
+	connection_positions[3]: (28962560, 0, 20521908)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: ( 0.34202, 0,  0.93969)
+	connection_directions[1]: ( 0.67559, 0,  0.73728)
+	connection_directions[2]: ( 0.57358, 0,  0.81915)
+	connection_directions[3]: (-0.70711, 0,  0.70711)
+}
+}
+

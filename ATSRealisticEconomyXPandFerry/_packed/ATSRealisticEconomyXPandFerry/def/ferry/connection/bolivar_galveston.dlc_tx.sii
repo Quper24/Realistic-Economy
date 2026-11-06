@@ -1,0 +1,9 @@
+SiiNunit
+{
+	ferry_connection : conn.bolivar.galveston {
+		price: 2
+		time: 36
+		distance: 4
+	}
+}
+

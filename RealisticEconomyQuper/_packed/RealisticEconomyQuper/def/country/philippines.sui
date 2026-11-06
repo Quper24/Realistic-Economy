@@ -1,0 +1,25 @@
+
+country_data : country.data.philippines
+{
+	country_id: 77
+
+	name: "Philippines"
+	name_localized: "@@Philippines@@"
+	country_code: "PH"
+        iso_country_code: phl
+
+	pos: (520636, 0, -214228)
+
+	fuel_price: 1.156
+
+	lights_mandatory: false
+	driving_tired_offence: true
+
+	time_zone: 540		# +8 hours in minutes
+	time_zone_name: "@@PST@@"
+
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 36000
+	mass_limit_per_axle_count[]: 40000
+}

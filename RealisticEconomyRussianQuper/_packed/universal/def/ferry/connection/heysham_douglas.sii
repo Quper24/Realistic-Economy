@@ -1,0 +1,19 @@
+SiiNunit
+{
+ferry_connection : conn.heysham.douglas{
+	price: 26
+	time: 241
+	distance: 110
+
+	# NODE POSITIONS #######    x*256  , 0,   z*256
+	connection_positions[0]: (-12518400, 0, -8494080)
+	connection_positions[1]: (-13734092, 0, -9064628)
+	connection_positions[2]: (-13794458, 0, -9068108)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: (-0.86603, 0, -0.5    )
+	connection_directions[1]: (-0.99619, 0,  0.08716)
+	connection_directions[2]: (-0.84339, 0, -0.5373 )
+}
+}
+

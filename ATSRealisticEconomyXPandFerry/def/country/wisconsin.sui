@@ -1,0 +1,24 @@
+
+country_data : country.data.wisconsin
+{
+	country_id: 49
+
+	name: "Wisconsin"
+	name_localized: "@@Wisconsin@@"
+	country_code: "WI"
+	iso_country_code: uswi
+
+	pos:(25300, 0, -33000)
+
+	fuel_price: 1.693369	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.193978
+
+	lights_mandatory: false
+	imperial_units: true
+	driving_tired_offence: true
+
+	time_zone: -300		# -5 hours in minutes verão
+	# time_zone: -360		# -6 hours in minutes inverno
+	time_zone_name: "@@tz_cdt@@"	# verão
+	# time_zone_name: "CST"	# inverno
+}

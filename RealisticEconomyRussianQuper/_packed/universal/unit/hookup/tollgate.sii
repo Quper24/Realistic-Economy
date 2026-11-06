@@ -1,0 +1,720 @@
+SiiNunit
+{
+#quper
+tollgate: tollgate.custom
+{
+	# actual tollgate type and toll value must be set in map
+
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+
+	trigger_distance: 3.0
+	
+}
+
+tollgate: tollgate.autopass.custom
+{
+	# actual tollgate type and toll value must be set in map
+
+	max_activation_speed: 200.0
+
+	trigger_length: 20.0
+	trigger_width: 6.0
+	
+	trigger_offset: -15.0
+}
+
+tollgate: tollgate.autopass.custom.wide
+{
+	# actual tollgate type and toll value must be set in map
+
+	max_activation_speed: 200.0
+
+	trigger_distance: 4.5
+	
+	trigger_offset: -15.0
+}
+
+tollgate: tollgate.autopass.oversize
+{
+	max_activation_speed: 200.0
+	type: oversize
+	trigger_distance: 20.0
+	
+	trigger_offset: -20.0
+}
+
+tollgate: tollgate.manual.ovs_disable
+{
+	# actual tollgate type and toll value must be set in map
+
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+
+	type: oversize_disabled
+
+	trigger_distance: 3.0
+	
+}
+
+tollgate: tollgate.autopass.ovs_disable
+{
+	# actual tollgate type and toll value must be set in map
+
+	max_activation_speed: 200.0
+
+	type: oversize_disabled
+
+	trigger_distance: 3.0
+	
+	trigger_offset: -15.0
+}
+
+tollgate: tollgate.autopass.ovs_disable.long
+{
+	# actual tollgate type and toll value must be set in map
+
+	max_activation_speed: 200.0
+
+	type: oversize_disabled
+
+	trigger_length: 40.0
+	trigger_width: 5.5
+	
+	trigger_offset: -15.0
+}
+
+tollgate: tollgate.onetime
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+	type: one_time
+	trigger_distance: 3.0
+	
+
+	# overal price in euro
+	toll: 1
+}
+
+tollgate: tollgate.start
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+	type: start
+	trigger_distance: 3.0
+	
+
+	# no price
+}
+
+tollgate: tollgate.end
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+	type: end
+	trigger_distance: 3.0
+	
+
+	# price in euro per km
+	toll: 0.025
+}
+
+tollgate: tollgate.onetime.it
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+	type: one_time
+	trigger_distance: 3.0
+	
+	# overal price in euro
+	toll: 0.7
+}
+
+tollgate: tollgate.end.it
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+	type: end
+	trigger_distance: 3.0
+	
+	# price in euro per km
+	toll: 0.02
+}
+tollgate: tollgate.end.it_fr
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+	type: end
+	trigger_distance: 3.0
+	
+	# price in euro per km
+	toll: 0.03
+}
+tollgate: tollgate.end.fr_alps
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+	type: end
+	trigger_distance: 3.0
+	
+	# price in euro per km
+	toll: 0.04
+}
+tollgate: tollgate.end.fr
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+	type: end
+	trigger_distance: 3.0
+	
+	# price in euro per km
+	toll: 0.04
+}
+tollgate: tollgate.end.fr.metz_reims
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+	type: end
+	trigger_distance: 3.0
+	
+	# price in euro per km
+	toll: 0.04
+}
+tollgate: tollgate.end.fr.reims_paris
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+	type: end
+	trigger_distance: 3.0
+	
+	# price in euro per km
+	toll: 0.04
+}
+tollgate: tollgate.onetime.pl
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+	type: one_time
+	trigger_distance: 3.0
+	
+	# overal price in euro
+	toll: 1.8
+}
+tollgate: tollgate.onetime.au
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+	type: one_time
+	trigger_distance: 3.0
+	
+	# overal price in euro
+	toll: 5
+}
+tollgate: tollgate.onetime.arlberg
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+	type: one_time
+	trigger_distance: 3.0
+	
+	# overal price in euro
+	toll: 0.3
+}
+tollgate: tollgate.end.pl.a1
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+	type: end
+	trigger_distance: 3.0
+	
+	# price in euro per km
+	toll: 0.06
+}
+
+tollgate: tollgate.end.pl.a2_1
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+	type: end
+	trigger_distance: 3.0
+	
+	# price in euro per km
+	toll: 0.05
+}
+
+tollgate: tollgate.end.pl.a2_2
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+	type: end
+	trigger_distance: 3.0
+	
+	# price in euro per km
+	toll: 0.04
+}
+
+tollgate: tollgate.end.pl.a2_3
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+	type: end
+	trigger_distance: 3.0
+	
+	# price in euro per km
+	toll: 0.01
+}
+
+tollgate: tollgate.end.pl.a4_1
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+	type: end
+	trigger_distance: 3.0
+	
+	# price in euro per km
+	toll: 0.01
+}
+
+tollgate: tollgate.end.pl.a4_2
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+	type: end
+	trigger_distance: 3.0
+	
+	# price in euro per km
+	toll: 0.03
+}
+
+tollgate: tollgate.ube
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+	type: one_time
+	trigger_distance: 3.0
+	
+	toll: 1.45
+}
+
+tollgate: tollgate.bos
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+	type: one_time
+	trigger_distance: 3.0
+	
+	toll: 0.41
+}
+
+tollgate: tollgate.v1_s1_b1_i1
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+	type: one_time
+	trigger_distance: 3.0
+	
+	toll: 0.45
+}
+
+tollgate: tollgate.v2_s2_b1_i1
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+	type: one_time
+	trigger_distance: 3.0
+	
+	toll: 6
+}
+
+tollgate: tollgate.v3_s1_b2_i2
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+	type: one_time
+	trigger_distance: 3.0
+	
+	toll: 0.75
+}
+
+tollgate: tollgate.v4_s2_b2_i2
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+	type: one_time
+	trigger_distance: 3.0
+	
+	toll: 0.75
+}
+
+tollgate: tollgate.onetime_19
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+	type: one_time
+	trigger_distance: 3.0
+	
+	toll: 1
+}
+
+tollgate: tollgate.onetime_7
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+	type: one_time
+	trigger_distance: 3.0
+	
+	toll: 0.35
+}
+
+tollgate: tollgate.onetime_7_5
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+	type: one_time
+	trigger_distance: 3.0
+	
+	toll: 0.3
+}
+
+tollgate: tollgate.onetime_246
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+	type: one_time
+	trigger_distance: 3.0
+	
+	toll: 10
+}
+
+tollgate: tollgate.onetime_234
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+	type: one_time
+	trigger_distance: 3.0
+	
+	toll: 11
+}
+
+tollgate: tollgate.onetime_12
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+	type: one_time
+	trigger_distance: 3.0
+	
+	toll: 0.6
+}
+lod_model_hookup : g_four_x_ibe
+{
+	model[]: "/prefab2/tollgate/toll_es_gate_four_x_ibe.pmd"
+	model[]: "/prefab2/tollgate/toll_es_gate_four_x_ibe_lod1.pmd"
+	model[]: "/prefab2/tollgate/toll_es_gate_four_x_ibe_lod2.pmd"
+	lod_dist[]: 23	
+	lod_dist[]: 75
+	
+}
+lod_model_hookup : g_one_ibe
+{
+	model[]: "/prefab2/tollgate/toll_es_gate_one_ibe.pmd"
+	model[]: "/prefab2/tollgate/toll_es_gate_one_ibe_lod1.pmd"
+	model[]: "/prefab2/tollgate/toll_es_gate_one_ibe_lod2.pmd"
+	lod_dist[]: 23	
+	lod_dist[]: 75
+	
+}
+lod_model_hookup : g_three_ibe
+{
+	model[]: "/prefab2/tollgate/toll_es_gate_three_ibe.pmd"
+	model[]: "/prefab2/tollgate/toll_es_gate_three_ibe_lod1.pmd"
+	model[]: "/prefab2/tollgate/toll_es_gate_three_ibe_lod2.pmd"
+	lod_dist[]: 23	
+	lod_dist[]: 75
+	
+}
+lod_model_hookup : r_four_ibe
+{
+	model[]: "/prefab2/tollgate/toll_es_roof_four_ibe.pmd"
+	model[]: "/prefab2/tollgate/toll_es_roof_four_ibe_lod1.pmd"
+	model[]: "/prefab2/tollgate/toll_es_roof_four_ibe_lod2.pmd"
+	lod_dist[]: 23	
+	lod_dist[]: 75
+	
+}
+lod_model_hookup : r_four_x_ibe
+{
+	model[]: "/prefab2/tollgate/toll_es_roof_four_x_ibe.pmd"
+	model[]: "/prefab2/tollgate/toll_es_roof_four_x_ibe_lod1.pmd"
+	model[]: "/prefab2/tollgate/toll_es_roof_four_x_ibe_lod2.pmd"
+	lod_dist[]: 23	
+	lod_dist[]: 75
+}
+lod_model_hookup : r_six_x_ibe
+{
+	model[]: "/prefab2/tollgate/toll_es_roof_six_x_ibe.pmd"
+	model[]: "/prefab2/tollgate/toll_es_roof_six_x_ibe_lod1.pmd"
+	model[]: "/prefab2/tollgate/toll_es_roof_six_x_ibe_lod2.pmd"
+	lod_dist[]: 23	
+	lod_dist[]: 75
+
+}
+lod_model_hookup : g_thre_x_ibe
+{
+	model[]: "/prefab2/tollgate/toll_es_gate_three_x_ibe.pmd"
+	model[]: "/prefab2/tollgate/toll_es_gate_three_x_ibe_lod1.pmd"
+	model[]: "/prefab2/tollgate/toll_es_gate_three_x_ibe_lod2.pmd"
+	lod_dist[]: 23	
+	lod_dist[]: 75
+
+}
+lod_model_hookup : r_thre_x_ibe
+{
+	model[]: "/prefab2/tollgate/toll_es_roof_thre_x_ibe.pmd"
+	model[]: "/prefab2/tollgate/toll_es_roof_thre_x_ibe_lod1.pmd"
+	model[]: "/prefab2/tollgate/toll_es_roof_thre_x_ibe_lod2.pmd"
+	lod_dist[]: 23	
+	lod_dist[]: 75
+
+}
+lod_model_hookup : p_r_four_ibe
+{
+	model[]: "/prefab2/tollgate/toll_pt_roof_four_ibe.pmd"
+	
+}
+lod_model_hookup : p_r_thre_ibe
+{
+	model[]: "/prefab2/tollgate/toll_pt_roof_three_ibe.pmd"
+	
+}
+lod_model_hookup : p_g_one_ibe
+{
+	model[]: "/prefab2/tollgate/toll_pt_gate_one_ibe.pmd"
+	model[]: "/prefab2/tollgate/toll_pt_gate_one_ibe_lod1.pmd"
+	model[]: "/prefab2/tollgate/toll_pt_gate_one_ibe_lod2.pmd"
+	lod_dist[]: 22
+	lod_dist[]: 75
+	
+}
+lod_model_hookup : p_g_four_ibe
+{
+	model[]: "/prefab2/tollgate/toll_pt_gate_four_ibe.pmd"
+	model[]: "/prefab2/tollgate/toll_pt_gate_four_ibe_lod1.pmd"
+	model[]: "/prefab2/tollgate/toll_pt_gate_four_ibe_lod2.pmd"
+	lod_dist[]: 22
+	lod_dist[1]: 75
+								
+}
+lod_model_hookup : p_g_o_t_ibe
+{
+	model[]: "/prefab2/tollgate/toll_pt_one_side_ibe.pmd"
+	model[]: "/prefab2/tollgate/toll_pt_one_side_ibe_lod1.pmd"
+	model[]: "/prefab2/tollgate/toll_pt_one_side_ibe_lod2.pmd"
+	lod_dist[]: 22
+	lod_dist[]: 75
+								
+}
+lod_model_hookup : p_g_f_t_ibe
+{
+	model[]: "/prefab2/tollgate/toll_pt_gate_four_ticket_ibe.pmd"
+	model[]: "/prefab2/tollgate/toll_pt_gate_four_ticket_ibe_lod1.pmd"
+	model[]: "/prefab2/tollgate/toll_pt_gate_four_ticket_ibe_lod2.pmd"
+	lod_dist[]: 22
+	lod_dist[]: 75
+								
+}
+lod_model_hookup : p_g_two_ibe
+{
+	model[]: "/prefab2/tollgate/toll_pt_gate_two_ibe.pmd"
+	model[]: "/prefab2/tollgate/toll_pt_gate_two_ibe_lod1.pmd"
+	model[]: "/prefab2/tollgate/toll_pt_gate_two_ibe_lod2.pmd"
+	lod_dist[]: 22
+	lod_dist[]: 75
+								
+}
+lod_model_hookup : p_g_t_t_ibe
+{
+	model[]: "/prefab2/tollgate/toll_pt_gate_two_ticket_ibe.pmd"
+	model[]: "/prefab2/tollgate/toll_pt_gate_two_ticket_ibe_lod1.pmd"
+	model[]: "/prefab2/tollgate/toll_pt_gate_two_ticket_ibe_lod2.pmd"
+	lod_dist[]: 22
+	lod_dist[]: 75
+
+}	
+lod_model_hookup : p_gfts_ibe
+{
+	model[]: "/prefab2/tollgate/toll_pt_gate_four_ticket_side_ibe.pmd"
+	model[]: "/prefab2/tollgate/toll_pt_gate_four_ticket_side_ibe_lod1.pmd"
+	model[]: "/prefab2/tollgate/toll_pt_gate_four_ticket_side_ibe_lod2.pmd"
+	lod_dist[]: 22
+	lod_dist[]: 75
+
+}															
+lod_model_hookup : b_r_thre_ibe
+{
+	model[]: "/prefab2/tollgate/toll_ba_roof_three_ibe.pmd"
+	model[]: "/prefab2/tollgate/toll_ba_roof_three_ibe_lod1.pmd"
+	model[]: "/prefab2/tollgate/toll_ba_roof_three_ibe_lod2.pmd"
+	lod_dist[]: 23
+	lod_dist[]: 75
+								
+}
+lod_model_hookup : b_r_two_ibe
+{
+	model[]: "/prefab2/tollgate/toll_ba_roof_two_ibe.pmd"
+	model[]: "/prefab2/tollgate/toll_ba_roof_two_ibe_lod1.pmd"
+	model[]: "/prefab2/tollgate/toll_ba_roof_two_ibe_lod2.pmd"
+	lod_dist[]: 23
+	lod_dist[]: 75
+								
+}
+lod_model_hookup : b_g_thre_ibe
+{
+	model[]: "/prefab2/tollgate/toll_ba_gate_three_ibe.pmd"
+	model[]: "/prefab2/tollgate/toll_ba_gate_three_ibe_lod1.pmd"
+	model[]: "/prefab2/tollgate/toll_ba_gate_three_ibe_lod2.pmd"
+	lod_dist[]: 23
+	lod_dist[]: 75
+								
+}
+lod_model_hookup : b_g_two_ibe
+{
+	model[]: "/prefab2/tollgate/toll_ba_gate_two_ibe.pmd"
+	model[]: "/prefab2/tollgate/toll_ba_gate_two_ibe_lod1.pmd"
+	model[]: "/prefab2/tollgate/toll_ba_gate_two_ibe_lod2.pmd"
+	lod_dist[]: 23
+	lod_dist[]: 75
+	
+}
+
+########################## RUSSIA TOLLGATE HOOKUPS ##########################
+########################## RUSSIA TOLLGATE HOOKUPS ##########################
+
+lod_model_hookup : t_four_rus
+{
+	model[]: "/prefab2/tollgate/toll_four.pmd"
+	model[]: "/prefab2/tollgate/toll_four_lod1.pmd"
+	model[]: "/prefab2/tollgate/toll_four_lod2.pmd"
+	lod_dist[]: 23
+	lod_dist[]: 50
+
+}	
+lod_model_hookup : t_side_rus
+{
+	model[]: "/prefab2/tollgate/toll_side.pmd"
+	model[]: "/prefab2/tollgate/toll_side_lod1.pmd"
+	model[]: "/prefab2/tollgate/toll_side_lod2.pmd"
+	lod_dist[]: 45
+	lod_dist[]: 70
+
+}	
+lod_model_hookup : t_cab_rus
+{
+	model[]: "/prefab2/tollgate/toll_cabins.pmd"
+	model[]: "/prefab2/tollgate/toll_cabins_lod1.pmd"
+	model[]: "/prefab2/tollgate/toll_cabins_lod2.pmd"
+	lod_dist[]: 35
+	lod_dist[]: 60
+}
+lod_model_hookup : t_out_rus
+{
+	model[]: "/prefab2/tollgate/toll_four_out.pmd"
+	model[]: "/prefab2/tollgate/toll_four_out_lod1.pmd"
+	model[]: "/prefab2/tollgate/toll_four_out_lod2.pmd"
+	lod_dist[]: 43
+	lod_dist[]: 70
+}
+lod_model_hookup : t_four_b_rus
+{
+	model[]: "/prefab2/tollgate/toll_four_02.pmd"
+	model[]: "/prefab2/tollgate/toll_four_02_lod1.pmd"
+	model[]: "/prefab2/tollgate/toll_four_02_lod2.pmd"
+	lod_dist[]: 40
+	lod_dist[]: 60
+}
+lod_model_hookup : t_five_b_rus
+{
+	model[]: "/prefab2/tollgate/toll_five_02.pmd"
+	model[]: "/prefab2/tollgate/toll_five_02_lod1.pmd"
+	model[]: "/prefab2/tollgate/toll_five_02_lod2.pmd"
+	lod_dist[]: 40
+	lod_dist[]: 60
+}
+
+########################## RUSSIA TOLLGATE HOOKUPS ##########################
+########################## RUSSIA TOLLGATE HOOKUPS ##########################
+
+########################## BLKW TOLLGATE HOOKUPS ##########################
+
+lod_model_hookup : toll.01.rs
+{
+	model[]: "/prefab2/tollgate/tollgate_traffic_island_rs_01_blkw.pmd"
+
+	model[]: "/prefab2/tollgate/tollgate_traffic_island_rs_01_blkw_lod1.pmd"
+	lod_dist[]: 80
+
+
+}
+
+lod_model_hookup : toll.02.rs_1
+{
+	model[]: "/prefab2/tollgate/tollgate_traffic_island_rs_02_blkw.pmd"
+
+	model[]: "/prefab2/tollgate/tollgate_traffic_island_rs_02_blkw_lod1.pmd"
+	lod_dist[]: 80
+
+
+}
+
+lod_model_hookup : toll.02.rs_2
+{
+	model[]: "/prefab2/tollgate/tollgate_traffic_island_rs_02_blkw_1.pmd"
+
+	model[]: "/prefab2/tollgate/tollgate_traffic_island_rs_02_blkw_1_lod1.pmd"
+	lod_dist[]: 80
+
+
+}
+
+lod_model_hookup : toll.01.mk_1
+{
+	model[]: "/prefab2/tollgate/tollgate_traffic_island_mk_blkw.pmd"
+	
+#	model[]: "/prefab2/tollgate/tollgate_traffic_island_mk_blkw_lod1.pmd"
+#	lod_dist[]: 80
+
+
+}
+
+lod_model_hookup : toll.01.mk_2
+{
+	model[]: "/prefab2/tollgate/tollgate_traffic_island_mk_blkw_1.pmd"
+
+#	model[]: "/prefab2/tollgate/tollgate_traffic_island_mk_blkw_1_lod1.pmd"
+#	lod_dist[]: 80
+
+
+}
+
+
+lod_model_hookup : toll.01.ba_1
+{
+	model[]: "/prefab2/tollgate/tollgate_traffic_island_ba_01_blkw.pmd"
+
+#	model[]: "/prefab2/tollgate/tollgate_traffic_island_ba_01_blkw_lod1.pmd"
+#	lod_dist[]: 80
+
+
+}
+
+lod_model_hookup : toll.01.ba_2
+{
+	model[]: "/prefab2/tollgate/tollgate_traffic_island_ba_01_blkw_1.pmd"
+
+#	model[]: "/prefab2/tollgate/tollgate_traffic_island_ba_01_blkw_1_lod1.pmd"
+#	lod_dist[]: 80
+
+
+}
+
+########################## //BLKW TOLLGATE HOOKUPS ##########################
+}

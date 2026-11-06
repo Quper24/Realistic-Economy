@@ -1,0 +1,25 @@
+
+country_data : country.data.zambia
+{
+	country_id: 146
+
+	name: "Zambia"
+	name_localized: "@@Zambia@@"
+	country_code: "ZM"
+	iso_country_code: zmb
+
+	pos: (100000, 0, 445000)
+
+	fuel_price: 1.337
+
+	lights_mandatory: false
+	driving_tired_offence: true
+
+	time_zone: 60		# +1 hours in minutes
+	time_zone_name: "@@tz_bst@@"
+
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 36000
+	mass_limit_per_axle_count[]: 44000
+}

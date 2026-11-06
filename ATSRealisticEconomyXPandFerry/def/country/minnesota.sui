@@ -1,0 +1,24 @@
+
+country_data : country.data.minnesota
+{
+	country_id: 24
+
+	name: "Minnesota"
+	name_localized: "@@Minnesota@@"
+	country_code: "MN"
+	iso_country_code: usmn
+
+	pos:(5300, 0, -41000)
+
+	fuel_price: 1.642965	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.107436
+
+	lights_mandatory: false
+	imperial_units: true
+	driving_tired_offence: true
+
+	time_zone: -300		# -5 hours in minutes verão
+	# time_zone: -360		# -6 hours in minutes inverno
+	time_zone_name: "@@tz_cdt@@"	# verão
+	# time_zone_name: "CST"	# inverno
+}

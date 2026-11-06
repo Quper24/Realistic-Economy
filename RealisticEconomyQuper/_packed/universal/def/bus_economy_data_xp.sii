@@ -1,0 +1,124 @@
+SiiNunit
+{
+	xp_level_data: bus_economy.data.xp_levels
+	{
+		#
+		# Level names  "level_limit|level name"
+		#
+		level_names[]: "0|@@bus_lvl_name0@@"
+		level_names[]: "5|@@bus_lvl_name1@@"
+		level_names[]: "10|@@bus_lvl_name2@@"
+		level_names[]: "15|@@bus_lvl_name3@@"
+		level_names[]: "20|@@bus_lvl_name4@@"
+		level_names[]: "25|@@bus_lvl_name5@@"
+		level_names[]: "30|@@bus_lvl_name6@@"
+		level_names[]: "40|@@bus_lvl_name7@@"
+		level_names[]: "50|@@bus_lvl_name8@@"
+		level_names[]: "100|@@bus_lvl_name9@@"
+
+		#
+		# Experience points to the next level
+		#
+		level_xp[0]: 200
+		level_xp[1]: 450
+		level_xp[2]: 750
+		level_xp[3]: 1100
+		level_xp[4]: 1500
+		level_xp[5]: 1950
+		level_xp[6]: 2450
+		level_xp[7]: 3000
+		level_xp[8]: 3600
+		level_xp[9]: 4250
+		level_xp[10]: 4950
+		level_xp[11]: 5700
+		level_xp[12]: 6450
+		level_xp[13]: 7250
+		level_xp[14]: 8100
+		level_xp[15]: 9000
+		level_xp[16]: 9950
+		level_xp[17]: 10950
+		level_xp[18]: 12000
+		level_xp[19]: 13000
+		level_xp[20]: 14050
+		level_xp[21]: 15150
+		level_xp[22]: 16300
+		level_xp[23]: 17500
+		level_xp[24]: 18750
+		level_xp[25]: 20000
+		level_xp[26]: 21300
+		level_xp[27]: 22650
+		level_xp[28]: 24050
+		level_xp[29]: 25500
+		level_xp[30]: 27000
+		level_xp[31]: 28550
+		level_xp[32]: 30150
+		level_xp[33]: 31800
+		level_xp[34]: 33500
+		level_xp[35]: 35250
+		level_xp[36]: 37050
+		level_xp[37]: 38900
+		level_xp[38]: 40800
+		level_xp[39]: 42750
+		level_xp[40]: 44750
+		level_xp[41]: 46800
+		level_xp[42]: 48900
+		level_xp[43]: 51050
+		level_xp[44]: 53250
+		level_xp[45]: 55500
+		level_xp[46]: 57800
+		level_xp[47]: 60150
+		level_xp[48]: 62550
+		level_xp[49]: 65000
+		level_xp[50]: 67500
+		level_xp[51]: 70050
+		level_xp[52]: 72650
+		level_xp[53]: 75300
+		level_xp[54]: 78000
+		level_xp[55]: 80750
+		level_xp[56]: 83550
+		level_xp[57]: 86400
+		level_xp[58]: 89300
+		level_xp[59]: 92250
+		level_xp[60]: 95250
+		level_xp[61]: 98300
+		level_xp[62]: 101300
+		level_xp[63]: 104350
+		level_xp[64]: 107450
+		level_xp[65]: 110600
+		level_xp[66]: 113800
+		level_xp[67]: 117050
+		level_xp[68]: 120350
+		level_xp[69]: 123700
+		level_xp[70]: 127100
+		level_xp[71]: 130550
+		level_xp[72]: 134050
+		level_xp[73]: 137600
+		level_xp[74]: 141200
+		level_xp[75]: 144850
+		level_xp[76]: 148550
+		level_xp[77]: 152300
+		level_xp[78]: 156100
+		level_xp[79]: 160000
+		level_xp[80]: 164000
+		level_xp[81]: 168050
+		level_xp[82]: 172150
+		level_xp[83]: 176300
+		level_xp[84]: 180500
+		level_xp[85]: 184750
+		level_xp[86]: 189050
+		level_xp[87]: 193400
+		level_xp[88]: 197800
+		level_xp[89]: 202250
+		level_xp[90]: 206750
+		level_xp[91]: 211300
+		level_xp[92]: 215900
+		level_xp[93]: 220550
+		level_xp[94]: 225250
+		level_xp[95]: 230000
+		level_xp[96]: 234800
+		level_xp[97]: 239650
+		level_xp[98]: 244550
+		level_xp[99]: 249500
+		level_xp[100]: 254500
+	}
+}

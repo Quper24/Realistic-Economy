@@ -1,0 +1,25 @@
+
+country_data : country.data.mali
+{
+	country_id: 123
+
+	name: "Mali"
+	name_localized: "@@Mali@@"
+	country_code: "ML"
+	iso_country_code: mli
+
+	pos: (-125748, 0, 204612)
+
+	fuel_price: 1.295
+
+	lights_mandatory: false
+	driving_tired_offence: true
+
+	time_zone: 60		# +1 hours in minutes
+	time_zone_name: "@@tz_bst@@"
+
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 36000
+	mass_limit_per_axle_count[]: 44000
+}

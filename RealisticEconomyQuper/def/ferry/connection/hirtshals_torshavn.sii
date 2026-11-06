@@ -1,0 +1,32 @@
+SiiNunit
+{
+ferry_connection : conn.hirtshals.torshavn{
+	price: 223
+	time: 2191
+	distance: 1085
+
+	# NODE POSITIONS #######    x*256  , 0,   z*256
+	connection_positions[0]: (   511388, 0, -10051380)
+	connection_positions[1]: (   495928, 0, -10077388)
+	connection_positions[2]: (   477660, 0, -10134196)
+	connection_positions[3]: (   454620, 0, -10152780)
+	connection_positions[4]: ( -3062144, 0, -11635456)
+	connection_positions[5]: ( -4512308, 0, -14585318)
+	connection_positions[6]: ( -8070144, 0, -18561588)
+	connection_positions[7]: (-12984500, 0, -20647706)
+	connection_positions[8]: (-13087308, 0, -20719948)
+	connection_positions[9]: (-13102080, 0, -20790886)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: ( 0,       0, -1      )
+	connection_directions[1]: (-0.25882, 0, -0.96593)
+	connection_directions[2]: (-0.25882, 0, -0.96593)
+	connection_directions[3]: (-0.98481, 0, -0.17365)
+	connection_directions[4]: (-0.34202, 0, -0.93969)
+	connection_directions[5]: (-0.52992, 0, -0.84805)
+	connection_directions[6]: (-0.81915, 0, -0.57358)
+	connection_directions[7]: (-0.96593, 0, -0.25882)
+	connection_directions[8]: (-0.70711, 0, -0.70711)
+	connection_directions[9]: (-0.25882, 0, -0.96593)
+}
+}

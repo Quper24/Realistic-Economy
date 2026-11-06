@@ -1,0 +1,28 @@
+
+country_data : country.data.Tanzania
+{
+	country_id: 141
+
+	name: "Tanzania"
+	name_localized: "@@Tanzania@@"
+	country_code: "TZ"
+	iso_country_code: tza
+
+	pos: (180000, 0, 350000)
+
+	fuel_price: 1.375
+
+	lights_mandatory: false
+	leftside_traffic: true
+	trailer_standalone: false
+	driving_tired_offence: true
+
+	time_zone: 180		# +3 hours in minutes
+	time_zone_name: "@@tz_eat@@"
+
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 38000
+	mass_limit_per_axle_count[]: 40000
+	mass_limit_per_axle_count[]: 44000
+}

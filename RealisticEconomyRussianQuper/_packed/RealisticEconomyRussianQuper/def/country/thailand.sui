@@ -1,0 +1,26 @@
+
+country_data : country.data.thailand
+{
+	country_id: 86
+
+	name: "Thailand"
+	name_localized: "@@Thailand@@"
+	country_code: "TH"
+	iso_country_code: tha
+
+	pos: (450000, 0, -90000)
+
+	fuel_price: 1.028
+
+	lights_mandatory: false
+	leftside_traffic: true
+	driving_tired_offence: true
+
+	time_zone: 480		# +7 hours in minutes
+	time_zone_name: "@@ICT@@"
+
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 36000
+	mass_limit_per_axle_count[]: 40000
+}

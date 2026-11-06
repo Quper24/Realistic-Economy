@@ -1,0 +1,10 @@
+SiiNunit
+{
+ferry_connection : conn.tunis.cagliari {
+	price: 73
+	time: 691
+	distance: 335
+
+}
+}
+

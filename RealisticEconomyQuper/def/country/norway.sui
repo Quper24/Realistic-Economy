@@ -1,0 +1,33 @@
+
+country_data : country.data.norway
+{
+	country_id: 35
+
+	name: "Norge"
+	name_localized: "@@norway@@"
+	country_code: "N"
+	iso_country_code: nor
+
+	pos: (-2000, 0, -59000)
+
+	fuel_price: 1.77
+
+	lights_mandatory: true
+	driving_tired_offence: true
+
+	time_zone: 120		# +2 hours in minutes
+	time_zone_name: "@@tz_cest@@"
+
+	mass_limit_per_axle_count[]: 19000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 39000
+	mass_limit_per_axle_count[]: 47000	# 46t if 3+2
+	mass_limit_per_axle_count[]: 60000	# 50t if non double
+
+	regions[]: rc_train
+	region_areas[]: (15365, 28882, -103869, -96448) # left, right, top, bottom
+
+	regions[]: the_north
+	region_areas[]: (11111, 48333, -123333, -88888) # left, right, top, bottom
+
+}

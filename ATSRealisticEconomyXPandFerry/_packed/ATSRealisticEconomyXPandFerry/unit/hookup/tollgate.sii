@@ -1,0 +1,79 @@
+SiiNunit
+{
+tollgate: tollgate.onetime
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+
+	trigger_distance: 3.0
+
+	type: one_time
+	toll: 5
+}
+
+tollgate: tollgate.onetime_f
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+
+	trigger_distance: 3.0	
+
+	type: one_time
+	toll: 0
+}
+
+tollgate: tollgate.onetime.auto.25
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+
+	trigger_distance: 3.0	
+
+	type: one_time
+	toll: 5
+}
+
+tollgate: tollgate.start
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+
+	trigger_distance: 3.0	
+
+	type: start
+	# no price
+}
+
+tollgate: tollgate.end
+{
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+
+	trigger_distance: 3.0	
+
+	type: end
+	toll: 0.055 # price in euro per km
+}
+
+tollgate: tollgate.custom
+{
+	# actual tollgate type and toll value must be set in map
+
+	model: "/model/activation/tollgate.pmd"
+	animation: "/model/activation/tollgate.pma"
+
+	trigger_distance: 3.0
+	
+}
+
+tollgate: tollgate.autopass.custom
+{
+	# actual tollgate type and toll value must be set in map
+
+	max_activation_speed: 200.0
+
+	trigger_distance: 3.0
+	
+	trigger_offset: -15.0
+}
+}

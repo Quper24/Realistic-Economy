@@ -1,0 +1,39 @@
+SiiNunit
+{
+	package_version_info : .157
+	{
+		package_name: "157"
+		compatible_versions[]: "1.50.*"
+		compatible_versions[]: "1.51.*"
+		compatible_versions[]: "1.52.*"
+		compatible_versions[]: "1.53.*"
+		compatible_versions[]: "1.54.*"
+		compatible_versions[]: "1.55.*"
+		compatible_versions[]: "1.56.*"
+		compatible_versions[]: "1.57.*"
+	}
+
+	package_version_info : .158
+	{
+		package_name: "158"
+		compatible_versions[]: "1.58.*"
+	}
+
+	package_version_info : .159
+	{
+		package_name: "159"
+		compatible_versions[]: "1.59.*"
+	}
+
+	package_version_info : .160
+	{
+		package_name: "160"
+		compatible_versions[]: "1.60.*"
+	}
+
+	package_version_info : .universal
+	{
+		package_name: "universal"
+	}
+
+}

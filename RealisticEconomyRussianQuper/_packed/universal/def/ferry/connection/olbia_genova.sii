@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.olbia.genova {
+	price: 164
+	time: 1641
+	distance: 810
+}
+}
+

@@ -1,0 +1,8 @@
+SiiNunit
+{
+ferry_connection : conn.molde.vestnes {
+	price: 5
+	time: 43
+	distance: 11
+}
+}

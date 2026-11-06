@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.aniuisk.chersky {
+	price: 17
+	time: 161
+	distance: 70
+}
+}
+

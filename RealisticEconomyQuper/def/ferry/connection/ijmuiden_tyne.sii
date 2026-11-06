@@ -1,0 +1,43 @@
+SiiNunit
+{
+ferry_connection : conn.ijmuiden.tyne {
+	price: 106
+	time: 1037
+	distance: 508
+
+	# NODE POSITIONS #######     x*256 , 0,   z*256
+#	IJmuiden Node
+	connection_positions[0]: (-5297664, 0, -3374761)
+	connection_positions[1]: (-5322591, 0, -3391953)
+	connection_positions[2]: (-5354309, 0, -3401799)
+	connection_positions[3]: (-5428272, 0, -3399791)
+	connection_positions[4]: (-5454387, 0, -3407361)
+
+#	Tyne Node
+	connection_positions[5]:  (-9642676, 0, -10264652)
+	connection_positions[6]:  (-9707596, 0, -10253082)
+	connection_positions[7]:  (-9777484, 0,  -9990988)
+	connection_positions[8]: (-9808820, 0,  -9983564)
+	connection_positions[9]: (-9820314, 0, -10015718)
+	connection_positions[10]: (-9790592, 0, -10079872)
+	connection_positions[11]: (-9800628, 0, -10096564)
+
+	# NODE ROTATIONS #######   -sin(jaw), 0, -cos(jaw)
+#	IJmuiden Node
+	connection_directions[0]: (-0.823199, 0.000000, -0.567753)
+	connection_directions[1]: (-0.823199, 0.000000, -0.567753)
+	connection_directions[2]: (-0.999632, 0.000000, 0.027137)
+	connection_directions[3]: (-0.999632, 0.000000, 0.027137)
+	connection_directions[4]: (-0.755865, 0.000000, -0.654728)
+
+#	Tyne Node
+	connection_directions[5]:  (-0.5373,  0, -0.84339)
+	connection_directions[6]:  (-0.25882, 0,  0.96593)
+	connection_directions[7]:  (-0.34202, 0,  0.93969)
+	connection_directions[8]: (-0.86603, 0, -0.5    )
+	connection_directions[9]: ( 0.42262, 0, -0.90631)
+	connection_directions[10]: ( 0.42262, 0, -0.90631)
+	connection_directions[11]: (-0.86603, 0, -0.5    )
+}
+}
+

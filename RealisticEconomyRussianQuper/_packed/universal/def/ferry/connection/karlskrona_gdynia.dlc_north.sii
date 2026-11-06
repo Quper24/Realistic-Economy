@@ -1,0 +1,15 @@
+SiiNunit
+{
+ferry_connection : conn.karlskrona.gdynia {
+	price: 68
+	time: 671
+	distance: 325
+	
+	connection_positions[0]: (7752000, 0, -5877750)			# ~30400/-23050
+	connection_positions[1]: (7405200, 0, -5528400)			# ~29040/-21680
+	
+	connection_directions[0]: (0.000000, 0.000000, 1.000000)
+	connection_directions[1]: (-1.000000, 0.000000, 0.000000)
+	
+}
+}

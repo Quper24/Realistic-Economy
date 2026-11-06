@@ -1,0 +1,31 @@
+
+country_data : country.data.newbrunswi
+{
+	country_id: 209
+
+	name: "New Brunswick"
+	name_localized: "@@New Brunswick@@"
+	country_code: "NB"
+	iso_country_code: cannb
+
+	pos:(112000, 0, -61500)
+
+	fuel_price: 1.906547	# 1 US gallon = 3.78541178 liter Fredericton
+	petrol_price: 1.327217
+
+	lights_mandatory: false
+	imperial_units: false
+	driving_tired_offence: true
+
+	time_zone: -180		# -3 hours in minutes verão
+	# time_zone: -240		# -4 hours in minutes inverno
+	time_zone_name: "ADT"	# verão
+	# time_zone_name: "AST"	# inverno
+
+	mass_limit_per_axle_count[]: 18143.7	# 40000 lb	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 27215.6	# 60000 lb
+	mass_limit_per_axle_count[]: 36287.4	# 80000 lb
+	mass_limit_per_axle_count[]: 45359.3	# 100000 lb
+	mass_limit_per_axle_count[]: 54431.1	# 120000 lb
+	mass_limit_per_axle_count[]: 63502.9	# 140000 lb
+}

@@ -1,0 +1,27 @@
+SiiNunit
+{
+ferry_connection : conn.swartz_bay.tsawwassenb5 {
+	price: 7
+	time: 200
+	distance: 45
+
+	# NODE POSITIONS #######    x*256 , 0,   z*256
+	connection_positions[0]: (-25993208, 0, -18165560)
+	connection_positions[1]: (-26001662, 0, -18193485)
+	connection_positions[2]: (-25991098, 0, -18218009)
+	connection_positions[3]: (-26032159, 0, -18235380)
+	connection_positions[4]: (-26066144, 0, -18265518)
+	connection_positions[5]: (-26053416, 0, -18273363)
+	connection_positions[6]: (-26050825, 0, -18294793)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: (-0.241922, -0.000000, -0.970296)
+	connection_directions[1]: (0.758926, 0.000000, -0.651177)
+	connection_directions[2]: (-0.435165, -0.000000, -0.900351)
+	connection_directions[3]: (-0.997584, 0.000000, 0.069474)
+	connection_directions[4]: (0.851297, 0.000000, -0.524683)
+	connection_directions[5]: (0.851297, -0.000000, -0.524684)
+	connection_directions[6]: (0.810613, 0.000000, -0.585583)
+}
+}
+

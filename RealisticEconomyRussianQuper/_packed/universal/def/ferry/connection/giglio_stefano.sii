@@ -1,0 +1,10 @@
+SiiNunit
+{
+ferry_connection : conn.giglio.stefano {
+	price: 8
+	time: 71
+	distance: 25
+}
+}
+
+

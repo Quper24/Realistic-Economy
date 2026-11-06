@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.list.esbjerg {
+	price: 25
+	time: 219
+	distance: 99
+}
+}
+

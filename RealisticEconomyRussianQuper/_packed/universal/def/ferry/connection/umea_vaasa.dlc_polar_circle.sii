@@ -1,0 +1,18 @@
+SiiNunit
+{
+ferry_connection : conn.umea.vaasa {
+	price: 23
+	time: 221
+	distance: 100
+
+connection_positions[0]: (7856555, 0, -18800316)
+connection_positions[1]: (7909871, 0, -18710243)
+connection_positions[2]: (8043912, 0, -18073159)
+connection_positions[3]: (8203591, 0, -18038451)
+
+connection_directions[0]: (0.978200, -0.000000, 0.207666)
+connection_directions[1]: (0.264792, -0.000000, 0.964306)
+connection_directions[2]: (0.264792, -0.000000, 0.964306)
+connection_directions[3]: (0.900957, -0.000000, -0.433909)
+}
+}

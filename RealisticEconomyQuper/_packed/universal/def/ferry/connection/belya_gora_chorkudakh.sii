@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.belaya_gora.chorkudakh {
+	price: 64
+	time: 621
+	distance: 300
+}
+}
+

@@ -1,0 +1,11 @@
+SiiNunit
+{
+ferry_connection: conn.zuiddrain.skeldon
+{
+	price: 7
+	time: 27
+	distance: 3
+
+}
+}
+

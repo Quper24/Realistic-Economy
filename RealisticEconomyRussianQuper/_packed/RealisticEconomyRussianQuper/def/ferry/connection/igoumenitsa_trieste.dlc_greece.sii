@@ -1,0 +1,31 @@
+SiiNunit
+{
+ferry_connection : conn.igoumenitsa.trieste {
+	price: 209 # approx based on ancona/patras
+	time: 2071
+	distance: 1025
+
+	# NODE POSITIONS #######   x*256  , 0,  z*256
+connection_positions[0]: (10091064, 0, 16089931)
+connection_positions[1]: (9708900, 0, 15517191)
+connection_positions[2]: (8748917, 0, 14901918)
+connection_positions[3]: (7414307, 0, 13238202)
+connection_positions[4]: (6905741, 0, 12746324)
+connection_positions[5]: (3985395, 0, 10049716)
+connection_positions[6]: (2603515, 0, 8766556)
+connection_positions[7]: (2410418, 0, 7126123)
+connection_positions[8]: (2613768, 0, 6967410)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+connection_directions[0]: (-0.925288, 0.000000, -0.379267)
+connection_directions[1]: (-0.866026, -0.000000, -0.500000)
+connection_directions[2]: (-0.642788, -0.000000, -0.766044)
+connection_directions[3]: (-0.675276, -0.000000, -0.737566)
+connection_directions[4]: (-0.766045, -0.000000, -0.642787)
+connection_directions[5]: (-0.642788, -0.000000, -0.766044)
+connection_directions[6]: (-0.642788, -0.000000, -0.766044)
+connection_directions[7]: (0.432086, -0.000000, -0.901832)
+connection_directions[8]: (0.995852, -0.000000, -0.090983)
+
+}
+}

@@ -1,0 +1,8 @@
+SiiNunit
+{
+ferry_connection : conn.soci.varna{
+	price: 136
+	time: 1321
+	distance: 650
+}
+}

@@ -1,0 +1,8 @@
+SiiNunit
+{
+ferry_connection : conn.rhodes.izmir {
+	price: 38
+	time: 381
+	distance: 180
+}
+}

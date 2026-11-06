@@ -1,0 +1,14 @@
+SiiNunit
+{
+ferry_connection : conn.adak.atka {
+	price: 15
+	time: 444
+	distance: 106
+	
+	connection_positions[0]: (-59776000, 0, -45836800) # POS1: -233500 POS2: -179050
+	
+	connection_directions[0]: ( 1.0, 0.0, -0.0)
+	
+}
+}
+

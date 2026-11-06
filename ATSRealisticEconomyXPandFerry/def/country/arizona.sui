@@ -1,0 +1,46 @@
+
+country_data : country.data.arizona
+{
+	country_id: 3
+
+	name: "Arizona"
+	name_localized: "@@arizona@@"
+	country_code: "AZ"
+	iso_country_code: usaz
+
+	pos: (-72000, 0, 22000)
+
+	fuel_price: 1.673292	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.190914
+
+	lights_mandatory: false
+	imperial_units: true
+	driving_tired_offence: true
+
+	time_zone: -420		# -7 hours in minutes
+	time_zone_name: "@@tz_mst@@"
+
+	# Navajo nation (south from Page), MDT, -6
+	secondary_time_zone_area[]: (-71000.0, -69400.0, 5969.92, 6700.0)
+	secondary_time_zone[]: -360
+	secondary_time_zone_name[]: "@@tz_mdt@@"
+
+	# Navajo nation (central part, east from Page)
+	secondary_time_zone_area[]: (-70669.4, -64000.0, 6587.08, 11985.5)
+	secondary_time_zone[]: -360
+	secondary_time_zone_name[]: "@@tz_mdt@@"
+
+	# Navajo nation (road 191)
+	secondary_time_zone_area[]: (-65000.0, -59000.0, 6000.0, 15555.5)
+	secondary_time_zone[]: -360
+	secondary_time_zone_name[]: "@@tz_mdt@@"
+
+	# Navajo nation (NM border)
+	secondary_time_zone_area[]: (-60603.8, -59000.0, 6000.0, 16494.6)
+	secondary_time_zone[]: -360
+	secondary_time_zone_name[]: "@@tz_mdt@@"
+
+	mass_limit_per_axle_count[]: 18143.7	# 40000 lb	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 27215.6	# 60000 lb
+	mass_limit_per_axle_count[]: 36287.4	# 80000 lb
+}

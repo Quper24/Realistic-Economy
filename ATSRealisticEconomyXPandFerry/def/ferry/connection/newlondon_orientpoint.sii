@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.newlondon.orientpoint {
+	price: 5
+	time: 140
+	distance: 30
+}
+}
+

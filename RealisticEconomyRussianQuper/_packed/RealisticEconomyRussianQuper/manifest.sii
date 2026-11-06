@@ -1,0 +1,30 @@
+SiiNunit
+{
+	mod_package : .package_name
+	{
+
+		# Package version can be any string with any length.
+		package_version: "1.61 final"
+
+		# Display name can be any string with any length.
+		display_name: "Realistic Russia Economy by Quper"
+
+		# Author can be any string with any length.
+		author: "Quper"
+
+		# Categories is an array of strings.
+		category[]: "economy"
+		category[]: "other"
+
+		compatible_versions[]: "1.61.*"
+		compatible_versions[]: "1.62.*"
+
+		# Icon inside the root directory of the mod.
+		icon: "image.jpg"
+
+		# Description file inside the root directory of the mod.
+		description_file: "description.txt"
+		mp_mod_optional: true
+
+	}
+}

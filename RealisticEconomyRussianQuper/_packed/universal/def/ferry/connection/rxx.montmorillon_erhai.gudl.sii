@@ -1,0 +1,16 @@
+SiiNunit
+{
+ferry_connection : conn.montmorillon.erhai {
+	price: 23
+	time: 221
+	distance: 100
+	connection_positions[0]: (-44323072, 0, -14692096)
+	connection_positions[1]: (-38743296, 0, 18889728)
+	connection_positions[2]: (-37954592, 0, 20000000)
+	connection_directions[0]: (0.9, 0.0, 0.1)
+	connection_directions[1]: (-0.1, 0.0, 1.0)
+	connection_directions[2]: (1.0, 0.0, -0.3)
+
+}
+}
+

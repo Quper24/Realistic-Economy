@@ -1,0 +1,24 @@
+
+country_data : country.data.ncarolina
+{
+	country_id: 33
+
+	name: "North Carolina"
+	name_localized: "@@North Carolina@@"
+	country_code: "NC"
+	iso_country_code: usnc
+
+	pos:(74500, 0, 11500)
+
+	fuel_price: 1.462826	# 1 liter = 0.264172052 US gallons
+	petrol_price: 0.919477
+
+	lights_mandatory: false
+	imperial_units: true
+	driving_tired_offence: true
+
+	time_zone: -240		# -4 hours in minutes verão
+	# time_zone: -300		# -5 hours in minutes inverno
+	time_zone_name: "EDT"	# verão
+	# time_zone_name: "EST"	# inverno
+}

@@ -1,0 +1,9 @@
+SiiNunit
+{
+	ferry_connection : conn.salt_mine_b.salt_mine_a {
+		price: 2
+		time: 20
+		distance: 0.5
+	}
+}
+

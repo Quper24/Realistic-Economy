@@ -1,0 +1,33 @@
+SiiNunit
+{
+ferry_connection : conn.alat.kuryk{
+	price: 92
+	time: 921
+	distance: 450
+
+	# NODE POSITIONS #######    x*256 , 0,   z*256
+	connection_positions[0]: (42643875, 0, 6542447)
+	connection_positions[1]: (42646818, 0, 6570064)
+	connection_positions[2]: (42658292, 0, 6691724)
+	connection_positions[3]: (42878327, 0, 6881763)
+	connection_positions[4]: (43589203, 0, 6100936)
+	connection_positions[5]: (41629457, 0, 1771073)
+	connection_positions[6]: (41613956, 0, 1720249)
+	connection_positions[7]: (41599755, 0, 1711377)
+	connection_positions[8]: (41544447, 0, 1713271)
+	connection_positions[9]: (41540720, 0, 1711227)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: (0.851722, 0.000000, 0.523994)
+	connection_directions[1]: (0.093894, 0.000000, 0.995582)
+	connection_directions[2]: (0.093894, 0.000000, 0.995582)
+	connection_directions[3]: (0.993407, 0.000000, -0.114643)
+	connection_directions[4]: (-0.305351, 0.000000, -0.952240)
+	connection_directions[5]: (-0.291731, 0.000000, -0.956501)
+	connection_directions[6]: (-0.291731, 0.000000, -0.956501)
+	connection_directions[7]: (-0.999414, 0.000000, 0.034230)
+	connection_directions[8]: (-0.999414, 0.000000, 0.034230)
+	connection_directions[9]: (-0.291132, 0.000000, -0.956683)
+}
+}
+

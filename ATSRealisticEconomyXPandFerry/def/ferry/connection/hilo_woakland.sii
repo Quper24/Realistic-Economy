@@ -1,0 +1,19 @@
+SiiNunit
+{
+ferry_connection : conn.hilo.woakland {
+	price: 501
+	time: 15020
+	distance: 3750
+	
+	connection_positions[0]: (-48599040, 0, 3462400) # POS1: -189840 POS2: 13525
+	connection_positions[1]: (-34273280, 0, 424960) # POS1: -133880 POS2: 1660
+	connection_positions[2]: (-30075904, 0, -2960128)
+	connection_positions[3]: (-29189632, 0, -2683136)
+
+	connection_directions[0]: ( 0.9, 0.0, -0.0)
+	connection_directions[1]: ( 0.5, 0.0, -0.5)
+	connection_directions[2]: ( 0.9, 0.0, -0.1)
+	connection_directions[3]: ( 0.8, 0.0, -0.05)
+}
+}
+

@@ -1,0 +1,18 @@
+SiiNunit
+{
+ferry_connection : conn.tallinn.helsinki {
+	price: 20
+	time: 191
+	distance: 85
+
+	# NODE POSITIONS #######    x*256 , 0,   z*256
+	connection_positions[0]: (11348966, 0, -13230950)
+	connection_positions[1]: (11467188, 0, -13301504)
+	connection_positions[2]: (11607936, 0, -14112640)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: ( 0.5,     0, -0.86603)
+	connection_directions[1]: ( 0.25882, 0, -0.96593)
+	connection_directions[2]: ( 0,       0, -1      )
+}
+}

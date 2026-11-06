@@ -1,0 +1,31 @@
+
+country_data : country.data.veracruz
+{
+	country_id: 117	
+
+	name: "Veracruz de Ignacio de la Llave"
+	name_localized: "@@Veracruz@@"
+	country_code: "VE"
+	iso_country_code: mex
+
+	pos:(405, 0, 112894)
+
+	fuel_price: 1.442050	# 1 US gallon = 3.78541178 liter
+	petrol_price: 1.271389
+
+	lights_mandatory: false
+	imperial_units: false	
+	driving_tired_offence: true
+
+	time_zone: -360		# -6 hours in minutes
+	time_zone_name: "CST"
+
+	mass_limit_per_axle_count[]: 18143.7	# 40000 lb	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 27215.6	# 60000 lb
+	mass_limit_per_axle_count[]: 36287.4	# 80000 lb
+	mass_limit_per_axle_count[]: 38782.5	# 85500 lb
+	mass_limit_per_axle_count[]: 40823.4	# 90000 lb
+	mass_limit_per_axle_count[]: 48307.6	# 106500 lb
+	mass_limit_per_axle_count[]: 50575.6	# 111500 lb
+	mass_limit_per_axle_count[]: 53070.4	# 117000 lb
+}

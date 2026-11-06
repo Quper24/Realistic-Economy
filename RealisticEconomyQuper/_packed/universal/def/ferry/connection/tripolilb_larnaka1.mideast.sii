@@ -1,0 +1,19 @@
+SiiNunit
+{
+ferry_connection : conn.tripolilb.larnaka1{
+	price: 40
+	time: 381
+	distance: 180
+
+	# NODE POSITIONS #######   x*256  , 0,  z*256
+	connection_positions[0]: (29040384, 0, 19735090)
+	connection_positions[1]: (29010688, 0, 19689932)
+	connection_positions[2]: (26536960, 0, 19646618)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: ( 0.42262, 0, -0.90631)
+	connection_directions[1]: (-0.99905, 0, -0.04362)
+	connection_directions[2]: (-1,       0,  0      )
+}
+}
+

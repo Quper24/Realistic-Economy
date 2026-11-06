@@ -1,0 +1,24 @@
+
+country_data : country.data.scarolina
+{
+	country_id: 40
+
+	name: "South Carolina"
+	name_localized: "@@South Carolina@@"
+	country_code: "SC"
+	iso_country_code: ussc
+
+	pos:(71900, 0, 24100)
+
+	fuel_price: 1.530164	# 1 liter = 0.264172052 US gallons
+	petrol_price: 0.993921
+
+	lights_mandatory: false
+	imperial_units: true
+	driving_tired_offence: true
+
+	time_zone: -240		# -4 hours in minutes verão
+	# time_zone: -300		# -5 hours in minutes inverno
+	time_zone_name: "EDT"	# verão
+	# time_zone_name: "EST"	# inverno
+}

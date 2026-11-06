@@ -1,0 +1,8 @@
+SiiNunit
+{
+ferry_connection : conn.losmochis.lapaz {
+	price: 30
+	time: 900	distance: 220
+}
+}
+

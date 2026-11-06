@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.tunnel_thai.tunnel_laos {
+	price: 302
+	time: 3021
+	distance: 1500
+}
+}
+

@@ -1,0 +1,24 @@
+country_data : country.data.andorra
+{
+	country_id: 15
+
+	name: "Andorra"
+	name_localized: "@@andorra@@"
+	country_code: "AND"
+	iso_country_code: and
+
+	pos: (-39800, 0, 41600)
+
+	fuel_price: 1.714
+
+	lights_mandatory: false
+	driving_tired_offence: true
+
+	time_zone: 120		# +2 hours in minutes
+	time_zone_name: "@@tz_cest@@"
+
+	mass_limit_per_axle_count[]: 19000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 36000
+	mass_limit_per_axle_count[]: 40000
+}

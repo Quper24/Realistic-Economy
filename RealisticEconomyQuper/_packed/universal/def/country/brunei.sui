@@ -1,0 +1,26 @@
+
+country_data : country.data.brunei
+{
+	country_id: 52
+
+	name: "Brunei"
+	name_localized: "@@Brunei@@"
+	country_code: "BN"
+        iso_country_code: brn
+
+	pos: (557000, 0, -148000)
+
+	fuel_price: 0.475
+
+	lights_mandatory: false
+	leftside_traffic: true
+	driving_tired_offence: true
+
+	time_zone: 540		# +8 hours in minutes
+	time_zone_name: "@@BST@@"
+
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 36000
+	mass_limit_per_axle_count[]: 40000
+}

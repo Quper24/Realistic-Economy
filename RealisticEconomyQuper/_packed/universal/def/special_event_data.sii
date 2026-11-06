@@ -1,0 +1,37 @@
+SiiNunit
+{
+
+	special_event_data: .se_data
+	{
+		jobs_before_first_loan: 0
+		jobs_before_company_invitation: 10
+
+		level_for_credit_raise[]:	0
+		credit_limit[]:			20000
+		level_for_credit_raise[]:	5
+		credit_limit[]:			50000
+		level_for_credit_raise[]:	10
+		credit_limit[]:			120000
+		level_for_credit_raise[]:	15
+		credit_limit[]:			220000
+		level_for_credit_raise[]:	20
+		credit_limit[]:			350000
+		level_for_credit_raise[]:	25
+		credit_limit[]:			450000
+		level_for_credit_raise[]:	30
+		credit_limit[]:			500000
+
+		first_dealer_unlock_delay:	30	# 2 minutes
+
+		cutscene_game_intro: "game_intro"
+		cutscene_garage_intro: "garage_intro"
+		cutscene_garage_upg1: "upg_garage1"
+		cutscene_garage_upg2: "upg_garage2"
+		cutscene_first_truck: "first_truck"
+
+		first_job_preferred_radius: 0
+
+		trailers_unlock_level: 5
+	}
+
+}

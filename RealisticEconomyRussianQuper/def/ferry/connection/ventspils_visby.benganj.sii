@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.ventspils.bjvisby {
+	price: 53
+	time: 527
+	distance: 253
+}
+}
+

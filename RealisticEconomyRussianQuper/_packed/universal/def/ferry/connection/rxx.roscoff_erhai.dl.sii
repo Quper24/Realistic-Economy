@@ -1,0 +1,16 @@
+SiiNunit
+{
+ferry_connection : conn.roscoff.erhai {
+	price: 23
+	time: 221
+	distance: 100
+	connection_positions[0]: (-17615872, 0, -820736)
+	connection_positions[1]: (-38743296, 0, 18889728)
+	connection_positions[2]: (-37954592, 0, 20000000)
+	connection_directions[0]: (-1.0, 0.0, -0.3)
+	connection_directions[1]: (-0.1, 0.0, 1.0)
+	connection_directions[2]: (1.0, 0.0, -0.3)
+
+}
+}
+

@@ -1,0 +1,116 @@
+SiiNunit
+{
+
+	car_economy_data : car.economy
+	{
+		quick_job_revenue_fixed: 5
+		quick_job_revenue_coef_per_km: 0.25
+
+		dispatch_job_revenue_fixed: 10
+		dispatch_job_revenue_coef_per_km: 0.52
+
+		reward_bonus_valuable: 0.20
+		reward_bonus_fragile: 0.15
+		reward_bonus_express: 0.10
+
+		# Reward bonus for the reached perfect delivery streak ((minimal streak, coefficient) pairs).
+		reward_bonus_delivery_streak[]: (2, 0.01)
+		reward_bonus_delivery_streak[]: (5, 0.03)
+		reward_bonus_delivery_streak[]: (10, 0.05)
+		reward_bonus_delivery_streak[]: (20, 0.1)
+
+		# Minimal courier rating of each tier.
+		courier_tier_rating[]: 0
+		courier_tier_rating[]: 2.6
+		courier_tier_rating[]: 3.6
+		courier_tier_rating[]: 4.6
+
+		# Reward bonus coefficient of each tier.
+		courier_tier_reward_bonus[]: 0
+		courier_tier_reward_bonus[]: 0.1
+		courier_tier_reward_bonus[]: 0.2
+		courier_tier_reward_bonus[]: 0.3
+
+		# Max route distance (in km) of the job offers available at each tier.
+		courier_tier_max_distance[]: 450
+		courier_tier_max_distance[]: 800
+		courier_tier_max_distance[]: 1150
+		courier_tier_max_distance[]: 1500
+
+		# Cargo access (the cargo logo icon name) unlocked at each tier.
+		courier_tier_cargo_access[]: "cstandard"
+		courier_tier_cargo_access[]: "cexpress"
+		courier_tier_cargo_access[]: "rt_fragile"
+		courier_tier_cargo_access[]: "rt_highvalue"
+
+		abandoned_job_fine: 500
+
+		simulation_avg_speed: 65.0 # Trucks have 62.0
+		maximum_driving_time: 840
+		sleeping_time: 600
+		delivery_window[]: 400
+		delivery_window[]: 250
+		delivery_window[]: 90
+
+		# Time buffer where customer time satisfaction is still neutral (outside becomes negative). Depends on urgency.
+		delivery_time_buffer_limit[]: 20
+		delivery_time_buffer_limit[]: 10
+		delivery_time_buffer_limit[]: 0
+
+		# How many stars we get base on delivery satisfaction (of time management, cargo handling, vehicle apperance).
+		rating_bonus_no_prio[]: 0.2 # negative delivery satisfaction
+		rating_bonus_no_prio[]: 1.0 # neutral delivery satisfaction
+		rating_bonus_no_prio[]: 1.5 # positive delivery satisfaction
+
+		# How many stars we get base on delivery satisfaction with customer priority (of time management, cargo handling, vehicle apperance).
+		rating_bonus_with_prio[]: 0.0 # negative delivery satisfaction
+		rating_bonus_with_prio[]: 1.5 # neutral delivery satisfaction
+		rating_bonus_with_prio[]: 2.0 # positive delivery satisfaction
+
+		# How much customer bonus money we get base on delivery satisfaction (of time management, cargo handling, vehicle apperance).
+		reward_customer_bonus_no_prio[]: -0.2 # negative delivery satisfaction
+		reward_customer_bonus_no_prio[]: 0.0 # neutral delivery satisfaction
+		reward_customer_bonus_no_prio[]: 0.1 # positive delivery satisfaction
+
+		# How much customer bonus money we get base on delivery satisfaction with customer priority (of time management, cargo handling, vehicle apperance).
+		reward_customer_bonus_with_prio[]: -0.5 # negative delivery satisfaction
+		reward_customer_bonus_with_prio[]: 0.0 # neutral delivery satisfaction
+		reward_customer_bonus_with_prio[]: 0.2 # positive delivery satisfaction
+
+		normal_cargo_damage_limits: (8.0, 50.0) # Cargo damage limits required for negative, neutral or positive customer cargo satisfaction.
+		fragile_cargo_damage_limits: (4.0, 40.0) # Cargo damage limits required for negative, neutral or positive customer cargo satisfaction when cargo is fragile.
+
+		normal_cargo_car_damage_limits: (8.0, 50.0) # Car damage limits required for negative, neutral or positive customer car satisfaction.
+		valuable_cargo_car_damage_limits: (4.0, 40.0) # Car damage limits required for negative, neutral or positive customer car satisfaction when cargo is valuable.
+
+		# Default customer notes.
+		customer_time_notes_negative[]: "@@cjob_default_negative_note_time@@"
+		customer_time_notes_neutral[]: "@@cjob_default_neutral_note_time@@"
+		customer_time_notes_positive[]: "@@cjob_default_positive_note_time@@"
+
+		customer_cargo_notes_negative[]: "@@cjob_default_negative_note_cargo@@"
+		customer_cargo_notes_negative[]: "@@cjob_default_negative_note_cargo_1@@"
+		customer_cargo_notes_neutral[]: "@@cjob_default_neutral_note_cargo@@"
+		customer_cargo_notes_positive[]: "@@cjob_default_positive_note_cargo@@"
+
+		customer_vehicle_notes_negative[]: "@@cjob_default_negative_note_vehicle@@"
+		customer_vehicle_notes_neutral[]: "@@cjob_default_neutral_note_vehicle@@"
+		customer_vehicle_notes_positive[]: "@@cjob_default_positive_note_vehicle@@"
+
+		reward_color[]: (1.00, 0.78, 0.05) # 5 stars
+		reward_color[]: (0.29, 0.51, 0.89) # 4 stars
+		reward_color[]: (0.57, 1.00, 0.45) # 3 stars
+		reward_color[]: (0.34, 0.29, 0.92) # 2 stars
+		reward_color[]: (1.00, 0.25, 0.20) # 1 stars
+		reward_color[]: (1.00, 0.00, 0.00) # 0 stars
+
+		reward_name[]: "@@cjob_rating_0@@"
+		reward_name[]: "@@cjob_rating_1@@"
+		reward_name[]: "@@cjob_rating_2@@"
+		reward_name[]: "@@cjob_rating_3@@"
+		reward_name[]: "@@cjob_rating_4@@"
+		reward_name[]: "@@cjob_rating_5@@"
+
+	}
+
+}

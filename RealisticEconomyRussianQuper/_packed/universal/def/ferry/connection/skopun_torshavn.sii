@@ -1,0 +1,10 @@
+SiiNunit
+{
+ferry_connection : conn.skopun.torshavn {
+	price: 5
+	time: 29
+	distance: 4
+
+}
+}
+

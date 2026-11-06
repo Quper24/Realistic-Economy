@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.belaya_gora.suturuokha {
+	price: 7
+	time: 23
+	distance: 1
+}
+}
+

@@ -1,0 +1,24 @@
+country_data : country.data.sanmarino
+{
+	country_id: 39
+
+	name: "San Marino"
+	name_localized: "@@sanmarino@@"
+	country_code: "RSM"
+	iso_country_code: smr
+
+	pos: (3600, 0, 37000)
+
+	fuel_price: 1.446
+
+	lights_mandatory: true
+	driving_tired_offence: true
+
+	time_zone: 120		# +2 hours in minutes
+	time_zone_name: "@@tz_cest@@"
+
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 40000
+	mass_limit_per_axle_count[]: 44000
+}

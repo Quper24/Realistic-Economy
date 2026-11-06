@@ -1,0 +1,24 @@
+
+country_data : country.data.kentucky
+{
+	country_id: 91
+
+	name: "Kentucky"
+	name_localized: "@@Kentucky@@"
+	country_code: "KY"
+	iso_country_code: usky
+
+	pos:(47400, 0, 6500)
+
+	fuel_price: 1.618476	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.064455
+
+	lights_mandatory: false
+	imperial_units: true
+	driving_tired_offence: true
+
+	time_zone: -240		# -4 hours in minutes verão
+	# time_zone: -300		# -5 hours in minutes inverno
+	time_zone_name: "EDT"	# verão
+	# time_zone_name: "EST"	# inverno
+}

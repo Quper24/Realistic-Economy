@@ -1,0 +1,26 @@
+
+country_data : country.data.papuang
+{
+	country_id: 192
+
+	name: "Papua New Guinea"
+	name_localized: "@@Papua New Guinea@@"
+	country_code: "PNG"
+        iso_country_code: png
+
+	pos: (645390, 0, -387460)
+
+	fuel_price: 0.81
+
+	lights_mandatory: false
+	leftside_traffic: true
+	driving_tired_offence: true
+
+	time_zone: 660		# +10 hours in minutes
+	time_zone_name: "@@AEST@@"
+
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 36000
+	mass_limit_per_axle_count[]: 40000
+}

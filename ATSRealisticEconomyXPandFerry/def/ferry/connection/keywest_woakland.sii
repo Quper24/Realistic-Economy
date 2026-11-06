@@ -1,0 +1,25 @@
+SiiNunit
+{
+ferry_connection : conn.keywest.woakland {
+	price: 1134
+	time: 34020
+	distance: 8500
+	
+	connection_positions[0]: (14618624, 0, 24453632)
+	connection_positions[1]: (25773568, 0, 42129920)
+	connection_positions[2]: (26310912, 0, 43038976)
+	connection_positions[3]: (27444992, 0, 47444224)
+	connection_positions[4]: (-24035840, 0, 33066496)
+	connection_positions[5]: (-30075904, 0, -2960128)
+	connection_positions[6]: (-29189632, 0, -2683136)
+	
+	connection_directions[0]: ( 0.35, 0.0, 0.95)
+	connection_directions[1]: ( 0.35, 0.0, 0.95)
+	connection_directions[2]: ( -0.0, 0.0, 0.5)
+	connection_directions[3]: ( -1.0, 0.0, 1.0)
+	connection_directions[4]: ( -0.5, 0.0, -0.8)
+	connection_directions[5]: ( 0.9, 0.0, -0.1)
+	connection_directions[6]: ( 0.8, 0.0, -0.05)
+}
+}
+

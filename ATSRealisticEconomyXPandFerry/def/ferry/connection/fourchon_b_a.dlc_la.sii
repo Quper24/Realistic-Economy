@@ -1,0 +1,9 @@
+SiiNunit
+{
+	ferry_connection : conn.fourchon_b.fourchon_a {
+		price: 2
+		time: 24
+		distance: 1
+	}
+}
+

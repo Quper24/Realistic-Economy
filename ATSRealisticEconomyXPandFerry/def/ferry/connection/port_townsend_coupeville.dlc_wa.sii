@@ -1,0 +1,9 @@
+SiiNunit
+{
+	ferry_connection : conn.porttownsend.coupeville {
+		price: 2
+		time: 60
+		distance: 10
+	}
+}
+

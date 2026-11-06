@@ -1,0 +1,28 @@
+country_data : country.data.guernsey
+{
+	country_id: 223
+
+	name: "Guernsey"
+	name_localized: "@@guernsey@@"
+	country_code: "GBG"
+	iso_country_code: ggy
+
+	pos: (-48100, 0, -250)
+
+	fuel_price: 1.65
+
+	lights_mandatory: false
+	imperial_units: true
+	leftside_traffic: true
+	driving_tired_offence: true
+	trailer_standalone: false
+	
+	time_zone: 60		# +1 hours in minutes
+	time_zone_name: "@@tz_bst@@"
+	
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 38000
+	mass_limit_per_axle_count[]: 40000
+	mass_limit_per_axle_count[]: 44000
+}

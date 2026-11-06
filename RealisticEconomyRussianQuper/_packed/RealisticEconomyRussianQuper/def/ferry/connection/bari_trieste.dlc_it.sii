@@ -1,0 +1,28 @@
+SiiNunit
+{
+ferry_connection : conn.bari.trieste {
+	price: 131
+	time: 1311
+	distance: 645
+	
+	# NODE POSITIONS #######   x*256  , 0,  z*256
+connection_positions[0]: (6349693, 0, 13776863)
+connection_positions[1]: (6413981, 0, 13657826)
+connection_positions[2]: (6917533, 0, 13256974)
+connection_positions[3]: (6905741, 0, 12746324)
+connection_positions[4]: (3985395, 0, 10049716)
+connection_positions[5]: (2603515, 0, 8766556)
+connection_positions[6]: (2410418, 0, 7126123)
+connection_positions[7]: (2613768, 0, 6967410)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+connection_directions[0]: (0.125137, -0.000000, -0.992139)
+connection_directions[1]: (0.125137, -0.000243, -0.992140)
+connection_directions[2]: (0.737566, -0.000000, -0.675275)
+connection_directions[3]: (-0.766045, -0.000000, -0.642787)
+connection_directions[4]: (-0.642788, -0.000000, -0.766044)
+connection_directions[5]: (-0.642788, -0.000000, -0.766044)
+connection_directions[6]: (0.432086, -0.000000, -0.901832)
+connection_directions[7]: (0.995852, -0.000000, -0.090983)
+}
+}

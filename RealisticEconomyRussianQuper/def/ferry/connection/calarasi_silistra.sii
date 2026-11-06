@@ -1,0 +1,18 @@
+SiiNunit
+{
+ferry_connection : conn.calarasi.silistra {
+	price: 5
+	time: 49
+	distance: 14
+
+	# NODE POSITIONS #######     x*256 , 0,   z*256
+	connection_positions[0]:  (16969294, 0,  8346522)
+	connection_positions[1]:  (16973568, 0,  8415438)
+	connection_positions[2]:  (16946536, 0,  8445134)
+
+	# NODE ROTATIONS #######   -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]:  ( 0.17365, 0,  0.98481)
+	connection_directions[1]:  (-0.08716, 0,  0.99619)
+	connection_directions[2]:  (      -1, 0,        0)
+}
+}

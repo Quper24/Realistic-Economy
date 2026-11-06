@@ -1,0 +1,33 @@
+SiiNunit
+{
+ferry_connection : conn.marseille.tunis {
+	price: 250
+	time: 2469
+	distance: 1224
+
+	# NODE POSITIONS #######    x*256 , 0,   z*256
+	connection_positions[0]: (-5860500, 0, 10429494)
+	connection_positions[1]: (-6004979, 0, 10511741)
+	connection_positions[2]: (-6030113, 0, 10577787)
+	connection_positions[3]: (-3824197, 0, 17196228)
+	connection_positions[4]: (-606682, 0, 18898552)
+	connection_positions[5]: (-704862, 0, 19822654)
+	connection_positions[6]: (-764255, 0, 19852178)
+	connection_positions[7]: (-802443, 0, 19843508)
+	connection_positions[8]: (-824521, 0, 19834016)
+	connection_positions[9]: (-812879, 0, 19829808)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: (-0.869051, 0.000000, 0.494722)
+	connection_directions[1]: (-0.869051, 0.000000, 0.494722)
+	connection_directions[2]: (-0.129267, 0.000000, 0.991610)
+	connection_directions[3]: (0.646462, 0.000000, 0.762946)
+	connection_directions[4]: (-0.043270, 0.000000, 0.999063)
+	connection_directions[5]: (-0.229658, 0.000000, 0.973272)
+	connection_directions[6]: (-0.975188, -0.000000, -0.221378)
+	connection_directions[7]: (-0.975188, 0.000000, -0.221378)
+	connection_directions[8]: (0.221379, 0.000000, -0.975188)
+	connection_directions[9]: (0.975188, 0.000000, 0.221379)
+}
+}
+

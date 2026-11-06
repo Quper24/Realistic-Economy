@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.mgarr.pantelleria{
+	price: 28
+	time: 241
+	distance: 110
+}
+}
+

@@ -1,0 +1,18 @@
+SiiNunit
+{
+ferry_connection : conn.bognes.skarberget {
+	price: 5
+	time: 35
+	distance: 7
+
+connection_positions[0]: (4425174, 0, -25675110)
+connection_positions[1]: (4486523, 0, -25860154)
+connection_positions[2]: (4529269, 0, -25871027)
+connection_positions[3]: (4542891, 0, -25831876)
+
+connection_directions[0]: (0.430342, -0.000000, -0.902666)
+connection_directions[1]: (0.594951, -0.000000, -0.803762)
+connection_directions[2]: (0.895314, -0.000000, 0.445436)
+connection_directions[3]: (-0.454671, -0.000000, 0.890660)
+}
+}

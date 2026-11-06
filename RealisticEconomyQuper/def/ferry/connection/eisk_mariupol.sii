@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.eisk.mariupol{
+	price: 22
+	time: 181
+	distance: 80
+}
+}
+

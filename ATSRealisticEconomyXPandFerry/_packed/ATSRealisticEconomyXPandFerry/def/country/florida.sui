@@ -1,0 +1,24 @@
+
+country_data : country.data.florida
+{
+	country_id: 10
+
+	name: "Florida"
+	name_localized: "@@Florida@@"
+	country_code: "FL"
+	iso_country_code: usfl
+
+	pos:(72400, 0, 58000)
+
+	fuel_price: 1.621858	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.080701
+
+	lights_mandatory: false
+	imperial_units: true
+	driving_tired_offence: true
+
+	time_zone: -240		# -4 hours in minutes verão
+	# time_zone: -300		# -5 hours in minutes inverno
+	time_zone_name: "EDT"	# verão
+	# time_zone_name: "EST"	# inverno
+}

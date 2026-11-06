@@ -1,0 +1,24 @@
+
+country_data : country.data.mauritania
+{
+	country_id: 124
+
+	name: "Mauritania"
+	name_localized: "@@Mauritania@@"
+	country_code: "MR"
+	iso_country_code: mrt
+
+	pos: (-165144.66, 10.05 , 148354.88)
+
+	fuel_price: 1.4
+
+	lights_mandatory: true
+	driving_tired_offence: true
+
+	time_zone: 60		# +1 hours in minutes
+	time_zone_name: "@@tz_bst@@"
+	
+	mass_limit_per_axle_count[]: 16000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 22000
+	mass_limit_per_axle_count[]: 38000
+}

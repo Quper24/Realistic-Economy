@@ -1,0 +1,31 @@
+
+country_data : country.data.alaska
+{
+	country_id: 5
+
+	name: "Alaska"
+	name_localized: "@@alaska@@"
+	country_code: "AK"
+	iso_country_code: usak
+
+	pos: (-141539, 0, -196614)
+
+	fuel_price: 1.716035	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.278593
+
+	lights_mandatory: false
+	imperial_units: true
+	driving_tired_offence: true
+
+	time_zone: -480		# -7 hours in minutes verão
+	# time_zone: -540		# -8 hours in minutes inverno
+	time_zone_name: "AKDT"	# verão
+	# time_zone_name: "AKST"	# inverno
+
+	mass_limit_per_axle_count[]: 38000	#  38000 lb # 2-axle vehicle
+	mass_limit_per_axle_count[]: 42000	#  42000 lb # 3
+	mass_limit_per_axle_count[]: 50000	#  50000 lb # 4
+	mass_limit_per_axle_count[]: 50000	#  50000 lb # 5
+	mass_limit_per_axle_count[]: 50000	#  50000 lb # 6
+	mass_limit_per_axle_count[]: 50000	#  50000 lb # 7
+}

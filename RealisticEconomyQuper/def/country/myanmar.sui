@@ -1,0 +1,25 @@
+
+country_data : country.data.myanmar
+{
+	country_id: 72
+
+	name: "Myanmar"
+	name_localized: "@@Myanmar@@"
+	country_code: "MM"
+        iso_country_code: mmr
+
+	pos: (414000, 0, -61000)
+
+	fuel_price: 0.683
+
+	lights_mandatory: false
+	driving_tired_offence: true
+
+	time_zone: 450		# +6.5 hours in minutes
+	time_zone_name: "@@MST@@"
+
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 36000
+	mass_limit_per_axle_count[]: 40000
+}

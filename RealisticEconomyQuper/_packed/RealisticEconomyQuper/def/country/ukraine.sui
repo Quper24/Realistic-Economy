@@ -1,0 +1,26 @@
+﻿
+country_data: country.data.ukraine
+{
+	country_id: 45
+
+	name: "Україна"
+	name_localized: "@@ukraine@@"
+	country_code: "UA"
+	iso_country_code: ukr
+
+	pos: (61100, 0 , -1300)
+
+	fuel_price: 1.695
+
+	lights_mandatory: false
+	driving_tired_offence: true
+
+	time_zone: 180		# +3 hours in minutes
+	time_zone_name: "@@tz_eest@@"
+
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 25000
+	mass_limit_per_axle_count[]: 36000
+	mass_limit_per_axle_count[]: 40000
+	mass_limit_per_axle_count[]: 44000
+}

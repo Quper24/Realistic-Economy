@@ -1,0 +1,22 @@
+SiiNunit
+{
+ferry_connection : conn.lemesos.piraeus {
+	price: 194
+	time: 1921
+	distance: 950
+
+	# NODE POSITIONS #######   x*256 , 0,   z*256
+	connection_positions[0]: (25789788, 0, 20407374)
+	connection_positions[1]: (25572656, 0, 20808202)
+	connection_positions[2]: (18558620, 0, 21218196)
+	connection_positions[3]: (15230340, 0, 19275452)
+	connection_positions[4]: (14750654, 0, 18259964)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: (0.500000, -0.000000, 0.866025)
+	connection_directions[1]: (-0.843858, -0.000000, 0.536567)
+	connection_directions[2]: (-0.972518, -0.000000, -0.232827)
+	connection_directions[3]: (-0.675669, 0.000137, -0.737205)
+	connection_directions[4]: (0.566262, 0.000262, -0.824225)
+}
+}

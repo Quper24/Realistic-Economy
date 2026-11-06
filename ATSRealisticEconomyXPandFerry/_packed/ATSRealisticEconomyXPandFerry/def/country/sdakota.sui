@@ -1,0 +1,19 @@
+country_data: country.data.sdakota
+{
+	country_id: 41
+
+	name: "South Dakota"
+	country_code: "SD"
+	iso_country_code: ussd
+
+	pos: (-17400, 0, -31600)
+
+	fuel_price: 1.2811
+
+	lights_mandatory: false
+	imperial_units: true
+	driving_tired_offence: false
+
+	time_zone: -300		# -5 hours in minutes
+	time_zone_name: "CDT"
+}

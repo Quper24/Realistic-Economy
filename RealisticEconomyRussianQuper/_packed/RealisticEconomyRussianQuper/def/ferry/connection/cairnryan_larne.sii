@@ -1,0 +1,25 @@
+SiiNunit
+{
+ferry_connection : conn.cairnryan.larne{
+	price: 14
+	time: 131
+	distance: 55
+
+	# NODE POSITIONS #######    x*256  , 0,   z*256
+	connection_positions[0]: (-13960317, 0, -10995934)
+	connection_positions[1]: (-13960501, 0, -10958636)
+	connection_positions[2]: (-13974762, 0, -10949060)
+	connection_positions[3]: (-13992219, 0, -10955217)
+	connection_positions[4]: (-14705852, 0, -11249828)
+	connection_positions[5]: (-14750770, 0, -11215282)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: (0.142259, -0.000008, 0.989829)
+	connection_directions[1]: (-0.204797, 0.000016, 0.978805)
+	connection_directions[2]: (-0.999922, 0.000892, -0.012483)
+	connection_directions[3]: (-0.612907, 0.000000, -0.790155)
+	connection_directions[4]: (-0.984200, -0.016244, -0.176315)
+	connection_directions[5]: (-0.112399, 0.000000, 0.993663)
+
+}
+}

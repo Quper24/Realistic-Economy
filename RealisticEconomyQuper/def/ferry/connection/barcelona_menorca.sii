@@ -1,0 +1,10 @@
+SiiNunit
+{
+ferry_connection : conn.barcelona.menorca{
+	price: 46
+	time: 421
+	distance: 200
+
+}
+}
+

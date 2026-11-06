@@ -1,0 +1,26 @@
+
+country_data : country.data.intw
+{
+	country_id: 253
+
+	name: "International Waters"
+	name_localized: "@@intw@@"
+	country_code: "XZ"
+	iso_country_code: xz
+
+	pos: (2100000, 0, -1605000)
+
+	fuel_price: 2
+
+	lights_mandatory: false
+	driving_tired_offence: false
+
+	time_zone: 120		# +2 hours in minutes
+	time_zone_name: "@@tz_cest@@"
+
+	mass_limit_per_axle_count[]: 19000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 39000
+	mass_limit_per_axle_count[]: 47000	# 46t if 3+2
+	mass_limit_per_axle_count[]: 60000	# 50t if non double
+}

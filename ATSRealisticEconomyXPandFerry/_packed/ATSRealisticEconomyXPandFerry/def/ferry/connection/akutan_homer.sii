@@ -1,0 +1,14 @@
+SiiNunit
+{
+ferry_connection : conn.akutan.homer {
+	price: 68
+	time: 2020
+	distance: 500
+	
+	connection_positions[0]: (-44791808, 0, -40271616) # POS1: -174968 POS2: -157311
+	
+	connection_directions[0]: ( 1.0, 0.0, -0.0)
+	
+}
+}
+

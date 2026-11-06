@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.nuuk.isafjordur {
+	price: 404
+	time: 4037
+	distance: 2008
+
+}
+}

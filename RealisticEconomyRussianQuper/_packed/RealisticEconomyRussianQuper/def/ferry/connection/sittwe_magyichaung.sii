@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.sittwe.magyichaung {
+	price: 8
+	time: 81
+	distance: 30
+}
+}
+

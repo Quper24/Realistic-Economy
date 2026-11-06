@@ -1,0 +1,18 @@
+SiiNunit
+{
+ferry_connection : conn.coupeville.honolulu {
+	price: 577
+	time: 17304
+	distance: 4321
+	
+	connection_positions[0]: (-27692800, 0, -18150400) # POS1: -108175 POS2: -70900
+	connection_positions[1]: (-35033600, 0, -17350400) # POS1: -136850 POS2: -67775
+	connection_positions[2]: (-59952128, 0, -6408960) # POS1: -234188 POS2: -25035
+	
+	connection_directions[0]: ( -1.0, 0.0, 0.1)
+	connection_directions[1]: ( -0.9, 0.0, 0.4)
+	connection_directions[2]: ( -0.5, 0.0, 0.5)
+	
+}
+}
+

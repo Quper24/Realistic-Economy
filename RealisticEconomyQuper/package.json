@@ -1,0 +1,25 @@
+{
+  "name": "realisticeconomyquper",
+  "version": "1.0.0",
+  "description": "This mod significantly enhances the economy in Euro Truck Simulator 2, making it more realistic and engaging. The mod includes the following changes:",
+  "main": "parse-html-price.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quper24/RealisticEconomyQuper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Quper24/RealisticEconomyQuper/issues"
+  },
+  "homepage": "https://github.com/Quper24/RealisticEconomyQuper#readme",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cheerio": "^1.0.0",
+    "jsdom": "^26.1.0"
+  }
+}

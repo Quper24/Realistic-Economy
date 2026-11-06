@@ -1,0 +1,31 @@
+
+country_data : country.data.northterrr
+{
+	country_id: 204
+
+	name: "Northwest Territories"
+	name_localized: "@@Northwest Territories@@"
+	country_code: "NT"
+	iso_country_code: cannt
+
+	pos:(-49000, 0, -150500)
+
+	fuel_price: 1.567306	# 1 US gallon = 3.78541178 liter Yellowknife
+	petrol_price: 1.263477
+
+	lights_mandatory: false
+	imperial_units: false
+	driving_tired_offence: true
+
+	time_zone: -360		# -6 hours in minutes verão
+	# time_zone: -420		# -7 hours in minutes inverno
+	time_zone_name: "@@tz_mdt@@"	# verão
+	# time_zone_name: "@@tz_mst@@"	# inverno
+
+	mass_limit_per_axle_count[]: 18143.7	# 40000 lb	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 27215.6	# 60000 lb
+	mass_limit_per_axle_count[]: 36287.4	# 80000 lb
+	mass_limit_per_axle_count[]: 45359.3	# 100000 lb
+	mass_limit_per_axle_count[]: 54431.1	# 120000 lb
+	mass_limit_per_axle_count[]: 63502.9	# 140000 lb
+}

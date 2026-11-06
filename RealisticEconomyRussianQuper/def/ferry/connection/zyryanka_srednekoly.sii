@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.zyryanka.srednekoly {
+	price: 74
+	time: 721
+	distance: 350
+}
+}
+

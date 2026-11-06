@@ -1,0 +1,71 @@
+[blue]Realistic Economy & XP by Quper
+
+[green]English:
+[normal]
+This mod significantly enhances the economy in American Truck Simulator, making it more realistic and engaging. The mod includes the following changes:
+
+[orange]Economy:[normal]
+Delivery Payments: Recalculated and balanced to reflect more realistic market conditions.
+Loans: Credit conditions are now more realistic. Interest rates have been adjusted to better align with economic conditions, offering players a more authentic financial challenge.
+Currency Rates: Updated to match real-world economic conditions, affecting in-game financial calculations and making them more logical and accurate.
+
+[orange](new) XP:[normal]
+Adjusted the required experience for leveling up to balance the game.
+Changed the amount of experience gained from deliveries and parking.
+Updated skill progression bonuses to better reflect game balance.
+
+[orange]Used Car Dealer:[normal]
+Mileage: Recalculated and adjusted to create more realistic values. Car mileage now better reflects the vehicle's condition and wear.
+Prices: Lowered to make used cars more accessible to players. Prices in the used car market are now fairer and more reflective of the actual condition of the vehicles.
+Wear and Price Differences: Made more noticeable, allowing players to better assess vehicle condition and market value. The difference between cars in terms of wear and price is now clearer, adding a strategic element to choosing used vehicles.
+
+[orange]Garage and Fuel Prices:[normal]
+Garages: Garage purchase prices have been recalculated to better reflect real-world market conditions.
+Gas: Diesel prices are updated weekly to match current market prices, adding realism to managing expenses.
+update price 17 september 2024
+
+[orange]Fines:[normal]
+Traffic Violations: Fines for traffic violations have been updated to better reflect real-world penalties and add a layer of economic strategy.
+Order Refusal: The fine for refusing a delivery has been recalculated to increase motivation for completing tasks and adhering to contract conditions.
+
+[orange]Oversized and Heavy Cargo:[normal]
+Rates: Increased rates for transporting oversized and heavy cargo, making these missions more profitable and challenging, and adding new strategic elements to cargo management.
+
+[orange]Unlock:[normal]
+All components and painting are unlocked
+
+[normal]
+
+[green]RUS
+[normal]
+Этот мод значительно улучшает экономику в American Truck Simulator, делая её более реалистичной и захватывающей. В моде учтены следующие изменения:
+
+[orange]Экономика:[normal]
+Ставки за доставку: Пересчитаны и сбалансированы, чтобы отражать более реалистичные условия рынка.
+Кредиты: Условия кредитования теперь более приближены к реальности. Процентные ставки изменены, чтобы лучше соответствовать экономическим условиям, предлагая игрокам более реалистичные финансовые вызовы.
+Курсы валют: Актуализированы и приведены в соответствие с реальными экономическими условиями, что влияет на финансовые расчёты в игре и делает их более логичными и точными.
+
+[orange](новое) XP:[normal]
+Изменено требуемое количество опыта для повышения уровня, чтобы сбалансировать игру.
+Изменено количество опыта, получаемого за доставки и парковку.
+Обновлены бонусы за развитие навыков, чтобы лучше соответствовать балансу игры.
+
+[orange]Рынок поддержанных автомобилей:[normal]
+Пробег: Пересчитан и скорректирован для создания более реалистичных значений. Теперь пробег автомобилей лучше отражает их состояние и износ.
+Цены: Снижены, что делает поддержанные автомобили более доступными для игроков. Цены на вторичном рынке теперь более справедливы и соответствуют реальному состоянию автомобилей.
+Износ и разница в ценах: Сделаны более заметными, чтобы игроки могли лучше оценивать состояние автомобилей и их рыночную стоимость. Разница между машинами по износу и цене теперь чётче выделяется, что добавляет элемент стратегии при выборе поддержанных авто.
+
+[orange]Цены на гаражи и топливо:[normal]
+Гаражи: Цены на покупку гаражей пересчитаны для лучшего соответствия реальным рыночным условиям.
+Топливо: Цены на дизель обновляются еженедельно и теперь соответствуют актуальным рыночным ценам, что добавляет реалистичности в управление расходами.
+
+[orange]Штрафы:[normal]
+Нарушение ПДД: Цены на штрафы за нарушение правил дорожного движения обновлены, чтобы они лучше отражали реальные штрафы и добавили элемент реальной экономии и стратегии.
+Отказ от доставки: Штраф за отказ от выполнения заказа пересчитан, чтобы повысить мотивацию к выполнению задач и соблюдению условий контракта.
+
+[orange]Негабаритные и сверхтяжелые грузы:[normal]
+Ставки: Повышены ставки на перевозку негабаритных и сверхтяжелых грузов, что делает эти задания более прибыльными и сложными, добавляя новые элементы стратегии в управление грузоперевозками.
+
+
+[orange] Разблокировка: [normal]
+Все компоненты и покраски разблокированы

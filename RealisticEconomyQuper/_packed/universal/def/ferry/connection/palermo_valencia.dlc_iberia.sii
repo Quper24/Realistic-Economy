@@ -1,0 +1,24 @@
+SiiNunit
+{
+ferry_connection : conn.palermo.valencia {
+	price: 256
+	time: 2521
+	distance: 1250
+
+	# NODE POSITIONS #######    x*256  , 0,   z*256
+	connection_positions[0]: (  2238304, 0, 17975528)
+	connection_positions[1]: (  2214428, 0, 17915136)
+	connection_positions[2]: (-12611712, 0, 14740020)
+	connection_positions[3]: (-12735848, 0, 14662938)
+	connection_positions[4]: (-12827240, 0, 14640896)
+	connection_positions[5]: (-12832820, 0, 14643098)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: ( 0.42262, 0, -0.90631)
+	connection_directions[1]: (-0.99619, 0, -0.08716)
+	connection_directions[2]: (-0.93969, 0, -0.34202)
+	connection_directions[3]: (-0.96593, 0, -0.25882)
+	connection_directions[4]: (-0.96593, 0, -0.25882)
+	connection_directions[5]: (-0.25882, 0,  0.96593)
+}
+}

@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.benghazi1.benghazi2 {
+	price: 7
+	time: 41
+	distance: 10
+}
+}
+

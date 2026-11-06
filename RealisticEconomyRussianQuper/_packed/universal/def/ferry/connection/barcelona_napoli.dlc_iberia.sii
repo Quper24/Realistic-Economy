@@ -1,0 +1,32 @@
+SiiNunit
+{
+ferry_connection : conn.barcelona.napoli {
+	price: 212
+	time: 2121
+	distance: 1050
+
+	# NODE POSITIONS #######    x*256 , 0,   z*256
+	connection_positions[0]: (-9477504, 0, 12331648)
+	connection_positions[1]: (-9471412, 0, 12361396)
+	connection_positions[2]: (-9468314, 0, 12426726)
+	connection_positions[3]: (-9427098, 0, 12445158)
+	connection_positions[4]: (-3074048, 0, 13303654)
+	connection_positions[5]: (-2242068, 0, 13476454)
+	connection_positions[6]: (-1935506, 0, 13453388)
+	connection_positions[7]: (-1759544, 0, 13449882)
+	connection_positions[8]: ( 3292108, 0, 14682214)
+	connection_positions[9]: ( 3370804, 0, 14637440)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: ( 0.5,     0,  0.86603)
+	connection_directions[1]: (-0.25882, 0,  0.96593)
+	connection_directions[2]: ( 0.70711, 0,  0.70711)
+	connection_directions[3]: ( 0.99144, 0,  0.13053)
+	connection_directions[4]: ( 0.98481, 0,  0.17365)
+	connection_directions[5]: ( 0.96593, 0,  0.25882)
+	connection_directions[6]: ( 0.86603, 0, -0.5    )
+	connection_directions[7]: ( 0.9763,  0,  0.21644)
+	connection_directions[8]: ( 0.9763,  0,  0.21644)
+	connection_directions[9]: ( 0,       0, -1      )
+}
+}

@@ -1,0 +1,12 @@
+SiiNunit
+{
+ferry_connection : conn.anping.gdansk {
+	price: 107
+	time: 1051
+	distance: 515
+
+	#connection_positions[0]: (6257786, 0, -9533148)
+	#connection_directions[0]: (-0.181081, 0.000000, -0.983468)
+}
+}
+

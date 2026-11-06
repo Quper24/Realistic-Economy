@@ -1,0 +1,24 @@
+SiiNunit
+{
+ferry_connection : conn.vennesund.holm {
+	price: 5
+	time: 33
+	distance: 6
+
+	# NODE POSITIONS #######    x*256  , 0,   z*256
+	connection_positions[0]: (2332040, 0,   -20960512)
+	connection_positions[1]: (2325960, 0,   -20915983)
+	connection_positions[2]: (2308759, 0,   -20843105)
+	connection_positions[3]: (2316982, 0,   -20822011)
+	connection_positions[4]: (2339523, 0,   -20811812)
+	connection_positions[5]: (2359780, 0,   -20833299)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: ( 0, 0,              -1)
+	connection_directions[1]: ( 0.25882, 0,   0.96593)
+	connection_directions[2]: ( -0.19081, 0, -0.98163)
+	connection_directions[3]: ( -0.37461, 0, -0.92718)
+	connection_directions[4]: ( 1, 0,               0)
+	connection_directions[5]: ( 0.57358, 0,   0.81915)
+}
+}

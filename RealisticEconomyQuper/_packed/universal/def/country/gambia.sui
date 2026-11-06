@@ -1,0 +1,25 @@
+
+country_data : country.data.gambia
+{
+	country_id: 113
+
+	name: "Gambia"
+	name_localized: "@@Gambia@@"
+	country_code: "GM"
+	iso_country_code: gmb
+
+	pos: (-182682, 0, 181191)
+
+	fuel_price: 1.18
+
+	lights_mandatory: false
+	driving_tired_offence: true
+
+	time_zone: 60		# +1 hours in minutes
+	time_zone_name: "@@tz_bst@@"
+
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 36000
+	mass_limit_per_axle_count[]: 44000
+}

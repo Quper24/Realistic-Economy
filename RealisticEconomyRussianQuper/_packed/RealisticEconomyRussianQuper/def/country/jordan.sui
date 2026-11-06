@@ -1,0 +1,20 @@
+country_data: country.data.jordan
+{
+	country_id: 63
+
+	name: "Al-'Urdunn"
+	name_localized: "@@jordan@@"
+	country_code: "HKJ"
+	iso_country_code: jor
+
+	pos:(121500, 0, 98000)
+
+	fuel_price: 1.021
+
+	lights_mandatory: false
+	leftside_traffic: false
+	driving_tired_offence: true
+
+	time_zone: 180		# +3 hours in minutes
+	time_zone_name: "@@tz_eest@@"
+}

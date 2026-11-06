@@ -1,0 +1,24 @@
+SiiNunit
+{
+ferry_connection : conn.bognes2.lodingen{
+	price: 10
+	time: 67
+	distance: 23
+
+	# NODE POSITIONS #######   x*256 , 0,   z*256
+	connection_positions[0]: (4354556, 0, -25636468)
+	connection_positions[1]: (4466152, 0, -25882136)
+	connection_positions[2]: (4836015, 0, -26019630)
+	connection_positions[3]: (4787102, 0, -26125070)
+	connection_positions[4]: (4723753, 0, -26094392)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: (0.401497, -0.000000, -0.915860)
+	connection_directions[1]: (0.731579, -0.000000, -0.681757)
+	connection_directions[2]: (0.762626, -0.000000, -0.646840)
+	connection_directions[3]: (-0.941842, -0.000000, -0.336056)
+	connection_directions[4]: (0.173649, -0.000000, 0.984808)
+
+}
+}
+

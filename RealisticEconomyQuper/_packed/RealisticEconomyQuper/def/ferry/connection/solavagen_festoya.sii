@@ -1,0 +1,8 @@
+SiiNunit
+{
+ferry_connection : conn.solavagen.festoya{
+	price: 7
+	time: 29
+	distance: 4
+}
+}

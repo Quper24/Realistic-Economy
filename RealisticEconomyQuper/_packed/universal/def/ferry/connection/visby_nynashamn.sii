@@ -1,0 +1,19 @@
+SiiNunit
+{
+ferry_connection : conn.visby.nynashamn{
+	price: 34
+	time: 317
+	distance: 148
+
+	# NODE POSITIONS #######   x*256 , 0,   z*256
+	connection_positions[0]: (6741018, 0, -10201242)
+	connection_positions[1]: (6900864, 0, -11785728)
+	connection_positions[2]: (6845312, 0, -11814476)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: ( 0.08716, 0, -0.99619)
+	connection_directions[1]: ( 0.08716, 0, -0.99619)
+	connection_directions[2]: (-0.76604, 0,  0.64279)
+}
+}
+

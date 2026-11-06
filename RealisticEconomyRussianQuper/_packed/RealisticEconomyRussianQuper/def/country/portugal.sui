@@ -1,0 +1,26 @@
+﻿
+country_data : country.data.portugal
+{
+	country_id: 36
+
+	name: "Portugal"
+	name_localized: "@@portugal@@"
+	country_code: "P"
+	iso_country_code: prt
+
+	pos: (-87500, 0, 47000)
+
+	fuel_price: 1.965
+
+	lights_mandatory: false
+	driving_tired_offence: true
+
+	time_zone: 60		# +1 hours in minutes
+	time_zone_name: "@@tz_west@@"
+
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 29000
+	mass_limit_per_axle_count[]: 38000
+	mass_limit_per_axle_count[]: 46000
+	mass_limit_per_axle_count[]: 60000
+}

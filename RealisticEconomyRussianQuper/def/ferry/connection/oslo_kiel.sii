@@ -1,0 +1,37 @@
+SiiNunit
+{
+ferry_connection : conn.oslo.kiel {
+	price: 125
+	time: 1251
+	distance: 615
+
+	# NODE POSITIONS #######    x*256 , 0,   z*256
+	connection_positions[0]:  (1185974, 0, -13587660)
+	connection_positions[1]:  (1186118, 0, -13542298)
+	connection_positions[2]:  ( 925814, 0, -12765466)
+	connection_positions[3]:  ( 874708, 0, -12609434)
+	connection_positions[4]:  (1419756, 0,  -9915980)
+	connection_positions[5]:  (1772196, 0,  -8725274)
+	connection_positions[6]:  ( 782352, 0,  -7287604)
+	connection_positions[7]:  ( 961608, 0,  -6679834)
+	connection_positions[8]:  ( 746778, 0,  -5936384)
+	connection_positions[9]:  ( 373576, 0,  -5532980)
+	connection_positions[10]: ( 361294, 0,  -5527194)
+	connection_positions[11]: ( 361890, 0,  -5540352)
+
+	# NODE ROTATIONS #######   -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]:  ( 0.34202, 0,  0.93969)
+	connection_directions[1]:  (-0.25882, 0,  0.96593)
+	connection_directions[2]:  (-0.25882, 0,  0.96593)
+	connection_directions[3]:  ( 0.08716, 0,  0.99619)
+	connection_directions[4]:  ( 0.25882, 0,  0.96593)
+	connection_directions[5]:  ( 0.34202, 0,  0.93969)
+	connection_directions[6]:  ( 0,       0,  1      )
+	connection_directions[7]:  ( 0,       0,  1      )
+	connection_directions[8]:  (-0.42262, 0,  0.90631)
+	connection_directions[9]:  (-0.64279, 0,  0.76604)
+	connection_directions[10]: (-0.86603, 0, -0.5    )
+	connection_directions[11]: ( 0.5,     0, -0.86603)
+}
+}
+

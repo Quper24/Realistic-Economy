@@ -1,0 +1,10 @@
+SiiNunit
+{
+ferry_connection : conn.torshavn.toft {
+	price: 31
+	time: 291
+	distance: 135
+
+}
+}
+

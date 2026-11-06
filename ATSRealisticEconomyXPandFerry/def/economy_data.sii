@@ -1,0 +1,238 @@
+﻿SiiNunit
+{
+	economy_data : economy.data.storage
+	{
+		truck_refund: 		0.6	# 60% of original price
+
+		# Base revenue per km in game native currency.
+		revenue_per_km_base: 15
+
+		price_small_garage: 100000
+		price_garage_upgrade: 60000
+
+		garage_prod_plan_tiny: 5000
+		garage_prod_plan_small: 18000
+		garage_prod_plan_large: 30000
+
+		fuel_discount_in_garage: 0.30	# 30%
+
+		truck_count_for_online:	0	# number of owned trucks to unlock buying online feature
+
+		abandoned_job_fine: 250
+
+		cargo_damage_cost: 5.0 		# -5$ per 1% of damage
+		cargo_damage_cost_factor: 0.04 	# -4% total cost penalty per 1% of damage
+
+		late_delivery_max_overtime[0]: 8640	# 2 days for "easy" deliveries
+		late_delivery_max_overtime[1]: 2160	# 12 hours for "normal" deliveries
+		late_delivery_max_overtime[2]: 720	# 4 hours for "urgent" deliveries
+
+		simulation_avg_speed: 45.0	# km/h
+
+		default_time_zone: -360		# -6 hours
+		default_time_zone_name: "MDT"
+
+		maximum_driving_time: 840	# how long the driver can legally drive (in minutes) 14 hours
+		sleeping_time: 600			# length of (mandatory) sleep (in minutes) 10 hours
+
+		delivery_window[0]: 1200		# easy
+		delivery_window[1]: 800		# medium
+		delivery_window[2]: 400		# hard
+
+		delivery_window_coef[0]: 1.0	# easy
+		delivery_window_coef[1]: 1.15	# medium  revenue coef
+		delivery_window_coef[2]: 1.4	# hard
+
+		hurry_up_timer: 30		# how long the hurry up music will play (in game minutes)
+
+		no_cargo_prob:	0.1		# 10% prob. of empty cargo slot
+		cargo_validity_min: 180		# 3 hours
+		cargo_validity_max: 1800	# 30 hours
+
+		# assistance service
+
+		tow_price_base: 10
+		tow_price_factor: 0.04	# cost per meter (as crow flies)
+		tow_time_base: 1800	# 30 min
+		tow_time_factor: 3	# time per meter (as crow flies)
+		tow_fuel_ratio: 0.0	# emergecy refuel upon tow (tank %)
+
+		# emergency refuel
+
+		refuel_fuel: 56.79	# 15 US gallons
+		refuel_price_base: 150
+		refuel_price_factor: 2	# 2x regular fuel cost
+		refuel_time_base: 1800	# 30 min
+
+		#
+		# AI driver related configuration
+		#
+		fuel_cost_per_km: (0.04, 0.06)	# for driver simulation
+		driver_max_cargo_damage: 0.3		# in %, decrease with skill
+		driver_maintenance_cost: (0.02, 0.04) 	# maintenance + insurance, range in $/km
+		minimal_driver_salary:	80	# fixed part of driver's pay
+		driver_revenue_coef_per_km: 0.03		# Revenue coefficient used during quick job and drivers jobs.
+		driver_cargo_market_revenue_coef_per_km: 0.018 # Revenue coefficient used during cargo market jobs for drivers.
+
+		driver_hire_cost: 3000		# $
+
+		free_driver_level_cap: 30	# don't grow offered drivers higher than this level
+		driver_offer_scrap_prob: 0.5
+
+		driver_quitwarn_time: 3		# days
+		driver_quit_time: 5		# days
+		driver_no_return_job_prob: 0.05	# 10% of no return job, decrease with skill
+
+		driver_skilled_job_prob: 0.8
+
+		##
+		## Skill job filtering
+		##
+
+		fixed_revenue: 100	# in $
+		revenue_coef_per_km: 0.07 # Revenue coefficient per km used during freight market jobs.
+		cargo_market_revenue_coef_per_km: 0.09 # Revenue coefficient per km used during cargo market jobs.
+
+		reward_bonus_level: 0.02
+
+		#  Experience points
+		free_roam_report_limit: 161		# 100 miles
+
+		exp_cargo_delivery: 	1.0		# per km
+		exp_free_roam: 		0.4969		# per km, 80xp/100miles
+
+		exp_park_bonus: 15			# bonus for not using the autopark feature on EASY parking spot
+		exp_park_bonus_medium: 30		# bonus for not using the autopark feature on MEDIUM parking spot
+		exp_park_bonus_hard: 60			# bonus for not using the autopark feature on HARD parking spot
+
+		exp_park_double_bonus: 25		# bonus for not using the autopark feature on EASY parking spot with double
+		exp_park_double_bonus_medium: 60	# bonus for not using the autopark feature on MEDIUM parking spot with double
+		exp_park_double_bonus_hard: 120		# bonus for not using the autopark feature on HARD parking spot with double
+
+		exp_park_load_bonus: 20		# exp bonus for manually parking trailer during loading phase of the job
+
+		exp_damaged_cargo:	10		# -5 XP per 1% of cargo damage
+		exp_damaged_cargo_factor: 0.05		# -4% of total XP per 1% of cargo damage
+
+
+		adr_info_icon[]:	"1|/material/ui/icon/adr_1.mat"
+
+		adr_info_icon[]:	"2|/material/ui/icon/adr_21.mat"
+		adr_info_icon[]:	"2|/material/ui/icon/adr_22.mat"
+		adr_info_icon[]:	"2|/material/ui/icon/adr_23.mat"
+
+		adr_info_icon[]:	"3|/material/ui/icon/adr_3.mat"
+
+		adr_info_icon[]:	"4|/material/ui/icon/adr_41.mat"
+		adr_info_icon[]:	"4|/material/ui/icon/adr_42.mat"
+		adr_info_icon[]:	"4|/material/ui/icon/adr_43.mat"
+
+		adr_info_icon[]:	"6|/material/ui/icon/adr_61.mat"
+		adr_info_icon[]:	"6|/material/ui/icon/adr_62.mat"
+
+		adr_info_icon[]:	"8|/material/ui/icon/adr_8.mat"
+
+		#
+		#	Delivery reward levels
+		#
+		reward_medal[]:		"delivery2"
+		reward_medal[]:		"delivery1"
+		reward_medal[]:		"delivery4"
+		reward_medal[]:		"delivery3"
+		reward_medal[]:		"delivery5"
+		reward_medal[]:		"delivery0"
+		reward_medal[]:		"delivery0"
+
+		reward_title[]:		"@@excelent_t@@"
+		reward_title[]:		"@@good_work_t@@"
+		reward_title[]:		"@@jobresult_sat_t@@"
+		reward_title[]:		"@@jobresult_reas_t@@"
+		reward_title[]:		"@@jobresult_tol_t@@"
+		reward_title[]:		"@@jobresult_dam_t@@"
+		reward_title[]:		"@@jobresult_reck_t@@"
+
+		reward_name[]:		"@@jobresult_excellent@@"
+		reward_name[]:		"@@jobresult_good_work@@"
+		reward_name[]:		"@@jobresult_sat@@"
+		reward_name[]:		"@@jobresult_reas@@"
+		reward_name[]:		"@@jobresult_tol@@"
+		reward_name[]:		"@@jobresult_dam@@"
+		reward_name[]:		"@@jobresult_reck@@"
+
+		reward_damage_level[]:	0.5
+		reward_damage_level[]:	2.0
+		reward_damage_level[]:	5.0
+		reward_damage_level[]:	10.0
+		reward_damage_level[]:	20.0
+		reward_damage_level[]:	40.0
+		reward_damage_level[]:	100.0
+
+		reward_color[]: (1.00, 0.78, 0.05)
+		reward_color[]: (0.29, 0.51, 0.89)
+		reward_color[]: (0.57, 1.00, 0.45)
+		reward_color[]: (0.34, 0.29, 0.92)
+		reward_color[]: (1.00, 0.25, 0.20)
+		reward_color[]: (1.00, 0.00, 0.00)
+		reward_color[]: (1.00, 0.00, 0.00)
+
+		#
+		#	currency display options
+		#	default has to be first
+		#	currency format: [sign1] - [sign2] 1.234,- [sign3]
+		#
+
+		currency_code[]: "USD"
+		currency_ratio[]: 1
+		currency_sign1[]: ""
+		currency_sign2[]: "$"
+		currency_sign3[]: ""
+
+		currency_code[]: "CAD"
+		currency_ratio[]: 1.4
+		currency_sign1[]: ""
+		currency_sign2[]: "$"
+		currency_sign3[]: ""
+
+		currency_code[]: "MXN"
+		currency_ratio[]: 18.66
+		currency_sign1[]: ""
+		currency_sign2[]: "$"
+		currency_sign3[]: ""
+
+		currency_code[]: "EUR"
+		currency_ratio[]: 0.89
+		currency_sign1[]: ""
+		currency_sign2[]: "€"
+		currency_sign3[]: ""
+
+		currency_code[]: "RUB"
+		currency_ratio[]: 80.85
+		currency_sign1[]: ""
+		currency_sign2[]: "₽"
+		currency_sign3[]: ""
+
+		currency_code[]: "UAH"
+		currency_ratio[]: 45.34
+		currency_sign1[]: ""
+		currency_sign2[]: ""
+		currency_sign3[]: " гр"
+
+		currency_code[]: "KZT"
+		currency_ratio[]: 451.59
+		currency_sign1[]: ""
+		currency_sign2[]: ""
+		currency_sign3[]: " тг"
+
+		currency_code[]: "BYN"
+		currency_ratio[]: 2.95
+		currency_sign1[]: ""
+		currency_sign2[]: ""
+		currency_sign3[]: "руб"
+
+		currency_code[]: "CNY"
+		currency_ratio[]: 6.66
+		currency_sign1[]: ""
+		currency_sign2[]: ""
+		currency_sign3[]: " CNY"
+	}
+}

@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.altamira.cancun {
+	price: 14
+	time: 420
+	distance: 100
+}
+}
+

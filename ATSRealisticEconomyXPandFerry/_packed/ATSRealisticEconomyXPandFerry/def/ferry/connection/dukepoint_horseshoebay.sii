@@ -1,0 +1,39 @@
+SiiNunit
+{
+ferry_connection : conn.dukepoint.horseshoebay {
+	price: 9
+	time: 248
+	distance: 57
+
+	# NODE POSITIONS #######    x*256 , 0,   z*256
+	connection_positions[0]: (-26541179, 0, -19016665)
+	connection_positions[1]: (-26545910, 0, -19025038)
+	connection_positions[2]: (-26542821, 0, -19036370)
+	connection_positions[3]: (-26540419, 0, -19040419)
+	connection_positions[4]: (-26540791, 0, -19056501)
+	connection_positions[5]: (-26580183, 0, -19086501)
+	connection_positions[6]: (-26742139, 0, -19300084)
+	connection_positions[7]: (-26765789, 0, -19578670)
+
+# Continent (Keep it for Nanaimo changes)
+	connection_positions[8]: (-26577722, 0, -19661011)
+	connection_positions[9]: (-26534283, 0, -19628624)
+	connection_positions[10]: (-26535761, 0, -19524794)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: (-0.491965, -0.000000, -0.870615)
+	connection_directions[1]: (-0.491965, -0.000000, -0.870615)
+	connection_directions[2]: (0.870615, -0.000000, -0.491965)
+	connection_directions[3]: (-0.023145, -0.000000, -0.999732)
+	connection_directions[4]: (-0.023145, -0.000000, -0.999732)
+	connection_directions[5]: (-0.999732, -0.000000, 0.023145)
+	connection_directions[6]: (-0.358570, -0.000000, -0.933503)
+	connection_directions[7]: (0.196761, -0.000000, -0.980452)
+
+# Continent (Keep it for Nanaimo changes)
+	connection_directions[8]: (0.962397, 0.000000, 0.271649)
+	connection_directions[9]: (0.442111, 0.000000, 0.896961)
+	connection_directions[10]: (0.124506, 0.000000, 0.992219)
+}
+}
+

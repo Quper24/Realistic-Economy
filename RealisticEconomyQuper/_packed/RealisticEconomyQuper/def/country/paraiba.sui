@@ -1,0 +1,27 @@
+
+country_data : country.data.paraiba
+{
+	country_id: 179
+
+	name: "Paraiba"
+	name_localized: "@@Paraiba@@"
+	country_code: "PB"
+	iso_country_code: bra
+
+	pos: (-198210, 0, 337000)
+
+	fuel_price: 0.94
+
+	lights_mandatory: false
+	driving_tired_offence: true
+
+	time_zone: -120		# -3 hours in minutes
+	time_zone_name: "@@tz_brasilia@@"
+
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 36000
+	mass_limit_per_axle_count[]: 44000
+	mass_limit_per_axle_count[]: 50000
+	mass_limit_per_axle_count[]: 57000
+}

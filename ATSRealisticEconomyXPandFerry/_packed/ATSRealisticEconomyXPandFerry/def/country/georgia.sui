@@ -1,0 +1,24 @@
+
+country_data : country.data.georgia
+{
+	country_id: 11
+
+	name: "Georgia"
+	name_localized: "@@Georgia@@"
+	country_code: "GA"
+	iso_country_code: usga
+
+	pos:(60100, 0, 33400)
+
+	fuel_price: 1.504275	# 1 liter = 0.264172052 US gallons
+	petrol_price: 0.963990
+
+	lights_mandatory: false
+	imperial_units: true
+	driving_tired_offence: true
+
+	time_zone: -240		# -4 hours in minutes verão
+	# time_zone: -300		# -5 hours in minutes inverno
+	time_zone_name: "EDT"	# verão
+	# time_zone_name: "EST"	# inverno
+}

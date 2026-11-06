@@ -1,0 +1,11 @@
+SiiNunit
+{
+ferry_connection : conn.lochmaddy.tarbert{
+	price: 14
+	time: 121
+	distance: 50
+
+	
+}
+}
+

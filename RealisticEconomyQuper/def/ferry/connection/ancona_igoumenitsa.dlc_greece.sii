@@ -1,0 +1,32 @@
+SiiNunit
+{
+ferry_connection : conn.ancona.igoumenitsa {
+	price: 166
+	time: 1641
+	distance: 810
+
+	# NODE POSITIONS #######   x*256  , 0,  z*256
+connection_positions[0]: (2822810, 0, 10016891)
+connection_positions[1]: (2791035, 0, 9968965)
+connection_positions[2]: (2697408, 0, 9929433)
+connection_positions[3]: (2702393, 0, 9875382)
+connection_positions[4]: (3985395, 0, 10049716)
+connection_positions[5]: (6905741, 0, 12746324)
+connection_positions[6]: (7414307, 0, 13238202)
+connection_positions[7]: (8748917, 0, 14901918)
+connection_positions[8]: (9708900, 0, 15517191)
+connection_positions[9]: (10091064, 0, 16089931)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+connection_directions[0]: (-0.246958, 0.000000, -0.969026)
+connection_directions[1]: (-0.758133, 0.000000, -0.652100)
+connection_directions[2]: (-0.636596, 0.000000, -0.771197)
+connection_directions[3]: (0.771198, 0.000000, -0.636595)
+connection_directions[4]: (0.642788, 0.000000, 0.766044)
+connection_directions[5]: (0.766045, 0.000000, 0.642787)
+connection_directions[6]: (0.675276, 0.000000, 0.737566)
+connection_directions[7]: (0.642788, 0.000000, 0.766044)
+connection_directions[8]: (0.866026, 0.000000, 0.500000)
+connection_directions[9]: (0.925288, -0.000000, 0.379267)
+}
+}

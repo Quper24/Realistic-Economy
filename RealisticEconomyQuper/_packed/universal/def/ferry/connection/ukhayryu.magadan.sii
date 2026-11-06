@@ -1,0 +1,14 @@
+SiiNunit
+{
+ferry_connection : conn.ukhayryu.magadan {
+	price: 94
+	time: 907
+	distance: 443
+
+    # NODE POSITIONS #######    x*256 , 0,   z*256
+    connection_positions[0]: (57876992, 0, -83129600)
+
+    # NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+    connection_directions[0]: (-0.09486, 0,  0.99549)
+}
+}

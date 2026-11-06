@@ -1,0 +1,19 @@
+SiiNunit
+{
+ferry_connection : conn.lemesos.portsaid{
+	price: 82
+	time: 781
+	distance: 380
+
+	# NODE POSITIONS ########   x*256  , 0,  z*256
+	connection_positions[0]:  (25777920, 0, 20398822)
+	connection_positions[1]:  (26149888, 0, 24907162)
+	connection_positions[2]:  (26105856, 0, 24976512)
+
+	# NODE ROTATIONS ########  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]:  ( 0.08716, 0,  0.99619)
+	connection_directions[1]:  ( 0.06976, 0,  0.99756)
+	connection_directions[2]:  (-0.5,     0,  0.86603)
+}
+}
+

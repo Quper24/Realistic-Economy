@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.manitowoc.ludington {
+	price: 14
+	time: 412
+	distance: 98
+}
+}
+

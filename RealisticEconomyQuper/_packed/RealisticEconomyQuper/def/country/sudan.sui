@@ -1,0 +1,25 @@
+
+country_data : country.data.sudan
+{
+	country_id: 139
+
+	name: "sudan"
+	name_localized: "@@Sudan@@"
+	country_code: "su"
+	iso_country_code: SDN
+
+	pos:(120000, 0, 185000)
+
+	fuel_price: 1.141
+
+	lights_mandatory: false
+	driving_tired_offence: true
+
+	time_zone: 60		# +1 hours in minutes
+	time_zone_name: "@@tz_bst@@"
+
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 36000
+	mass_limit_per_axle_count[]: 44000
+}

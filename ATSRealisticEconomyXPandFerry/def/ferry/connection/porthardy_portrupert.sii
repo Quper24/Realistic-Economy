@@ -1,0 +1,47 @@
+SiiNunit
+{
+ ferry_connection : conn.porthardy.portrupert {
+	price: 128
+	time: 3836
+	distance: 954
+
+	# NODE POSITIONS #######    x*256 , 0,   z*256
+	connection_positions[0]: (-28743774, 0, -22034991)
+	connection_positions[1]: (-28753233, 0, -22043998)
+	connection_positions[2]: (-28757246, 0, -22118968)
+	connection_positions[3]: (-28732437, 0, -22220624)
+	connection_positions[4]: (-28839636, 0, -22840831)
+#OLD
+	connection_positions[5]: (-28699756, 0, -24639108)
+	connection_positions[6]: (-28542510, 0, -25455323)
+	connection_positions[7]: (-28442549, 0, -25785773)
+	connection_positions[8]: (-28598412, 0, -26021366)
+	connection_positions[9]: (-29002666, 0, -26460168)
+	connection_positions[10]: (-29105384, 0, -26853420)
+	connection_positions[11]: (-29280320, 0, -27327301)
+	connection_positions[12]: (-29465953, 0, -27858381)
+	connection_positions[13]: (-29501891, 0, -28119196)
+	connection_positions[14]: (-29397522, 0, -28228157)
+	connection_positions[15]: (-29320289, 0, -28217866)
+
+#	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: (-0.724193, -0.000000, -0.689598)
+	connection_directions[1]: (-0.724192, -0.000000, -0.689598)
+	connection_directions[2]: (0.278991, -0.000000, -0.960294)
+	connection_directions[3]: (0.034102, -0.000000, -0.999418)
+	connection_directions[4]: (-0.000000, -0.000000, -1.000000)
+#Old
+	connection_directions[5]: (0.136959, -0.000000, -0.990577)
+	connection_directions[6]: (0.239678, -0.000000, -0.970852)
+	connection_directions[7]: (-0.144850, -0.000000, -0.989454)
+	connection_directions[8]: (-0.616631, -0.000000, -0.787252)
+	connection_directions[9]: (-0.479397, -0.000000, -0.877598)
+	connection_directions[10]: (-0.299878, -0.000000, -0.953977)
+	connection_directions[11]: (-0.338146, 0.005165, -0.941079)
+	connection_directions[12]: (-0.234390, 0.005190, -0.972129)
+	connection_directions[13]: (0.308144, -0.020462, -0.951120)
+	connection_directions[14]: (0.943531, -0.020659, -0.330639)
+	connection_directions[15]: (0.084160, -0.000000, 0.996452)
+}
+}
+

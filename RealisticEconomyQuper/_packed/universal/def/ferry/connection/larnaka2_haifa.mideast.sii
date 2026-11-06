@@ -1,0 +1,19 @@
+SiiNunit
+{
+ferry_connection : conn.larnaka2.haifa{
+	price: 58
+	time: 549
+	distance: 264
+
+	# NODE POSITIONS ########   x*256  , 0,  z*256
+	connection_positions[0]:  (26536960, 0, 19671988)
+	connection_positions[1]:  (28638720, 0, 22084684)
+	connection_positions[2]:  (28629504, 0, 22131994)
+
+	# NODE ROTATIONS #######   -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]:  ( 1,       0,  0      )
+	connection_directions[1]:  ( 0.70711, 0,  0.70711)
+	connection_directions[2]:  (-0.86603, 0,  0.5    )
+}
+}
+

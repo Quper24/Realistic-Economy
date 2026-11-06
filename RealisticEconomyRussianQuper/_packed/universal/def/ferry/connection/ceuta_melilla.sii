@@ -1,0 +1,10 @@
+SiiNunit
+{
+ferry_connection : conn.ceuta.melilla{
+	price: 23
+	time: 221
+	distance: 100
+
+}
+}
+

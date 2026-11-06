@@ -1,0 +1,24 @@
+SiiNunit
+{
+ferry_connection : conn.portoxheller.wlosangeles {
+	price: 294
+	time: 8820
+	distance: 2200
+	
+	connection_positions[0]: (-36409304, 0, -20017774)
+	connection_positions[1]: (-36374500, 0, -20065742)
+	connection_positions[2]: (-36304568, 0, -20148896)
+	connection_positions[3]: (-30912000, 0, -17525760) # POS1: -120750 POS2: -68460
+	connection_positions[4]: (-30749440, 0, -7183360) # POS1: -120115 POS2: -28060
+	connection_positions[5]: (-28755712, 0, 5421824) # POS1: -112327 POS2: 21179
+	
+	connection_directions[0]: (0.930097, 0.000000, 0.367313)
+	connection_directions[1]: (0.067163, 0.000000, -0.997742)
+	connection_directions[2]: (0.958530, 0.000000, -0.284993)
+	connection_directions[3]: ( 0.5, 0.0, 0.5)
+	connection_directions[4]: ( -0.25, 0.0, 0.25)
+	connection_directions[5]: ( 1.0, 0.0, -0.0)
+	
+}
+}
+

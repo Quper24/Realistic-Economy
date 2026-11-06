@@ -1,0 +1,24 @@
+
+country_data : country.data.maine
+{
+	country_id: 20
+
+	name: "Maine"
+	name_localized: "@@Maine@@"
+	country_code: "ME"
+	iso_country_code: usme
+
+	pos:(106000, 0, -51000)
+
+	fuel_price: 1.694558	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.135227
+
+	lights_mandatory: false
+	imperial_units: true
+	driving_tired_offence: true
+
+	time_zone: -240		# -4 hours in minutes verão
+	# time_zone: -300		# -5 hours in minutes inverno
+	time_zone_name: "EDT"	# verão
+	# time_zone_name: "EST"	# inverno
+}

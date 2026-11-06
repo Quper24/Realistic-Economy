@@ -1,0 +1,8 @@
+SiiNunit
+{
+ferry_connection : conn.bralia.smardan {
+	price: 5
+	time: 23
+	distance: 1
+}
+}

@@ -1,0 +1,21 @@
+SiiNunit
+{
+ferry_connection : conn.jakarta.dover {
+	price: 2704
+	time: 27021
+	distance: 13500
+	
+	# Posisi titik belok jalur ferry, rumus >>  titik horizontal*256  ;  titik vertikal*256
+	connection_positions[0]: (158320640, 0, -14769408)   # krakatau
+	connection_positions[1]: (26369280, 0, 24330496)   # mesir/terusan suez
+	connection_positions[2]: (-23302912, 0, 17033216)  # giblatar
+	connection_positions[3]: (-10463488, 0, -183552)   # selat channel Inggris/Prancis
+
+	# Arah putaran jalur ferry, rumus >>  -sin(sudut putar) ; -cos(sudut putar)
+	connection_directions[0]: (0.640000, 0.00, 0.770000)
+	connection_directions[1]: (-0.939690, 0.00, -0.342020)
+	connection_directions[2]: (-0.733087, 0.000000, -0.680135)
+	connection_directions[3]: (0.733087, 0.000000, 0.680135)
+	
+}
+}

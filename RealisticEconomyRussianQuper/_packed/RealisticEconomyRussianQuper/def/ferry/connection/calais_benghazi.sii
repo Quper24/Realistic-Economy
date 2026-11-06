@@ -1,0 +1,10 @@
+SiiNunit
+{
+ferry_connection : conn.calais.benghazi{
+	price: 47
+	time: 453
+	distance: 216
+
+}
+}
+

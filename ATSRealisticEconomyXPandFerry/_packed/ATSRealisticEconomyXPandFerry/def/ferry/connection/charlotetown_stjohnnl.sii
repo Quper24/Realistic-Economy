@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.charlotetown.stjohnnl {
+	price: 92
+	time: 2760
+	distance: 685
+}
+}
+

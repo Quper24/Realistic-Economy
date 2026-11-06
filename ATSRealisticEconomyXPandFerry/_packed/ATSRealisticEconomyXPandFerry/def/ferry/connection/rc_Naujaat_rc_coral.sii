@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.rc_Naujaat.rc_coral {
+	price: 534
+	time: 16020
+	distance: 4000
+}
+}
+

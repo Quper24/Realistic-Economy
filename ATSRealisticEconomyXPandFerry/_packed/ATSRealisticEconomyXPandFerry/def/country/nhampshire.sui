@@ -1,0 +1,24 @@
+
+country_data : country.data.nhampshire
+{
+	country_id: 29
+
+	name: "New Hampshire"
+	name_localized: "@@New Hampshire@@"
+	country_code: "NH"
+	iso_country_code: usnh
+
+	pos:(99000, 0, -38000)
+
+	fuel_price: 1.680557	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.110817
+
+	lights_mandatory: false
+	imperial_units: true
+	driving_tired_offence: true
+
+	time_zone: -240		# -4 hours in minutes verão
+	# time_zone: -300		# -5 hours in minutes inverno
+	time_zone_name: "EDT"	# verão
+	# time_zone_name: "EST"	# inverno
+}

@@ -1,0 +1,28 @@
+
+country_data : country.data.botswana
+{
+	country_id: 96
+
+	name: "Botswana"
+	name_localized: "@@Botswana@@"
+	country_code: "BW"
+	iso_country_code: bwa
+
+	pos: (85000, 0, 495000)
+
+	fuel_price: 1.358
+
+	lights_mandatory: false
+	leftside_traffic: true
+	trailer_standalone: false
+	driving_tired_offence: true
+
+	time_zone: 180		# +3 hours in minutes
+	time_zone_name: "@@tz_eest@@"
+
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 38000
+	mass_limit_per_axle_count[]: 40000
+	mass_limit_per_axle_count[]: 44000
+}

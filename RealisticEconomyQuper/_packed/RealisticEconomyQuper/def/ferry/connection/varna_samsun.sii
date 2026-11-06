@@ -1,0 +1,8 @@
+SiiNunit
+{
+ferry_connection : conn.varna.samsun{
+	price: 136
+	time: 1321
+	distance: 650
+}
+}

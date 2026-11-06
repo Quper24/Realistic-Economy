@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.stjohnnl.halifax {
+	price: 133
+	time: 3980
+	distance: 990
+}
+}
+

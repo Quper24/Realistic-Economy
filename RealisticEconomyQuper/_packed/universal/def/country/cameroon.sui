@@ -1,0 +1,25 @@
+
+country_data : country.data.cameroon
+{
+	country_id: 99
+
+	name: "Cameroon"
+	name_localized: "@@Cameroon@@"
+	country_code: "CM"
+	iso_country_code: CMR
+
+	pos: (2574, 0, 284612)
+
+	fuel_price: 1.264
+
+	lights_mandatory: false
+	driving_tired_offence: true
+
+	time_zone: 60		# +1 hours in minutes
+	time_zone_name: "@@tz_bst@@"
+
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 36000
+	mass_limit_per_axle_count[]: 44000
+}

@@ -1,0 +1,28 @@
+SiiNunit
+{
+ferry_connection : conn.porto_vec.marseille {
+	price: 95
+	time: 939
+	distance: 459
+
+	# NODE POSITIONS #######    x*256 , 0,   z*256
+	connection_positions[0]: (-1835274, 0, 13045786)
+	connection_positions[1]: (-1785672, 0, 13046886)
+	connection_positions[2]: (-1776970, 0, 13100364)
+	connection_positions[3]: (-1935506, 0, 13453388)
+	connection_positions[4]: (-2242068, 0, 13476454)
+	connection_positions[5]: (-5907994, 0, 10571238)
+	connection_positions[6]: (-5927168, 0, 10452378)
+	connection_positions[7]: (-5851674, 0, 10396442)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: ( 0.86603, 0, -0.5    )
+	connection_directions[1]: ( 0.70711, 0,  0.70711)
+	connection_directions[2]: (-0.25882, 0,  0.96593)
+	connection_directions[3]: (-0.86603, 0,  0.5    )
+	connection_directions[4]: (-0.96593, 0, -0.25882)
+	connection_directions[5]: (-0.70711, 0, -0.70711)
+	connection_directions[6]: ( 0.5,     0, -0.86603)
+	connection_directions[7]: ( 0.99619, 0,  0.08716)
+}
+}

@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.labuan.kotakinabalu {
+	price: 28
+	time: 261
+	distance: 120
+}
+}
+

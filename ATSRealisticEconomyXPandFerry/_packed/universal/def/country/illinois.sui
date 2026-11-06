@@ -1,0 +1,28 @@
+
+country_data : country.data.illinois
+{
+	country_id: 14
+
+	name: "Illinois"
+	name_localized: "@@illinois@@"
+	country_code: "IL"
+	iso_country_code: usil
+
+	pos: (27500, 0, -8500)
+
+	fuel_price: 1.770296	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.290507
+
+	lights_mandatory: false
+	imperial_units: true
+	driving_tired_offence: true
+
+	time_zone: -300		# -5 hours in minutes verão
+	# time_zone: -360		# -6 hours in minutes inverno
+	time_zone_name: "@@tz_cdt@@"	# verão
+	# time_zone_name: "CST"	# inverno
+	
+	mass_limit_per_axle_count[]: 18143.7	# 40000 lb	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 27215.6	# 60000 lb
+	mass_limit_per_axle_count[]: 36287.4	# 80000 lb
+}

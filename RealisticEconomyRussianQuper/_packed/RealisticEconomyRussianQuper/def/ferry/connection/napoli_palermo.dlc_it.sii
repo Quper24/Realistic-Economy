@@ -1,0 +1,16 @@
+SiiNunit
+{
+ferry_connection : conn.napoli.palermo {
+	price: 71
+	time: 691
+	distance: 335
+
+	# NODE POSITIONS #######    x*256 , 0,   z*256
+	connection_positions[0]: ( 3370804, 0, 14637440)
+	connection_positions[1]: ( 2238302, 0, 17975526)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: ( 0,       0,  1      )
+	connection_directions[1]: (-0.42262, 0,  0.90631)
+}
+}

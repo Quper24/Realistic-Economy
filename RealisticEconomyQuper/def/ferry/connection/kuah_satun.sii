@@ -1,0 +1,8 @@
+SiiNunit
+{
+ferry_connection : conn.kuah.satun {
+	price: 13
+	time: 91
+	distance: 35
+}
+}

@@ -1,0 +1,25 @@
+
+country_data : country.data.kenya
+{
+	country_id: 117
+
+	name: "Kenya"
+	name_localized: "@@Kenya@@"
+	country_code: "KE"
+	iso_country_code: ken
+
+	pos: (185000, 0, 290000)
+
+	fuel_price: 1.551
+
+	lights_mandatory: false
+	driving_tired_offence: true
+
+	time_zone: 60		# +1 hours in minutes
+	time_zone_name: "@@tz_bst@@"
+
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 36000
+	mass_limit_per_axle_count[]: 44000
+}

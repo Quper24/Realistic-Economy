@@ -1,0 +1,33 @@
+SiiNunit
+{
+ferry_connection : conn.bari_b.patras_c {
+	price: 124
+	time: 1221
+	distance: 600
+
+	# NODE POSITIONS #######   x*256 , 0,   z*256
+connection_positions[0]: (6349693, 0, 13776863)
+connection_positions[1]: (6413981, 0, 13657826)
+connection_positions[2]: (6917533, 0, 13256974)
+connection_positions[3]: (7414307, 0, 13238202)
+connection_positions[4]: (8748917, 0, 14901918)
+connection_positions[5]: (10397947, 0, 17459708)
+connection_positions[6]: (11272712, 0, 18007752)
+connection_positions[7]: (11917225, 0, 17915006)
+connection_positions[8]: (11961914, 0, 17936388)
+connection_positions[9]: (11958963, 0, 17973308)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+connection_directions[0]: (0.125137, 0.000243, -0.992139)
+connection_directions[1]: (0.125137, 0.000000, -0.992139)
+connection_directions[2]: (0.737566, 0.000243, -0.675276)
+connection_directions[3]: (0.675276, 0.000000, 0.737566)
+connection_directions[4]: (0.642788, 0.000000, 0.766044)
+connection_directions[5]: (0.939693, 0.000000, 0.342020)
+connection_directions[6]: (0.978367, 0.000000, 0.206876)
+connection_directions[7]: (0.998377, 0.000000, 0.056956)
+connection_directions[8]: (0.621473, 0.000000, 0.783435)
+connection_directions[9]: (-0.783435, 0.000000, 0.621474)
+
+}
+}

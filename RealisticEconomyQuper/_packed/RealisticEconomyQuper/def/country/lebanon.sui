@@ -1,0 +1,20 @@
+country_data: country.data.lebanon
+{
+	country_id: 68
+
+	name: "Lubnān"
+	name_localized: "@@lebanon@@"
+	country_code: "RL"
+	iso_country_code: lbn
+
+	pos:(115500, 0, 78500)
+
+	fuel_price: 0.933
+
+	lights_mandatory: false
+	leftside_traffic: false
+	driving_tired_offence: true
+
+	time_zone: 180		# +3 hours in minutes
+	time_zone_name: "@@tz_eest@@"
+}

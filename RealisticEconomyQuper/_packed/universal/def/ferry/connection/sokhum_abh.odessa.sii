@@ -1,0 +1,10 @@
+SiiNunit
+{
+ferry_connection : conn.sokhum_abh.odessa {
+	price: 280
+	time: 2781
+	distance: 1380
+	
+}
+}
+

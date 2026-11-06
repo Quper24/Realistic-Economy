@@ -1,0 +1,49 @@
+
+country_data : country.data.south_dakota
+{
+	country_id: 41
+
+	name: "South Dakota"
+	name_localized: "@@south_dakota@@"
+	country_code: "SD"
+	iso_country_code: ussd
+
+	pos: (-16000, 0, -31000)
+
+	fuel_price: 1.597211	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.107515
+
+	lights_mandatory: false
+	imperial_units: true
+	driving_tired_offence: true
+
+	time_zone: -300		# -5 hours in minutes verão
+	# time_zone: -360		# -6 hours in minutes inverno
+	time_zone_name: "@@tz_cdt@@"	# verão
+	# time_zone_name: "CST"	# inverno
+
+	# Northern part, west from Missouri river at Moobridge
+	secondary_time_zone_area[]: (-35000.0, -18406.2, -41000.0, -32000.0)
+	secondary_time_zone[]: -360 	# verão
+	# secondary_time_zone[]: -420 	# inverno
+	secondary_time_zone_name[]: "@@tz_mdt@@"	# verão
+	# secondary_time_zone_name[]: "@@tz_mst@@"	# inverno
+
+	# Mid part, west from Missouri river at Pierre
+	secondary_time_zone_area[]: (-35000.0, -17837.9, -33000.0, -29000.0)
+	secondary_time_zone[]: -360 	# verão
+	# secondary_time_zone[]: -420 	# inverno
+	secondary_time_zone_name[]: "@@tz_mdt@@"	# verão
+	# secondary_time_zone_name[]: "@@tz_mst@@"	# inverno
+
+	# Southern part, west from county borders Jackson/Jones, Bennet/Todd
+	secondary_time_zone_area[]: (-35000.0, -21695.1, -30000.0, -24000.0)
+	secondary_time_zone[]: -360 	# verão
+	# secondary_time_zone[]: -420 	# inverno
+	secondary_time_zone_name[]: "@@tz_mdt@@"	# verão
+	# secondary_time_zone_name[]: "@@tz_mst@@"	# inverno
+
+	mass_limit_per_axle_count[]: 18143.7	# 40000 lb	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 27215.6	# 60000 lb
+	mass_limit_per_axle_count[]: 36287.4	# 80000 lb
+}

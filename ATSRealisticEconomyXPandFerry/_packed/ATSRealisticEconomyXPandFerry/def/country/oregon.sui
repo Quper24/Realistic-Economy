@@ -1,0 +1,42 @@
+
+country_data : country.data.oregon
+{
+	country_id: 37
+
+	name: "Oregon"
+	name_localized: "@@oregon@@"
+	country_code: "OR"
+	iso_country_code: usor
+
+	pos: (-97000, 0, -42000)
+
+	fuel_price: 1.779093	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.286016
+
+	lights_mandatory: false
+	imperial_units: true
+	driving_tired_offence: true
+
+	time_zone: -420		# -7 hours in minutes verão
+	# time_zone: -480		# -8 hours in minutes inverno
+	time_zone_name: "@@tz_pdt@@"	# verão
+	# time_zone_name: "PST"	# inverno
+
+	# Malheur county northern part, @@tz_mdt@@, -6 hours
+	secondary_time_zone_area[]: (-89487.0, -83449.5, -41525.8, -34000.0)
+	secondary_time_zone[]: -360 	# verão
+	# secondary_time_zone[]: -420 	# inverno
+	secondary_time_zone_name[]: "@@tz_mdt@@"	# verão
+	# secondary_time_zone_name[]: "@@tz_mst@@"	# inverno
+	secondary_time_zone_area[]: (-91141.1, -83449.5, -34229.3, -30523.2)
+	secondary_time_zone[]: -360 	# verão
+	# secondary_time_zone[]: -420 	# inverno
+	secondary_time_zone_name[]: "@@tz_mdt@@"	# verão
+	# secondary_time_zone_name[]: "@@tz_mst@@"	# inverno
+
+	mass_limit_per_axle_count[]: 18143.7	# 40000 lb	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 27215.6	# 60000 lb
+	mass_limit_per_axle_count[]: 36287.4	# 80000 lb
+	mass_limit_per_axle_count[]: 45359.3	# 100000 lb
+	mass_limit_per_axle_count[]: 47854.0	# 105500 lb
+}

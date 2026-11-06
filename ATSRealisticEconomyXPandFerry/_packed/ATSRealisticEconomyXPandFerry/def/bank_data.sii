@@ -1,0 +1,63 @@
+SiiNunit
+{
+	#Quper
+	bank_data : bank.data.storage
+	{
+		min_after_loan_repay:	0
+
+		loan_offers[]: bank.data.loan1
+		loan_offers[]: bank.data.loan2
+		loan_offers[]: bank.data.loan3
+		loan_offers[]: bank.data.loan4
+
+		overdraft_duration:	14	# days
+		overdraft_warn_day:	5	# starting on 3rd day
+
+		insurance_data: .insurance
+
+	}
+
+	insurance_data : .insurance
+	{
+		coinsurance_fixed_base : 500
+		coinsurance_fixed_min : 200
+		coinsurance_fixed_max : 5000
+		coinsurance_fixed_inc : 200
+		coinsurance_fixed_dec : 50
+
+		coinsurance_ratio_base : 0.05
+		coinsurance_ratio_min : 0.01
+		coinsurance_ratio_max : 0.25
+		coinsurance_ratio_inc : 0.02
+		coinsurance_ratio_dec : 0.01
+	}
+
+	bank_loan_data: bank.data.loan1
+	{
+		amount: 10000
+		interest_rate: 0.02	# 23 %
+		duration: 12		# in weeks
+	}
+
+	bank_loan_data: bank.data.loan2
+	{
+		amount: 50000
+		interest_rate: 0.03	# 18 %
+		duration: 24		# in weeks
+	}
+
+	bank_loan_data: bank.data.loan3
+	{
+		amount: 100000
+		interest_rate: 0.04	# 14 %
+		duration: 36		# in weeks
+	}
+
+	bank_loan_data: bank.data.loan4
+	{
+		amount: 400000
+		interest_rate: 0.05	# 10 %
+		duration: 60		# in weeks
+	}
+
+}

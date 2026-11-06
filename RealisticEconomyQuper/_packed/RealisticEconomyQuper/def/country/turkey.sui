@@ -1,0 +1,25 @@
+
+country_data : country.data.turkey
+{
+	country_id: 44
+
+	name: "Türkiye"
+	name_localized: "@@turkey@@"
+	country_code: "TR"
+	iso_country_code: tur
+
+	pos: (69500, 0, 47000)
+
+	fuel_price: 1.221
+
+	lights_mandatory: false
+	driving_tired_offence: true
+
+	time_zone: 180		# +3 hours in minutes
+	time_zone_name: "@@tz_trt@@"
+
+	mass_limit_per_axle_count[]: 19000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 38000
+	mass_limit_per_axle_count[]: 40000	# 44t containers
+}

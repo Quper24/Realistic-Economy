@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.lewes.cape_may {
+	price: 5
+	time: 128
+	distance: 27
+}
+}
+

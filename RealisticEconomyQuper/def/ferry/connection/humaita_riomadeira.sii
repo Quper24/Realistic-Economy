@@ -1,0 +1,11 @@
+SiiNunit
+{
+ferry_connection: conn.humaita.riomadeira
+{
+	price: 7
+	time: 23
+	distance: 1
+
+}
+}
+

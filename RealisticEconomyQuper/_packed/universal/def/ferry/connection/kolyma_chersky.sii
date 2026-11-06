@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.kolyma.chersky {
+	price: 55
+	time: 531
+	distance: 255
+}
+}
+

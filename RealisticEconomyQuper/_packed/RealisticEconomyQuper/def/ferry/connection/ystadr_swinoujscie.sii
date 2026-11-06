@@ -1,0 +1,25 @@
+SiiNunit
+{
+ferry_connection : conn.ystadr.swinoujscie{
+	price: 40
+	time: 361
+	distance: 170
+
+	# NODE POSITIONS #######   x*256 , 0,   z*256
+	connection_positions[0]: (3290752, 0, -6698778)
+	connection_positions[1]: (3269632, 0, -6664474)
+	connection_positions[2]: (3484646, 0, -4745242)
+	connection_positions[3]: (3331404, 0, -4597734)
+	connection_positions[4]: (3367962, 0, -4500890)
+	connection_positions[5]: (3554252, 0, -4377754)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: (-0.86603, 0,  0.5    )
+	connection_directions[1]: ( 0.08716, 0,  0.99619)
+	connection_directions[2]: ( 0.08716, 0,  0.99619)
+	connection_directions[3]: (-0.70711, 0,  0.70711)
+	connection_directions[4]: ( 0.86603, 0,  0.5    )
+	connection_directions[5]: ( 0.76604, 0,  0.64279)
+}
+}
+

@@ -1,0 +1,26 @@
+SiiNunit
+{
+ferry_connection : conn.travemunde.helsinki {
+	price: 254
+	time: 2531
+	distance: 1255
+
+	# NODE POSITIONS #######    x*256 , 0,   z*256
+	connection_positions[0]: (  767066, 0,  -4895054)
+	connection_positions[1]: (  919094, 0,  -4977384)
+	connection_positions[2]: ( 3424384, 0,  -6204748)
+	connection_positions[3]: ( 3965798, 0,  -6743962)
+	connection_positions[4]: ( 9573146, 0, -12710196)
+	connection_positions[5]: (11546956, 0, -13870796)
+	connection_positions[6]: (11607936, 0, -14112640)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: ( 0.5,     0, -0.86603)
+	connection_directions[1]: ( 0.76604, 0, -0.64279)
+	connection_directions[2]: ( 0.81915, 0, -0.57358)
+	connection_directions[3]: ( 0.93969, 0, -0.34202)
+	connection_directions[4]: ( 0.34202, 0, -0.93969)
+	connection_directions[5]: ( 0.70711, 0, -0.70711)
+	connection_directions[6]: ( 0,       0, -1      )
+}
+}

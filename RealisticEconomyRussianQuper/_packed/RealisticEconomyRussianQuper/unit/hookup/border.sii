@@ -1,0 +1,340 @@
+SiiNunit
+{
+	gate_trigger: border.default
+	{
+		model: "/model/activation/border.pmd"
+		animation: "/model/activation/border.pma"
+
+		trigger_distance: 3.0
+
+		max_activation_speed: 4.0
+
+		message_title: "@@border_title@@"
+		message_closed: "@@border_closed@@"
+		message_wait: "@@border_wait@@"
+		message_open: "@@border_open@@"
+	}
+
+	gate_trigger: border.no_truck
+	{
+		model: "/model/activation/border.pmd"
+		animation: "/model/activation/border.pma"
+
+		truck_allowed: false
+
+		trigger_length: 10
+		trigger_width: 4
+
+		max_activation_speed: 4.0
+
+		message_title: "@@border_title@@"
+		message_closed: "@@border_closed@@"
+		message_wait: "@@border_wait@@"
+		message_open: "@@border_open@@"
+	}
+
+	gate_trigger: border.no_bus
+	{
+		model: "/model/activation/border.pmd"
+		animation: "/model/activation/border.pma"
+
+		bus_allowed: false
+
+		trigger_length: 10
+		trigger_width: 4
+
+		max_activation_speed: 4.0
+
+		message_title: "@@border_title@@"
+		message_closed: "@@border_closed@@"
+		message_wait: "@@border_wait@@"
+		message_open: "@@border_open@@"
+	}
+
+	gate_trigger: border.no_car
+	{
+		model: "/model/activation/border.pmd"
+		animation: "/model/activation/border.pma"
+
+		car_allowed: false
+
+		trigger_length: 10
+		trigger_width: 4
+
+		max_activation_speed: 4.0
+
+		message_title: "@@border_title@@"
+		message_closed: "@@border_closed@@"
+		message_wait: "@@border_wait@@"
+		message_open: "@@border_open@@"
+	}
+
+	gate_trigger: border.truck_only
+	{
+		model: "/model/activation/border.pmd"
+		animation: "/model/activation/border.pma"
+
+		bus_allowed: false
+		car_allowed: false
+
+		trigger_length: 10
+		trigger_width: 4
+
+		max_activation_speed: 4.0
+
+		message_title: "@@border_title@@"
+		message_closed: "@@border_closed@@"
+		message_wait: "@@border_wait@@"
+		message_open: "@@border_open@@"
+	}
+
+	gate_trigger: border.bus_only
+	{
+		model: "/model/activation/border.pmd"
+		animation: "/model/activation/border.pma"
+
+		truck_allowed: false
+		car_allowed: false
+
+		trigger_length: 10
+		trigger_width: 4
+
+		max_activation_speed: 4.0
+
+		message_title: "@@border_title@@"
+		message_closed: "@@border_closed@@"
+		message_wait: "@@border_wait@@"
+		message_open: "@@border_open@@"
+	}
+
+	gate_trigger: border.car_only
+	{
+		model: "/model/activation/border.pmd"
+		animation: "/model/activation/border.pma"
+
+		truck_allowed: false
+		bus_allowed: false
+
+		trigger_length: 10
+		trigger_width: 4
+
+		max_activation_speed: 4.0
+
+		message_title: "@@border_title@@"
+		message_closed: "@@border_closed@@"
+		message_wait: "@@border_wait@@"
+		message_open: "@@border_open@@"
+	}
+
+	gate_trigger: border.autopass.custom
+	{
+		max_activation_speed: 100.0
+
+		trigger_distance: 3.0
+		trigger_offset: -5.0
+		one_way: true
+	}
+
+	gate_trigger: border.autopass.custom.long
+	{
+		max_activation_speed: 100.0
+
+		trigger_length: 16.0
+		trigger_width: 5.0
+
+		one_way: true
+	}
+
+	gate_trigger: border.autopass.custom.far
+	{
+		max_activation_speed: 40.0
+
+		trigger_distance: 3.0
+		trigger_offset: -15.0
+		one_way: true
+	}
+
+	lod_model_hookup : border.booth.01_rs
+	{
+		model[]: "/prefab2/border_crossing/rs/generic/border_booth_01_rs_blkw.pmd"
+		coll: "/prefab2/border_crossing/rs/generic/border_booth_01_rs_blkw.pmc"
+
+		model[]: "/prefab2/border_crossing/rs/generic/border_booth_01_rs_blkw_lod1.pmd"
+		lod_dist[]: 50
+
+		#	model[]: "/prefab2/border_crossing/rs/generic/border_booth_01_rs_blkw_lod2.pmd"
+		#	lod_dist[]: 200
+
+	}
+
+	lod_model_hookup : border.xray.01_hr
+	{
+		model[]: "/prefab2/border_crossing/hr/generic/border_xray_01_hr_blkw.pmd"
+
+		model[]: "/prefab2/border_crossing/hr/generic/border_xray_01_hr_blkw_lod1.pmd"
+		lod_dist[]: 100
+
+		#	model[]: "/prefab2/border_crossing/hr/generic/border_xray_01_hr_blkw_lod2.pmd"
+		#	lod_dist[]: 200
+
+	}
+
+	lod_model_hookup : border.truck.gate.02_hr
+	{
+		model[]: "/prefab2/border_crossing/hr/generic/border_truck_gate_02_hr_blkw.pmd"
+
+		model[]: "/prefab2/border_crossing/hr/generic/border_truck_gate_02_hr_blkw_lod1.pmd"
+		lod_dist[]: 100
+
+		#	model[]: "/prefab2/border_crossing/hr/generic/border_truck_gate_02_hr_blkw_lod2.pmd"
+		#	lod_dist[]: 200
+
+	}
+
+	lod_model_hookup : border.truck.gate.03_hr
+	{
+		model[]: "/prefab2/border_crossing/hr/generic/border_truck_gate_03_hr_blkw.pmd"
+
+		model[]: "/prefab2/border_crossing/hr/generic/border_truck_gate_03_hr_blkw_lod1.pmd"
+		lod_dist[]: 100
+
+		#	model[]: "/prefab2/border_crossing/hr/generic/border_truck_gate_03_hr_blkw_lod2.pmd"
+		#	lod_dist[]: 200
+
+	}
+
+	lod_model_hookup : border.civil.gate.02_hr
+	{
+		model[]: "/prefab2/border_crossing/hr/generic/border_civil_gate_02_hr_blkw.pmd"
+
+		model[]: "/prefab2/border_crossing/hr/generic/border_civil_gate_02_hr_blkw_lod1.pmd"
+		lod_dist[]: 100
+
+		#	model[]: "/prefab2/border_crossing/hr/generic/border_civil_gate_02_hr_blkw_lod2.pmd"
+		#	lod_dist[]: 200
+
+	}
+
+	lod_model_hookup : border.main.building.02_hr
+	{
+		model[]: "/model2/building/administration/admin_17_blkw.pmd"
+
+		model[]: "/model2/building/administration/admin_17_blkw_lod1.pmd"
+		lod_dist[]: 100
+
+		#	model[]: "/model2/building/administration/admin_17_blkw_lod2.pmd"
+		#	lod_dist[]: 200
+
+	}
+
+	lod_model_hookup : border.booth.01_si
+	{
+		model[]: "/prefab2/border_crossing/si/generic/border_booth_01_si_blkw.pmd"
+		coll: "/prefab2/border_crossing/si/generic/border_booth_01_si_blkw.pmc"
+
+		model[]: "/prefab2/border_crossing/si/generic/border_booth_01_si_blkw_lod1.pmd"
+		lod_dist[]: 100
+
+		#	model[]: "/prefab2/border_crossing/si/generic/border_booth_01_si_blkw_lod2.pmd"
+		#	lod_dist[]: 200
+
+	}
+
+	lod_model_hookup : border.truck.gate.01_ba
+	{
+		model[]: "/prefab2/border_crossing/ba/generic/border_truck_gate_01_ba_blkw.pmd"
+
+		model[]: "/prefab2/border_crossing/ba/generic/border_truck_gate_01_ba_blkw_lod1.pmd"
+		lod_dist[]: 100
+
+		#	model[]: "/prefab2/border_crossing/ba/generic/border_truck_gate_01_ba_blkw_lod2.pmd"
+		#	lod_dist[]: 200
+
+	}
+
+	lod_model_hookup : border.gate.01_ba
+	{
+		model[]: "/prefab2/border_crossing/ba/generic/border_gate_01_ba_blkw.pmd"
+
+		model[]: "/prefab2/border_crossing/ba/generic/border_gate_01_ba_blkw_lod1.pmd"
+		lod_dist[]: 100
+
+		#	model[]: "/prefab2/border_crossing/ba/generic/border_gate_01_ba_blkw_lod2.pmd"
+		#	lod_dist[]: 200
+
+	}
+
+	lod_model_hookup : border.main.building.01_ba
+	{
+		model[]: "/model2/building/administration/admin_19_blkw.pmd"
+
+		model[]: "/model2/building/administration/admin_19_blkw_lod1.pmd"
+		lod_dist[]: 100
+
+		#	model[]: "/model2/building/administration/admin_19_blkw_lod2.pmd"
+		#	lod_dist[]: 200
+
+	}
+
+	lod_model_hookup : border.xray.01_ba
+	{
+		model[]: "/prefab2/border_crossing/ba/generic/border_xray_01_ba_blkw.pmd"
+
+		model[]: "/prefab2/border_crossing/ba/generic/border_xray_01_ba_blkw_lod1.pmd"
+		lod_dist[]: 100
+
+		#	model[]: "/prefab2/border_crossing/ba/generic/border_xray_01_ba_blkw_lod2.pmd"
+		#	lod_dist[]: 200
+
+	}
+
+	lod_model_hookup : border.booth.01_ba
+	{
+		model[]: "/prefab2/border_crossing/ba/generic/border_booth_01_ba_blkw.pmd"
+		coll: "/prefab2/border_crossing/ba/generic/border_booth_01_ba_blkw.pmc"
+
+		model[]: "/prefab2/border_crossing/ba/generic/border_booth_01_ba_blkw_lod1.pmd"
+		lod_dist[]: 50
+
+		#	model[]: "/prefab2/border_crossing/ba/generic/border_booth_01_ba_blkw_lod2.pmd"
+		#	lod_dist[]: 200
+
+	}
+
+	lod_model_hookup : border.gate.01_rs
+	{
+		model[]: "/prefab2/border_crossing/rs/generic/border_gate_01_rs_blkw.pmd"
+
+		model[]: "/prefab2/border_crossing/rs/generic/border_gate_01_rs_blkw_lod1.pmd"
+		lod_dist[]: 100
+
+		#	model[]: "/prefab2/border_crossing/rs/generic/border_gate_01_rs_blkw_lod2.pmd"
+		#	lod_dist[]: 200
+
+	}
+
+	lod_model_hookup : border.main.building.01_rs
+	{
+		model[]: "/prefab2/border_crossing/rs/generic/border_main_building_01_rs_blkw.pmd"
+
+		model[]: "/prefab2/border_crossing/rs/generic/border_main_building_01_rs_blkw_lod1.pmd"
+		lod_dist[]: 100
+
+		#	model[]: "/prefab2/border_crossing/rs/generic/border_main_building_01_rs_blkw_lod2.pmd"
+		#	lod_dist[]: 200
+
+	}
+
+	lod_model_hookup : border.booth.02_rs
+	{
+		model[]: "/prefab2/border_crossing/rs/generic/border_booth_02_rs_blkw.pmd"
+
+		model[]: "/prefab2/border_crossing/rs/generic/border_booth_02_rs_blkw_lod1.pmd"
+		lod_dist[]: 50
+
+		#	model[]: "/prefab2/border_crossing/rs/generic/border_booth_02_rs_blkw_lod2.pmd"
+		#	lod_dist[]: 200
+
+	}
+
+}

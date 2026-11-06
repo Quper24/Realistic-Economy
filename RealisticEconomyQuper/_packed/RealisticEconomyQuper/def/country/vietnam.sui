@@ -1,0 +1,25 @@
+
+country_data : country.data.vietnam
+{
+	country_id: 91
+
+	name: "Việt Nam"
+	name_localized: "@@Việt Nam@@"
+	country_code: "VN"
+	iso_country_code: vnm
+
+	pos: (465900, 0, -121900)
+
+	fuel_price: 1
+
+	lights_mandatory: false
+	driving_tired_offence: true
+
+	time_zone: 480		# +7 hours in minutes
+	time_zone_name: "@@ICT@@"
+
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 36000
+	mass_limit_per_axle_count[]: 40000
+}

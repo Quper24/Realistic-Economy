@@ -1,0 +1,29 @@
+
+country_data: country.data.indo_b
+{
+	country_id: 57
+	
+	name: "Indonesia"
+	name_localized: "@@indo_barat@@"
+	country_code: "ID"
+	iso_country_code: idn
+	
+	pos:(624127, 0, -82957) 
+	
+	fuel_price: 0.739 
+	
+	lights_mandatory: true
+	imperial_units: false 
+	leftside_traffic: true 
+	driving_tired_offence: true
+	
+	time_zone: 420 # satuan menit
+	time_zone_name: "WIB"
+	
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 38000
+	mass_limit_per_axle_count[]: 40000
+	mass_limit_per_axle_count[]: 44000
+}
+

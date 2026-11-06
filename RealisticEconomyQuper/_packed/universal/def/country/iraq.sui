@@ -1,0 +1,20 @@
+country_data: country.data.iraq
+{
+	country_id: 59
+
+	name: "Al-'Irāq"
+	name_localized: "@@iraq@@"
+	country_code: "IRQ"
+	iso_country_code: irq
+
+	pos:(143000, 0, 80000)
+
+	fuel_price: 1.53
+
+	lights_mandatory: false
+	leftside_traffic: false
+	driving_tired_offence: true
+
+	time_zone: 180		# +3 hours in minutes
+	time_zone_name: "AST"
+}

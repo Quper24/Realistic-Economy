@@ -1,0 +1,22 @@
+SiiNunit
+{
+ferry_connection : conn.napoli.cagliari {
+	price: 106
+	time: 1021
+	distance: 500
+
+	# NODE POSITIONS #######    x*256 , 0,   z*256
+	connection_positions[0]: ( 3370804, 0, 14637440)
+	connection_positions[1]: ( 3330406, 0, 14679450)
+	connection_positions[2]: (-1933742, 0, 16718592)
+	connection_positions[3]: (-2545524, 0, 16606310)
+	connection_positions[4]: (-2565862, 0, 16566144)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: ( 0,       0,  1      )
+	connection_directions[1]: (-0.90631, 0,  0.42262)
+	connection_directions[2]: (-0.95372, 0,  0.30071)
+	connection_directions[3]: (-0.90631, 0, -0.42262)
+	connection_directions[4]: (-0.17365, 0, -0.98481)
+}
+}

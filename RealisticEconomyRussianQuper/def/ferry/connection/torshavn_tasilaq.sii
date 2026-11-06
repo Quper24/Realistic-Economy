@@ -1,0 +1,10 @@
+SiiNunit
+{
+ferry_connection : conn.torshavn.tasilaq {
+	price: 404
+	time: 4021
+	distance: 2000
+
+}
+}
+

@@ -1,0 +1,22 @@
+SiiNunit
+{
+ferry_connection : conn.portsmouth.stpeterport{
+	price: 47
+	time: 461
+	distance: 220
+
+	# NODE POSITIONS #######    x*256  , 0,   z*256
+	connection_positions[0]: (-11065789, 0, -1340226)
+	connection_positions[1]: (-11139537, 0, -1190795)
+	connection_positions[2]: (-11980259, 0, -145866)
+	connection_positions[3]: (-12444998, 0, -52867)
+	connection_positions[4]: (-12491153, 0, -48796)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: (0.000000, 0.000000, 1.000000)
+	connection_directions[1]: (-0.537938, 0.000000, 0.842985)
+	connection_directions[2]: (-0.676484, -0.000000, 0.736458)
+	connection_directions[3]: (-0.997353, -0.000000, -0.072707)
+	connection_directions[4]: (-0.338738, 0.000000, -0.940881)
+}
+}

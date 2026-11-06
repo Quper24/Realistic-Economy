@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.kopi.anadyr {
+	price: 7
+	time: 41
+	distance: 10
+}
+}
+

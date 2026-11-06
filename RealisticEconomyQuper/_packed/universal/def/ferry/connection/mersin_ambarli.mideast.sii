@@ -1,0 +1,47 @@
+SiiNunit
+{
+ferry_connection : conn.mersin.ambarli{
+	price: 319
+	time: 3151
+	distance: 1565
+
+	# NODE POSITIONS ########   x*256  , 0,  z*256
+	connection_positions[0]: (27046474, 0, 16805584)
+	connection_positions[1]: (27045497, 0, 16846242)
+	connection_positions[2]: (27211528, 0, 17014608)
+	connection_positions[3]: (27255756, 0, 17079405)
+	connection_positions[4]: (26674013, 0, 18141986)
+	connection_positions[5]: (19363130, 0, 20565130)
+	connection_positions[6]: (18917454, 0, 19981484)
+	connection_positions[7]: (17020360, 0, 18649316)
+	connection_positions[8]: (16242165, 0, 17324924)
+	connection_positions[9]: (16394277, 0, 14509840)
+	connection_positions[10]: (17076272, 0, 14130541)
+	connection_positions[11]: (17100512, 0, 13984987)
+	connection_positions[12]: (17363212, 0, 13602830)
+	connection_positions[13]: (17486464, 0, 13529711)
+	connection_positions[14]: (18245608, 0, 12864931)
+	connection_positions[15]: (18976832, 0, 12673234)
+	connection_positions[16]: (19000878, 0, 12587360)
+
+	# NODE ROTATIONS #######   -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: (-0.712026, -0.000000, 0.702153)
+	connection_directions[1]: (0.702153, -0.000000, 0.712026)
+	connection_directions[2]: (0.702153, -0.000000, 0.712026)
+	connection_directions[3]: (0.048990, 0.000000, 0.998799)
+	connection_directions[4]: (-0.768073, -0.000000, 0.640362)
+	connection_directions[5]: (-0.969298, -0.000000, -0.245890)
+	connection_directions[6]: (-0.721087, -0.000000, -0.692845)
+	connection_directions[7]: (-0.677909, -0.000000, -0.735147)
+	connection_directions[8]: (-0.236372, -0.000000, -0.971663)
+	connection_directions[9]: (0.530007, -0.000000, -0.847994)
+	connection_directions[10]: (0.754560, -0.000000, -0.656231)
+	connection_directions[11]: (0.647255, -0.000000, -0.762273)
+	connection_directions[12]: (0.498719, -0.000000, -0.866764)
+	connection_directions[13]: (0.900748, -0.000000, -0.434342)
+	connection_directions[14]: (0.722030, -0.000000, -0.691862)
+	connection_directions[15]: (0.975181, -0.000000, -0.221411)
+	connection_directions[16]: (-0.573576, -0.000000, -0.819152)
+}
+}
+

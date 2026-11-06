@@ -1,0 +1,25 @@
+SiiNunit
+{
+ferry_connection : conn.hirtshals.kristiansand {
+	price: 32
+	time: 311
+	distance: 145
+
+	# NODE POSITIONS #######    x*256 , 0,   z*256
+	connection_positions[0]: (  511388, 0, -10051380)
+	connection_positions[1]: (  495928, 0, -10077388)
+	connection_positions[2]: (  477660, 0, -10134196)
+	connection_positions[3]: (  454620, 0, -10152780)
+	connection_positions[4]: (-1284290, 0, -10943206)
+	connection_positions[5]: (-1304628, 0, -10963636)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: ( 0,       0, -1      )
+	connection_directions[1]: (-0.25882, 0, -0.96593)
+	connection_directions[2]: (-0.25882, 0, -0.96593)
+	connection_directions[3]: (-0.90631, 0, -0.42262)
+	connection_directions[4]: (-0.90631, 0, -0.42262)
+	connection_directions[5]: (-0.08716, 0, -0.99619)
+}
+}
+

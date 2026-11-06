@@ -1,0 +1,10 @@
+SiiNunit
+{
+ferry_connection : conn.sokhum_abh.samsun {
+	price: 118
+	time: 1169
+	distance: 574
+	
+}
+}
+

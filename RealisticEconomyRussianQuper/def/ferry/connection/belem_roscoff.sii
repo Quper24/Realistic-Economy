@@ -1,0 +1,11 @@
+SiiNunit
+{
+ferry_connection: conn.belem.roscoff
+{
+	price: 602
+	time: 6021
+	distance: 3000
+
+}
+}
+

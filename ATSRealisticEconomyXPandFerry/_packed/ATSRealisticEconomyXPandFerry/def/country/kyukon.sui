@@ -1,0 +1,38 @@
+
+country_data : country.data.kyukon
+{
+	country_id: 217
+
+	name: "Yukon"
+	name_localized: "@@Yukon@@"
+	country_code: "YT"
+	iso_country_code: canyt
+
+	pos: (-109000, 0, -168000)
+
+	fuel_price: 1.911505	# 1 US gallon = 3.78541178 liter Whitehorse
+	petrol_price: 1.415746
+
+	lights_mandatory: true
+	imperial_units: false
+	driving_tired_offence: true
+
+	time_zone: -420		# -5 hours in minutes
+	time_zone_name: "@@tz_mst@@"
+
+	mass_limit_per_axle_count[]: 18143.7# 40000 lb# 2-axle vehicle
+	mass_limit_per_axle_count[]: 19595.2# 43200 lb# 2-axle vehicle 21600
+	mass_limit_per_axle_count[]: 27215.6# 60000 lb
+	mass_limit_per_axle_count[]: 29392.8# 64800 lb
+	mass_limit_per_axle_count[]: 36287.4# 80000 lb
+	mass_limit_per_axle_count[]: 39490.4# 86400 lb
+	mass_limit_per_axle_count[]: 45359.3# 100000 lb
+	mass_limit_per_axle_count[]: 47854.0# 105500 lb
+	mass_limit_per_axle_count[]: 50076.6# 110400 lb
+	mass_limit_per_axle_count[]: 52390.0# 115500 lb
+	mass_limit_per_axle_count[]: 53070.4# 117000 lb
+	mass_limit_per_axle_count[]: 54431.1# 120000 lb
+	mass_limit_per_axle_count[]: 58513.5# 129000 lb
+	mass_limit_per_axle_count[]: 58967.0# 130000 lb
+	mass_limit_per_axle_count[]: 59447.9# 131060 lb
+}

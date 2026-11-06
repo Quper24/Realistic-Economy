@@ -1,0 +1,26 @@
+SiiNunit
+{
+	mod_package : .package_name
+	{
+
+		# Package version can be any string with any length.
+		package_version: "1.62.0"
+
+		# Display name can be any string with any length.
+
+		# Author can be any string with any length.
+		author: "Quper"
+
+
+		# Categories is an array of strings.
+		category[]: "ui"
+		category[]: "other"
+
+		# Icon inside the root directory of the mod.
+		icon: "image.jpg"
+
+		# Description file inside the root directory of the mod.
+		description_file: "description.txt"
+
+	}
+}

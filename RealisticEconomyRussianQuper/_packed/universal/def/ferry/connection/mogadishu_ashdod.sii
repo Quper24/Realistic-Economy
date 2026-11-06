@@ -1,0 +1,25 @@
+SiiNunit
+{
+ferry_connection : conn.mogadishu.ashdod {
+	price: 704
+	time: 7021
+	distance: 3500
+
+    # NODE POSITIONS #######    x*256 , 0,   z*256
+    connection_positions[0]: (26154240, 0, 24320512)
+    connection_positions[1]: (29031168, 0, 30429376)
+    connection_positions[2]: (37851648, 0, 37407232)
+    connection_positions[3]: ( 53044224, 0, 49417728)
+    connection_positions[4]: ( 66423808, 0, 42242816)
+    connection_positions[5]: ( 64951808, 0, 68318976)
+
+    # NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+    connection_directions[0]: ( 0.17365, 0,  0.98481)
+    connection_directions[1]: ( 0.90631, 0,  0.42262)
+    connection_directions[2]: ( 0.60631, 0,  0.42262)
+    connection_directions[3]: ( 0.98593, 0,  0.56882)
+    connection_directions[4]: ( 0.46593, 0,  0.24882)
+    connection_directions[5]: ( -0.5, 0,  0.54882)
+}
+}
+

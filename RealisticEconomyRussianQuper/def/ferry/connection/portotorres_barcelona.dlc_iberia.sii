@@ -1,0 +1,26 @@
+SiiNunit
+{
+ferry_connection : conn.portotorres.barcelona {
+	price: 119
+	time: 1177
+	distance: 578
+
+	# NODE POSITIONS #######    x*256 , 0,   z*256
+	connection_positions[0]: (-3115264, 0, 13945754)
+	connection_positions[1]: (-3073152, 0, 13926708)
+	connection_positions[2]: (-3074048, 0, 13303654)
+	connection_positions[3]: (-9427098, 0, 12445158)
+	connection_positions[4]: (-9468314, 0, 12426726)
+	connection_positions[5]: (-9471412, 0, 12361396)
+	connection_positions[6]: (-9477504, 0, 12331648)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: ( 0.96593, 0, -0.25882)
+	connection_directions[1]: ( 0.5,     0, -0.86603)
+	connection_directions[2]: (-0.98481, 0, -0.17365)
+	connection_directions[3]: (-0.99144, 0, -0.13053)
+	connection_directions[4]: (-0.70711, 0, -0.70711)
+	connection_directions[5]: ( 0.25882, 0, -0.96593)
+	connection_directions[6]: (-0.5,     0, -0.86603)
+}
+}

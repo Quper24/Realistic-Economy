@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.yakutsk.mezen {
+	price: 16
+	time: 141
+	distance: 60
+}
+}
+

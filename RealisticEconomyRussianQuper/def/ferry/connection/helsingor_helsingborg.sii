@@ -1,0 +1,8 @@
+SiiNunit
+{
+ferry_connection : conn.helsingor.helsingborg {
+    price: 5
+    time: 29
+    distance: 4
+}
+}

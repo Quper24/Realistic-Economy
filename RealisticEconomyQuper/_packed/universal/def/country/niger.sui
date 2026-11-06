@@ -1,0 +1,25 @@
+
+country_data : country.data.niger
+{
+	country_id: 129
+
+	name: "Niger"
+	name_localized: "@@Niger@@"
+	country_code: "NE"
+	iso_country_code: ner
+
+	pos: (-42574, 0, 214612)
+
+	fuel_price: 0.942
+
+	lights_mandatory: false
+	driving_tired_offence: true
+
+	time_zone: 60		# +1 hours in minutes
+	time_zone_name: "@@tz_bst@@"
+
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 36000
+	mass_limit_per_axle_count[]: 44000
+}

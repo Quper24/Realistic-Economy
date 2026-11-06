@@ -1,0 +1,17 @@
+SiiNunit
+{
+ferry_connection : conn.heltermaa.rohukula{
+	price: 10
+	time: 65
+	distance: 22
+
+	# NODE POSITIONS #######    x*256 , 0,   z*256
+	connection_positions[0]: (10284160, 0, -12079002)
+	connection_positions[1]: (10372352, 0, -12137832)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: ( 0.98481, 0,  0.17365)
+	connection_directions[1]: ( 1,       0,  0      )
+}
+}
+

@@ -1,0 +1,17 @@
+SiiNunit
+{
+ferry_connection : conn.mariehamn.kapellskar{
+	price: 17
+	time: 151
+	distance: 65
+
+	# NODE POSITIONS #######    x*256 , 0,   z*256
+	connection_positions[0]:  (7743052, 0, -13384806)
+	connection_positions[1]:  (7338240, 0, -13173684)
+
+	# NODE ROTATIONS #######   -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]:  ( 0.17365, 0,  0.98481)
+	connection_directions[1]:  (-0.96593, 0, -0.25882)
+}
+}
+

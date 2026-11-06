@@ -1,0 +1,8 @@
+SiiNunit
+{
+ferry_connection : conn.lavik.oppedal{
+	price: 5
+	time: 33
+	distance: 6
+}
+}

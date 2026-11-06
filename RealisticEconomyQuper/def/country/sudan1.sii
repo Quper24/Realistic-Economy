@@ -1,0 +1,21 @@
+
+country_data : country.data.sudan1
+{
+	country_id: 239
+	
+	name: "Sūdān"
+	name_localized: "@@Sudan@@"
+	country_code: "SUD"
+	iso_country_code: sdn
+	
+	pos:(120000, 0, 185000)
+	
+	fuel_price: 0.576
+	
+	lights_mandatory: false
+	leftside_traffic: false
+	driving_tired_offence: true
+
+	time_zone: 120		# +2 hours in minutes
+	time_zone_name: "@@tz_eest@@"
+}

@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.portmeli.iliffe {
+	price: 5
+	time: 49
+	distance: 14
+}
+}
+

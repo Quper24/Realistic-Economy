@@ -1,0 +1,35 @@
+SiiNunit
+{
+ferry_connection : conn.rostock.trelleborg {
+	price: 38
+	time: 381
+	distance: 180
+
+	# NODE POSITIONS #######    x*256 , 0,   z*256
+	connection_positions[0]:  (1565254, 0, -5218612)
+	connection_positions[1]:  (1546916, 0, -5201332)
+	connection_positions[2]:  (1526682, 0, -5222016)
+	connection_positions[3]:  (1536326, 0, -5330920)
+	connection_positions[4]:  (2806298, 0, -6562458)
+	connection_positions[5]:  (2804172, 0, -6615270)
+	connection_positions[6]:  (2799028, 0, -6621492)
+	connection_positions[7]:  (2796570, 0, -6612276)
+	connection_positions[8]:  (2785254, 0, -6609076)
+	connection_positions[9]:  (2767820, 0, -6612966)
+	connection_positions[10]: (2758170, 0, -6609588)
+
+	# NODE ROTATIONS #######   -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]:  (-0.08716, 0,  0.99619)
+	connection_directions[1]:  (-0.99619, 0, -0.08716)
+	connection_directions[2]:  (-0.08716, 0, -0.99619)
+	connection_directions[3]:  ( 0.81915, 0, -0.57358)
+	connection_directions[4]:  ( 0,       0, -1      )
+	connection_directions[5]:  (-0.08716, 0, -0.99619)
+	connection_directions[6]:  (-0.96593, 0,  0.25882)
+	connection_directions[7]:  ( 0,       0,  1      )
+	connection_directions[8]:  (-0.86603, 0, -0.5    )
+	connection_directions[9]:  (-0.99619, 0, -0.08716)
+	connection_directions[10]: (-0.96593, 0, -0.25882)
+}
+}
+

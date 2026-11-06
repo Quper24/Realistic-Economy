@@ -1,0 +1,18 @@
+SiiNunit
+{
+ferry_connection : conn.homer.petersbg {
+	price: 41
+	time: 1220
+	distance: 300
+	
+	connection_positions[0]: (-32044800, 0, -35449600) # POS1: -125175 POS2: -138475
+	connection_positions[1]: (-30528000, 0, -34784000) # POS1: -119250 POS2: -135875
+	connection_positions[2]: (-31065600, 0, -33171200) # POS1: -121350 POS2: -129575
+	
+	connection_directions[0]: ( 1.0, 0.0, -0.7)
+	connection_directions[1]: ( -0.0, 0.0, 0.5)
+	connection_directions[2]: ( -0.5, 0.0, 0.9)
+	
+}
+}
+

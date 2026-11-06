@@ -1,0 +1,44 @@
+SiiNunit
+{
+ferry_connection : conn.tunnel_c.tunnel_d {
+	price: 14
+	time: 141
+	distance: 60
+
+	# NODE POSITIONS #######     x*256 , 0,   z*256
+#	Calais Nodes
+	connection_positions[0]: (-7967873, 0, -384994)
+	connection_positions[1]: (-7986931, 0, -332717)
+	connection_positions[2]: (-8086615, 0, -319973)
+	connection_positions[3]: (-8309054, 0, -314912)
+
+#	Folkestone Nodes
+	connection_positions[4]:  (-8590260, 0, -1818366)
+	connection_positions[5]:  (-8698344, 0, -1985496)
+	connection_positions[6]:  (-8722228, 0, -1980402)
+	connection_positions[7]:  (-9099982, 0, -1929490)
+	connection_positions[8]:  (-9165416, 0, -2012532)
+	connection_positions[9]:  (-9078912, 0, -2118690)
+	connection_positions[10]:  (-9002164, 0, -2113312)
+	connection_positions[11]: (-8954958, 0, -2065984)
+	connection_positions[12]: (-8898126, 0, -2006270)
+
+	# NODE ROTATIONS #######   -sin(jaw), 0, -cos(jaw)
+# 	Calais Node
+	connection_directions[0]: (0.209324, -0.000007, 0.977847)
+	connection_directions[1]: (-0.767760, -0.000137, 0.640738)
+	connection_directions[2]: (-0.999673, 0.000000, 0.025563)
+	connection_directions[3]: (-0.999673, 0.000000, 0.025563)
+
+#	Folkestone Node
+	connection_directions[4]:  (-0.25882, 0, -0.96593)
+	connection_directions[5]:  (-0.86603, 0,     -0.5)
+	connection_directions[6]:  (-0.86603, 0,      0.5)
+	connection_directions[7]:  (-0.99619, 0, -0.08716)
+	connection_directions[8]:  ( 0.08716, 0, -0.99619)
+	connection_directions[9]:  ( 0.96593, 0, -0.25882)
+	connection_directions[10]:  ( 0.86603, 0,      0.5)
+	connection_directions[11]: (     0.5, 0,  0.86603)
+	connection_directions[12]: ( 0.99619, 0,  0.08716)
+}
+}

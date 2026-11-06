@@ -1,0 +1,8 @@
+SiiNunit
+{
+ferry_connection : conn.dili.mersing {
+	price: 542
+	time: 5421
+	distance: 2700
+}
+}

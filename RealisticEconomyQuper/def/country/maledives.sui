@@ -1,0 +1,27 @@
+
+country_data : country.data.maledives
+{
+	country_id: 70
+
+	name: "Male"
+	name_localized: "@@Maldives@@"
+	country_code: "MV"
+	iso_country_code: mdv
+
+	pos: (433692, 0, 105000)
+
+	fuel_price: 0.8
+
+	lights_mandatory: false
+	imperial_units: true
+	leftside_traffic: true
+	trailer_standalone: false
+	driving_tired_offence: true
+
+	time_zone: 180		# +3 hours in minutes
+	time_zone_name: "@@tz_msk@@"
+
+}
+
+
+

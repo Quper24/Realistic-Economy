@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.devonoport.klang {
+
+	price: 1504
+	time: 15021
+	distance: 7500
+}
+}

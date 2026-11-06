@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.ronne.trelleborg{
+	price: 25
+	time: 211
+	distance: 95
+}
+}
+

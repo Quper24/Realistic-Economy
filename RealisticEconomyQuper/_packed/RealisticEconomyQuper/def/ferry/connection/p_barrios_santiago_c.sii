@@ -1,0 +1,16 @@
+SiiNunit
+{
+ferry_connection : conn.p_barrios.santiago_c{
+	price: 160
+	time: 1571
+	distance: 775
+
+	# NODE POSITIONS #######    x*256 , 0,   z*256
+	connection_positions[0]: (-116164864, 0, -47642112)
+	connection_positions[1]: (-107620608, 0, -32642816)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: (0.4925, 0, 0.8703)
+	connection_directions[1]: (0.4925, 0, 0.8703)
+}
+}

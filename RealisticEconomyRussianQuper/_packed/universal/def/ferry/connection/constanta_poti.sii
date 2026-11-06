@@ -1,0 +1,10 @@
+SiiNunit
+{
+ferry_connection : conn.constanta.poti{
+	price: 212
+	time: 2121
+	distance: 1050
+
+}
+}
+

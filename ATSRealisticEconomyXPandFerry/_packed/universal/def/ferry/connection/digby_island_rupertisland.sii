@@ -1,0 +1,23 @@
+SiiNunit
+{
+ferry_connection : conn.digby_island.rupertisland {
+	price: 2
+	time: 60
+	distance: 10
+
+	# NODE POSITIONS #######    x*256 , 0,   z*256
+	connection_positions[0]: (-29483766, 0, -28671553)
+	connection_positions[1]: (-29212015, 0, -28669554)
+	connection_positions[2]: (-29159816, 0, -28510302)
+	connection_positions[3]: (-29324616, 0, -28260744)
+
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: (0.562578, -0.000000, -0.826745)
+	connection_directions[1]: (0.807612, -0.000000, 0.589715)
+	connection_directions[2]: (-0.133048, -0.000000, 0.991109)
+	connection_directions[3]: (-0.437953, -0.000000, 0.898998)
+
+}
+}
+

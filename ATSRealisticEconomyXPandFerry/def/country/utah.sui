@@ -1,0 +1,31 @@
+
+country_data : country.data.utah
+{
+	country_id: 44
+
+	name: "Utah"
+	name_localized: "@@utah@@"
+	country_code: "UT"
+	iso_country_code: usut
+
+	pos: (-67000, 0, -9000)
+
+	fuel_price: 1.693713	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.226498
+
+	lights_mandatory: false
+	imperial_units: true
+	driving_tired_offence: true
+
+	time_zone: -360		# -6 hours in minutes verão
+	# time_zone: -420		# -7 hours in minutes inverno
+	time_zone_name: "@@tz_mdt@@"	# verão
+	# time_zone_name: "@@tz_mst@@"	# inverno
+
+	mass_limit_per_axle_count[]: 18143.7	# 40000 lb	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 27215.6	# 60000 lb
+	mass_limit_per_axle_count[]: 36287.4	# 80000 lb
+	mass_limit_per_axle_count[]: 45359.3	# 100000 lb
+	mass_limit_per_axle_count[]: 54431.1	# 120000 lb
+	mass_limit_per_axle_count[]: 58513.5	# 129000 lb
+}

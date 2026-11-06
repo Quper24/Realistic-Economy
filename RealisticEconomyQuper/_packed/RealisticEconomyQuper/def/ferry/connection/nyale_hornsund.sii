@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.nyale.hornsund {
+	price: 67
+	time: 655
+	distance: 317
+}
+}
+

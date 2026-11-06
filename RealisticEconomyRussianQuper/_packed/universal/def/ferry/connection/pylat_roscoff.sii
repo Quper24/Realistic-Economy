@@ -1,0 +1,10 @@
+SiiNunit
+{
+ferry_connection : conn.pylat.roscoff {
+	price: 131
+	time: 1311
+	distance: 645
+
+}
+}
+

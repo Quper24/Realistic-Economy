@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.portoferraio.livorno {
+	price: 23
+	time: 221
+	distance: 100
+}
+}
+

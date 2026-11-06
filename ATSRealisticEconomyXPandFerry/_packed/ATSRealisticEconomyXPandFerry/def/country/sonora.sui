@@ -1,0 +1,29 @@
+
+country_data : country.data.sonora
+{
+	country_id: 101	
+
+	name: "Sonora"
+	name_localized: "@@Sonora@@"
+	country_code: "SO"
+	iso_country_code: mex
+
+	pos:(-71000, 0, 47000)
+
+	fuel_price: 1.439059	# 1 US gallon = 3.78541178 liter
+	petrol_price: 1.244521
+
+	lights_mandatory: false
+	imperial_units: false	
+	driving_tired_offence: true
+
+	time_zone: -420		# -7 hours in minutes
+	time_zone_name: "@@tz_mst@@"
+
+	mass_limit_per_axle_count[]: 18143.7	# 40000 lb	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 27215.6	# 60000 lb
+	mass_limit_per_axle_count[]: 36287.4	# 80000 lb
+	mass_limit_per_axle_count[]: 45359.3	# 100000 lb
+	mass_limit_per_axle_count[]: 54431.1	# 120000 lb
+	mass_limit_per_axle_count[]: 58513.5	# 129000 lb
+}

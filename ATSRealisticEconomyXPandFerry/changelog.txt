@@ -1,0 +1,79 @@
+v 1.1.1
+ENG
+Skill Distance Levels:
+
+Level 0: 403 km ≈ 250 miles
+Level 1: 644 km ≈ 400 miles
+Level 2: 966 km ≈ 600 miles
+Level 3: 1449 km ≈ 900 miles
+Level 4: 2093 km ≈ 1300 miles
+Level 5: 3219 km ≈ 2000 miles
+Bonuses:
+
+Updated bonuses for long-distance deliveries, valuable and fragile cargo, and urgent deliveries:
+Increased bonus values at higher levels (e.g., 0.05 → 0.08 for level 6).
+With a fully upgraded skill, you receive a +25% bonus.
+Experience for Tasks:
+
+Experience for perfect deliveries reduced to 10%.
+Experience bonuses for special cargo:
+ADR Cargo: increased to 30%.
+Important Orders: increased to 50%.
+Urgent Orders: increased to 40%.
+Fragile Orders: increased to 30%.
+Long-Distance Orders: increased to 30%.
+Valuable Cargo: increased to 40%.
+Recalculated Parking Rewards:
+
+Easy Parking: from 10 to 25.
+Medium Parking: from 30 to 50.
+Hard Parking: from 60 to 100.
+Double Trailer Parking Bonuses Increased:
+
+Easy: from 15 to 35.
+Medium: from 50 to 75.
+Hard: from 100 to 150.
+Other Changes:
+
+Starting account balance (money_account): $0.
+Trailer unlock level reduced from 10 to 1, allowing quicker access to this feature.
+These changes significantly increase bonuses for more difficult or valuable deliveries, encourage parking, and make the starting conditions more challenging.
+
+RUS
+1. Дальность для уровней навыка (skill_distance)
+Уровень 0: 403 км ≈ 250 миль
+Уровень 1: 644 км ≈ 400 миль
+Уровень 2: 966 км ≈ 600 миль
+Уровень 3: 1449 км ≈ 900 миль
+Уровень 4: 2093 км ≈ 1300 миль
+Уровень 5: 3219 км ≈ 2000 миль
+
+2. Бонусы
+Обновлены бонусы за длинные расстояния, ценные и хрупкие грузы, а также за срочные перевозки:
+Увеличены значения бонусов на более высоких уровнях (например, 0.05 → 0.08 для уровня 6).
+В итоге за полностью прокаченный навык вы получаете +25%
+
+3. Опыт за задачи
+Опыт за идеальную доставку снижен до 10%
+Бонусы опыта за особые грузы:
+ADR-грузы: увеличен до 30%
+Важные заказы: увеличен до 50%
+Срочные заказы: увеличен до 40%
+Хрупкие заказы: увеличен до 30%
+Дальние заказы: увеличен до 30%
+Ценные грузы: увеличен до 40%
+
+4. Пересчитаны награды за парковку:
+Легкая парковка: с 10 до 25.
+Средняя парковка: с 30 до 50.
+Сложная парковка: с 60 до 100.
+
+Бонусы за парковку двойного прицепа увеличены:
+Легкая: с 15 до 35.
+Средняя: с 50 до 75.
+Сложная: с 100 до 150.
+
+5. Другие изменения
+Начальное количество денег на аккаунте (money_account): 0$
+Уровень разблокировки прицепов снижен с 10 до 1, что позволяет быстрее получать доступ к этой функции.
+Эти изменения заметно увеличивают бонусы за более сложные или ценные заказы, поощряют парковку, а также делают стартовые условия более сложными.

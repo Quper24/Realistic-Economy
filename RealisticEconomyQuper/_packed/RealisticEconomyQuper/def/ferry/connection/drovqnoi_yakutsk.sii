@@ -1,0 +1,19 @@
+SiiNunit
+{
+ferry_connection : conn.drovqnoi.yakutsk{
+	price: 700
+	time: 6981
+	distance: 3480
+
+	# NODE POSITIONS #######    x*256 , 0,   z*256
+	connection_positions[0]: (28274688, 0, -57803520)
+	connection_positions[1]: (39610368, 0, -65308160)
+	connection_positions[2]: (49563648, 0, -63242240)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: (0.13383, 0, -0.85202)
+	connection_directions[1]: (0.97913, 0, 0.20323)
+	connection_directions[2]: (0.97913, 0, -0.20323)
+}
+}
+

@@ -1,0 +1,24 @@
+SiiNunit
+{
+ferry_connection : conn.liepaja.travemunde {
+	price: 149
+	time: 1481
+	distance: 730
+
+	# NODE POSITIONS #######   x*256 , 0,   z*256
+	connection_positions[0]: (8996404, 0, -8526260)
+	connection_positions[1]: (8897434, 0, -8503962)
+	connection_positions[2]: (3965798, 0, -6743962)
+	connection_positions[3]: (3424384, 0, -6204748)
+	connection_positions[4]: (919094, 0,  -4977384)
+	connection_positions[5]: (767066, 0,  -4895054)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: (-0.90631, 0,  0.42262)
+	connection_directions[1]: (-0.93969, 0,  0.34202)
+	connection_directions[2]: (-0.93969, 0,  0.34202)
+	connection_directions[3]: (-0.81915, 0,  0.57358)
+	connection_directions[4]: (-0.76604, 0,  0.64279)
+	connection_directions[5]: (-0.5,     0,  0.86603)
+}
+}

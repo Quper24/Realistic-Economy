@@ -1,0 +1,10 @@
+SiiNunit
+{
+ferry_connection : conn.komso.moskalvo{
+	price: 134
+	time: 1321
+	distance: 650
+}
+
+}
+

@@ -1,0 +1,31 @@
+SiiNunit
+{
+ferry_connection : conn.rosslare.fishguard{
+	price: 23
+	time: 233
+	distance: 106
+
+	# NODE POSITIONS #######    x*256  , 0,   z*256
+	connection_positions[0]: (-17026842, 0, -6262938)
+	connection_positions[1]: (-17030478, 0, -6274228)
+	connection_positions[2]: (-17016704, 0, -6283776)
+	connection_positions[3]: (-16994688, 0, -6277504)
+	connection_positions[4]: (-16987290, 0, -6283930)
+	connection_positions[5]: (-16906112, 0, -6334158)
+	connection_positions[6]: (-15531802, 0, -5489868)
+	connection_positions[7]: (-15558836, 0, -5455590)
+	connection_positions[8]: (-15608474, 0, -5433856)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: (-0.70711, 0, -0.70711)
+	connection_directions[1]: ( 0.08716, 0, -0.99619)
+	connection_directions[2]: ( 0.99619, 0,  0.08716)
+	connection_directions[3]: ( 0.99619, 0,  0.08716)
+	connection_directions[4]: ( 0.17365, 0, -0.98481)
+	connection_directions[5]: ( 0.86603, 0,  0.5    )
+	connection_directions[6]: ( 0.86603, 0,  0.5    )
+	connection_directions[7]: (-0.86603, 0, -0.5    )
+	connection_directions[8]: (-0.57358, 0,  0.81915)
+}
+}
+

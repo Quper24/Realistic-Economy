@@ -1,0 +1,25 @@
+SiiNunit
+{
+ferry_connection : conn.piraeus.moroni_km {
+	price: 1174
+	time: 11717
+	distance: 5848
+
+    connection_positions[0]: ( 14731983, 0, 18282969)
+    connection_positions[1]: ( 26419200, 0, 24320000)
+    connection_positions[2]: ( 27699200, 0, 29004800)
+    connection_positions[3]: ( 37851648, 0, 37407232)
+    connection_positions[4]: ( 53044224, 0, 49417728)
+    connection_positions[5]: ( 66423808, 0, 42242816)
+    connection_positions[6]: ( 64951808, 0, 68318976)
+
+    connection_directions[0]: ( -0.26543, 0, 0.945182)
+    connection_directions[1]: ( 0.138151, 0, 0.9147)
+    connection_directions[2]: ( 1, 0, 1)
+    connection_directions[3]: ( 0.60631, 0, 0.42262)
+    connection_directions[4]: ( 0.98593, 0, 0.56882)
+    connection_directions[5]: ( 0.46593, 0, 0.24882)
+    connection_directions[6]: ( -0.5, 0, 0.54882)
+
+}
+}

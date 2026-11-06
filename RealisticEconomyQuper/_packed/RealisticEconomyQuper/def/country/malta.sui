@@ -1,0 +1,26 @@
+country_data : country.data.malta
+{
+	country_id: 31
+
+	name: "Malta"
+	name_localized: "@@malta@@"
+	country_code: "M"
+	iso_country_code: mlt
+
+	pos: (14020, 0, 83100)
+
+	fuel_price: 1.21
+
+	lights_mandatory: false
+	imperial_units: false
+	leftside_traffic: true
+	driving_tired_offence: true
+
+	time_zone: 120		# +2 hours in minutes
+	time_zone_name: "@@tz_cest@@"
+
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 40000
+	mass_limit_per_axle_count[]: 44000
+}

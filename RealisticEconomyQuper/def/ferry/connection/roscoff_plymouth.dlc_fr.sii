@@ -1,0 +1,23 @@
+SiiNunit
+{
+ferry_connection : conn.roscoff.plymouth {
+	price: 43
+	time: 413
+	distance: 196
+
+	# NODE POSITIONS #######    x*256  , 0,   z*256
+	connection_positions[0]: (-13654246, 0,   749560)
+	connection_positions[1]: (-13638502, 0,   743642)
+	connection_positions[2]: (-13641984, 0,   719272)
+	connection_positions[3]: (-15798554, 0, -1638408)
+	connection_positions[4]: (-15806004, 0, -1662014)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: ( 0.96593, 0,  0.25882)
+	connection_directions[1]: ( 0.5,     0, -0.86603)
+	connection_directions[2]: (-0.64279, 0, -0.76604)
+	connection_directions[3]: (-0.64279, 0, -0.76604)
+	connection_directions[4]: ( 0,       0, -1      )
+}
+}
+

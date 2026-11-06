@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.tripoli.pozzallo{
+	price: 95
+	time: 931
+	distance: 455
+}
+}
+

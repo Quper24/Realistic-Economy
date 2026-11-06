@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.tunnel_db.tunnel_c {
+	price: 574
+	time: 5725
+	distance: 2852
+}
+}
+

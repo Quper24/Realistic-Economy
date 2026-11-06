@@ -1,0 +1,19 @@
+SiiNunit
+{
+ferry_connection : conn.latakia.larnaka1{
+	price: 49
+	time: 461
+	distance: 220
+
+	# NODE POSITIONS ########   x*256  , 0,  z*256
+	connection_positions[0]:  (28745472, 0, 18170982)
+	connection_positions[1]:  (28702720, 0, 18172440)
+	connection_positions[2]:  (26536960, 0, 19646618)
+
+	# NODE ROTATIONS #######   -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]:  (-0.86603, 0,  0.5    )
+	connection_directions[1]:  (-0.86603, 0,  0.5    )
+	connection_directions[2]:  (-1,       0,  0      )
+}
+}
+

@@ -1,0 +1,24 @@
+
+country_data : country.data.indiana
+{
+	country_id: 15
+
+	name: "Indiana"
+	name_localized: "@@Indiana@@"
+	country_code: "IN"
+	iso_country_code: usin
+
+	pos:(42000, 0, -8800)
+
+	fuel_price: 1.802684	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.050137
+
+	lights_mandatory: false
+	imperial_units: true
+	driving_tired_offence: true
+
+	time_zone: -240		# -4 hours in minutes verão
+	# time_zone: -300		# -5 hours in minutes inverno
+	time_zone_name: "EDT"	# verão
+	# time_zone_name: "EST"	# inverno
+}

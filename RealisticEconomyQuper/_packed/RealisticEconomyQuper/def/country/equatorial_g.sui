@@ -1,0 +1,24 @@
+
+country_data : country.data.equatorial_g
+{
+	country_id: 109
+
+	name: "Equatorial Guinea"
+	name_localized: "@@Equatorial Guinea@@"
+	country_code: "GQ"
+	iso_country_code: gnq
+
+	pos: (-34232.91, 9.55 , 291535.19)
+
+	fuel_price: 0.75
+
+	lights_mandatory: true
+	driving_tired_offence: true
+
+	time_zone: 60		# +1 hours in minutes
+	time_zone_name: "@@tz_bst@@"
+	
+	mass_limit_per_axle_count[]: 16000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 22000
+	mass_limit_per_axle_count[]: 38000
+}

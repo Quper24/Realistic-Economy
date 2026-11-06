@@ -1,0 +1,10 @@
+SiiNunit
+{
+ferry_connection : conn.mitilini.izmir {
+	price: 25 # approx based on rhodes/athens
+	time: 221
+	distance: 100
+
+
+}
+}

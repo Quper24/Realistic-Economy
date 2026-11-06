@@ -1,0 +1,10 @@
+SiiNunit
+{
+ferry_connection : conn.istanbul.sokhum_abh{
+	price: 290
+	time: 2881
+	distance: 1430
+	
+}
+}
+

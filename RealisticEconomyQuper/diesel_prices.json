@@ -1,0 +1,1340 @@
+[
+  {
+    "name": "Afghanistan",
+    "name_en": "Afghanistan",
+    "price": 1.078,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Albania",
+    "name_en": "Albania",
+    "price": 2.35,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Algeria",
+    "name_en": "Algeria",
+    "price": 0.2,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Algerie",
+    "name_en": "Algerie",
+    "price": 0.205,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Andorra",
+    "name_en": "Andorra",
+    "price": 1.714,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Angola",
+    "name_en": "Angola",
+    "price": 0.408,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Argentina",
+    "name_en": "Argentina",
+    "price": 1.438,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Armenia",
+    "name_en": "Armenia",
+    "price": 1.748,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Aruba",
+    "name_en": "Aruba",
+    "price": 1.668,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Aserbajdsjan",
+    "name_en": "Aserbajdsjan",
+    "price": 0.576,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Australia",
+    "name_en": "Australia",
+    "price": 1.639,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Austria",
+    "name_en": "Austria",
+    "price": 1.83,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Azerbaijan",
+    "name_en": "Azerbaijan",
+    "price": 0.556,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Bahamas",
+    "name_en": "Bahamas",
+    "price": 1.501,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Bahrain",
+    "name_en": "Bahrain",
+    "price": 0.54,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Bangladesh",
+    "name_en": "Bangladesh",
+    "price": 0.973,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Barbados",
+    "name_en": "Barbados",
+    "price": 1.681,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Belarus",
+    "name_en": "Belarus",
+    "price": 0.831,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Belgia",
+    "name_en": "Belgia",
+    "price": 2.365,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Belgium",
+    "name_en": "Belgium",
+    "price": 1.967,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Belize",
+    "name_en": "Belize",
+    "price": 1.826,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Benin",
+    "name_en": "Benin",
+    "price": 1.166,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Bhutan",
+    "name_en": "Bhutan",
+    "price": 1.003,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Bolivia",
+    "name_en": "Bolivia",
+    "price": 1.368,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Bosnia & Herz.",
+    "name_en": "Bosnia & Herz.",
+    "price": 1.629,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Bosnia-Hercegovina",
+    "name_en": "Bosnia-Hercegovina",
+    "price": 1.915,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Botswana",
+    "name_en": "Botswana",
+    "price": 1.358,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Brasil",
+    "name_en": "Brasil",
+    "price": 1.201,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Brazil",
+    "name_en": "Brazil",
+    "price": 1.176,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Bulgaria",
+    "name_en": "Bulgaria",
+    "price": 1.894,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Burkina Faso",
+    "name_en": "Burkina Faso",
+    "price": 1.143,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Burma",
+    "name_en": "Burma",
+    "price": 1.263,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Burma (Myanmar)",
+    "name_en": "Burma (Myanmar)",
+    "price": 1.28,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Burundi",
+    "name_en": "Burundi",
+    "price": 1.166,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "C. Afr. Rep.",
+    "name_en": "C. Afr. Rep.",
+    "price": 1.908,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Cambodia",
+    "name_en": "Cambodia",
+    "price": 1.04,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Cameroon",
+    "name_en": "Cameroon",
+    "price": 1.264,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Canada",
+    "name_en": "Canada",
+    "price": 1.698,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Cape Verde",
+    "name_en": "Cape Verde",
+    "price": 1.239,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Cayman Islands",
+    "name_en": "Cayman Islands",
+    "price": 1.702,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Chile",
+    "name_en": "Chile",
+    "price": 1.326,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "China",
+    "name_en": "China",
+    "price": 1.076,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Colombia",
+    "name_en": "Colombia",
+    "price": 0.846,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Costa Rica",
+    "name_en": "Costa Rica",
+    "price": 1.54,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Croatia",
+    "name_en": "Croatia",
+    "price": 1.785,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Cuba",
+    "name_en": "Cuba",
+    "price": 1.78,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Curacao",
+    "name_en": "Curacao",
+    "price": 1.409,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Cyprus",
+    "name_en": "Cyprus",
+    "price": 1.8,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Czech Republic",
+    "name_en": "Czech Republic",
+    "price": 1.681,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Danmark",
+    "name_en": "Danmark",
+    "price": 2.697,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Denmark",
+    "name_en": "Denmark",
+    "price": 2.26,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Dom. Rep.",
+    "name_en": "Dom. Rep.",
+    "price": 1.018,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Dominica",
+    "name_en": "Dominica",
+    "price": 1.431,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Dominikanske Rep.",
+    "name_en": "Dominikanske Rep.",
+    "price": 1.034,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "DR Congo",
+    "name_en": "DR Congo",
+    "price": 0.994,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "DR Kongo",
+    "name_en": "DR Kongo",
+    "price": 1.013,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Ecuador",
+    "name_en": "Ecuador",
+    "price": 0.732,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Egypt",
+    "name_en": "Egypt",
+    "price": 0.335,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "El Salvador",
+    "name_en": "El Salvador",
+    "price": 1.143,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Elfenbenskysten",
+    "name_en": "Elfenbenskysten",
+    "price": 1.105,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Estland",
+    "name_en": "Estland",
+    "price": 2.084,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Estonia",
+    "name_en": "Estonia",
+    "price": 1.777,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Ethiopia",
+    "name_en": "Ethiopia",
+    "price": 0.997,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Fiji",
+    "name_en": "Fiji",
+    "price": 1.347,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Filippinene",
+    "name_en": "Filippinene",
+    "price": 1.289,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Finland",
+    "name_en": "Finland",
+    "price": 2.535,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Forenede Arab. Emir.",
+    "name_en": "Forenede Arab. Emir.",
+    "price": 1.163,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "France",
+    "name_en": "France",
+    "price": 2.045,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Frankrike",
+    "name_en": "Frankrike",
+    "price": 2.346,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Gabon",
+    "name_en": "Gabon",
+    "price": 0.875,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Georgia",
+    "name_en": "Georgia",
+    "price": 1.711,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Germany",
+    "name_en": "Germany",
+    "price": 1.864,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Ghana",
+    "name_en": "Ghana",
+    "price": 1.413,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Greece",
+    "name_en": "Greece",
+    "price": 1.74,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Grenada",
+    "name_en": "Grenada",
+    "price": 1.232,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Guatemala",
+    "name_en": "Guatemala",
+    "price": 1.314,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Guinea",
+    "name_en": "Guinea",
+    "price": 1.214,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Guyana",
+    "name_en": "Guyana",
+    "price": 1.356,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Haiti",
+    "name_en": "Haiti",
+    "price": 1.257,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Hellas",
+    "name_en": "Hellas",
+    "price": 2.126,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Honduras",
+    "name_en": "Honduras",
+    "price": 1.328,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Hong Kong",
+    "name_en": "Hong Kong",
+    "price": 4.29,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Hungary",
+    "name_en": "Hungary",
+    "price": 1.732,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Hviterussland",
+    "name_en": "Hviterussland",
+    "price": 0.813,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Iceland",
+    "name_en": "Iceland",
+    "price": 1.815,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "India",
+    "name_en": "India",
+    "price": 0.921,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Indonesia",
+    "name_en": "Indonesia",
+    "price": 1.258,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Iran",
+    "name_en": "Iran",
+    "price": 0.005,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Ireland",
+    "name_en": "Ireland",
+    "price": 1.933,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Irland",
+    "name_en": "Irland",
+    "price": 2.164,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Island",
+    "name_en": "Island",
+    "price": 2.384,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Israel",
+    "name_en": "Israel",
+    "price": 2.198,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Italia",
+    "name_en": "Italia",
+    "price": 2.244,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Italy",
+    "name_en": "Italy",
+    "price": 2.007,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Ivory Coast",
+    "name_en": "Ivory Coast",
+    "price": 1.069,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Jamaica",
+    "name_en": "Jamaica",
+    "price": 1.639,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Japan",
+    "name_en": "Japan",
+    "price": 0.898,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Jordan",
+    "name_en": "Jordan",
+    "price": 1.13,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Kambodsja",
+    "name_en": "Kambodsja",
+    "price": 1.214,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Kamerun",
+    "name_en": "Kamerun",
+    "price": 1.261,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Kapp Verde",
+    "name_en": "Kapp Verde",
+    "price": 1.719,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Kasakhstan",
+    "name_en": "Kasakhstan",
+    "price": 0.699,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Kazakhstan",
+    "name_en": "Kazakhstan",
+    "price": 0.59,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Kenya",
+    "name_en": "Kenya",
+    "price": 1.551,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Kina",
+    "name_en": "Kina",
+    "price": 1.105,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Kirgisistan",
+    "name_en": "Kirgisistan",
+    "price": 1.026,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Kroatia",
+    "name_en": "Kroatia",
+    "price": 1.954,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Kuwait",
+    "name_en": "Kuwait",
+    "price": 0.33,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Kypros",
+    "name_en": "Kypros",
+    "price": 2.017,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Kyrgyzstan",
+    "name_en": "Kyrgyzstan",
+    "price": 0.914,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Laos",
+    "name_en": "Laos",
+    "price": 1.455,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Latvia",
+    "name_en": "Latvia",
+    "price": 2.066,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Lebanon",
+    "name_en": "Lebanon",
+    "price": 0.933,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Lesotho",
+    "name_en": "Lesotho",
+    "price": 1.895,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Libanon",
+    "name_en": "Libanon",
+    "price": 1.158,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Liberia",
+    "name_en": "Liberia",
+    "price": 1.396,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Libya",
+    "name_en": "Libya",
+    "price": 0.021,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Liechtenstein",
+    "name_en": "Liechtenstein",
+    "price": 2.601,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Litauen",
+    "name_en": "Litauen",
+    "price": 2.139,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Lithuania",
+    "name_en": "Lithuania",
+    "price": 1.899,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Luxembourg",
+    "name_en": "Luxembourg",
+    "price": 2.038,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Madagascar",
+    "name_en": "Madagascar",
+    "price": 0.998,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Madagaskar",
+    "name_en": "Madagaskar",
+    "price": 0.948,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Malawi",
+    "name_en": "Malawi",
+    "price": 2.995,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Malaysia",
+    "name_en": "Malaysia",
+    "price": 1.127,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Maldivene",
+    "name_en": "Maldivene",
+    "price": 1.01,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Maldives",
+    "name_en": "Maldives",
+    "price": 0.979,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Mali",
+    "name_en": "Mali",
+    "price": 1.433,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Malta",
+    "name_en": "Malta",
+    "price": 1.21,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Marokko",
+    "name_en": "Marokko",
+    "price": 1.444,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Mauritius",
+    "name_en": "Mauritius",
+    "price": 1.475,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Mayotte",
+    "name_en": "Mayotte",
+    "price": 2.04,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Mexico",
+    "name_en": "Mexico",
+    "price": 1.296,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Moldova",
+    "name_en": "Moldova",
+    "price": 1.77,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Monaco",
+    "name_en": "Monaco",
+    "price": 2.402,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Mongolia",
+    "name_en": "Mongolia",
+    "price": 1.611,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Montenegro",
+    "name_en": "Montenegro",
+    "price": 1.97,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Morocco",
+    "name_en": "Morocco",
+    "price": 1.306,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Mosambik",
+    "name_en": "Mosambik",
+    "price": 1.619,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Mozambique",
+    "name_en": "Mozambique",
+    "price": 1.564,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "N. Maced.",
+    "name_en": "N. Maced.",
+    "price": 1.387,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Namibia",
+    "name_en": "Namibia",
+    "price": 1.513,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Nederland",
+    "name_en": "Nederland",
+    "price": 2.48,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Nepal",
+    "name_en": "Nepal",
+    "price": 1.173,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Netherlands",
+    "name_en": "Netherlands",
+    "price": 2.269,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "New Zealand",
+    "name_en": "New Zealand",
+    "price": 1.624,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Nicaragua",
+    "name_en": "Nicaragua",
+    "price": 1.044,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Niger",
+    "name_en": "Niger",
+    "price": 0.942,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Nigeria",
+    "name_en": "Nigeria",
+    "price": 1.197,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Nord Makedonia",
+    "name_en": "Nord Makedonia",
+    "price": 1.604,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Norge",
+    "name_en": "Norge",
+    "price": 2.673,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Norway",
+    "name_en": "Norway",
+    "price": 1.77,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Oman",
+    "name_en": "Oman",
+    "price": 0.597,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Østerrike",
+    "name_en": "Østerrike",
+    "price": 2.132,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Pakistan",
+    "name_en": "Pakistan",
+    "price": 1.252,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Panama",
+    "name_en": "Panama",
+    "price": 1.35,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Paraguay",
+    "name_en": "Paraguay",
+    "price": 1.364,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Peru",
+    "name_en": "Peru",
+    "price": 1.712,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Philippines",
+    "name_en": "Philippines",
+    "price": 1.156,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Poland",
+    "name_en": "Poland",
+    "price": 1.802,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Portugal",
+    "name_en": "Portugal",
+    "price": 2.175,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Puerto Rico",
+    "name_en": "Puerto Rico",
+    "price": 1.373,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Qatar",
+    "name_en": "Qatar",
+    "price": 0.5,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Romania",
+    "name_en": "Romania",
+    "price": 2.047,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Russia",
+    "name_en": "Russia",
+    "price": 0.921,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Russland",
+    "name_en": "Russland",
+    "price": 0.872,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Rwanda",
+    "name_en": "Rwanda",
+    "price": 1.765,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Saint Lucia",
+    "name_en": "Saint Lucia",
+    "price": 1.25,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "San Marino",
+    "name_en": "San Marino",
+    "price": 2.071,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Saudi Arabia",
+    "name_en": "Saudi Arabia",
+    "price": 0.41,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Saudi-Arabia",
+    "name_en": "Saudi-Arabia",
+    "price": 0.423,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Senegal",
+    "name_en": "Senegal",
+    "price": 1.151,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Sentralafrik. Rep",
+    "name_en": "Sentralafrik. Rep",
+    "price": 2.131,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Serbia",
+    "name_en": "Serbia",
+    "price": 2.01,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Seychelles",
+    "name_en": "Seychelles",
+    "price": 1.611,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Sierra Leone",
+    "name_en": "Sierra Leone",
+    "price": 2.035,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Singapore",
+    "name_en": "Singapore",
+    "price": 2.524,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Slovakia",
+    "name_en": "Slovakia",
+    "price": 1.919,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Slovenia",
+    "name_en": "Slovenia",
+    "price": 1.923,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Sør-Afrika",
+    "name_en": "Sør-Afrika",
+    "price": 1.885,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Sør-Korea",
+    "name_en": "Sør-Korea",
+    "price": 1.246,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "South Africa",
+    "name_en": "South Africa",
+    "price": 1.623,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "South Korea",
+    "name_en": "South Korea",
+    "price": 1.311,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Spain",
+    "name_en": "Spain",
+    "price": 1.627,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Spania",
+    "name_en": "Spania",
+    "price": 1.887,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Sri Lanka",
+    "name_en": "Sri Lanka",
+    "price": 1.419,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Storbritannia",
+    "name_en": "Storbritannia",
+    "price": 2.373,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Sudan",
+    "name_en": "Sudan",
+    "price": 1.141,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Surinam",
+    "name_en": "Surinam",
+    "price": 1.259,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Suriname",
+    "name_en": "Suriname",
+    "price": 1.232,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Sveits",
+    "name_en": "Sveits",
+    "price": 2.644,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Sverige",
+    "name_en": "Sverige",
+    "price": 2.065,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Swaziland",
+    "name_en": "Swaziland",
+    "price": 1.567,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Sweden",
+    "name_en": "Sweden",
+    "price": 1.871,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Switzerland",
+    "name_en": "Switzerland",
+    "price": 2.319,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Syria",
+    "name_en": "Syria",
+    "price": 1.331,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Taiwan",
+    "name_en": "Taiwan",
+    "price": 0.815,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Tanzania",
+    "name_en": "Tanzania",
+    "price": 1.375,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Thailand",
+    "name_en": "Thailand",
+    "price": 1.138,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Togo",
+    "name_en": "Togo",
+    "price": 1.167,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Trinidad & Tobago",
+    "name_en": "Trinidad & Tobago",
+    "price": 0.559,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Trinidad og Tobago",
+    "name_en": "Trinidad og Tobago",
+    "price": 0.579,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Tsjekkia",
+    "name_en": "Tsjekkia",
+    "price": 1.928,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Tunisia",
+    "name_en": "Tunisia",
+    "price": 0.655,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Turkey",
+    "name_en": "Turkey",
+    "price": 1.221,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Turkmenistan",
+    "name_en": "Turkmenistan",
+    "price": 0.254,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Tyrkia",
+    "name_en": "Tyrkia",
+    "price": 1.736,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Tyskland",
+    "name_en": "Tyskland",
+    "price": 2.273,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "UAE",
+    "name_en": "UAE",
+    "price": 1.013,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Uganda",
+    "name_en": "Uganda",
+    "price": 1.437,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "UK",
+    "name_en": "UK",
+    "price": 2.131,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Ukraina",
+    "name_en": "Ukraina",
+    "price": 2.047,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Ukraine",
+    "name_en": "Ukraine",
+    "price": 1.695,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Ungarn",
+    "name_en": "Ungarn",
+    "price": 1.947,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Uruguay",
+    "name_en": "Uruguay",
+    "price": 1.392,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "USA",
+    "name_en": "USA",
+    "price": 1.476,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Usbekistan",
+    "name_en": "Usbekistan",
+    "price": 1.286,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Uzbekistan",
+    "name_en": "Uzbekistan",
+    "price": 0.908,
+    "lastUpdated": "2026-06-09T02:19:34.634Z"
+  },
+  {
+    "name": "Venezuela",
+    "name_en": "Venezuela",
+    "price": 0.004,
+    "lastUpdated": "2026-10-26T19:26:14.489Z"
+  },
+  {
+    "name": "Vietnam",
+    "name_en": "Vietnam",
+    "price": 1,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Wallis and Futuna",
+    "name_en": "Wallis and Futuna",
+    "price": 1.987,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Zambia",
+    "name_en": "Zambia",
+    "price": 1.48,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  },
+  {
+    "name": "Zimbabwe",
+    "name_en": "Zimbabwe",
+    "price": 1.816,
+    "lastUpdated": "2026-10-26T19:26:14.490Z"
+  }
+]

@@ -1,0 +1,33 @@
+SiiNunit
+{
+ferry_connection : conn.kirkenes.longyearbyen{
+	price: 220
+	time: 2161
+	distance: 1070
+
+	# NODE POSITIONS ########    x*256  , 0,   z*256
+	connection_positions[0]:  ( 11283712, 0, -29207040)
+	connection_positions[1]:  ( 11248410, 0, -29232128)
+	connection_positions[2]:  ( 11271090, 0, -29268992)
+	connection_positions[3]:  ( 12119756, 0, -29953280)
+	connection_positions[4]:  ( 11381044, 0, -31291392)
+	connection_positions[5]:  (  3672396, 0, -41155840)
+	connection_positions[6]:  (  4724916, 0, -41762560)
+	connection_positions[7]:  (  4724916, 0, -41762560)
+	connection_positions[8]:  (  4899942, 0, -41694720)
+	connection_positions[9]:  (  4967680, 0, -41631488)
+
+	# NODE ROTATIONS ########  -sin(yaw), 0, -cos(yaw)
+	connection_directions[0]:  (-1,       0,  0      )
+	connection_directions[1]:  (-0.25882, 0, -0.96593)
+	connection_directions[2]:  ( 0.99619, 0, -0.08716)
+	connection_directions[3]:  (-0.25882, 0, -0.96593)
+	connection_directions[4]:  (-0.5,     0, -0.86603)
+	connection_directions[5]:  ( 0.25882, 0, -0.96593)
+	connection_directions[6]:  ( 0.70711, 0,  0.70711)
+	connection_directions[7]:  ( 0.70711, 0,  0.70711)
+	connection_directions[8]:  ( 0.86603, 0,  0.5    )
+	connection_directions[9]:  ( 0.08716, 0,  0.99619)
+}
+}
+

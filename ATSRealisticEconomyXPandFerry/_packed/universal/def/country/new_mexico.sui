@@ -1,0 +1,28 @@
+
+country_data : country.data.new_mexico
+{
+	country_id: 31
+
+	name: "New Mexico"
+	name_localized: "@@new_mexico@@"
+	country_code: "NM"
+	iso_country_code: usnm
+
+	pos: (-45000, 0, 24000)
+
+	fuel_price: 1.599113	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.108440
+
+	lights_mandatory: false
+	imperial_units: true
+	driving_tired_offence: true
+
+	time_zone: -360		# -6 hours in minutes verão
+	# time_zone: -420		# -7 hours in minutes inverno
+	time_zone_name: "@@tz_mdt@@"	# verão
+	# time_zone_name: "@@tz_mst@@"	# inverno
+
+	mass_limit_per_axle_count[]: 19595.2	# 43200 lb	# 2-axle vehicle 21600
+	mass_limit_per_axle_count[]: 29392.8	# 64800 lb
+	mass_limit_per_axle_count[]: 39490.4	# 86400 lb
+}

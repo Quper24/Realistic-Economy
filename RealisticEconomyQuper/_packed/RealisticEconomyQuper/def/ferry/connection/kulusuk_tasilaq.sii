@@ -1,0 +1,10 @@
+SiiNunit
+{
+ferry_connection : conn.kulusuk.tasilaq {
+	price: 7
+	time: 45
+	distance: 12
+
+}
+}
+

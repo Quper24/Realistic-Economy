@@ -1,0 +1,35 @@
+
+country_data : country.data.rc_nu
+{
+	country_id: 224
+
+	name: "Nunavut"
+	name_localized: "@@Nunavut@@"
+	country_code: "NU"
+	iso_country_code: cannu
+
+	pos: (-3014.49, 0, -144463.83)
+
+	fuel_price: 1.567306	# 1 US gallon = 3.78541178 liter Iqaluit (Northwest Territories reference)
+	petrol_price: 1.263477
+
+	lights_mandatory: true
+	imperial_units: false
+	driving_tired_offence: true
+
+	time_zone: -300		# -5 hours in minutes verão
+	# time_zone: -360		# -6 hours in minutes inverno
+	time_zone_name: "@@tz_cdt@@"	# verão
+	# time_zone_name: "CST"	# inverno
+
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 36000
+	mass_limit_per_axle_count[]: 44000
+	mass_limit_per_axle_count[]: 56000
+	mass_limit_per_axle_count[]: 60000
+	mass_limit_per_axle_count[]: 68000	# 76t non-ADR
+	mass_limit_per_axle_count[]: 74000	# 9
+	mass_limit_per_axle_count[]: 84000	# 10
+	mass_limit_per_axle_count[]: 105000	# 11
+}

@@ -1,0 +1,24 @@
+country_data : country.data.monaco
+{
+	country_id: 33
+
+	name: "Monaco"
+	name_localized: "@@monaco@@"
+	country_code: "MC"
+	iso_country_code: mco	
+
+	pos: (-12350, 0, 38800)
+
+	fuel_price: 2.402
+
+	lights_mandatory: false
+	driving_tired_offence: true
+		
+	time_zone: 120		# +2 hours in minutes
+	time_zone_name: "@@tz_cest@@"
+	
+	mass_limit_per_axle_count[]: 19000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 38000
+	mass_limit_per_axle_count[]: 44000
+}

@@ -1,0 +1,8 @@
+SiiNunit
+{
+ferry_connection : conn.palermo.annaba {
+	price: 134
+	time: 1321
+	distance: 650
+}
+}

@@ -1,0 +1,8 @@
+SiiNunit
+{
+ferry_connection : conn.bogorodskoje.moskalvo_sak {
+	price: 64
+	time: 621
+	distance: 300
+}
+}

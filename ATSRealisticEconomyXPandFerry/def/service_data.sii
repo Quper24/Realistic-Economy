@@ -1,0 +1,13 @@
+SiiNunit
+{
+	vehicle_service_data : .service_data
+	{
+		truck_restore_fixed_price: 0
+		truck_restore_accessory_fixed_price: 250
+		truck_restore_accessory_price_coef: 0.5
+
+		trailer_restore_fixed_price: 0
+		trailer_restore_accessory_fixed_price: 250
+		trailer_restore_accessory_price_coef: 0.5
+	}
+}

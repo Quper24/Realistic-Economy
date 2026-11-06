@@ -1,0 +1,24 @@
+
+country_data : country.data.ndakota
+{
+	country_id: 34
+
+	name: "North Dakota"
+	name_localized: "@@North Dakota@@"
+	country_code: "ND"
+	iso_country_code: usnd
+
+	pos:(-16300, 0, -48000)
+
+	fuel_price: 1.616257	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.083264
+
+	lights_mandatory: false
+	imperial_units: true
+	driving_tired_offence: true
+
+	time_zone: -300		# -5 hours in minutes verão
+	# time_zone: -360		# -6 hours in minutes inverno
+	time_zone_name: "@@tz_cdt@@"	# verão
+	# time_zone_name: "CST"	# inverno
+}

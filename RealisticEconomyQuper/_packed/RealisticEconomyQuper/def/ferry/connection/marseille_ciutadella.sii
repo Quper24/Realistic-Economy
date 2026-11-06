@@ -1,0 +1,8 @@
+SiiNunit
+{
+ferry_connection : conn.marseille.ciutadella {
+	price: 70
+	time: 675
+	distance: 327
+}
+}

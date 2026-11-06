@@ -1,0 +1,8 @@
+SiiNunit
+{
+ferry_connection : conn.linosa.pantelleria{
+	price: 26
+	time: 241
+	distance: 110
+}
+}

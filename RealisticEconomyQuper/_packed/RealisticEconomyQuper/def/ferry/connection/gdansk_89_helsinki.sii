@@ -1,0 +1,16 @@
+SiiNunit
+{
+ferry_connection : conn.gdansk_89.helsinki {
+	price: 166
+	time: 1645
+	distance: 812
+	
+	connection_positions[0]: (7669125, 0, -5504175)			# ~30075/-21585
+	connection_positions[1]: (7889700, 0, -5847150)			# ~30940/-22930
+	connection_positions[2]: (10554674, 0, -13187056)
+	
+	connection_directions[0]: (0.000000, 0.000000, -1.000000)
+	connection_directions[1]: (0.000000, 0.000000, -1.000000)
+	connection_directions[2]: (0.970459, -0.000000, -0.241265)
+}
+}

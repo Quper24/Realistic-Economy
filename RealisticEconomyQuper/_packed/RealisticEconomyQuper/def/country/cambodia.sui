@@ -1,0 +1,25 @@
+
+country_data : country.data.cambodia
+{
+	country_id: 53
+
+	name: "Cambodia"
+	name_localized: "@@Cambodia@@"
+	country_code: "KH"
+        iso_country_code: khm
+
+	pos: (482000, 0, -93000)
+
+	fuel_price: 1.04
+
+	lights_mandatory: false
+	driving_tired_offence: true
+
+	time_zone: 480		# +7 hours in minutes
+	time_zone_name: "@@ICT@@"
+
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 36000
+	mass_limit_per_axle_count[]: 40000
+}

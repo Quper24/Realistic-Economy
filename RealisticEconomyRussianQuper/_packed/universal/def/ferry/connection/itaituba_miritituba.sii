@@ -1,0 +1,11 @@
+SiiNunit
+{
+ferry_connection: conn.itaituba.miritituba
+{
+	price: 5
+	time: 23
+	distance: 1
+
+}
+}
+

@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.porttownsend.akutan {
+	price: 188
+	time: 5620
+	distance: 1400
+}
+}
+

@@ -1,0 +1,31 @@
+
+country_data : country.data.novascotia
+{
+	country_id: 210
+
+	name: "Nova Scotia"
+	name_localized: "@@Nova Scotia@@"
+	country_code: "NS"
+	iso_country_code: canns
+
+	pos:(126000, 0, -56500)
+
+	fuel_price: 1.928502	# 1 US gallon = 3.78541178 liter Halifax
+	petrol_price: 1.347048
+
+	lights_mandatory: false
+	imperial_units: false
+	driving_tired_offence: true
+
+	time_zone: -180		# -3 hours in minutes verão
+	# time_zone: -240		# -4 hours in minutes inverno
+	time_zone_name: "ADT"	# verão
+	# time_zone_name: "AST"	# inverno
+
+	mass_limit_per_axle_count[]: 18143.7	# 40000 lb	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 27215.6	# 60000 lb
+	mass_limit_per_axle_count[]: 36287.4	# 80000 lb
+	mass_limit_per_axle_count[]: 45359.3	# 100000 lb
+	mass_limit_per_axle_count[]: 54431.1	# 120000 lb
+	mass_limit_per_axle_count[]: 63502.9	# 140000 lb
+}

@@ -1,0 +1,12 @@
+SiiNunit
+{
+ferry_connection : conn.stsimeon.riverloup {
+	price: 5
+	time: 128
+	distance: 27
+
+	# NODE POSITIONS ##   x97445*256  , 0,  y65744*256
+	# connection_positions[0]: (24945920, 0, -16830464)
+}
+}
+

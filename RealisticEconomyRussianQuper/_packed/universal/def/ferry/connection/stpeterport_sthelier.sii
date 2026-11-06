@@ -1,0 +1,24 @@
+SiiNunit
+{
+ferry_connection : conn.stpeterport.sthelier{
+	price: 11
+	time: 111
+	distance: 45
+
+	# NODE POSITIONS #######    x*256  , 0,   z*256
+	connection_positions[0]: (-12491153, 0, -48796)
+	connection_positions[1]: (-12444998, 0, -52867)
+	connection_positions[2]: (-12372981, 0, 404644)
+	connection_positions[3]: (-12137948, 0, 555240)
+	connection_positions[4]: (-12094158, 0, 502232)
+	connection_positions[5]: (-12104438, 0, 424743)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: (0.338738, -0.000000, 0.940881)
+	connection_directions[1]: (0.997353, 0.000000, 0.072707)
+	connection_directions[2]: (0.616209, -0.000000, 0.787583)
+	connection_directions[3]: (1.000000, -0.000000, 0.000000)
+	connection_directions[4]: (0.000000, -0.000000, -1.000000)
+	connection_directions[5]: (-0.000000, 0.000000, -1.000000)
+}
+}

@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.barra.banjul {
+	price: 8
+	time: 71
+	distance: 25
+}
+}
+

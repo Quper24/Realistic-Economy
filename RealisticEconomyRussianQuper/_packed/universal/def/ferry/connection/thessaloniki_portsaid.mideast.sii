@@ -1,0 +1,27 @@
+SiiNunit
+{
+ferry_connection : conn.thessaloniki.portsaid{
+	price: 278
+	time: 2781
+	distance: 1380
+
+	# NODE POSITIONS ########   x*256  , 0,  z*256
+	connection_positions[0]:  (12870000, 0, 14570000)
+	connection_positions[1]:  (15135232, 0, 16067072)
+	connection_positions[2]:  (16255030, 0, 17334600)
+	connection_positions[3]:  (19428224, 0, 20252442)
+	connection_positions[4]:  (24955110, 0, 22795572)
+	connection_positions[5]:  (26149888, 0, 24907162)
+	connection_positions[6]:  (26105856, 0, 24976512)
+
+	# NODE ROTATIONS ########  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]:  ( 0,       0,  1      )
+	connection_directions[1]:  ( 0.70711, 0,  0.70711)
+	connection_directions[2]:  ( 0.64279, 0,  0.76604)
+	connection_directions[3]:  ( 0.86603, 0,  0.5    )
+	connection_directions[4]:  ( 0.95106, 0,  0.30902)
+	connection_directions[5]:  ( 0.06976, 0,  0.99756)
+	connection_directions[6]:  (-0.5,     0,  0.86603)
+}
+}
+

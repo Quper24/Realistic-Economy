@@ -1,0 +1,10 @@
+SiiNunit
+{
+ferry_connection : conn.chios.izmir {
+	price: 28 # approx based on rhodes/athens
+	time: 247 
+	distance: 113
+
+
+}
+}

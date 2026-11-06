@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.bjornoya.longyearbyen{
+	price: 203
+	time: 2021
+	distance: 1000
+
+}
+}

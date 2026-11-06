@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.lapaz.mazatlan {
+	price: 58
+	time: 1740
+	distance: 430
+}
+}
+

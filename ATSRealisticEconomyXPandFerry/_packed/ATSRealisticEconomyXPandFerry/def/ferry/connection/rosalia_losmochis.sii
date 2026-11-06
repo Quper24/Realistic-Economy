@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.santa_rosa.losmochis {
+	price: 52
+	time: 1540
+	distance: 380
+}
+}
+

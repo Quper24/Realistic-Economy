@@ -1,0 +1,8 @@
+SiiNunit
+{
+ferry_connection : conn.mitilini.canakkale {
+	price: 23
+	time: 221
+	distance: 100
+}
+}

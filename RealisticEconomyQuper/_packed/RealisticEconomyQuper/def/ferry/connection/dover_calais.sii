@@ -1,0 +1,27 @@
+SiiNunit
+{
+ferry_connection : conn.dover.calais {
+	price: 13
+	time: 119
+	distance: 49
+
+	# NODE POSITIONS #######    x*256 , 0,   z*256
+#	Dover Node
+	connection_positions[0]: (-8307584, 0, -1801638)
+	connection_positions[1]: (-8216244, 0, -1772336)
+
+#	Calais Node
+connection_positions[2]: (-8249077, 0, -1565575)
+connection_positions[3]: (-8210838, 0, -1520667)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+#	Dover Node
+	connection_directions[0]: ( 0.25882, 0,  0.96593)
+	connection_directions[1]: ( 0.38268, 0,  0.92388)
+
+#	Calais Node
+connection_directions[2]: (-0.039447, -0.000000, 0.999222)
+connection_directions[3]: (0.918239, -0.000000, 0.396028)
+}
+}
+

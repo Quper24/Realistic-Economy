@@ -1,0 +1,24 @@
+
+country_data : country.data.ghana
+{
+	country_id: 114
+
+	name: "Ghana"
+	name_localized: "@@Ghana@@"
+	country_code: "GH"
+	iso_country_code: gha
+
+	pos: (-94837.50, 9.55 , 247568.36)
+
+	fuel_price: 1.413
+
+	lights_mandatory: true
+	driving_tired_offence: true
+
+	time_zone: 60		# +1 hours in minutes
+	time_zone_name: "@@tz_bst@@"
+	
+	mass_limit_per_axle_count[]: 16000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 22000
+	mass_limit_per_axle_count[]: 38000
+}

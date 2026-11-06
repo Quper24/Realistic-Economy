@@ -1,0 +1,10 @@
+SiiNunit
+{
+ferry_connection : conn.yeji_2.yeji_1{
+	price: 28
+	time: 261
+	distance: 120
+	
+}
+}
+

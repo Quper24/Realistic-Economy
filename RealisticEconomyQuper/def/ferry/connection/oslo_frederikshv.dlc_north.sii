@@ -1,0 +1,29 @@
+SiiNunit
+{
+ferry_connection : conn.oslo.frederikshv {
+	price: 64
+	time: 601
+	distance: 290
+
+	# NODE POSITIONS #######   x*256 , 0,   z*256
+	connection_positions[0]: (1185974, 0, -13587660)
+	connection_positions[1]: (1186118, 0, -13542298)
+	connection_positions[2]: ( 925814, 0, -12765466)
+	connection_positions[3]: ( 874708, 0, -12609434)
+	connection_positions[4]: ( 866816, 0,  -9824102)
+	connection_positions[5]: ( 796278, 0,  -9779610)
+	connection_positions[6]: ( 793856, 0,  -9768346)
+	connection_positions[7]: ( 784024, 0,  -9761536)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: ( 0.34202, 0,  0.93969)
+	connection_directions[1]: (-0.25882, 0,  0.96593)
+	connection_directions[2]: (-0.25882, 0,  0.96593)
+	connection_directions[3]: ( 0.08716, 0,  0.99619)
+	connection_directions[4]: (-0.25882, 0,  0.96593)
+	connection_directions[5]: (-1,       0,  0      )
+	connection_directions[6]: ( 0,       0,  1      )
+	connection_directions[7]: (-1,       0,  0      )
+}
+}
+

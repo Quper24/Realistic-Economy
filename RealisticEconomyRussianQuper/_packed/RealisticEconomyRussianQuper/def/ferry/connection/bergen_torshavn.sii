@@ -1,0 +1,41 @@
+SiiNunit
+{
+ferry_connection : conn.bergen.torshavn{
+	price: 137
+	time: 1361
+	distance: 670
+
+	# NODE POSITIONS #######     x*256  , 0,   z*256
+	connection_positions[0]:  ( -2736922, 0, -14058932)
+	connection_positions[1]:  ( -2774324, 0, -14062694)
+	connection_positions[2]:  ( -2774912, 0, -14055680)
+	connection_positions[3]:  ( -2739072, 0, -14047770)
+	connection_positions[4]:  ( -2726554, 0, -14040960)
+	connection_positions[5]:  ( -2736948, 0, -14038860)
+	connection_positions[6]:  ( -2815924, 0, -14057548)
+	connection_positions[7]:  ( -2955212, 0, -14035046)
+	connection_positions[8]:  ( -3112346, 0, -13916134)
+	connection_positions[9]:  ( -4512308, 0, -14585318)
+	connection_positions[10]: ( -8070144, 0, -18561588)
+	connection_positions[11]: (-12984500, 0, -20647706)
+	connection_positions[12]: (-13087308, 0, -20719948)
+	connection_positions[13]: (-13102080, 0, -20790886)
+
+	# NODE ROTATIONS #######   -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]:  (-0.98481, 0, -0.17365)
+	connection_directions[1]:  (-1,       0,  0      )
+	connection_directions[2]:  ( 0.86603, 0,  0.5    )
+	connection_directions[3]:  ( 0.86603, 0,  0.5    )
+	connection_directions[4]:  ( 0,       0,  1      )
+	connection_directions[5]:  (-0.96593, 0, -0.25882)
+	connection_directions[6]:  (-0.96593, 0, -0.25882)
+	connection_directions[7]:  (-0.70711, 0,  0.70711)
+	connection_directions[8]:  (-0.76604, 0,  0.64279)
+	connection_directions[9]:  (-0.52992, 0, -0.84805)
+	connection_directions[10]: (-0.81915, 0, -0.57358)
+	connection_directions[11]: (-0.96593, 0, -0.25882)
+	connection_directions[12]: (-0.70711, 0, -0.70711)
+	connection_directions[13]: (-0.25882, 0, -0.96593)
+}
+}
+

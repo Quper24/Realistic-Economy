@@ -1,0 +1,3928 @@
+SiiNunit
+{
+
+	car_job_data : car_job.bdoc_0
+	{
+		# Standart transfer: documents  [r0: 40-250 km]
+
+		cargos[]: car_cargo.bdoc
+		cargos[]: car_cargo.pdoc
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		source_data_contexts[]: veh_logistic
+		source_data_contexts[]: agriculture
+		source_data_contexts[]: factory
+		source_data_contexts[]: car_dealer
+		source_data_contexts[]: custom_depot
+		source_data_contexts[]: truck_dealer
+		source_data_contexts[]: farm_service
+		target_data_contexts[]: car_dealer
+		target_data_contexts[]: factory
+		target_data_contexts[]: agriculture
+		target_data_contexts[]: warehouse
+		target_data_contexts[]: veh_logistic
+		target_data_contexts[]: custom_depot
+		target_data_contexts[]: truck_dealer
+		target_data_contexts[]: farm_service
+
+		customer_prio_cargo_handling: 0
+		customer_prio_time: 30
+		customer_prio_vehicle_appearance: 20
+
+		company_distance: (40, 250)
+		required_courier_rating: 0
+	}
+
+	car_job_data : car_job.bdoc_v46
+	{
+		# Standart transfer: documents (valuable)  [r46: 40-250 km]
+
+		cargos[]: car_cargo.ldoc
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		source_data_contexts[]: veh_logistic
+		source_data_contexts[]: agriculture
+		source_data_contexts[]: factory
+		source_data_contexts[]: car_dealer
+		source_data_contexts[]: custom_depot
+		source_data_contexts[]: truck_dealer
+		source_data_contexts[]: farm_service
+		target_data_contexts[]: car_dealer
+		target_data_contexts[]: factory
+		target_data_contexts[]: agriculture
+		target_data_contexts[]: warehouse
+		target_data_contexts[]: veh_logistic
+		target_data_contexts[]: custom_depot
+		target_data_contexts[]: truck_dealer
+		target_data_contexts[]: farm_service
+
+		customer_prio_cargo_handling: 0
+		customer_prio_time: 30
+		customer_prio_vehicle_appearance: 20
+
+		company_distance: (40, 250)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.edoc_26
+	{
+		# Express transfer: documents  [r26: 40-410 km]
+
+		cargos[]: car_cargo.bdoc
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		source_data_contexts[]: veh_logistic
+		target_data_contexts[]: warehouse
+		target_data_contexts[]: veh_logistic
+
+		express: true
+
+		customer_prio_cargo_handling: 0
+		customer_prio_time: 60
+		customer_prio_vehicle_appearance: 40
+
+		company_distance: (40, 410)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.edoc_v46
+	{
+		# Express transfer: documents (valuable)  [r46: 40-410 km]
+
+		cargos[]: car_cargo.ldoc
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		source_data_contexts[]: veh_logistic
+		target_data_contexts[]: warehouse
+		target_data_contexts[]: veh_logistic
+
+		express: true
+
+		customer_prio_cargo_handling: 0
+		customer_prio_time: 60
+		customer_prio_vehicle_appearance: 40
+
+		company_distance: (40, 410)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.jockey_e26
+	{
+		# Car Jockey (normal tier) - express  [r26: 300-1000 km]
+
+		name: "@@cjob_dealer_allocation@@"
+		reward_per_km: 1.0
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		source_data_contexts[]: veh_logistic
+		source_data_contexts[]: car_dealer
+		target_data_contexts[]: warehouse
+		target_data_contexts[]: veh_logistic
+		target_data_contexts[]: car_dealer
+
+		express: true
+
+		customer_prio_cargo_handling: 0
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 40
+
+		company_distance: (300, 1000)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.jockey_e36
+	{
+		# Car Jockey (normal tier) - express  [r36: 1000-1500 km]
+
+		name: "@@cjob_dealer_allocation@@"
+		reward_per_km: 1.0
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		source_data_contexts[]: veh_logistic
+		source_data_contexts[]: car_dealer
+		target_data_contexts[]: warehouse
+		target_data_contexts[]: veh_logistic
+		target_data_contexts[]: car_dealer
+
+		express: true
+
+		customer_prio_cargo_handling: 0
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 40
+
+		company_distance: (1000, 1500)
+		required_courier_rating: 3.6
+	}
+
+	car_job_data : car_job.jockey_e46
+	{
+		# Car Jockey (normal tier) - express  [r46: 1500-2500 km]
+
+		name: "@@cjob_dealer_allocation@@"
+		reward_per_km: 1.0
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		source_data_contexts[]: veh_logistic
+		source_data_contexts[]: car_dealer
+		target_data_contexts[]: warehouse
+		target_data_contexts[]: veh_logistic
+		target_data_contexts[]: car_dealer
+
+		express: true
+
+		customer_prio_cargo_handling: 0
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 40
+
+		company_distance: (1500, 2500)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.mparts_0
+	{
+		# Machine Spare Parts - standard  [r0: 100-500 km]
+
+		cargos[]: car_cargo.mach_parts
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		#vehicle_types[]: muscle
+		#vehicle_types[]: veteran
+		#vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		target_data_contexts[]: factory
+		target_data_contexts[]: farm_service
+		target_data_contexts[]: oil_field
+		target_data_contexts[]: marina
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (100, 500)
+		required_courier_rating: 0
+	}
+
+	car_job_data : car_job.mparts_26
+	{
+		# Machine Spare Parts - standard  [r26: 500-1000 km]
+
+		cargos[]: car_cargo.mach_parts
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		#vehicle_types[]: muscle
+		#vehicle_types[]: veteran
+		#vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		target_data_contexts[]: factory
+		target_data_contexts[]: farm_service
+		target_data_contexts[]: oil_field
+		target_data_contexts[]: marina
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (500, 1000)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.mparts_36
+	{
+		# Machine Spare Parts - standard  [r36: 1000-1500 km]
+
+		cargos[]: car_cargo.mach_parts
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		#vehicle_types[]: muscle
+		#vehicle_types[]: veteran
+		#vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		target_data_contexts[]: factory
+		target_data_contexts[]: farm_service
+		target_data_contexts[]: oil_field
+		target_data_contexts[]: marina
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (1000, 1500)
+		required_courier_rating: 3.6
+	}
+
+	car_job_data : car_job.mparts_46
+	{
+		# Machine Spare Parts - standard  [r46: 1500-2500 km]
+
+		cargos[]: car_cargo.mach_parts
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		#vehicle_types[]: muscle
+		#vehicle_types[]: veteran
+		#vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		target_data_contexts[]: factory
+		target_data_contexts[]: farm_service
+		target_data_contexts[]: oil_field
+		target_data_contexts[]: marina
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (1500, 2500)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.mparts_f36
+	{
+		# Machine Spare Parts - standard (fragile)  [r36: 100-1500 km]
+
+		cargos[]: car_cargo.f_mach_parts
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		#vehicle_types[]: muscle
+		#vehicle_types[]: veteran
+		#vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		target_data_contexts[]: factory
+		target_data_contexts[]: farm_service
+		target_data_contexts[]: oil_field
+		target_data_contexts[]: marina
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (100, 1500)
+		required_courier_rating: 3.6
+	}
+
+	car_job_data : car_job.mparts_f46
+	{
+		# Machine Spare Parts - standard (fragile)  [r46: 1500-2500 km]
+
+		cargos[]: car_cargo.f_mach_parts
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		#vehicle_types[]: muscle
+		#vehicle_types[]: veteran
+		#vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		target_data_contexts[]: factory
+		target_data_contexts[]: farm_service
+		target_data_contexts[]: oil_field
+		target_data_contexts[]: marina
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (1500, 2500)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.mparts_v46
+	{
+		# Machine Spare Parts - standard (valuable)  [r46: 100-2500 km]
+
+		cargos[]: car_cargo.v_mach_parts
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		#vehicle_types[]: muscle
+		#vehicle_types[]: veteran
+		#vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		target_data_contexts[]: factory
+		target_data_contexts[]: farm_service
+		target_data_contexts[]: oil_field
+		target_data_contexts[]: marina
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (100, 2500)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.mparts_e26
+	{
+		# Machine Spare Parts - express  [r26: 100-1000 km]
+
+		cargos[]: car_cargo.mach_parts
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		#vehicle_types[]: muscle
+		#vehicle_types[]: veteran
+		#vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		target_data_contexts[]: factory
+		target_data_contexts[]: farm_service
+		target_data_contexts[]: oil_field
+		target_data_contexts[]: marina
+
+		express: true
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 60
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (100, 1000)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.mparts_e36
+	{
+		# Machine Spare Parts - express  [r36: 1000-1500 km]
+
+		cargos[]: car_cargo.mach_parts
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		#vehicle_types[]: muscle
+		#vehicle_types[]: veteran
+		#vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		target_data_contexts[]: factory
+		target_data_contexts[]: farm_service
+		target_data_contexts[]: oil_field
+		target_data_contexts[]: marina
+
+		express: true
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 60
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (1000, 1500)
+		required_courier_rating: 3.6
+	}
+
+	car_job_data : car_job.mparts_e46
+	{
+		# Machine Spare Parts - express  [r46: 1500-2500 km]
+
+		cargos[]: car_cargo.mach_parts
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		#vehicle_types[]: muscle
+		#vehicle_types[]: veteran
+		#vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		target_data_contexts[]: factory
+		target_data_contexts[]: farm_service
+		target_data_contexts[]: oil_field
+		target_data_contexts[]: marina
+
+		express: true
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 60
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (1500, 2500)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.mparts_ef36
+	{
+		# Machine Spare Parts - express (fragile)  [r36: 100-1500 km]
+
+		cargos[]: car_cargo.f_mach_parts
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		#vehicle_types[]: muscle
+		#vehicle_types[]: veteran
+		#vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		target_data_contexts[]: factory
+		target_data_contexts[]: farm_service
+		target_data_contexts[]: oil_field
+		target_data_contexts[]: marina
+
+		express: true
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 60
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (100, 1500)
+		required_courier_rating: 3.6
+	}
+
+	car_job_data : car_job.mparts_ef46
+	{
+		# Machine Spare Parts - express (fragile)  [r46: 1500-2500 km]
+
+		cargos[]: car_cargo.f_mach_parts
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		#vehicle_types[]: muscle
+		#vehicle_types[]: veteran
+		#vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		target_data_contexts[]: factory
+		target_data_contexts[]: farm_service
+		target_data_contexts[]: oil_field
+		target_data_contexts[]: marina
+
+		express: true
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 60
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (1500, 2500)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.mparts_ev46
+	{
+		# Machine Spare Parts - express (valuable)  [r46: 100-2500 km]
+
+		cargos[]: car_cargo.v_mach_parts
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		#vehicle_types[]: muscle
+		#vehicle_types[]: veteran
+		#vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		target_data_contexts[]: factory
+		target_data_contexts[]: farm_service
+		target_data_contexts[]: oil_field
+		target_data_contexts[]: marina
+
+		express: true
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 60
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (100, 2500)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.jtools_0
+	{
+		# Job Site Tools - standard  [r0: 60-500 km]
+
+		cargos[]: car_cargo.job_tools
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		#vehicle_types[]: muscle
+		#vehicle_types[]: veteran
+		#vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		target_data_contexts[]: construction
+		target_data_contexts[]: farm_service
+		target_data_contexts[]: utility
+
+		customer_prio_cargo_handling: 40
+		customer_prio_time: 30
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (60, 500)
+		required_courier_rating: 0
+	}
+
+	car_job_data : car_job.jtools_e26
+	{
+		# Job Site Tools - express  [r26: 40-440 km]
+
+		cargos[]: car_cargo.job_tools
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		#vehicle_types[]: muscle
+		#vehicle_types[]: veteran
+		#vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		target_data_contexts[]: construction
+		target_data_contexts[]: farm_service
+		target_data_contexts[]: utility
+
+		express: true
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 60
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (40, 440)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.psmpl_0
+	{
+		# Product Samples  [r0: 40-500 km]
+
+		cargos[]: car_cargo.prod_smpl
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: factory
+		source_data_contexts[]: agriculture
+		source_data_contexts[]: car_dealer
+		source_data_contexts[]: warehouse
+		source_data_contexts[]: veh_logistic
+		target_data_contexts[]: retail
+		target_data_contexts[]: warehouse
+		target_data_contexts[]: car_dealer
+		target_data_contexts[]: factory
+		target_data_contexts[]: veh_logistic
+		target_data_contexts[]: agriculture
+		target_data_contexts[]: truck_dealer
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 20
+		customer_prio_vehicle_appearance: 40
+
+		company_distance: (40, 500)
+		required_courier_rating: 0
+	}
+
+	car_job_data : car_job.psmpl_26
+	{
+		# Product Samples  [r26: 500-1000 km]
+
+		cargos[]: car_cargo.prod_smpl
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: factory
+		source_data_contexts[]: agriculture
+		source_data_contexts[]: car_dealer
+		source_data_contexts[]: warehouse
+		source_data_contexts[]: veh_logistic
+		target_data_contexts[]: retail
+		target_data_contexts[]: warehouse
+		target_data_contexts[]: car_dealer
+		target_data_contexts[]: factory
+		target_data_contexts[]: veh_logistic
+		target_data_contexts[]: agriculture
+		target_data_contexts[]: truck_dealer
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 20
+		customer_prio_vehicle_appearance: 40
+
+		company_distance: (500, 1000)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.psmpl_f36
+	{
+		# Product Samples (fragile)  [r36: 40-1500 km]
+
+		cargos[]: car_cargo.f_prod_smpl
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: factory
+		source_data_contexts[]: agriculture
+		source_data_contexts[]: car_dealer
+		source_data_contexts[]: warehouse
+		source_data_contexts[]: veh_logistic
+		target_data_contexts[]: retail
+		target_data_contexts[]: warehouse
+		target_data_contexts[]: car_dealer
+		target_data_contexts[]: factory
+		target_data_contexts[]: veh_logistic
+		target_data_contexts[]: agriculture
+		target_data_contexts[]: truck_dealer
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 20
+		customer_prio_vehicle_appearance: 40
+
+		company_distance: (40, 1500)
+		required_courier_rating: 3.6
+	}
+
+	car_job_data : car_job.psmpl_v46
+	{
+		# Product Samples (valuable)  [r46: 40-500 km]
+
+		cargos[]: car_cargo.v_prod_smpl
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: factory
+		source_data_contexts[]: agriculture
+		source_data_contexts[]: car_dealer
+		source_data_contexts[]: warehouse
+		source_data_contexts[]: veh_logistic
+		target_data_contexts[]: retail
+		target_data_contexts[]: warehouse
+		target_data_contexts[]: car_dealer
+		target_data_contexts[]: factory
+		target_data_contexts[]: veh_logistic
+		target_data_contexts[]: agriculture
+		target_data_contexts[]: truck_dealer
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 20
+		customer_prio_vehicle_appearance: 40
+
+		company_distance: (40, 500)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.retpack_0
+	{
+		# Return Package - standard  [r0: 40-350 km]
+
+		cargos[]: car_cargo.ret_package
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		source_data_contexts[]: car_dealer
+		source_data_contexts[]: veh_logistic
+		source_data_contexts[]: agriculture
+		source_data_contexts[]: factory
+		source_data_contexts[]: construction
+		source_data_contexts[]: retail
+		source_data_contexts[]: custom_depot
+		target_data_contexts[]: warehouse
+
+		customer_prio_cargo_handling: 40
+		customer_prio_time: 30
+		customer_prio_vehicle_appearance: 0
+
+		company_distance: (40, 350)
+		required_courier_rating: 0
+	}
+
+	car_job_data : car_job.retpack_e26
+	{
+		# Return Package - express  [r26: 40-310 km]
+
+		cargos[]: car_cargo.ret_package
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		source_data_contexts[]: car_dealer
+		source_data_contexts[]: veh_logistic
+		source_data_contexts[]: agriculture
+		source_data_contexts[]: factory
+		source_data_contexts[]: construction
+		source_data_contexts[]: retail
+		source_data_contexts[]: custom_depot
+		target_data_contexts[]: warehouse
+
+		express: true
+
+		customer_prio_cargo_handling: 40
+		customer_prio_time: 60
+		customer_prio_vehicle_appearance: 0
+
+		company_distance: (40, 310)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.seedl_26
+	{
+		# Plant Seedlings  [r26: 40-1000 km]
+
+		cargos[]: car_cargo.seedlings
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: agriculture
+		target_data_contexts[]: agriculture
+
+		express: true
+
+		customer_prio_cargo_handling: 50
+		customer_prio_time: 30
+		customer_prio_vehicle_appearance: 0
+
+		company_distance: (40, 1000)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.seedl_f36
+	{
+		# Plant Seedlings (fragile)  [r36: 40-1500 km]
+
+		cargos[]: car_cargo.f_seedlings
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: agriculture
+		target_data_contexts[]: agriculture
+
+		express: true
+
+		customer_prio_cargo_handling: 50
+		customer_prio_time: 30
+		customer_prio_vehicle_appearance: 0
+
+		company_distance: (40, 1500)
+		required_courier_rating: 3.6
+	}
+
+	car_job_data : car_job.soil_0
+	{
+		# Agricultural Samples - standard  [r0: 40-300 km]
+
+		cargos[]: car_cargo.soil_smpl
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		#vehicle_types[]: muscle
+		#vehicle_types[]: veteran
+		#vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: agriculture
+		target_data_contexts[]: agriculture
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (40, 300)
+		required_courier_rating: 0
+	}
+
+	car_job_data : car_job.soil_f36
+	{
+		# Agricultural Samples - standard (fragile)  [r36: 40-300 km]
+
+		cargos[]: car_cargo.f_soil_smpl
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		#vehicle_types[]: muscle
+		#vehicle_types[]: veteran
+		#vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: agriculture
+		target_data_contexts[]: agriculture
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (40, 300)
+		required_courier_rating: 3.6
+	}
+
+	car_job_data : car_job.soil_e26
+	{
+		# Agricultural Samples - express  [r26: 40-300 km]
+
+		cargos[]: car_cargo.soil_smpl
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		#vehicle_types[]: muscle
+		#vehicle_types[]: veteran
+		#vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: agriculture
+		target_data_contexts[]: agriculture
+
+		express: true
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 60
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (40, 300)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.soil_ef36
+	{
+		# Agricultural Samples - express (fragile)  [r36: 40-300 km]
+
+		cargos[]: car_cargo.f_soil_smpl
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		#vehicle_types[]: muscle
+		#vehicle_types[]: veteran
+		#vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: agriculture
+		target_data_contexts[]: agriculture
+
+		express: true
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 60
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (40, 300)
+		required_courier_rating: 3.6
+	}
+
+	car_job_data : car_job.repkeys_46
+	{
+		# Replacement Car Keys  [r46: 40-2500 km]
+
+		cargos[]: car_cargo.repl_keys
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: car_dealer
+		target_data_contexts[]: warehouse
+		target_data_contexts[]: factory
+		target_data_contexts[]: construction
+		target_data_contexts[]: agriculture
+		target_data_contexts[]: retail
+		target_data_contexts[]: veh_logistic
+		target_data_contexts[]: farm_service
+		target_data_contexts[]: truck_dealer
+		target_data_contexts[]: gas_station
+
+		express: true
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 50
+		customer_prio_vehicle_appearance: 20
+
+		company_distance: (40, 2500)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.aucdocs_46
+	{
+		# Livestock Auction Documents  [r46: 40-460 km]
+
+		cargos[]: car_cargo.auct_docs
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: auction
+		target_data_contexts[]: agriculture
+
+		express: true
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 50
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (40, 460)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.vregpap_46
+	{
+		# Vehicle Registration Papers  [r46: 100-2500 km]
+
+		cargos[]: car_cargo.vehregpap
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: car_dealer
+		source_data_contexts[]: truck_dealer
+		target_data_contexts[]: car_dealer
+		target_data_contexts[]: truck_dealer
+
+		express: true
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 20
+		customer_prio_vehicle_appearance: 20
+
+		company_distance: (100, 2500)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.cusdocs_46
+	{
+		# Customs Documents  [r46: 40-400 km]
+
+		cargos[]: car_cargo.customs_docs
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		#vehicle_types[]: muscle
+		#vehicle_types[]: veteran
+		#vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: port
+		target_data_contexts[]: warehouse
+		target_data_contexts[]: factory
+		target_data_contexts[]: veh_logistic
+
+		express: true
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 20
+
+		company_distance: (40, 400)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.dpouch_46
+	{
+		# Diplomatic Pouch  [r46: 100-2500 km]
+
+		cargos[]: car_cargo.diplo_pouch
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: airport
+		target_data_contexts[]: airport
+
+		express: true
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 30
+		customer_prio_vehicle_appearance: 40
+
+		company_distance: (100, 2500)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.misconn_26
+	{
+		# Missed Connection Parcel  [r26: 60-300 km]
+
+		cargos[]: car_cargo.miss_conn
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: veh_logistic
+		source_data_contexts[]: port
+		source_data_contexts[]: train_depot
+		target_data_contexts[]: warehouse
+		target_data_contexts[]: retail
+		target_data_contexts[]: agriculture
+		target_data_contexts[]: factory
+		target_data_contexts[]: airport
+
+		express: true
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (60, 300)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.misconn_v46
+	{
+		# Missed Connection Parcel (valuable)  [r46: 60-300 km]
+
+		cargos[]: car_cargo.v_miss_conn
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: veh_logistic
+		source_data_contexts[]: port
+		source_data_contexts[]: train_depot
+		target_data_contexts[]: warehouse
+		target_data_contexts[]: retail
+		target_data_contexts[]: agriculture
+		target_data_contexts[]: factory
+		target_data_contexts[]: airport
+
+		express: true
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (60, 300)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.redparc_26
+	{
+		# Redirected Parcel  [r26: 60-1000 km]
+
+		cargos[]: car_cargo.redir_parc
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: veh_logistic
+		source_data_contexts[]: port
+		source_data_contexts[]: train_depot
+		source_data_contexts[]: airport
+		target_data_contexts[]: warehouse
+		target_data_contexts[]: factory
+		target_data_contexts[]: construction
+		target_data_contexts[]: agriculture
+
+		express: true
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (60, 1000)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.redparc_f36
+	{
+		# Redirected Parcel (fragile)  [r36: 60-1500 km]
+
+		cargos[]: car_cargo.f_redir_parc
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: veh_logistic
+		source_data_contexts[]: port
+		source_data_contexts[]: train_depot
+		source_data_contexts[]: airport
+		target_data_contexts[]: warehouse
+		target_data_contexts[]: factory
+		target_data_contexts[]: construction
+		target_data_contexts[]: agriculture
+
+		express: true
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (60, 1500)
+		required_courier_rating: 3.6
+	}
+
+	car_job_data : car_job.manif_26
+	{
+		# Freight Manifests - express  [r26: 60-400 km]
+
+		cargos[]: car_cargo.manifests
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		#vehicle_types[]: muscle
+		#vehicle_types[]: veteran
+		#vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: port
+		source_data_contexts[]: train_depot
+		source_data_contexts[]: airport
+		source_data_contexts[]: veh_logistic
+		target_data_contexts[]: warehouse
+		target_data_contexts[]: factory
+
+		express: true
+
+		customer_prio_cargo_handling: 0
+		customer_prio_time: 50
+		customer_prio_vehicle_appearance: 20
+
+		company_distance: (60, 400)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.payroll_26
+	{
+		# Payroll Envelopes - express  [r26: 40-400 km]
+
+		cargos[]: car_cargo.payroll
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		source_data_contexts[]: factory
+		target_data_contexts[]: construction
+		target_data_contexts[]: agriculture
+		target_data_contexts[]: factory
+		target_data_contexts[]: oil_field
+
+		express: true
+
+		customer_prio_cargo_handling: 10
+		customer_prio_time: 50
+		customer_prio_vehicle_appearance: 20
+
+		company_distance: (40, 400)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.payroll_v46
+	{
+		# Payroll Envelopes - express (valuable)  [r46: 40-400 km]
+
+		cargos[]: car_cargo.v_payroll
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		source_data_contexts[]: factory
+		target_data_contexts[]: construction
+		target_data_contexts[]: agriculture
+		target_data_contexts[]: factory
+		target_data_contexts[]: oil_field
+
+		express: true
+
+		customer_prio_cargo_handling: 10
+		customer_prio_time: 50
+		customer_prio_vehicle_appearance: 20
+
+		company_distance: (40, 400)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.expcus_e26
+	{
+		# Export Customs Declarations - express  [r26: 40-400 km]
+
+		cargos[]: car_cargo.expcustoms
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		source_data_contexts[]: factory
+		target_data_contexts[]: port
+
+		express: true
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 20
+
+		company_distance: (40, 400)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.expcus_ev46
+	{
+		# Export Customs Declarations - express (valuable)  [r46: 40-400 km]
+
+		cargos[]: car_cargo.v_expcustoms
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		source_data_contexts[]: factory
+		target_data_contexts[]: port
+
+		express: true
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 20
+
+		company_distance: (40, 400)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.waybill_26
+	{
+		# Rail Waybills - express  [r26: 40-360 km]
+
+		cargos[]: car_cargo.rail_waybill
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		#vehicle_types[]: muscle
+		#vehicle_types[]: veteran
+		#vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		source_data_contexts[]: factory
+		target_data_contexts[]: train_depot
+
+		express: true
+
+		customer_prio_cargo_handling: 10
+		customer_prio_time: 50
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (40, 360)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.hcert_e26
+	{
+		# Livestock Health Certificates - express  [r26: 40-1000 km]
+
+		cargos[]: car_cargo.healthcert
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: agriculture
+		target_data_contexts[]: auction
+
+		express: true
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 50
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (40, 1000)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.hcert_ev46
+	{
+		# Livestock Health Certificates - express (valuable)  [r46: 40-460 km]
+
+		cargos[]: car_cargo.v_healthcert
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: agriculture
+		target_data_contexts[]: auction
+
+		express: true
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 50
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (40, 460)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.dealdoc_e26
+	{
+		# Dealer Trade Documents - express  [r26: 500-1000 km]
+
+		cargos[]: car_cargo.dealerdocs
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: car_dealer
+		target_data_contexts[]: car_dealer
+
+		express: true
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 30
+
+		company_distance: (500, 1000)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.dealdoc_e36
+	{
+		# Dealer Trade Documents - express  [r36: 1000-1500 km]
+
+		cargos[]: car_cargo.dealerdocs
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: car_dealer
+		target_data_contexts[]: car_dealer
+
+		express: true
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 30
+
+		company_distance: (1000, 1500)
+		required_courier_rating: 3.6
+	}
+
+	car_job_data : car_job.dealdoc_e46
+	{
+		# Dealer Trade Documents - express  [r46: 1500-2500 km]
+
+		cargos[]: car_cargo.dealerdocs
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: car_dealer
+		target_data_contexts[]: car_dealer
+
+		express: true
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 30
+
+		company_distance: (1500, 2500)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.dealdoc_ev46
+	{
+		# Dealer Trade Documents - express (valuable)  [r46: 400-2500 km]
+
+		cargos[]: car_cargo.v_dealerdocs
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: car_dealer
+		target_data_contexts[]: car_dealer
+
+		express: true
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 30
+
+		company_distance: (400, 2500)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.ore_0
+	{
+		# Ore & Mineral Samples - standard  [r0: 40-360 km]
+
+		cargos[]: car_cargo.ore_smpl
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: mining
+		target_data_contexts[]: metalworks
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (40, 360)
+		required_courier_rating: 0
+	}
+
+	car_job_data : car_job.ore_f36
+	{
+		# Ore & Mineral Samples - standard (fragile)  [r36: 40-360 km]
+
+		cargos[]: car_cargo.f_ore_smpl
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: mining
+		target_data_contexts[]: metalworks
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (40, 360)
+		required_courier_rating: 3.6
+	}
+
+	car_job_data : car_job.ore_e26
+	{
+		# Ore & Mineral Samples - express  [r26: 40-320 km]
+
+		cargos[]: car_cargo.ore_smpl
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: mining
+		target_data_contexts[]: metalworks
+
+		express: true
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 60
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (40, 320)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.ore_ef36
+	{
+		# Ore & Mineral Samples - express (fragile)  [r36: 40-320 km]
+
+		cargos[]: car_cargo.f_ore_smpl
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: mining
+		target_data_contexts[]: metalworks
+
+		express: true
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 60
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (40, 320)
+		required_courier_rating: 3.6
+	}
+
+	car_job_data : car_job.drill_0
+	{
+		# Drill Core Samples - standard  [r0: 100-500 km]
+
+		cargos[]: car_cargo.drillcores
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: mining
+		source_data_contexts[]: oil_field
+		target_data_contexts[]: metalworks
+
+		customer_prio_cargo_handling: 40
+		customer_prio_time: 30
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (100, 500)
+		required_courier_rating: 0
+	}
+
+	car_job_data : car_job.drill_26
+	{
+		# Drill Core Samples - standard  [r26: 500-1000 km]
+
+		cargos[]: car_cargo.drillcores
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: mining
+		source_data_contexts[]: oil_field
+		target_data_contexts[]: metalworks
+
+		customer_prio_cargo_handling: 40
+		customer_prio_time: 30
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (500, 1000)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.drill_f36
+	{
+		# Drill Core Samples - standard (fragile)  [r36: 100-1500 km]
+
+		cargos[]: car_cargo.f_drillcores
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: mining
+		source_data_contexts[]: oil_field
+		target_data_contexts[]: metalworks
+
+		customer_prio_cargo_handling: 40
+		customer_prio_time: 30
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (100, 1500)
+		required_courier_rating: 3.6
+	}
+
+	car_job_data : car_job.chem_0
+	{
+		# Chemical Samples - standard  [r0: 100-500 km]
+
+		cargos[]: car_cargo.chem_smpl
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: factory
+		target_data_contexts[]: factory
+		target_data_contexts[]: warehouse
+
+		customer_prio_cargo_handling: 40
+		customer_prio_time: 30
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (100, 500)
+		required_courier_rating: 0
+	}
+
+	car_job_data : car_job.chem_26
+	{
+		# Chemical Samples - standard  [r26: 500-1000 km]
+
+		cargos[]: car_cargo.chem_smpl
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: factory
+		target_data_contexts[]: factory
+		target_data_contexts[]: warehouse
+
+		customer_prio_cargo_handling: 40
+		customer_prio_time: 30
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (500, 1000)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.chem_f36
+	{
+		# Chemical Samples - standard (fragile)  [r36: 100-1500 km]
+
+		cargos[]: car_cargo.f_chem_smpl
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: factory
+		target_data_contexts[]: factory
+		target_data_contexts[]: warehouse
+
+		customer_prio_cargo_handling: 40
+		customer_prio_time: 30
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (100, 1500)
+		required_courier_rating: 3.6
+	}
+
+	car_job_data : car_job.chem_v46
+	{
+		# Chemical Samples - standard (valuable)  [r46: 100-2500 km]
+
+		cargos[]: car_cargo.v_chem_smpl
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: factory
+		target_data_contexts[]: factory
+		target_data_contexts[]: warehouse
+
+		customer_prio_cargo_handling: 40
+		customer_prio_time: 30
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (100, 2500)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.chem_e26
+	{
+		# Chemical Samples - express  [r26: 100-1000 km]
+
+		cargos[]: car_cargo.chem_smpl
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: factory
+		target_data_contexts[]: factory
+		target_data_contexts[]: warehouse
+
+		express: true
+
+		customer_prio_cargo_handling: 40
+		customer_prio_time: 50
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (100, 1000)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.chem_ef36
+	{
+		# Chemical Samples - express (fragile)  [r36: 100-1500 km]
+
+		cargos[]: car_cargo.f_chem_smpl
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: factory
+		target_data_contexts[]: factory
+		target_data_contexts[]: warehouse
+
+		express: true
+
+		customer_prio_cargo_handling: 40
+		customer_prio_time: 50
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (100, 1500)
+		required_courier_rating: 3.6
+	}
+
+	car_job_data : car_job.chem_ev46
+	{
+		# Chemical Samples - express (valuable)  [r46: 100-560 km]
+
+		cargos[]: car_cargo.v_chem_smpl
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: factory
+		target_data_contexts[]: factory
+		target_data_contexts[]: warehouse
+
+		express: true
+
+		customer_prio_cargo_handling: 40
+		customer_prio_time: 50
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (100, 560)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.grid_0
+	{
+		# Grid Relay Components - standard  [r0: 60-500 km]
+
+		cargos[]: car_cargo.gridrelays
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: utility
+		target_data_contexts[]: utility
+
+		customer_prio_cargo_handling: 40
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 0
+
+		company_distance: (60, 500)
+		required_courier_rating: 0
+	}
+
+	car_job_data : car_job.grid_26
+	{
+		# Grid Relay Components - standard  [r26: 500-1000 km]
+
+		cargos[]: car_cargo.gridrelays
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: utility
+		target_data_contexts[]: utility
+
+		customer_prio_cargo_handling: 40
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 0
+
+		company_distance: (500, 1000)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.grid_f36
+	{
+		# Grid Relay Components - standard (fragile)  [r36: 60-1500 km]
+
+		cargos[]: car_cargo.f_gridrelays
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: utility
+		target_data_contexts[]: utility
+
+		customer_prio_cargo_handling: 40
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 0
+
+		company_distance: (60, 1500)
+		required_courier_rating: 3.6
+	}
+
+	car_job_data : car_job.grid_e26
+	{
+		# Grid Relay Components - express  [r26: 60-440 km]
+
+		cargos[]: car_cargo.gridrelays
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: utility
+		target_data_contexts[]: utility
+
+		express: true
+
+		customer_prio_cargo_handling: 40
+		customer_prio_time: 60
+		customer_prio_vehicle_appearance: 0
+
+		company_distance: (60, 440)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.grid_ef36
+	{
+		# Grid Relay Components - express (fragile)  [r36: 60-440 km]
+
+		cargos[]: car_cargo.f_gridrelays
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: utility
+		target_data_contexts[]: utility
+
+		express: true
+
+		customer_prio_cargo_handling: 40
+		customer_prio_time: 60
+		customer_prio_vehicle_appearance: 0
+
+		company_distance: (60, 440)
+		required_courier_rating: 3.6
+	}
+
+	car_job_data : car_job.tsparts_0
+	{
+		# Truck Small Parts - standard  [r0: 100-500 km]
+
+		cargos[]: car_cargo.smallparts
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: truck_dealer
+		target_data_contexts[]: truck_dealer
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (100, 500)
+		required_courier_rating: 0
+	}
+
+	car_job_data : car_job.tsparts_26
+	{
+		# Truck Small Parts - standard  [r26: 500-1000 km]
+
+		cargos[]: car_cargo.smallparts
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: truck_dealer
+		target_data_contexts[]: truck_dealer
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (500, 1000)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.tsparts_36
+	{
+		# Truck Small Parts - standard  [r36: 1000-1500 km]
+
+		cargos[]: car_cargo.smallparts
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: truck_dealer
+		target_data_contexts[]: truck_dealer
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (1000, 1500)
+		required_courier_rating: 3.6
+	}
+
+	car_job_data : car_job.tsparts_46
+	{
+		# Truck Small Parts - standard  [r46: 1500-2500 km]
+
+		cargos[]: car_cargo.smallparts
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: truck_dealer
+		target_data_contexts[]: truck_dealer
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (1500, 2500)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.tsparts_v46
+	{
+		# Truck Small Parts - standard (valuable)  [r46: 100-2500 km]
+
+		cargos[]: car_cargo.v_smallparts
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: truck_dealer
+		target_data_contexts[]: truck_dealer
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (100, 2500)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.tsparts_e26
+	{
+		# Truck Small Parts - express  [r26: 100-1000 km]
+
+		cargos[]: car_cargo.smallparts
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: truck_dealer
+		target_data_contexts[]: truck_dealer
+
+		express: true
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 60
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (100, 1000)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.tsparts_e36
+	{
+		# Truck Small Parts - express  [r36: 1000-1500 km]
+
+		cargos[]: car_cargo.smallparts
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: truck_dealer
+		target_data_contexts[]: truck_dealer
+
+		express: true
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 60
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (1000, 1500)
+		required_courier_rating: 3.6
+	}
+
+	car_job_data : car_job.tsparts_ev46
+	{
+		# Truck Small Parts - express (valuable)  [r46: 100-2500 km]
+
+		cargos[]: car_cargo.v_smallparts
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: truck_dealer
+		target_data_contexts[]: truck_dealer
+
+		express: true
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 60
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (100, 2500)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.packpro_0
+	{
+		# Packaging Prototypes - standard  [r0: 60-500 km]
+
+		cargos[]: car_cargo.pack_proto
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: factory
+		target_data_contexts[]: factory
+		target_data_contexts[]: retail
+		target_data_contexts[]: warehouse
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 20
+		customer_prio_vehicle_appearance: 40
+
+		company_distance: (60, 500)
+		required_courier_rating: 0
+	}
+
+	car_job_data : car_job.packpro_26
+	{
+		# Packaging Prototypes - standard  [r26: 500-1000 km]
+
+		cargos[]: car_cargo.pack_proto
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: factory
+		target_data_contexts[]: factory
+		target_data_contexts[]: retail
+		target_data_contexts[]: warehouse
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 20
+		customer_prio_vehicle_appearance: 40
+
+		company_distance: (500, 1000)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.packpro_f36
+	{
+		# Packaging Prototypes - standard (fragile)  [r36: 60-1500 km]
+
+		cargos[]: car_cargo.f_pack_proto
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: factory
+		target_data_contexts[]: factory
+		target_data_contexts[]: retail
+		target_data_contexts[]: warehouse
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 20
+		customer_prio_vehicle_appearance: 40
+
+		company_distance: (60, 1500)
+		required_courier_rating: 3.6
+	}
+
+	car_job_data : car_job.oparts_0
+	{
+		# Outboard Engine Parts - standard  [r0: 60-500 km]
+
+		cargos[]: car_cargo.outb_parts
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		source_data_contexts[]: marina
+		target_data_contexts[]: marina
+
+		customer_prio_cargo_handling: 40
+		customer_prio_time: 30
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (60, 500)
+		required_courier_rating: 0
+	}
+
+	car_job_data : car_job.oparts_26
+	{
+		# Outboard Engine Parts - standard  [r26: 500-1000 km]
+
+		cargos[]: car_cargo.outb_parts
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		source_data_contexts[]: marina
+		target_data_contexts[]: marina
+
+		customer_prio_cargo_handling: 40
+		customer_prio_time: 30
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (500, 1000)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.oparts_f36
+	{
+		# Outboard Engine Parts - standard (fragile)  [r36: 60-1500 km]
+
+		cargos[]: car_cargo.f_outb_parts
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		source_data_contexts[]: marina
+		target_data_contexts[]: marina
+
+		customer_prio_cargo_handling: 40
+		customer_prio_time: 30
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (60, 1500)
+		required_courier_rating: 3.6
+	}
+
+	car_job_data : car_job.bregpap_e26
+	{
+		# Boat Registration Papers - express  [r26: 100-1000 km]
+
+		cargos[]: car_cargo.boatregpap
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: marina
+		target_data_contexts[]: marina
+
+		express: true
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 50
+		customer_prio_vehicle_appearance: 20
+
+		company_distance: (100, 1000)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.bregpap_e36
+	{
+		# Boat Registration Papers - express  [r36: 1000-1500 km]
+
+		cargos[]: car_cargo.boatregpap
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: marina
+		target_data_contexts[]: marina
+
+		express: true
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 50
+		customer_prio_vehicle_appearance: 20
+
+		company_distance: (1000, 1500)
+		required_courier_rating: 3.6
+	}
+
+	car_job_data : car_job.bregpap_e46
+	{
+		# Boat Registration Papers - express  [r46: 1500-2500 km]
+
+		cargos[]: car_cargo.boatregpap
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: marina
+		target_data_contexts[]: marina
+
+		express: true
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 50
+		customer_prio_vehicle_appearance: 20
+
+		company_distance: (1500, 2500)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.bregpap_ev46
+	{
+		# Boat Registration Papers - express (valuable)  [r46: 100-2500 km]
+
+		cargos[]: car_cargo.v_boatregpap
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: marina
+		target_data_contexts[]: marina
+
+		express: true
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 50
+		customer_prio_vehicle_appearance: 20
+
+		company_distance: (100, 2500)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.restock_0
+	{
+		# Fill-In Restock - standard  [r0: 40-500 km]
+
+		cargos[]: car_cargo.fill_restock
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		target_data_contexts[]: gas_station
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (40, 500)
+		required_courier_rating: 0
+	}
+
+	car_job_data : car_job.wallet_26
+	{
+		# Lost Wallet - express  [r26: 60-400 km]
+
+		cargos[]: car_cargo.lostwallet
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: airport
+		source_data_contexts[]: port
+		source_data_contexts[]: train_depot
+		target_data_contexts[]: retail
+		target_data_contexts[]: warehouse
+		target_data_contexts[]: custom_depot
+
+		express: true
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (60, 400)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.wallet_v46
+	{
+		# Lost Wallet - express (valuable)  [r46: 60-400 km]
+
+		cargos[]: car_cargo.v_lostwallet
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: airport
+		source_data_contexts[]: port
+		source_data_contexts[]: train_depot
+		target_data_contexts[]: retail
+		target_data_contexts[]: warehouse
+		target_data_contexts[]: custom_depot
+
+		express: true
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (60, 400)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.trophy_46
+	{
+		# Regatta Trophy - standard  [r46: 100-2500 km]
+
+		cargos[]: car_cargo.reg_trophy
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: marina
+		target_data_contexts[]: marina
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 20
+		customer_prio_vehicle_appearance: 40
+
+		company_distance: (100, 2500)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.propel_0
+	{
+		# Replacement Propeller - standard  [r0: 60-500 km]
+
+		cargos[]: car_cargo.repl_prop
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: port
+		source_data_contexts[]: marina
+		target_data_contexts[]: marina
+		target_data_contexts[]: port
+
+		customer_prio_cargo_handling: 40
+		customer_prio_time: 30
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (60, 500)
+		required_courier_rating: 0
+	}
+
+	car_job_data : car_job.propel_26
+	{
+		# Replacement Propeller - standard  [r26: 500-1000 km]
+
+		cargos[]: car_cargo.repl_prop
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: port
+		source_data_contexts[]: marina
+		target_data_contexts[]: marina
+		target_data_contexts[]: port
+
+		customer_prio_cargo_handling: 40
+		customer_prio_time: 30
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (500, 1000)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.propel_f36
+	{
+		# Replacement Propeller - standard (fragile)  [r36: 60-1500 km]
+
+		cargos[]: car_cargo.f_repl_prop
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: port
+		source_data_contexts[]: marina
+		target_data_contexts[]: marina
+		target_data_contexts[]: port
+
+		customer_prio_cargo_handling: 40
+		customer_prio_time: 30
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (60, 1500)
+		required_courier_rating: 3.6
+	}
+
+	car_job_data : car_job.yachtbr_26
+	{
+		# Yacht Brokerage Papers - express  [r26: 100-1000 km]
+
+		cargos[]: car_cargo.yacht_brok
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: marina
+		target_data_contexts[]: marina
+
+		express: true
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 50
+		customer_prio_vehicle_appearance: 20
+
+		company_distance: (100, 1000)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.yachtbr_36
+	{
+		# Yacht Brokerage Papers - express  [r36: 1000-1500 km]
+
+		cargos[]: car_cargo.yacht_brok
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: marina
+		target_data_contexts[]: marina
+
+		express: true
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 50
+		customer_prio_vehicle_appearance: 20
+
+		company_distance: (1000, 1500)
+		required_courier_rating: 3.6
+	}
+
+	car_job_data : car_job.yachtbr_46
+	{
+		# Yacht Brokerage Papers - express  [r46: 1500-2500 km]
+
+		cargos[]: car_cargo.yacht_brok
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: marina
+		target_data_contexts[]: marina
+
+		express: true
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 50
+		customer_prio_vehicle_appearance: 20
+
+		company_distance: (1500, 2500)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.yachtbr_v46
+	{
+		# Yacht Brokerage Papers - express (valuable)  [r46: 100-2500 km]
+
+		cargos[]: car_cargo.v_yacht_brok
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: marina
+		target_data_contexts[]: marina
+
+		express: true
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 50
+		customer_prio_vehicle_appearance: 20
+
+		company_distance: (100, 2500)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.tdiag_e26
+	{
+		# Tractor Diagnostic Module - express  [r26: 60-1000 km]
+
+		cargos[]: car_cargo.tract_diag
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: farm_service
+		target_data_contexts[]: farm_service
+
+		express: true
+
+		customer_prio_cargo_handling: 40
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (60, 1000)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.tdiag_ef36
+	{
+		# Tractor Diagnostic Module - express (fragile)  [r36: 60-1500 km]
+
+		cargos[]: car_cargo.f_tract_diag
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: farm_service
+		target_data_contexts[]: farm_service
+
+		express: true
+
+		customer_prio_cargo_handling: 40
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (60, 1500)
+		required_courier_rating: 3.6
+	}
+
+	car_job_data : car_job.tdiag_ev46
+	{
+		# Tractor Diagnostic Module - express (valuable)  [r46: 60-500 km]
+
+		cargos[]: car_cargo.v_tract_diag
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: farm_service
+		target_data_contexts[]: farm_service
+
+		express: true
+
+		customer_prio_cargo_handling: 40
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (60, 500)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.subkeys_26
+	{
+		# Substation Access Keys - express  [r26: 60-1000 km]
+
+		cargos[]: car_cargo.subst_keys
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		#vehicle_types[]: muscle
+		#vehicle_types[]: veteran
+		#vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: utility
+		target_data_contexts[]: utility
+
+		express: true
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 50
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (60, 1000)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.subkeys_v46
+	{
+		# Substation Access Keys - express (valuable)  [r46: 60-500 km]
+
+		cargos[]: car_cargo.v_subst_keys
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		#vehicle_types[]: muscle
+		#vehicle_types[]: veteran
+		#vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: utility
+		target_data_contexts[]: utility
+
+		express: true
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 50
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (60, 500)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.crewdoc_26
+	{
+		# Flight Crew Documents - express  [r26: 100-1000 km]
+
+		cargos[]: car_cargo.crew_docs
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: airport
+		target_data_contexts[]: airport
+
+		express: true
+
+		customer_prio_cargo_handling: 10
+		customer_prio_time: 50
+		customer_prio_vehicle_appearance: 20
+
+		company_distance: (100, 1000)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.crewdoc_36
+	{
+		# Flight Crew Documents - express  [r36: 1000-1500 km]
+
+		cargos[]: car_cargo.crew_docs
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: airport
+		target_data_contexts[]: airport
+
+		express: true
+
+		customer_prio_cargo_handling: 10
+		customer_prio_time: 50
+		customer_prio_vehicle_appearance: 20
+
+		company_distance: (1000, 1500)
+		required_courier_rating: 3.6
+	}
+
+	car_job_data : car_job.crewdoc_46
+	{
+		# Flight Crew Documents - express  [r46: 1500-2500 km]
+
+		cargos[]: car_cargo.crew_docs
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: airport
+		target_data_contexts[]: airport
+
+		express: true
+
+		customer_prio_cargo_handling: 10
+		customer_prio_time: 50
+		customer_prio_vehicle_appearance: 20
+
+		company_distance: (1500, 2500)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.misdel_0
+	{
+		# Misrouted Supplier Delivery - standard  [r0: 40-500 km]
+
+		cargos[]: car_cargo.mis_delivery
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: gas_station
+		target_data_contexts[]: gas_station
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (40, 500)
+		required_courier_rating: 0
+	}
+
+	car_job_data : car_job.seals_0
+	{
+		# Intermodal Transfer Seals - standard  [r0: 40-500 km]
+
+		cargos[]: car_cargo.xfer_seals
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		#vehicle_types[]: muscle
+		#vehicle_types[]: veteran
+		#vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: port
+		target_data_contexts[]: train_depot
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (40, 500)
+		required_courier_rating: 0
+	}
+
+	car_job_data : car_job.seals_v46
+	{
+		# Intermodal Transfer Seals - standard (valuable)  [r46: 40-400 km]
+
+		cargos[]: car_cargo.v_xfer_seals
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		#vehicle_types[]: muscle
+		#vehicle_types[]: veteran
+		#vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: port
+		target_data_contexts[]: train_depot
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (40, 400)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.crewsup_0
+	{
+		# Crew Supplies & Snacks - standard  [r0: 40-200 km]
+
+		cargos[]: car_cargo.crew_supply
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: gas_station
+		target_data_contexts[]: oil_field
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 40
+		customer_prio_vehicle_appearance: 0
+
+		company_distance: (40, 200)
+		required_courier_rating: 0
+	}
+
+	car_job_data : car_job.tmaps_0
+	{
+		# Tourist Maps Resupply - standard  [r0: 40-500 km]
+
+		cargos[]: car_cargo.tourist_maps
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		#vehicle_types[]: muscle
+		#vehicle_types[]: veteran
+		#vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: gas_station
+		target_data_contexts[]: gas_station
+
+		customer_prio_cargo_handling: 10
+		customer_prio_time: 30
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (40, 500)
+		required_courier_rating: 0
+	}
+
+	car_job_data : car_job.ffinder_0
+	{
+		# Fish Finder Unit - standard  [r0: 60-500 km]
+
+		cargos[]: car_cargo.fish_finder
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: port
+		target_data_contexts[]: marina
+
+		customer_prio_cargo_handling: 40
+		customer_prio_time: 20
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (60, 500)
+		required_courier_rating: 0
+	}
+
+	car_job_data : car_job.expcus_0
+	{
+		# Export Customs Declarations - standard  [r0: 40-500 km]
+
+		cargos[]: car_cargo.expcustoms
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		source_data_contexts[]: factory
+		target_data_contexts[]: port
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 20
+		customer_prio_vehicle_appearance: 20
+
+		company_distance: (40, 500)
+		required_courier_rating: 0
+	}
+
+	car_job_data : car_job.expcus_v46
+	{
+		# Export Customs Declarations - standard (valuable)  [r46: 40-440 km]
+
+		cargos[]: car_cargo.v_expcustoms
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		source_data_contexts[]: factory
+		target_data_contexts[]: port
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 20
+		customer_prio_vehicle_appearance: 20
+
+		company_distance: (40, 440)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.hcert_0
+	{
+		# Livestock Health Certificates - standard  [r0: 40-500 km]
+
+		cargos[]: car_cargo.healthcert
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: agriculture
+		target_data_contexts[]: auction
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 30
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (40, 500)
+		required_courier_rating: 0
+	}
+
+	car_job_data : car_job.hcert_26
+	{
+		# Livestock Health Certificates - standard  [r26: 500-1000 km]
+
+		cargos[]: car_cargo.healthcert
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: agriculture
+		target_data_contexts[]: auction
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 30
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (500, 1000)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.hcert_v46
+	{
+		# Livestock Health Certificates - standard (valuable)  [r46: 40-500 km]
+
+		cargos[]: car_cargo.v_healthcert
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: agriculture
+		target_data_contexts[]: auction
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 30
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (40, 500)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.dealdoc_0
+	{
+		# Dealer Trade Documents - standard  [r0: 40-500 km]
+
+		cargos[]: car_cargo.dealerdocs
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: car_dealer
+		target_data_contexts[]: car_dealer
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 20
+		customer_prio_vehicle_appearance: 30
+
+		company_distance: (40, 500)
+		required_courier_rating: 0
+	}
+
+	car_job_data : car_job.dealdoc_26
+	{
+		# Dealer Trade Documents - standard  [r26: 500-1000 km]
+
+		cargos[]: car_cargo.dealerdocs
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: car_dealer
+		target_data_contexts[]: car_dealer
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 20
+		customer_prio_vehicle_appearance: 30
+
+		company_distance: (500, 1000)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.dealdoc_v46
+	{
+		# Dealer Trade Documents - standard (valuable)  [r46: 40-540 km]
+
+		cargos[]: car_cargo.v_dealerdocs
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: car_dealer
+		target_data_contexts[]: car_dealer
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 20
+		customer_prio_vehicle_appearance: 30
+
+		company_distance: (40, 540)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.bregpap_0
+	{
+		# Boat Registration Papers - standard  [r0: 100-500 km]
+
+		cargos[]: car_cargo.boatregpap
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: marina
+		target_data_contexts[]: marina
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 30
+		customer_prio_vehicle_appearance: 20
+
+		company_distance: (100, 500)
+		required_courier_rating: 0
+	}
+
+	car_job_data : car_job.bregpap_26
+	{
+		# Boat Registration Papers - standard  [r26: 500-1000 km]
+
+		cargos[]: car_cargo.boatregpap
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: marina
+		target_data_contexts[]: marina
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 30
+		customer_prio_vehicle_appearance: 20
+
+		company_distance: (500, 1000)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.bregpap_36
+	{
+		# Boat Registration Papers - standard  [r36: 1000-1500 km]
+
+		cargos[]: car_cargo.boatregpap
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: marina
+		target_data_contexts[]: marina
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 30
+		customer_prio_vehicle_appearance: 20
+
+		company_distance: (1000, 1500)
+		required_courier_rating: 3.6
+	}
+
+	car_job_data : car_job.bregpap_46
+	{
+		# Boat Registration Papers - standard  [r46: 1500-2500 km]
+
+		cargos[]: car_cargo.boatregpap
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: marina
+		target_data_contexts[]: marina
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 30
+		customer_prio_vehicle_appearance: 20
+
+		company_distance: (1500, 2500)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.bregpap_v46
+	{
+		# Boat Registration Papers - standard (valuable)  [r46: 100-2500 km]
+
+		cargos[]: car_cargo.v_boatregpap
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: muscle
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: marina
+		target_data_contexts[]: marina
+
+		customer_prio_cargo_handling: 20
+		customer_prio_time: 30
+		customer_prio_vehicle_appearance: 20
+
+		company_distance: (100, 2500)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.tdiag_0
+	{
+		# Tractor Diagnostic Module - standard  [r0: 60-500 km]
+
+		cargos[]: car_cargo.tract_diag
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: farm_service
+		target_data_contexts[]: farm_service
+
+		customer_prio_cargo_handling: 40
+		customer_prio_time: 20
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (60, 500)
+		required_courier_rating: 0
+	}
+
+	car_job_data : car_job.tdiag_26
+	{
+		# Tractor Diagnostic Module - standard  [r26: 500-1000 km]
+
+		cargos[]: car_cargo.tract_diag
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: farm_service
+		target_data_contexts[]: farm_service
+
+		customer_prio_cargo_handling: 40
+		customer_prio_time: 20
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (500, 1000)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.tdiag_f36
+	{
+		# Tractor Diagnostic Module - standard (fragile)  [r36: 60-1500 km]
+
+		cargos[]: car_cargo.f_tract_diag
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: farm_service
+		target_data_contexts[]: farm_service
+
+		customer_prio_cargo_handling: 40
+		customer_prio_time: 20
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (60, 1500)
+		required_courier_rating: 3.6
+	}
+
+	car_job_data : car_job.tdiag_v46
+	{
+		# Tractor Diagnostic Module - standard (valuable)  [r46: 60-540 km]
+
+		cargos[]: car_cargo.v_tract_diag
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: farm_service
+		target_data_contexts[]: farm_service
+
+		customer_prio_cargo_handling: 40
+		customer_prio_time: 20
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (60, 540)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.jockey_0
+	{
+		# Car Jockey (normal tier) - standard  [r0: 300-500 km]
+
+		name: "@@cjob_dealer_allocation@@"
+		reward_per_km: 1.0
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		source_data_contexts[]: veh_logistic
+		source_data_contexts[]: car_dealer
+		target_data_contexts[]: warehouse
+		target_data_contexts[]: veh_logistic
+		target_data_contexts[]: car_dealer
+
+		customer_prio_cargo_handling: 0
+		customer_prio_time: 20
+		customer_prio_vehicle_appearance: 40
+
+		company_distance: (300, 500)
+		required_courier_rating: 0
+	}
+
+	car_job_data : car_job.jockey_26
+	{
+		# Car Jockey (normal tier) - standard  [r26: 500-1000 km]
+
+		name: "@@cjob_dealer_allocation@@"
+		reward_per_km: 1.0
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		source_data_contexts[]: veh_logistic
+		source_data_contexts[]: car_dealer
+		target_data_contexts[]: warehouse
+		target_data_contexts[]: veh_logistic
+		target_data_contexts[]: car_dealer
+
+		customer_prio_cargo_handling: 0
+		customer_prio_time: 20
+		customer_prio_vehicle_appearance: 40
+
+		company_distance: (500, 1000)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.jockey_36
+	{
+		# Car Jockey (normal tier) - standard  [r36: 1000-1500 km]
+
+		name: "@@cjob_dealer_allocation@@"
+		reward_per_km: 1.0
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		source_data_contexts[]: veh_logistic
+		source_data_contexts[]: car_dealer
+		target_data_contexts[]: warehouse
+		target_data_contexts[]: veh_logistic
+		target_data_contexts[]: car_dealer
+
+		customer_prio_cargo_handling: 0
+		customer_prio_time: 20
+		customer_prio_vehicle_appearance: 40
+
+		company_distance: (1000, 1500)
+		required_courier_rating: 3.6
+	}
+
+	car_job_data : car_job.jockey_46
+	{
+		# Car Jockey (normal tier) - standard  [r46: 1500-2500 km]
+
+		name: "@@cjob_dealer_allocation@@"
+		reward_per_km: 1.0
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: warehouse
+		source_data_contexts[]: veh_logistic
+		source_data_contexts[]: car_dealer
+		target_data_contexts[]: warehouse
+		target_data_contexts[]: veh_logistic
+		target_data_contexts[]: car_dealer
+
+		customer_prio_cargo_handling: 0
+		customer_prio_time: 20
+		customer_prio_vehicle_appearance: 40
+
+		company_distance: (1500, 2500)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.prem_46
+	{
+		# Car Jockey (premium tier: veteran/sport/muscle) - standard, valuable  [r46: 300-2500 km]
+
+		name: "@@cjob_premium_allocation@@"
+		reward_per_km: 1.1
+		# valuable: true
+
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: muscle
+
+		source_data_contexts[]: car_dealer
+		target_data_contexts[]: car_dealer
+
+		customer_prio_cargo_handling: 0
+		customer_prio_time: 10
+		customer_prio_vehicle_appearance: 60
+
+		company_distance: (300, 2500)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.prem_e46
+	{
+		# Car Jockey (premium tier: veteran/sport/muscle) - express, valuable  [r46: 140-2500 km]
+
+		name: "@@cjob_premium_allocation@@"
+		reward_per_km: 1.1
+		# valuable: true
+
+		vehicle_types[]: veteran
+		vehicle_types[]: sport
+		vehicle_types[]: muscle
+
+		source_data_contexts[]: car_dealer
+		target_data_contexts[]: car_dealer
+
+		express: true
+
+		customer_prio_cargo_handling: 0
+		customer_prio_time: 30
+		customer_prio_vehicle_appearance: 60
+
+		company_distance: (140, 2500)
+		required_courier_rating: 4.6
+	}
+
+	car_job_data : car_job.unident_0
+	{
+		# Unidentified Shipment - standard  [r0: 60-500 km]
+
+		cargos[]: car_cargo.unid_ship
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: oil_field
+		source_data_contexts[]: construction
+		source_data_contexts[]: port
+		target_data_contexts[]: auction
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 20
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (60, 500)
+		required_courier_rating: 0
+	}
+
+	car_job_data : car_job.unident_26
+	{
+		# Unidentified Shipment - standard  [r26: 500-1000 km]
+
+		cargos[]: car_cargo.unid_ship
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: oil_field
+		source_data_contexts[]: construction
+		source_data_contexts[]: port
+		target_data_contexts[]: auction
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 20
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (500, 1000)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.unident_f36
+	{
+		# Unidentified Shipment - standard (fragile)  [r36: 60-1500 km]
+
+		cargos[]: car_cargo.f_unid_ship
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: oil_field
+		source_data_contexts[]: construction
+		source_data_contexts[]: port
+		target_data_contexts[]: auction
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 20
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (60, 1500)
+		required_courier_rating: 3.6
+	}
+
+	car_job_data : car_job.undisc_0
+	{
+		# Undisclosed Consignment - standard  [r0: 60-500 km]
+
+		cargos[]: car_cargo.und_consign
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: auction
+		target_data_contexts[]: gas_station
+		target_data_contexts[]: custom_depot
+		target_data_contexts[]: utility
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 20
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (60, 500)
+		required_courier_rating: 0
+	}
+
+	car_job_data : car_job.undisc_26
+	{
+		# Undisclosed Consignment - standard  [r26: 500-1000 km]
+
+		cargos[]: car_cargo.und_consign
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: auction
+		target_data_contexts[]: gas_station
+		target_data_contexts[]: custom_depot
+		target_data_contexts[]: utility
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 20
+		customer_prio_vehicle_appearance: 10
+
+		company_distance: (500, 1000)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.confid_0
+	{
+		# Confidential Delivery - standard  [r0: 100-500 km]
+
+		cargos[]: car_cargo.conf_deliv
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: train_depot
+		source_data_contexts[]: port
+		source_data_contexts[]: airport
+		target_data_contexts[]: utility
+		target_data_contexts[]: oil_field
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 20
+		customer_prio_vehicle_appearance: 20
+
+		company_distance: (100, 500)
+		required_courier_rating: 0
+	}
+
+	car_job_data : car_job.confid_26
+	{
+		# Confidential Delivery - standard  [r26: 500-1000 km]
+
+		cargos[]: car_cargo.conf_deliv
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: train_depot
+		source_data_contexts[]: port
+		source_data_contexts[]: airport
+		target_data_contexts[]: utility
+		target_data_contexts[]: oil_field
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 20
+		customer_prio_vehicle_appearance: 20
+
+		company_distance: (500, 1000)
+		required_courier_rating: 2.6
+	}
+
+	car_job_data : car_job.confid_36
+	{
+		# Confidential Delivery - standard  [r36: 1000-1500 km]
+
+		cargos[]: car_cargo.conf_deliv
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: train_depot
+		source_data_contexts[]: port
+		source_data_contexts[]: airport
+		target_data_contexts[]: utility
+		target_data_contexts[]: oil_field
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 20
+		customer_prio_vehicle_appearance: 20
+
+		company_distance: (1000, 1500)
+		required_courier_rating: 3.6
+	}
+
+	car_job_data : car_job.confid_v46
+	{
+		# Confidential Delivery - standard (valuable)  [r46: 100-2500 km]
+
+		cargos[]: car_cargo.v_conf_deliv
+
+		vehicle_types[]: pickup
+		vehicle_types[]: suv
+		vehicle_types[]: sedan
+		vehicle_types[]: offroad
+
+		source_data_contexts[]: train_depot
+		source_data_contexts[]: port
+		source_data_contexts[]: airport
+		target_data_contexts[]: utility
+		target_data_contexts[]: oil_field
+
+		customer_prio_cargo_handling: 30
+		customer_prio_time: 20
+		customer_prio_vehicle_appearance: 20
+
+		company_distance: (100, 2500)
+		required_courier_rating: 4.6
+	}
+
+}

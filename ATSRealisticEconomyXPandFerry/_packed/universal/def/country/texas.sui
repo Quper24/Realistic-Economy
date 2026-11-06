@@ -1,0 +1,35 @@
+
+country_data : country.data.texas
+{
+	country_id: 43
+
+	name: "Texas"
+	name_localized: "@@texas@@"
+	country_code: "TX"
+	iso_country_code: ustx
+
+	pos: (-15000, 0, 44000)
+
+	fuel_price: 1.514868	# 1 liter = 0.264172052 US gallons
+	petrol_price: 0.980105
+
+	lights_mandatory: false
+	imperial_units: true
+	driving_tired_offence: true
+
+	time_zone: -300		# -5 hours in minutes verão
+	# time_zone: -360		# -6 hours in minutes inverno
+	time_zone_name: "@@tz_cdt@@"	# verão
+	# time_zone_name: "CST"	# inverno
+
+	# El Paso + Hudspeth counties, @@tz_mdt@@, -6 hours
+	secondary_time_zone_area[]: (-51286.5, -43729.5, 37159.7, 42864.0)
+	secondary_time_zone[]: -360 	# verão
+	# secondary_time_zone[]: -420 	# inverno
+	secondary_time_zone_name[]: "@@tz_mdt@@"	# verão
+	# secondary_time_zone_name[]: "@@tz_mst@@"	# inverno
+
+	mass_limit_per_axle_count[]: 18143.7	# 40000 lb	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 27215.6	# 60000 lb
+	mass_limit_per_axle_count[]: 36287.4	# 80000 lb
+}

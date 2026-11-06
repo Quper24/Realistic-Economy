@@ -1,0 +1,10 @@
+SiiNunit
+{
+ferry_connection : conn.hvalba.husavik {
+	price: 7
+	time: 29
+	distance: 4
+
+}
+}
+

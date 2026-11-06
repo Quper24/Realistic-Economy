@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.cbarneo.nyaleair {
+	price: 134
+	time: 1337
+	distance: 658
+}
+}
+

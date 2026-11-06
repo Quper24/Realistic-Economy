@@ -1,0 +1,8 @@
+SiiNunit
+{
+ferry_connection : conn.gdansk_89.gdansk {
+	price: 7
+	time: 23
+	distance: 1
+}
+}

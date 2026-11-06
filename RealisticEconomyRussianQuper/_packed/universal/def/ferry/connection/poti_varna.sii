@@ -1,0 +1,19 @@
+SiiNunit
+{
+ferry_connection : conn.poti.varna{
+	price: 248
+	time: 2487
+	distance: 1233
+
+	# NODE POSITIONS #######   x*256  , 0,  z*256
+	connection_positions[0]: (32709120, 0, 7265690)
+	connection_positions[1]: (32640512, 0, 7273164)
+	connection_positions[2]: (18083788, 0, 9497652)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: (-0.93969, 0,  0.34202)
+	connection_directions[1]: (-0.98769, 0,  0.15643)
+	connection_directions[2]: (-0.98769, 0,  0.15643)
+}
+}
+

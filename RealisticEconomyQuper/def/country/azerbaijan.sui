@@ -1,0 +1,24 @@
+country_data : country.data.azerbaijan
+{
+	country_id: 48
+
+	name: "Azerbaycan"
+	name_localized: "@@azerbaijan@@"
+	country_code: "AZ"
+	iso_country_code: aze
+
+	pos: (158400, 0, 27000)
+
+	fuel_price: 0.556
+
+	lights_mandatory: false
+	driving_tired_offence: true
+
+	time_zone: 240		# +4 hours in minutes
+	time_zone_name: "AZT"
+
+	mass_limit_per_axle_count[]: 22500	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 32500
+	mass_limit_per_axle_count[]: 44000
+	mass_limit_per_axle_count[]: 44000
+}

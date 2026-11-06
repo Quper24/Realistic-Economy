@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.andalsvagen.horn1 {
+	price: 5
+	time: 31
+	distance: 5
+
+}
+}

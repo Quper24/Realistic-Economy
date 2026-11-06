@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.rc_chester.rc_Naujaat {
+	price: 801
+	time: 24020
+	distance: 6000
+}
+}
+

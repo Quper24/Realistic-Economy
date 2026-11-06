@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.galveston.nascar {
+	price: 57
+	time: 1700
+	distance: 420
+}
+}
+

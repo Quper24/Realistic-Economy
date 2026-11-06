@@ -1,0 +1,8 @@
+SiiNunit
+{
+ferry_connection : conn.krabith.kolanta {
+	price: 7
+	time: 25
+	distance: 2
+}
+}

@@ -1,0 +1,19 @@
+SiiNunit
+{
+ferry_connection : conn.kuivastu.virtsu{
+	price: 5
+	time: 35
+	distance: 7
+
+	# NODE POSITIONS #######    x*256 , 0,   z*256
+	connection_positions[0]: (10627764, 0, -11717684)
+	connection_positions[1]: (10651212, 0, -11807488)
+	connection_positions[2]: (10674048, 0, -11801396)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: ( 1,       0,  0      )
+	connection_directions[1]: ( 1,       0,  0      )
+	connection_directions[2]: ( 0.5,     0,  0.86603)
+}
+}
+

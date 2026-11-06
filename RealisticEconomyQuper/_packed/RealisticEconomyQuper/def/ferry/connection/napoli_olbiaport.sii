@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.napoli.olbiaport {
+	price: 124
+	time: 1221
+	distance: 600
+}
+}
+

@@ -1,0 +1,26 @@
+country_data : country.data.greenland
+{
+	country_id: 152
+
+	name: "Kalaallit Nunaat"
+	name_localized: "@@greenland@@"
+	country_code: "DK"
+	iso_country_code: grl
+
+	pos:(-106989, 0, -145195)
+
+	fuel_price: 0.63
+
+	lights_mandatory: true
+	driving_tired_offence: true
+
+	time_zone: -60		# -1 hours in minutes
+	time_zone_name: "WGST"
+
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 38000
+	mass_limit_per_axle_count[]: 42000
+	mass_limit_per_axle_count[]: 50000
+	mass_limit_per_axle_count[]: 56000
+}

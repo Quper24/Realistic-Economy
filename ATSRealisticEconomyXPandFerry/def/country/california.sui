@@ -1,0 +1,28 @@
+
+country_data : country.data.california
+{
+	country_id: 1
+
+	name: "California"
+	name_localized: "@@california@@"
+	country_code: "CA"
+	iso_country_code: usca
+
+	pos: (-100000, 0, 4000)
+
+	fuel_price: 2.230642	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.589999
+
+	lights_mandatory: false
+	imperial_units: true
+	driving_tired_offence: true
+
+	time_zone: -420		# -7 hours in minutes verão
+	# time_zone: -480		# -8 hours in minutes inverno
+	time_zone_name: "@@tz_pdt@@"	# verão
+	# time_zone_name: "PST"	# inverno
+
+	mass_limit_per_axle_count[]: 18143.7	# 40000 lb	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 27215.6	# 60000 lb
+	mass_limit_per_axle_count[]: 36287.4	# 80000 lb
+}

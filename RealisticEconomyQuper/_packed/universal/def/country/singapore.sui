@@ -1,0 +1,26 @@
+
+country_data : country.data.singapore
+{
+	country_id: 80
+
+	name: "Singapore"
+	name_localized: "@@Singapore@@"
+	country_code: "SG"
+	iso_country_code: sgp
+
+	pos: (557000, 0, -62500)
+
+	fuel_price: 2.524
+
+	lights_mandatory: false
+	leftside_traffic: true
+	driving_tired_offence: true
+
+	time_zone: 540		# +8 hours in minutes
+	time_zone_name: "@@SST@@"
+
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 36000
+	mass_limit_per_axle_count[]: 40000
+}

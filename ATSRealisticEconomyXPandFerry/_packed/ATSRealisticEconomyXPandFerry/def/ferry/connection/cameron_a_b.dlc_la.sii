@@ -1,0 +1,9 @@
+SiiNunit
+{
+	ferry_connection : conn.cameron_a.cameron_b {
+		price: 2
+		time: 20
+		distance: 0.5
+	}
+}
+

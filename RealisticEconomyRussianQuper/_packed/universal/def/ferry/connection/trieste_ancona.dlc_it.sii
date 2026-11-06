@@ -1,0 +1,24 @@
+SiiNunit
+{
+ferry_connection : conn.trieste.ancona {
+	price: 53
+	time: 521
+	distance: 250
+	
+connection_positions[0]: (2613768, 0, 6967410)
+connection_positions[1]: (2410418, 0, 7126123)
+connection_positions[2]: (2603515, 0, 8766556)
+connection_positions[3]: (2702393, 0, 9875382)
+connection_positions[4]: (2697408, 0, 9929433)
+connection_positions[5]: (2791035, 0, 9968965)
+connection_positions[6]: (2822810, 0, 10016891)
+	
+connection_directions[0]: (-0.995852, 0.000000, 0.090983)
+connection_directions[1]: (-0.432086, 0.000000, 0.901832)
+connection_directions[2]: (0.642788, 0.000000, 0.766044)
+connection_directions[3]: (-0.771198, 0.000000, 0.636596)
+connection_directions[4]: (0.636595, 0.000000, 0.771198)
+connection_directions[5]: (0.758132, 0.000000, 0.652101)
+connection_directions[6]: (0.246958, 0.000000, 0.969026)
+}
+}

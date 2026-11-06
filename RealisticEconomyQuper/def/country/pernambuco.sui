@@ -1,0 +1,28 @@
+
+country_data : country.data.pernambuco
+{
+	country_id: 178
+
+	name: "Pernambuco"
+	name_localized: "@@Pernambuco@@"
+	country_code: "PE"
+	iso_country_code: bra
+
+	pos: (-212210, 0, 375000)
+
+	fuel_price: 1.07
+
+	lights_mandatory: false
+	driving_tired_offence: true
+
+	time_zone: -120		# -3 hours in minutes
+	time_zone_name: "@@tz_brasilia@@"
+
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 40000
+	mass_limit_per_axle_count[]: 44000
+	mass_limit_per_axle_count[]: 50000
+	mass_limit_per_axle_count[]: 57000
+}
+

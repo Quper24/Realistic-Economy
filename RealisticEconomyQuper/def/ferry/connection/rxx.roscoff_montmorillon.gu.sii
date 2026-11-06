@@ -1,0 +1,17 @@
+SiiNunit
+{
+ferry_connection : conn.roscoff.montmorillon {
+	price: 25
+	time: 221
+	distance: 100
+
+
+	# NODE POSITIONS #######    x*256  , 0,   z*256
+	connection_positions[0]: (-46255616, 0, -14724531)
+
+
+	# NODE ROTATIONS #######  -sin(jaw) (x), 0, -cos(jaw) (y)
+	connection_directions[0]: (-1.7, 0, 0)
+}
+}
+

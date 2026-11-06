@@ -1,0 +1,10 @@
+SiiNunit
+{
+ferry_connection : conn.lagos.akra{
+	price: 85
+	time: 821
+	distance: 400
+}
+
+}
+

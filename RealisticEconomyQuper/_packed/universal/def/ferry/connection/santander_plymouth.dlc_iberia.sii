@@ -1,0 +1,22 @@
+SiiNunit
+{
+ferry_connection : conn.santander.plymouth {
+	price: 175
+	time: 1711
+	distance: 845
+
+	# NODE POSITIONS #######    x*256  , 0,   z*256
+	connection_positions[0]: (-15745076, 0,  8141260)
+	connection_positions[1]: (-15760640, 0,  8174976)
+	connection_positions[2]: (-15734528, 0,  8203622)
+	connection_positions[3]: (-15615872, 0,  8157542)
+	connection_positions[4]: (-15806004, 0, -1662014)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: (-0.92388, 0,  0.38268)
+	connection_directions[1]: ( 0.08716, 0,  0.99619)
+	connection_directions[2]: ( 0.98481, 0,  0.17365)
+	connection_directions[3]: (-0.01745, 0, -0.99985)
+	connection_directions[4]: ( 0,       0, -1      )
+}
+}

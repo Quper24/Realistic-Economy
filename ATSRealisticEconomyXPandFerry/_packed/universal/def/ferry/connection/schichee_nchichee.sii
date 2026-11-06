@@ -1,0 +1,12 @@
+SiiNunit
+{
+ferry_connection : conn.schichee.nchichee {
+	price: 6
+	time: 180
+	distance: 40
+
+	# NODE POSITIONS ##   x56925*256  , 0,  z-39901*256
+	# connection_positions[0]: (14572800, 0, -10216448)
+}
+}
+

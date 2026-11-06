@@ -1,0 +1,40 @@
+
+country_data : country.data.kansas
+{
+	country_id: 17
+
+	name: "Kansas"
+	name_localized: "@@kansas@@"
+	country_code: "KS"
+	iso_country_code: usks
+
+	pos: (-10000, 0, 3000)
+
+	fuel_price: 1.604766	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.041261
+
+	lights_mandatory: false
+	imperial_units: true
+	driving_tired_offence: true
+
+	time_zone: -300		# -5 hours in minutes verão
+	# time_zone: -360		# -6 hours in minutes inverno
+	time_zone_name: "@@tz_cdt@@"	# verão
+	# time_zone_name: "CST"	# inverno
+
+	# western part, @@tz_mdt@@, -6 hours
+	secondary_time_zone_area[]: (-28000, -23335.8, -3349.8, 1100.0)
+	secondary_time_zone[]: -360 	# verão
+	# secondary_time_zone[]: -420 	# inverno
+	secondary_time_zone_name[]: "@@tz_mdt@@"	# verão
+	# secondary_time_zone_name[]: "@@tz_mst@@"	# inverno
+	secondary_time_zone_area[]: (-28000, -24653.5, 1000.79, 5775.79)
+	secondary_time_zone[]: -360 	# verão
+	# secondary_time_zone[]: -420 	# inverno
+	secondary_time_zone_name[]: "@@tz_mdt@@"	# verão
+	# secondary_time_zone_name[]: "@@tz_mst@@"	# inverno
+
+	mass_limit_per_axle_count[]: 18143.7	# 40000 lb	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 27215.6	# 60000 lb
+	mass_limit_per_axle_count[]: 36287.4	# 80000 lb
+}

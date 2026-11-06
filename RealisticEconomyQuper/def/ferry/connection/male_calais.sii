@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.male.calais {
+	price: 706
+	time: 7021
+	distance: 3500
+}
+}
+

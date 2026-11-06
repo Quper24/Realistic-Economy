@@ -1,0 +1,20 @@
+SiiNunit
+{
+ferry_connection : conn.petersbg.porttownsend {
+	price: 183
+	time: 5468
+	distance: 1362
+	
+	connection_positions[0]: (-29867264, 0, -32744448) # POS1: -116669 POS2: -127908
+	connection_positions[1]: (-30023680, 0, -30507520) # POS1: -117280 POS2: -119170
+	connection_positions[2]: (-30195200, 0, -21849600) # POS1: -117950 POS2: -85350
+	connection_positions[3]: (-27264000, 0, -18099200) # POS1: -106500 POS2: -70700
+	
+	connection_directions[0]: ( 0.35, 0.0, 0.2)
+	connection_directions[1]: ( 0.0, 0.0, 0.9)
+	connection_directions[2]: ( -0.0, 0.0, 0.9)
+	connection_directions[3]: ( 0.5, 0.0, 0.25)
+	
+}
+}
+

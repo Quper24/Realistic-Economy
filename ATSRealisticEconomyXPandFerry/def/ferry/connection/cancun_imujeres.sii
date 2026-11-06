@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.cancun.imujeres {
+	price: 2
+	time: 52
+	distance: 8
+}
+}
+

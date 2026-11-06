@@ -1,0 +1,25 @@
+
+country_data : country.data.czech
+{
+	country_id: 3
+
+	name: "Česká republika"
+	name_localized: "@@czech@@"
+	country_code: "CZ"
+	iso_country_code: cze
+
+	pos: (18500, 0, 6000)
+
+	fuel_price: 1.327
+
+	lights_mandatory: true
+	driving_tired_offence: true
+
+	time_zone: 120		# +2 hours in minutes
+	time_zone_name: "@@tz_cest@@"
+
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 36000
+	mass_limit_per_axle_count[]: 48000
+}

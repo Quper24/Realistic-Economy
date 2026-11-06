@@ -1,0 +1,21 @@
+
+country_data : country.data.chad
+{
+	country_id: 102
+	
+	name: "Tchad"
+	name_localized: "@@Chad@@"
+	country_code: "TCH"
+	iso_country_code: tcd
+	
+	pos:(50000, 0, 190000)
+	
+	fuel_price: 0.3 	# Libya
+	
+	lights_mandatory: false
+	leftside_traffic: false
+	driving_tired_offence: false
+
+	time_zone: 60		# +1 hours in minutes
+	time_zone_name: "@@tz_wat@@"
+}

@@ -1,0 +1,25 @@
+
+country_data : country.data.tunisia
+{
+	country_id: 143
+	
+	name: "Tunisia"
+	name_localized: "@@Tunisia@@"
+	country_code: "TUN"
+	iso_country_code: tun
+	
+	pos:(-10000, 0, 83000)
+	
+	fuel_price: 0.592
+
+	lights_mandatory: false
+	driving_tired_offence: false
+
+	time_zone: 60 # +1 hours in minutes
+	time_zone_name: "@@WAT@@"
+
+	mass_limit_per_axle_count[]: 22500	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 28000
+	mass_limit_per_axle_count[]: 40000
+	mass_limit_per_axle_count[]: 44000
+}

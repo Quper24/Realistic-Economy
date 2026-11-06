@@ -1,0 +1,91 @@
+[blue]Realistic Economy, XP & Ferry by Quper
+[green]ENG
+[normal]
+
+This mod significantly enhances the economy in Euro Truck Simulator 2 , making it more realistic and engaging.
+
+[orange]Economy:[normal]
+Freight Rates: Recalculated and balanced to reflect more realistic market conditions. Prices have been adjusted for all types of jobs, including external contracts (World of Trucks).
+Cargo Prices: Recalibrated for each trailer type. Now, your choice of trailer is based on preference rather than profitability. You can earn well with any type of trailer: livestock carrier, log transporter, tanker, etc.
+Employee Income: Adjusted. Fully skilled drivers now meet the garage plan requirements.
+Loans: Loan terms are now more realistic. Interest rates have been updated to better match economic conditions, providing players with more realistic financial challenges.
+Exchange Rates: Updated to align with real-world economic conditions, impacting in-game financial calculations for greater accuracy.
+
+[orange]XP:[normal]
+The required amount of experience for leveling up has been adjusted to balance the game.
+The amount of experience gained from deliveries and parking has been updated.
+Skill development bonuses have been revised to better align with the game's balance.
+
+[orange]Used Vehicle Market:[normal]
+Mileage: Recalculated to create more realistic values. Mileage now better reflects the condition and wear of vehicles.
+Prices for Used Trucks: Reduced, making second-hand vehicles more accessible. Prices on the secondary market are now fairer and correspond to the actual condition of the vehicles.
+Wear and Price Differences: Made more noticeable. The difference between vehicles in terms of wear and price is now clearer, adding a strategic element when choosing used vehicles.
+
+[orange]Garage and Fuel Prices:[normal]
+Garages: Prices recalculated to better reflect real-world market conditions.
+Fuel: Diesel prices are updated weekly and now correspond to current market rates, adding realism to expense management.
+
+[orange]Fines:[normal]
+Traffic Violations: Fines have been updated to better reflect real-world penalties, adding an element of realistic financial planning and strategy.
+Job Cancellation: The penalty for refusing a job has been recalculated to increase motivation for completing tasks and adhering to contract terms.
+
+[orange]Oversized and Heavy Cargo:[normal]
+Rates: Increased for transporting oversized and heavy cargo. These jobs are now more profitable and challenging, adding new strategic elements to freight management.
+
+[orange]Ferry System:[normal]
+Prices: Recalculated and adjusted to reflect real-world ferry costs, impacting trip expenses and overall spending.
+
+[orange]Unlockables:[normal]
+Almost all components and paint jobs are unlocked.
+Prices for accessories have been reduced.
+
+[orange]Vehicle Wear:[normal]
+Components: More durable, reflecting real-world conditions.
+Tires: Wear out faster, adding realism to vehicle maintenance.
+This mod transforms ETS2 into a highly realistic trucking simulator where every decision matters!
+
+
+[green]RUS
+[normal]
+
+Этот мод значительно улучшает экономику в Euro Truck Simulator 2 , делая её более реалистичной и захватывающей.
+
+[orange]Экономика:[normal]
+Ставки за доставку: Пересчитаны и сбалансированы, чтобы отражать более реалистичные условия рынка. Цены изменены на все типы заказов, включая внешние (World of Trucks).
+Цены на грузы: Пересчитаны для каждого типа прицепа. Теперь выбор прицепа зависит не от выгоды, а от ваших предпочтений. Вы можете хорошо зарабатывать на любом типе прицепа: будь то скотовоз, лесовоз или цистерна.
+Заработок наёмных работников: Скорректирован. Прокачанные водители теперь выполняют план гаража в полном составе.
+Кредиты: Условия кредитования стали более реалистичными. Процентные ставки изменены, чтобы соответствовать экономическим условиям, предлагая игрокам финансовые вызовы, близкие к реальности.
+Курсы валют: Актуализированы и приведены в соответствие с реальными экономическими условиями, что влияет на финансовые расчёты в игре.
+
+[orange]XP:[normal]
+Изменено требуемое количество опыта для повышения уровня, чтобы сбалансировать игру.
+Обновлено количество опыта, получаемого за доставки и парковку.
+Бонусы за развитие навыков переработаны для лучшего соответствия балансу игры.
+
+[orange]Рынок подержанных автомобилей:[normal]
+Пробег: Пересчитан для создания более реалистичных значений. Пробег теперь лучше отражает состояние и износ автомобиля.
+Цены на б/у грузовики: Снижены, что делает подержанные автомобили более доступными. Цены на вторичном рынке теперь справедливы и соответствуют реальному состоянию автомобилей.
+Износ и разница в ценах: Сделаны более заметными. Разница между машинами по износу и цене теперь чётко выделяется, добавляя элемент стратегии при выборе подержанных авто.
+
+[orange]Цены на гаражи и топливо:[normal]
+Гаражи: Цены пересчитаны для лучшего соответствия реальным рыночным условиям.
+Топливо: Цены на дизель обновляются раз в неделю и теперь соответствуют актуальным рыночным ценам, что добавляет реалистичности в управление расходами.
+
+[orange]Штрафы:[normal]
+Нарушение ПДД: Штрафы обновлены, чтобы лучше отражать реальные суммы, добавляя элемент реальной экономии и стратегии.
+Отказ от доставки: Штраф за отказ от выполнения заказа пересчитан, чтобы повысить мотивацию к выполнению задач и соблюдению условий контракта.
+
+[orange]Негабаритные и сверхтяжелые грузы:[normal]
+Ставки: Повышены для перевозки негабаритных и сверхтяжелых грузов. Эти задания стали более прибыльными и сложными, добавляя новые элементы стратегии в управление грузоперевозками.
+
+[orange]Система паромов:[normal]
+Цены: Пересчитаны и скорректированы, чтобы отразить реальные затраты на переправу. Это влияет на стоимость поездок и общие расходы.
+
+[orange]Разблокировка:[normal]
+Почти все компоненты и покраски разблокированы.
+Цены на аксессуары снижены.
+
+[orange]Износ автомобиля:[normal]
+Агрегаты: Стало более износостойкими, что соответствует реальности.
+Шины: Изнашиваются быстрее, что добавляет реализма в обслуживание техники.
+Этот модификация превращает ETS2 в максимально реалистичный симулятор грузоперевозок, где каждое решение имеет значение!

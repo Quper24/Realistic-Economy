@@ -1,0 +1,15 @@
+SiiNunit
+
+{
+
+ferry_connection : conn.mersing.sematan {
+
+	price: 136
+
+	time: 1331
+
+	distance: 655
+
+}
+
+}

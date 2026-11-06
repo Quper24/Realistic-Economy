@@ -1,0 +1,29 @@
+
+country_data: country.data.indo_tm
+{
+	name: "__"
+	name_localized: ""
+	country_code: "ID"
+	
+	pos:(524127, 0, -92957) # Ubah sesuai posisi map daerah kalian masing-masing
+	
+	fuel_price: 0.739 # per liter dalam satuan mata uang Euro
+	
+	country_id: 496 # Kustom
+	
+	lights_mandatory: true
+	imperial_units: false # bukan satuan kecepatan mil/jam seperti di US (Amerika)
+	leftside_traffic: true # traffic/lalu lintas setir kanan atau kiri jalan
+	trailer_standalone: false
+	driving_tired_offence: true
+	
+	time_zone: 540 # satuan menit
+	time_zone_name: "WIT"
+	
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 38000
+	mass_limit_per_axle_count[]: 40000
+	mass_limit_per_axle_count[]: 44000
+}
+

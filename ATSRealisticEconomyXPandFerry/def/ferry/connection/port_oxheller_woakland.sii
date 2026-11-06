@@ -1,0 +1,25 @@
+SiiNunit
+{
+ferry_connection : conn.portoxheller.woakland {
+	price: 228
+	time: 6820
+	distance: 1700
+	
+	connection_positions[0]: (-36409304, 0, -20017774)
+	connection_positions[1]: (-36374500, 0, -20065742)
+	connection_positions[2]: (-36304568, 0, -20148896)
+	connection_positions[3]: (-30912000, 0, -17525760) # POS1: -120750 POS2: -68460
+	connection_positions[4]: (-30749440, 0, -7183360) # POS1: -120115 POS2: -28060
+	connection_positions[5]: (-30075904, 0, -2960128)
+	connection_positions[6]: (-29189632, 0, -2683136)
+	
+	connection_directions[0]: (0.930097, 0.000000, 0.367313)
+	connection_directions[1]: (0.067163, 0.000000, -0.997742)
+	connection_directions[2]: (0.958530, 0.000000, -0.284993)
+	connection_directions[3]: ( 0.5, 0.0, 0.5)
+	connection_directions[4]: ( -0.25, 0.0, 0.25)
+	connection_directions[5]: ( 0.9, 0.0, -0.1)
+	connection_directions[6]: ( 0.8, 0.0, -0.05)
+}
+}
+

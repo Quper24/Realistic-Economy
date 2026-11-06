@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.teresaport.napoli {
+	price: 92
+	time: 909
+	distance: 444
+}
+}
+

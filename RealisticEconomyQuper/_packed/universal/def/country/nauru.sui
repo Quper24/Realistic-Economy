@@ -1,0 +1,20 @@
+country_data : country.data.nauru
+{
+	country_id: 198
+
+	name: "Nauru"
+	name_localized: "@@Nauru@@"
+	country_code: "NRU"
+	iso_country_code: nru
+
+	pos: (526000, 0, -317263)
+
+	fuel_price: 1.6
+
+	lights_mandatory: false
+	imperial_units: true
+	trailer_standalone: false
+
+	time_zone: 720		# +12 hours in minutes
+	time_zone_name: "@@Nauru Time@@"
+}

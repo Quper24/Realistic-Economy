@@ -1,0 +1,23 @@
+SiiNunit
+{
+ferry_connection : conn.gedser.rostock {
+	price: 17
+	time: 151
+	distance: 65
+
+	# NODE POSITIONS #######   x*256 , 0,   z*256
+	connection_positions[0]: (1614710, 0, -5507892)
+	connection_positions[1]: (1536326, 0, -5330920)
+	connection_positions[2]: (1526682, 0, -5222016)
+	connection_positions[3]: (1546916, 0, -5201332)
+	connection_positions[4]: (1565254, 0, -5218612)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: ( 0.25882, 0,  0.96593)
+	connection_directions[1]: (-0.81915, 0,  0.57358)
+	connection_directions[2]: ( 0.08716, 0,  0.99619)
+	connection_directions[3]: ( 0.99619, 0,  0.08716)
+	connection_directions[4]: ( 0.08716, 0, -0.99619)
+}
+}
+

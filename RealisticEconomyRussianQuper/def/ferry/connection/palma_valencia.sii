@@ -1,0 +1,8 @@
+SiiNunit
+{
+ferry_connection : conn.palma.valencia {
+	price: 35
+	time: 355
+	distance: 167
+}
+}

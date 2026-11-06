@@ -1,0 +1,28 @@
+SiiNunit
+{
+ferry_connection : conn.ancona_b.split_b {
+	price: 50
+	time: 501
+	distance: 240
+	
+	# NODE POSITIONS #######    x*256  , 0,   z*256
+	connection_positions[0]: (2822810, 0, 10016891)
+	connection_positions[1]: (2791035, 0, 9968965)
+	connection_positions[2]: (2697408, 0, 9929433)
+	connection_positions[3]: (2702393, 0, 9875382)
+	connection_positions[4]: (3985395, 0, 10049716)
+	connection_positions[5]: (5348098, 0, 10647450)
+	connection_positions[6]: (5459653, 0, 10575090)
+	connection_positions[7]: (5510563, 0, 10538739)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: (-0.246958, -0.000000, -0.969026)
+	connection_directions[1]: (-0.758132, -0.000000, -0.652101)
+	connection_directions[2]: (-0.636595, -0.000000, -0.771198)
+	connection_directions[3]: (0.771198, -0.000000, -0.636596)
+	connection_directions[4]: (0.642788, -0.000000, 0.766044)
+	connection_directions[5]: (0.989398, 0.000000, -0.145230)
+	connection_directions[6]: (0.140774, -0.000000, -0.990042)
+	connection_directions[7]: (0.990042, -0.000000, 0.140774)
+}
+}
