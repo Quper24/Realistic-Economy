@@ -1,0 +1,40 @@
+:root {
+  color-scheme: light dark;
+  font: 15px/1.5 system-ui, sans-serif;
+  color: light-dark(#202e39, #edf2f5);
+  background: light-dark(#f4f6f8, #161b21);
+  --surface: light-dark(#fff, #222a32);
+  --muted: light-dark(#526270, #aab7c4);
+  --border: light-dark(#d7dfe6, #43515d);
+  --accent: light-dark(#205c4c, #a4e3ce);
+  --accent-text: light-dark(#fff, #172e27);
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+header { display: flex; flex-wrap: wrap; gap: 8px 16px; padding: 16px 24px; border-bottom: 1px solid var(--border); background: var(--surface); }
+header span, #rate, #destination { color: var(--muted); }
+.shell { display: grid; grid-template-columns: 180px minmax(0, 1fr); max-width: 1120px; margin: auto; }
+aside { padding: 22px 16px; }
+nav { display: flex; flex-direction: column; gap: 6px; }
+nav button { text-align: left; }
+main { padding: 20px 24px 32px; min-width: 0; }
+.title, .actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+h1 { font-size: 26px; margin: 0; }
+.profile { padding: 2px 8px; border: 1px solid var(--border); border-radius: 6px; }
+#fields { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(270px, 100%), 1fr)); align-items: start; gap: 12px; }
+fieldset { margin: 0; min-width: 0; padding: 12px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); }
+legend { font-weight: 600; }
+label { display: grid; gap: 4px; padding: 5px 0; }
+input, button { font: inherit; color: inherit; background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 7px 9px; }
+input { width: 100%; }
+button[aria-pressed="true"], button.primary { background: var(--accent); color: var(--accent-text); }
+button:not(:disabled) { cursor: pointer; }
+button:disabled { opacity: .55; }
+.actions { margin-top: 16px; }
+#status, #destination, pre { overflow-wrap: anywhere; }
+pre { white-space: pre-wrap; background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 12px; }
+@media (max-width: 660px) {
+  .shell { grid-template-columns: 1fr; }
+  nav { flex-direction: row; flex-wrap: wrap; }
+  main, aside { padding-inline: 14px; }
+}

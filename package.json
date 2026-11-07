@@ -1,0 +1,7 @@
+{
+  "name": "quper-realistic-economy",
+  "private": true,
+  "scripts": {
+    "panel": "node tools/panel/server.mjs"
+  }
+}

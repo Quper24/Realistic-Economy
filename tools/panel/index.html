@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Realistic Economy · Пульт управления</title>
+  <link rel="stylesheet" href="/panel.css">
+  <script type="module" src="/panel.js"></script>
+</head>
+<body>
+  <header><strong>Realistic Economy</strong><span>Пульт управления</span></header>
+  <div class="shell">
+    <aside>
+      <nav aria-label="Выбор мода">
+        <button type="button" data-mod="ets2">ETS2</button>
+        <button type="button" data-mod="ets2-russia">ETS2 Russia</button>
+        <button type="button" data-mod="ats">ATS</button>
+      </nav>
+    </aside>
+    <main>
+      <div class="title"><h1 id="mod">ETS2 Russia</h1><span class="profile">Realistic</span></div>
+      <p id="rate"></p>
+      <form id="settings">
+        <div id="fields"></div>
+        <div class="actions">
+          <button id="preview" type="button" disabled>Проверить изменения</button>
+          <button id="test" class="primary" type="submit" disabled>Отправить на тест</button>
+        </div>
+      </form>
+      <p id="destination"></p>
+      <p id="status" role="status" aria-live="polite">Читаем настройки…</p>
+      <pre id="changes" hidden></pre>
+    </main>
+  </div>
+</body>
+</html>
