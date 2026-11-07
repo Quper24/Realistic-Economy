@@ -21,14 +21,55 @@
       <div class="title"><h1 id="mod">ETS2 Russia</h1><span class="profile">Realistic</span></div>
       <p id="rate"></p>
       <form id="settings">
+        <fieldset id="market" class="draft-section" disabled>
+          <legend>Топливо и валюты</legend>
+          <div class="section-actions">
+            <button type="button" data-market="all">Обновить всё</button>
+            <button type="button" data-market="fuel">Обновить топливо</button>
+            <button type="button" data-market="rates">Обновить валюты</button>
+            <button type="button" id="reset-market">Убрать из черновика</button>
+          </div>
+          <p id="market-status" aria-live="polite"></p>
+          <p id="market-openvan" hidden>Дополнительные цены · <a href="https://openvan.camp/" target="_blank" rel="noopener noreferrer">OpenVan.camp</a> · CC BY 4.0</p>
+          <details id="market-details" hidden><summary>Данные и пропуски</summary><ul></ul></details>
+          <details id="market-uncovered" hidden><summary>Регионы без подключённого источника</summary><ul></ul></details>
+        </fieldset>
+        <fieldset id="ferries" class="draft-section" disabled>
+          <legend>Паромы</legend>
+          <div class="section-actions">
+            <button type="button" id="recalculate-ferries" aria-pressed="false">Пересчитать паромы</button>
+          </div>
+          <p id="ferry-settings"></p>
+          <details id="ferry-details" hidden>
+            <summary>Пропущенные маршруты</summary>
+            <p>Тоннели, железнодорожные переправы и записи с неоднозначными параметрами.</p>
+            <ul></ul>
+          </details>
+        </fieldset>
+        <fieldset class="build-settings">
+          <legend>Версии сборки</legend>
+          <label>Версия мода <input name="version" required maxlength="32" disabled></label>
+          <label>Версия игры <input name="gameVersion" required placeholder="1.62" maxlength="7" disabled></label>
+        </fieldset>
         <div id="fields"></div>
+        <details id="definitions" hidden>
+          <summary>Редактор файлов SII</summary>
+          <div class="definition-actions">
+            <label>Файл <select id="definition-file"></select></label>
+            <button type="button" id="restore-definition">Вернуть исходный файл</button>
+          </div>
+          <p id="definition-help"></p>
+          <label>Содержимое файла <textarea id="definition-text" rows="18" spellcheck="false" maxlength="180000"></textarea></label>
+        </details>
         <div class="actions">
           <button id="preview" type="button" disabled>Проверить изменения</button>
-          <button id="test" class="primary" type="submit" disabled>Отправить на тест</button>
+          <button id="test" type="button" disabled>Отправить на тест</button>
+          <button id="release" class="primary" type="button" disabled>Собрать релиз</button>
         </div>
       </form>
       <p id="destination"></p>
       <p id="status" role="status" aria-live="polite">Читаем настройки…</p>
+      <div id="artifacts" hidden></div>
       <pre id="changes" hidden></pre>
     </main>
   </div>

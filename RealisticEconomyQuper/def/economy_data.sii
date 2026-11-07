@@ -36,9 +36,9 @@
 		maximum_driving_time: 660	# how long the driver can drive (in minutes)
 		sleeping_time: 540		# length of sleep (in minutes)
 
-		delivery_window[0]: 400   # easy = 40 часов
-		delivery_window[1]: 250   # medium = 26 ч 40 мин
-		delivery_window[2]: 90    # hard = 13 ч 20 мин
+		delivery_window[0]: 800		# easy
+		delivery_window[1]: 500		# medium
+		delivery_window[2]: 180		# hard
 
 		delivery_window_coef[0]: 1.0	# easy
 		delivery_window_coef[1]: 1.15	# medium  revenue coef
@@ -78,7 +78,7 @@
 		driver_maintenance_cost: (0.02, 0.04) 	# maintenance + insurance, base range in E/km
 		minimal_driver_salary:	150		# fixed part of driver's pay
 		driver_revenue_coef_per_km: 0.03		# Revenue coefficient used during quick job and drivers jobs.
-		driver_cargo_market_revenue_coef_per_km: 0.02 # Revenue coefficient used during cargo market jobs for drivers.
+		driver_cargo_market_revenue_coef_per_km: 0.04 # Revenue coefficient used during cargo market jobs for drivers.
 
 		driver_hire_cost: 4000		# Euro
 

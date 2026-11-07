@@ -1,22 +1,18 @@
 import { execFile } from 'node:child_process';
-import { randomUUID } from 'node:crypto';
-import { access, copyFile, cp, mkdir, mkdtemp, readFile, realpath, rename, rm, stat, writeFile } from 'node:fs/promises';
+import { access, readFile } from 'node:fs/promises';
 import { createServer } from 'node:http';
-import { dirname, isAbsolute, join } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { isAbsolute, join } from 'node:path';
 import { promisify } from 'node:util';
-import { loadEconomy, makeDraft, mods, replaceField } from './economy.mjs';
+import { loadEconomy, makeDraft, mods } from './economy.mjs';
+import { refreshMarket } from './market.mjs';
+import { buildMetadata, buildPackage, panel, releaseDirectory, root } from './packages.mjs';
 
 const run = promisify(execFile);
-const panel = dirname(fileURLToPath(import.meta.url));
-const root = join(panel, '..', '..');
-const work = join(root, '.panel-work');
 const host = '127.0.0.1';
 const port = Number(process.env.PANEL_PORT ?? 4173);
 const origin = `http://${host}:${port}`;
 const busy = new Set();
 const packer = join(panel, 'scs_packer.exe');
-const assets = ['def', 'unit', 'material', 'ui', 'vehicle', 'locale'];
 const pages = {
   '/': ['index.html', 'text/html'],
   '/panel.css': ['panel.css', 'text/css'],
@@ -38,57 +34,6 @@ async function gameDirectory(mod) {
   return join(documents, mod.game, 'mod');
 }
 
-async function packTest(id, economy, draft) {
-  const destination = await gameDirectory(economy.mod);
-  if (!(await stat(destination).catch(() => null))?.isDirectory()) {
-    throw new Error(`Папка игры не найдена: ${destination}`);
-  }
-  await mkdir(work, { recursive: true });
-  const resolvedRoot = await realpath(root);
-  if (await realpath(work) !== join(resolvedRoot, '.panel-work')) throw new Error('Неожиданный путь рабочей папки.');
-  const temporary = await mkdtemp(join(work, 'test-'));
-  const filename = `quper-${id}-test.scs`;
-  const target = join(destination, filename);
-  const incoming = join(destination, `.${filename}.${randomUUID()}.tmp`);
-  try {
-    const stage = join(temporary, 'stage');
-    const archive = join(temporary, filename);
-    const source = join(root, economy.mod.dir);
-    await mkdir(stage);
-    for (const name of assets) {
-      const dir = join(source, name);
-      if (await stat(dir).catch(error => {
-        if (error.code !== 'ENOENT') throw error;
-        return null;
-      })) await cp(dir, join(stage, name), { recursive: true });
-    }
-    for (const [file, contents] of draft.sources) {
-      await writeFile(join(stage, file), contents, 'utf8');
-    }
-    const manifest = await readFile(join(source, 'manifest.sii'), 'utf8');
-    const named = replaceField(manifest, 'display_name', raw => raw.replace(/^"/, '"[TEST] '));
-    await writeFile(join(stage, 'manifest.sii'), replaceField(named, 'icon', () => '"image.jpg"'), 'utf8');
-    await copyFile(join(panel, 'test.jpg'), join(stage, 'image.jpg'));
-    await copyFile(join(source, 'description.txt'), join(stage, 'description.txt'));
-    try {
-      await run(packer, ['create', archive, '-root', stage], { windowsHide: true, timeout: 120_000 });
-    } catch (error) {
-      throw new Error('SCS Packer: ' + (error.stderr?.trim() || error.stdout?.trim() || error.message));
-    }
-    const signature = (await readFile(archive)).subarray(0, 4).toString('ascii');
-    if (signature !== 'SCS#') throw new Error('SCS Packer не создал корректный заголовок архива.');
-    await copyFile(archive, incoming);
-    await rename(incoming, target);
-    return { path: target, changes: draft.changes };
-  } finally {
-    await rm(incoming, { force: true }).catch(() => {});
-    const resolvedTemp = await realpath(temporary);
-    if (dirname(resolvedTemp) === join(resolvedRoot, '.panel-work')) {
-      await rm(temporary, { recursive: true, force: true });
-    }
-  }
-}
-
 async function requestBody(request) {
   if (request.headers.origin !== origin || request.headers['content-type'] !== 'application/json') {
     throw new Error('Действия доступны только из локального пульта.');
@@ -96,7 +41,7 @@ async function requestBody(request) {
   let body = '';
   for await (const chunk of request.setEncoding('utf8')) {
     body += chunk;
-    if (body.length > 16_384) throw new Error('Черновик слишком большой.');
+    if (body.length > 524_288) throw new Error('Черновик слишком большой.');
   }
   return JSON.parse(body);
 }
@@ -117,22 +62,32 @@ createServer(async (request, response) => {
       const [file, type] = pages[request.url];
       return reply(response, 200, await readFile(join(panel, file)), type);
     }
-    const [, id, action] = request.url.match(/^\/api\/mods\/([a-z0-9-]+)(?:\/(preview|test))?$/) ?? [];
+    const [, id, action] = request.url.match(/^\/api\/mods\/([a-z0-9-]+)(?:\/(market|preview|test|release))?$/) ?? [];
     if (!Object.hasOwn(mods, id)) return reply(response, 404, { error: 'Раздел не найден.' });
     if (!action && request.method === 'GET') {
       const economy = await loadEconomy(root, id);
-      const { mod, fields, revision, rub } = economy;
-      return reply(response, 200, { mod, fields, revision, rub, destination: await gameDirectory(mod) });
+      const { mod, fields, documents, revision, previousRevision, dataRevision, ferrySettings, rub, version, gameVersion } = economy;
+      return reply(response, 200, { mod, fields, documents, revision, previousRevision, dataRevision, ferrySettings, rub, version, gameVersion,
+        destination: await gameDirectory(mod).catch(() => null), releaseDirectory });
     }
     if (!action || request.method !== 'POST') return reply(response, 405, { error: 'Метод не поддерживается.' });
     const body = await requestBody(request);
     const economy = await loadEconomy(root, id);
+    if (action === 'market') {
+      if (body?.revision !== economy.revision || body.dataRevision !== economy.dataRevision) {
+        throw new Error('Исходные файлы изменились. Перезагрузите мод в пульте.');
+      }
+      return reply(response, 200, await refreshMarket(economy, body.mode));
+    }
     const draft = makeDraft(economy, body);
-    if (action === 'preview') return reply(response, 200, { changes: draft.changes });
-    if (busy.has(id)) return reply(response, 409, { error: 'Тестовая сборка этого мода уже запущена.' });
+    const metadata = buildMetadata(economy, body);
+    if (action === 'preview') return reply(response, 200, { changes: draft.changes, skippedFerries: draft.skippedFerries });
+    if (busy.has(id)) return reply(response, 409, { error: 'Сборка этого мода уже запущена.' });
     busy.add(id);
     try {
-      return reply(response, 200, await packTest(id, economy, draft));
+      const testDestination = action === 'test' ? await gameDirectory(economy.mod) : undefined;
+      const result = await buildPackage(id, economy, draft, metadata, testDestination);
+      return reply(response, 200, { ...result, skippedFerries: draft.skippedFerries });
     } finally {
       busy.delete(id);
     }

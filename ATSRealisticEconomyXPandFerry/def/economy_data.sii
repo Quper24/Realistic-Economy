@@ -35,9 +35,9 @@
 		maximum_driving_time: 840	# how long the driver can legally drive (in minutes) 14 hours
 		sleeping_time: 600			# length of (mandatory) sleep (in minutes) 10 hours
 
-		delivery_window[0]: 1200		# easy
-		delivery_window[1]: 800		# medium
-		delivery_window[2]: 400		# hard
+		delivery_window[0]: 800		# easy
+		delivery_window[1]: 500		# medium
+		delivery_window[2]: 180		# hard
 
 		delivery_window_coef[0]: 1.0	# easy
 		delivery_window_coef[1]: 1.15	# medium  revenue coef

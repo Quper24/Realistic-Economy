@@ -25,7 +25,26 @@ h1 { font-size: 26px; margin: 0; }
 fieldset { margin: 0; min-width: 0; padding: 12px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); }
 legend { font-weight: 600; }
 label { display: grid; gap: 4px; padding: 5px 0; }
-input, button { font: inherit; color: inherit; background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 7px 9px; }
+.build-settings { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 12px; margin-bottom: 16px; }
+.draft-section { margin-bottom: 16px; }
+.section-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.draft-section p { margin: 8px 0 0; color: var(--muted); }
+.draft-section details { margin-top: 8px; }
+.draft-section ul { max-height: 260px; overflow: auto; overflow-wrap: anywhere; }
+.field { padding: 7px 0 10px; }
+.field + .field { border-top: 1px solid var(--border); }
+.field p { margin: 4px 0; color: var(--muted); font-size: 13px; }
+.field .field-name { overflow-wrap: anywhere; font-size: 12px; }
+.range-fields { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+#definitions { margin-top: 16px; padding: 10px 12px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; }
+#definitions summary { font-weight: 600; cursor: pointer; }
+.definition-actions { display: flex; align-items: end; flex-wrap: wrap; gap: 8px 12px; }
+.definition-actions label { flex: 1 1 260px; min-width: 0; }
+#definition-help { color: var(--muted); }
+#definition-text { width: 100%; font: 13px/1.5 ui-monospace, Consolas, monospace; resize: vertical; tab-size: 4; }
+#artifacts { padding: 8px 12px; background: var(--surface); border: 1px solid var(--border); border-radius: 6px; }
+#artifacts p { margin: 4px 0; overflow-wrap: anywhere; }
+input, button, select, textarea { font: inherit; color: inherit; background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 7px 9px; }
 input { width: 100%; }
 button[aria-pressed="true"], button.primary { background: var(--accent); color: var(--accent-text); }
 button:not(:disabled) { cursor: pointer; }
