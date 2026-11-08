@@ -73,7 +73,8 @@ const effects = {
 };
 
 export function replaceField(source, key, readValue) {
-  const pattern = new RegExp('^([\\t ]*' + key + '[\\t ]*:[\\t ]*)([^\\r\\n#]+?)([\\t ]*)(?=#|\\r?$)', 'gm');
+  const escaped = key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const pattern = new RegExp('^([\\t ]*' + escaped + '[\\t ]*:[\\t ]*)([^\\r\\n#]+?)([\\t ]*)(?=#|\\r?$)', 'gm');
   const matches = [...source.matchAll(pattern)];
   if (matches.length !== 1) throw new Error(`Поле ${key} должно встречаться ровно один раз.`);
   return source.replace(pattern, (_line, prefix, old, suffix) => prefix + readValue(old) + suffix);

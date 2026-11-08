@@ -20,7 +20,7 @@ nav button { text-align: left; }
 main { padding: 20px 24px 32px; min-width: 0; }
 .title, .actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
 h1 { font-size: 26px; margin: 0; }
-.profile { padding: 2px 8px; border: 1px solid var(--border); border-radius: 6px; }
+.title label { margin-left: 8px; }
 #fields { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(270px, 100%), 1fr)); align-items: start; gap: 12px; }
 fieldset { margin: 0; min-width: 0; padding: 12px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); }
 legend { font-weight: 600; }

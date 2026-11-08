@@ -13,6 +13,7 @@ const definitionText = document.querySelector('#definition-text');
 const definitionHelp = document.querySelector('#definition-help');
 const restoreDefinition = document.querySelector('#restore-definition');
 const modButtons = [...document.querySelectorAll('[data-mod]')];
+const profile = document.querySelector('#profile');
 const marketPanel = document.querySelector('#market');
 const marketStatus = document.querySelector('#market-status');
 const marketOpenVan = document.querySelector('#market-openvan');
@@ -29,8 +30,11 @@ let market;
 let marketReports = {};
 let ferry = false;
 
+const selection = () => selected + (profile.value ? '-' + profile.value : '');
+const draftKey = () => 're-draft-' + selection();
+
 async function api(action = '', body) {
-  const response = await fetch('/api/mods/' + selected + action, body && {
+  const response = await fetch('/api/mods/' + selection() + action, body && {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(body)
@@ -44,6 +48,7 @@ function setBusy(busy) {
   preview.disabled = release.disabled = busy || !current;
   test.disabled = busy || !current?.destination;
   for (const button of modButtons) button.disabled = busy;
+  profile.disabled = busy || selected === 'ets2-russia';
   for (const input of form.querySelectorAll('input, select, textarea')) input.disabled = busy || !current;
   restoreDefinition.disabled = busy || !current;
   marketPanel.disabled = ferriesPanel.disabled = busy || !current;
@@ -52,7 +57,7 @@ function setBusy(busy) {
 
 function readSaved() {
   try {
-    const saved = JSON.parse(localStorage.getItem('re-draft-' + selected));
+    const saved = JSON.parse(localStorage.getItem(draftKey()));
     return saved && [current.revision, current.previousRevision].includes(saved.revision) ? saved : {};
   } catch {
     return {};
@@ -62,13 +67,21 @@ function readSaved() {
 function renderSettings() {
   fields.replaceChildren();
   const saved = readSaved();
+  form.elements.version.value = saved.version ?? current.version;
+  form.elements.gameVersion.value = saved.gameVersion ?? current.gameVersion;
+  marketPanel.hidden = ferriesPanel.hidden = Boolean(current.profileGroups);
+  if (current.profileGroups) {
+    document.querySelector('#rate').textContent =
+      'Топливо, валюты и паромы берутся из Realistic. Включайте в игре один вариант мода.' +
+      (selected === 'ats' ? '' : ' Coaches сохраняет настройки Realistic.');
+    renderProfile(saved);
+    return;
+  }
   market = saved.dataRevision === current.dataRevision ? saved.market : undefined;
   marketReports = saved.dataRevision === current.dataRevision ? saved.marketReports ?? {} : {};
   ferry = saved.dataRevision === current.dataRevision && saved.ferry === true;
   showMarket();
   showFerry();
-  form.elements.version.value = saved.version ?? current.version;
-  form.elements.gameVersion.value = saved.gameVersion ?? current.gameVersion;
   const groups = new Map();
   for (const field of current.fields) {
     if (!groups.has(field.group)) {
@@ -126,6 +139,46 @@ function renderSettings() {
   showDefinition();
 }
 
+function renderProfile(saved) {
+  for (const { key, label, factor, parameters } of current.profileGroups) {
+    const section = document.createElement('fieldset');
+    const title = document.createElement('legend');
+    title.textContent = label;
+    const control = document.createElement('label');
+    control.textContent = 'Множитель к Realistic';
+    const input = document.createElement('input');
+    Object.assign(input, { type: 'number', name: key, required: true, min: '0', max: '10',
+      step: 'any', value: saved.factors?.[key] ?? factor });
+    control.append(input);
+    section.append(title, control);
+    for (const field of parameters) {
+      const row = document.createElement('div');
+      row.className = 'field';
+      const name = document.createElement('strong');
+      name.textContent = field.label;
+      const values = document.createElement('p');
+      const help = document.createElement('p');
+      help.textContent = [field.key, field.effect, field.observation].filter(Boolean).join(' · ');
+      const update = () => {
+        const multiplier = input.valueAsNumber;
+        const scaled = field.original * multiplier;
+        const rounding = field.rounding ?? 1;
+        const native = field.integer ? Math.round(scaled / rounding) * rounding : Number(scaled.toFixed(6));
+        const converted = field.integer ? Number((native * current.rub).toFixed(6)) : native;
+        const unit = field.integer ? ' ' + current.mod.currency : '';
+        values.textContent = `Realistic ${field.value}${unit} → ${multiplier > 0 && multiplier <= 10 ? converted + unit : '—'}`;
+      };
+      const validate = () => input.setCustomValidity(input.valueAsNumber === 0 ? 'Укажите коэффициент больше 0.' : '');
+      input.addEventListener('input', () => { validate(); update(); });
+      validate();
+      update();
+      row.append(name, values, help);
+      section.append(row);
+    }
+    fields.append(section);
+  }
+}
+
 function currentDefinition() {
   return current.documents.find(item => item.file === definitionFile.value);
 }
@@ -144,11 +197,12 @@ function keepDefinition() {
 
 function draft() {
   const read = name => form.elements.namedItem(name).valueAsNumber;
+  const metadata = { revision: current.revision, version: form.elements.version.value.trim(), gameVersion: form.elements.gameVersion.value.trim() };
+  if (current.profileGroups) return { ...metadata, factors: Object.fromEntries(current.profileGroups.map(({ key }) => [key, read(key)])) };
   const values = Object.fromEntries(current.fields.map(({ key, kind }) =>
     [key, kind === 'range' ? [read(key + '_0'), read(key + '_1')] : read(key)]
   ));
-  return { revision: current.revision, dataRevision: current.dataRevision, values, files: editedFiles, market, ferry,
-    version: form.elements.version.value.trim(), gameVersion: form.elements.gameVersion.value.trim() };
+  return { ...metadata, dataRevision: current.dataRevision, values, files: editedFiles, market, ferry };
 }
 
 function showList(details, lines) {
@@ -208,6 +262,7 @@ function showChanges(result) {
 
 async function choose(id) {
   selected = id;
+  if (id === 'ets2-russia') profile.value = '';
   current = null;
   definitionPanel.hidden = true;
   marketStatus.textContent = '';
@@ -224,7 +279,8 @@ async function choose(id) {
       ? 'Папка теста · ' + current.destination
       : 'Папка игры недоступна. Можно собрать релиз.';
     renderSettings();
-    status.textContent = `База сравнения · версия ${current.version}`;
+    status.textContent = current.profileGroups && !current.released ? 'Первый выпуск · сравнение с Realistic'
+      : `База сравнения · версия ${current.version}`;
   } catch (error) {
     fields.replaceChildren();
     status.textContent = error.message;
@@ -247,17 +303,22 @@ async function run(action) {
     if (result.path) {
       artifacts.replaceChildren();
       const locations = isRelease
-        ? [['ShareMods и Trucky', result.path], ['Steam Workshop', result.workshop]]
+        ? [['ShareMods и Trucky', result.path], ['Steam Workshop', result.workshop], ['Обложка Steam', result.workshopCover]]
         : [['Пакет TEST', result.path]];
       for (const [label, path] of locations) {
         const line = document.createElement('p');
         line.textContent = label + ' · ' + path;
         artifacts.append(line);
       }
+      for (const warning of result.workshopWarnings ?? []) {
+        const line = document.createElement('p');
+        line.textContent = warning;
+        artifacts.append(line);
+      }
       artifacts.hidden = false;
     }
     if (isRelease && !result.baselineError) {
-      localStorage.removeItem('re-draft-' + selected);
+      localStorage.removeItem(draftKey());
       current = await api();
       renderSettings();
     }
@@ -274,7 +335,7 @@ async function run(action) {
 
 function saveExternal() {
   const saved = form.checkValidity() ? draft() : readSaved();
-  localStorage.setItem('re-draft-' + selected, JSON.stringify({ ...saved, revision: current.revision,
+  localStorage.setItem(draftKey(), JSON.stringify({ ...saved, revision: current.revision,
     dataRevision: current.dataRevision, market, marketReports, ferry }));
   changes.hidden = artifacts.hidden = true;
 }
@@ -304,13 +365,14 @@ async function loadMarket(mode) {
 }
 
 function saveDraft() {
-  if (form.checkValidity()) localStorage.setItem('re-draft-' + selected, JSON.stringify({ ...draft(), marketReports }));
+  if (current && form.checkValidity()) localStorage.setItem(draftKey(), JSON.stringify({ ...draft(), marketReports }));
   changes.hidden = true;
   artifacts.hidden = true;
   status.textContent = 'Черновик изменён';
 }
 
 for (const button of modButtons) button.addEventListener('click', () => choose(button.dataset.mod));
+profile.addEventListener('change', () => choose(selected));
 definitionFile.addEventListener('change', showDefinition);
 definitionText.addEventListener('input', keepDefinition);
 restoreDefinition.addEventListener('click', () => {

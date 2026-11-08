@@ -1,0 +1,72 @@
+[h1]Realistic Economy by Quper · ATS Hard[/h1]
+
+[h2]Русский[/h2]
+
+Realistic Economy by Quper перерабатывает экономику грузоперевозок и развитие транспортной компании. Мод меняет как доход от рейсов, так и расходы на топливо, гаражи и содержание парка.
+
+[h3]Экономика перевозок[/h3]
+
+Пересчитана оплата заказов агентств, рынка грузоперевозок и биржи грузов. Изменены фиксированная часть выплаты и ставки, зависящие от расстояния. Это меняет соотношение оплаты коротких и длинных рейсов и позволяет оценивать заказ с учётом затрат на дорогу.
+
+[h3]Топливо и валюты[/h3]
+
+Цены на топливо учитывают различия между регионами и обновляются по доступным рыночным данным при подготовке выпусков. Курсы валют обновляются отдельно, чтобы суммы в выбранной валюте отражали используемый в моде обменный курс.
+
+[h3]Гаражи, кредиты и развитие компании[/h3]
+
+Пересмотрены цены покупки и улучшения гаражей, условия кредитов и настройки доходов и расходов наёмных водителей. При расширении компании важно учитывать как разовые вложения, так и текущие расходы парка.
+
+[h3]Штрафы и ответственность за заказ[/h3]
+
+Настроены базовые суммы за дорожные нарушения и штраф за отказ от принятого заказа. Для сопоставимых нарушений использованы реальные тарифы. Итоговое списание зависит от игровых коэффициентов.
+
+[h3]Подержанная техника и опыт[/h3]
+
+Переработаны параметры рынка подержанных грузовиков, в том числе пробег, состояние и цены. Также настроены начисление опыта за доставку и парковку и требования для повышения уровня.
+
+[h3]Hard[/h3]
+
+Для тех, кто хочет более строгую экономику. Основные ставки грузовых заказов примерно на пятую часть ниже Standard, гаражи дороже, а штрафы ощутимее. На расширение парка потребуется больше времени.
+
+[b]Активируйте только один вариант Realistic Economy для своей игры.[/b]
+
+[hr][/hr]
+
+[h2]English[/h2]
+
+Realistic Economy by Quper rebalances freight economics and company progression. It changes both what you earn from deliveries and what you spend on fuel, garages and running a fleet.
+
+[h3]Freight economy[/h3]
+
+Quick Jobs, the Freight Market and the Cargo Market have reworked payouts. The fixed portion of a payout and the distance-based rates have been adjusted. This changes how short and long hauls compare and gives you more reason to weigh the offer against the cost of the trip.
+
+[h3]Fuel and exchange rates[/h3]
+
+Fuel prices reflect regional differences and are refreshed from available market data when releases are prepared. Exchange rates are updated separately so prices displayed in your selected currency use the mod’s current rates.
+
+[h3]Garages, loans and company growth[/h3]
+
+Garage purchase and upgrade prices, loan terms, and hired driver earnings and expenses have been revised. When expanding your company, both upfront investment and ongoing fleet costs matter.
+
+[h3]Fines and job commitments[/h3]
+
+The mod adjusts base traffic fines and the penalty for abandoning an accepted job. Real-world penalties inform the base amounts where an offence has a comparable counterpart. The final charge depends on the game’s multipliers.
+
+[h3]Used trucks and experience[/h3]
+
+The used truck market has revised mileage, condition and pricing settings. Experience rewards for deliveries and parking and the requirements for levelling up have also been adjusted.
+
+[h3]Hard[/h3]
+
+For players who want a tougher economy. Main freight rates are about a fifth lower than in Standard, garages cost more, and fines have a greater impact. Expanding your fleet takes longer.
+
+[b]Enable only one Realistic Economy edition for your game at a time.[/b]
+
+[hr][/hr]
+
+[h2]Ссылки / Links[/h2]
+
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3318908089]Версия для ETS2 / ETS2 edition[/url]
+[*][url=https://boosty.to/qupersimulator/donate]Поддержать автора / Support the author[/url]
+[/list]

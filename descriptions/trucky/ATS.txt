@@ -1,0 +1,89 @@
+Realistic Economy by Quper · American Truck Simulator
+
+Русский
+
+Realistic Economy by Quper перерабатывает экономику грузоперевозок и развитие транспортной компании. Мод меняет как доход от рейсов, так и расходы на топливо, гаражи и содержание парка.
+
+Экономика перевозок
+
+Пересчитана оплата заказов агентств, рынка грузоперевозок и биржи грузов. Изменены фиксированная часть выплаты и ставки, зависящие от расстояния. Это меняет соотношение оплаты коротких и длинных рейсов и позволяет оценивать заказ с учётом затрат на дорогу.
+
+Топливо и валюты
+
+Цены на топливо учитывают различия между регионами и обновляются по доступным рыночным данным при подготовке выпусков. Курсы валют обновляются отдельно, чтобы суммы в выбранной валюте отражали используемый в моде обменный курс.
+
+Гаражи, кредиты и развитие компании
+
+Пересмотрены цены покупки и улучшения гаражей, условия кредитов и настройки доходов и расходов наёмных водителей. При расширении компании важно учитывать как разовые вложения, так и текущие расходы парка.
+
+Штрафы и ответственность за заказ
+
+Настроены базовые суммы за дорожные нарушения и штраф за отказ от принятого заказа. Для сопоставимых нарушений использованы реальные тарифы. Итоговое списание зависит от игровых коэффициентов.
+
+Подержанная техника и опыт
+
+Переработаны параметры рынка подержанных грузовиков, в том числе пробег, состояние и цены. Также настроены начисление опыта за доставку и парковку и требования для повышения уровня.
+
+Road Trip
+
+В ATS отдельно настроены базовые выплаты за быстрые и диспетчерские заказы Road Trip. В Light они выше, в Hard ниже, а Standard сохраняет основной баланс.
+
+Какую версию выбрать
+
+Standard
+
+Основной баланс серии. Подойдёт, если хочется переработанной экономики без дополнительных послаблений или усложнений.
+
+Light
+
+Для тех, кто хочет играть чуть проще. Основные ставки грузовых заказов примерно на четверть выше Standard, гаражи доступнее, а штрафы мягче. На покупку техники и расширение парка можно накопить быстрее.
+
+Hard
+
+Для тех, кто хочет более строгую экономику. Основные ставки грузовых заказов примерно на пятую часть ниже Standard, гаражи дороже, а штрафы ощутимее. На расширение парка потребуется больше времени.
+
+Скачайте и активируйте только один вариант из этой публикации.
+
+English
+
+Realistic Economy by Quper rebalances freight economics and company progression. It changes both what you earn from deliveries and what you spend on fuel, garages and running a fleet.
+
+Freight economy
+
+Quick Jobs, the Freight Market and the Cargo Market have reworked payouts. The fixed portion of a payout and the distance-based rates have been adjusted. This changes how short and long hauls compare and gives you more reason to weigh the offer against the cost of the trip.
+
+Fuel and exchange rates
+
+Fuel prices reflect regional differences and are refreshed from available market data when releases are prepared. Exchange rates are updated separately so prices displayed in your selected currency use the mod’s current rates.
+
+Garages, loans and company growth
+
+Garage purchase and upgrade prices, loan terms, and hired driver earnings and expenses have been revised. When expanding your company, both upfront investment and ongoing fleet costs matter.
+
+Fines and job commitments
+
+The mod adjusts base traffic fines and the penalty for abandoning an accepted job. Real-world penalties inform the base amounts where an offence has a comparable counterpart. The final charge depends on the game’s multipliers.
+
+Used trucks and experience
+
+The used truck market has revised mileage, condition and pricing settings. Experience rewards for deliveries and parking and the requirements for levelling up have also been adjusted.
+
+Road Trip
+
+ATS also has reworked base payouts for quick and dispatch jobs in Road Trip. Light pays more, Hard pays less, and Standard uses the core balance.
+
+Choose your edition
+
+Standard
+
+The core balance of the series, for players who want the reworked economy at its standard difficulty.
+
+Light
+
+For players who prefer a more forgiving economy. Main freight rates are about a quarter higher than in Standard, garages are more affordable, and fines are lower. This makes it easier to save for equipment and expand your fleet.
+
+Hard
+
+For players who want a tougher economy. Main freight rates are about a fifth lower than in Standard, garages cost more, and fines have a greater impact. Expanding your fleet takes longer.
+
+Download and enable only one edition from this listing.
