@@ -10,8 +10,8 @@ country_data : country.data.massachusets
 
 	pos:(98400, 0, -33000)
 
-	fuel_price: 1.674798	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.116418
+	fuel_price: 1.654219	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.080622
 
 	lights_mandatory: false
 	imperial_units: true

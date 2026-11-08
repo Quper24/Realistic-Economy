@@ -10,8 +10,8 @@ country_data : country.data.nevada
 
 	pos: (-90000, 0, -14000)
 
-	fuel_price: 1.810133	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.399689
+	fuel_price: 1.786965	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.342364
 
 	lights_mandatory: false
 	imperial_units: true

@@ -10,8 +10,8 @@ country_data : country.data.tamaulip
 
 	pos:(-11580, 0, 86370)
 
-	fuel_price: 1.413259	# 1 US gallon = 3.78541178 liter
-	petrol_price: 1.171823
+	fuel_price: 1.415628	# 1 US gallon = 3.78541178 liter
+	petrol_price: 1.17451
 
 	lights_mandatory: false
 	imperial_units: false	

@@ -9,7 +9,7 @@ country_data : country.data.romania
 
 	pos: (57500, 0, 26000)
 
-	fuel_price: 2.047
+	fuel_price: 2.0709
 
 	lights_mandatory: true
 	driving_tired_offence: true

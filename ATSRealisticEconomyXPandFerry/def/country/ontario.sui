@@ -10,8 +10,8 @@ country_data : country.data.ontario
 
 	pos:(32000, 0, -69500)
 
-	fuel_price: 1.849181	# 1 US gallon = 3.78541178 liter Toronto
-	petrol_price: 1.254270
+	fuel_price: 1.794561	# 1 US gallon = 3.78541178 liter Toronto
+	petrol_price: 1.279891
 
 	lights_mandatory: false
 	imperial_units: false

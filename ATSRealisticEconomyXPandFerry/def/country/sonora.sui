@@ -10,8 +10,8 @@ country_data : country.data.sonora
 
 	pos:(-71000, 0, 47000)
 
-	fuel_price: 1.439059	# 1 US gallon = 3.78541178 liter
-	petrol_price: 1.244521
+	fuel_price: 1.446169	# 1 US gallon = 3.78541178 liter
+	petrol_price: 1.24363
 
 	lights_mandatory: false
 	imperial_units: false	

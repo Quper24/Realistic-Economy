@@ -10,8 +10,8 @@ country_data : country.data.nebraska
 
 	pos: (-15000, 0, -15000)
 
-	fuel_price: 1.637972	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.136415
+	fuel_price: 1.577926	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.06501
 
 	lights_mandatory: false
 	imperial_units: true

@@ -9,7 +9,7 @@ country_data : country.data.moldova
 
 	pos: (70500, 0, 14500)
 
-	fuel_price: 1.77
+	fuel_price: 1.782756
 
 	lights_mandatory: false	
 	driving_tired_offence: true

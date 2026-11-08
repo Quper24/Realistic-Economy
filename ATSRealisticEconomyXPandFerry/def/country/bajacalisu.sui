@@ -10,8 +10,8 @@ country_data : country.data.bajacalisu
 
 	pos:(-80000, 0, 65000)
 
-	fuel_price: 1.474420	# 1 US gallon = 3.78541178 liter
-	petrol_price: 1.304613
+	fuel_price: 1.480997	# 1 US gallon = 3.78541178 liter
+	petrol_price: 1.308464
 
 	lights_mandatory: false
 	imperial_units: false	

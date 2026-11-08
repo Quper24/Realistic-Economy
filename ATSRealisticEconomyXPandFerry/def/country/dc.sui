@@ -10,8 +10,8 @@ country_data : country.data.dc
 
 	pos:(80467, 0, -7000)
 
-	fuel_price: 1.704121	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.152054
+	fuel_price: 1.698151	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.124607
 
 	lights_mandatory: false
 	imperial_units: true

@@ -10,8 +10,8 @@ country_data : country.data.ohio
 
 	pos:(57000, 0, -11300)
 
-	fuel_price: 1.719681	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.162674
+	fuel_price: 1.667982	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.012175
 
 	lights_mandatory: false
 	imperial_units: true

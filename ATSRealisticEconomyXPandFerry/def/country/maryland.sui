@@ -10,8 +10,8 @@ country_data : country.data.maryland
 
 	pos:(81800, 0, -11400)
 
-	fuel_price: 1.670545	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.049397
+	fuel_price: 1.658393	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.036321
 
 	lights_mandatory: false
 	imperial_units: true

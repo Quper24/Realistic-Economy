@@ -9,7 +9,7 @@ country_data : country.data.cyprus
 
 	pos: (100200, 0, 77700)
 
-	fuel_price: 1.8
+	fuel_price: 2.002
 
 	lights_mandatory: false
 	imperial_units: false

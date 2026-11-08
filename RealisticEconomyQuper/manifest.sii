@@ -4,7 +4,8 @@ SiiNunit
 	{
 
 		# Package version can be any string with any length.
-		package_version: "1.62.0"
+		package_version: "1.62.3"
+		compatible_versions[]: "1.62.*"
 
 		# Display name can be any string with any length.
 		display_name: "Realistic Economy by Quper"
@@ -14,15 +15,12 @@ SiiNunit
 
 
 		# Categories is an array of strings.
-		category[]: "economy"
 		category[]: "ui"
 		category[]: "other"
 
 		# Icon inside the root directory of the mod.
 		icon: "image.jpg"
 
-		compatible_versions[]: "1.61.*"
-		compatible_versions[]: "1.62.*"
 
 		# Description file inside the root directory of the mod.
 		description_file: "description.txt"

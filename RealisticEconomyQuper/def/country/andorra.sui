@@ -9,7 +9,7 @@ country_data : country.data.andorra
 
 	pos: (-39800, 0, 41600)
 
-	fuel_price: 1.714
+	fuel_price: 1.7106
 
 	lights_mandatory: false
 	driving_tired_offence: true

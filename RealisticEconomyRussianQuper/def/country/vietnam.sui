@@ -10,7 +10,7 @@ country_data : country.data.vietnam
 
 	pos: (465900, 0, -121900)
 
-	fuel_price: 0.903
+	fuel_price: 0.99774
 
 	lights_mandatory: false
 	driving_tired_offence: true

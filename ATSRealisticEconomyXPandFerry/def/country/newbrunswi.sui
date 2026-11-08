@@ -10,8 +10,8 @@ country_data : country.data.newbrunswi
 
 	pos:(112000, 0, -61500)
 
-	fuel_price: 1.906547	# 1 US gallon = 3.78541178 liter Fredericton
-	petrol_price: 1.327217
+	fuel_price: 1.872368	# 1 US gallon = 3.78541178 liter Fredericton
+	petrol_price: 1.374117
 
 	lights_mandatory: false
 	imperial_units: false

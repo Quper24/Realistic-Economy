@@ -10,7 +10,7 @@ country_data : country.data.Tanzania
 
 	pos: (180000, 0, 350000)
 
-	fuel_price: 1.375
+	fuel_price: 1.379902
 
 	lights_mandatory: false
 	leftside_traffic: true

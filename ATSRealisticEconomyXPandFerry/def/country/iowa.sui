@@ -10,8 +10,8 @@ country_data : country.data.iowa
 
 	pos: (10000, 0, -17000)
 
-	fuel_price: 1.626111	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.103658
+	fuel_price: 1.564031	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.021976
 
 	lights_mandatory: false
 	imperial_units: true

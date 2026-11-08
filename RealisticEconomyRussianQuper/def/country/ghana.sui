@@ -10,7 +10,7 @@ country_data : country.data.ghana
 
 	pos: (-94837.50, 9.55 , 247568.36)
 
-	fuel_price: 1.277
+	fuel_price: 1.412147
 
 	lights_mandatory: true
 	driving_tired_offence: true

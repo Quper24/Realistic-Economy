@@ -10,8 +10,8 @@ country_data : country.data.bajacalifo
 
 	pos:(-95000, 0, 38000)
 
-	fuel_price: 1.396914	# 1 US gallon = 3.78541178 liter
-	petrol_price: 1.221285
+	fuel_price: 1.402768	# 1 US gallon = 3.78541178 liter
+	petrol_price: 1.22702
 
 	lights_mandatory: false
 	imperial_units: false	

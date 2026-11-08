@@ -10,8 +10,8 @@ country_data : country.data.oregon
 
 	pos: (-97000, 0, -42000)
 
-	fuel_price: 1.779093	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.286016
+	fuel_price: 1.751778	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.232257
 
 	lights_mandatory: false
 	imperial_units: true

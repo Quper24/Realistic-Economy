@@ -10,8 +10,8 @@ country_data : country.data.south_dakota
 
 	pos: (-16000, 0, -31000)
 
-	fuel_price: 1.597211	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.107515
+	fuel_price: 1.554626	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.041525
 
 	lights_mandatory: false
 	imperial_units: true

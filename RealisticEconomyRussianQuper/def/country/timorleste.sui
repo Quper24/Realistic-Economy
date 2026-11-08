@@ -10,7 +10,7 @@ country_data : country.data.timorleste
 
 	pos: (676500, 0, -227500)
 
-	fuel_price: 0.903
+	fuel_price: 1.471769
 
 	lights_mandatory: false
 	leftside_traffic: true

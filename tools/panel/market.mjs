@@ -161,6 +161,9 @@ export async function refreshMarket(economy, mode) {
     failures.delete('interfax');
     failures.delete('fedstat');
   }
+  if (results.get('canada')?.size && missingFuel.has('Nunavut · бензин') && missingFuel.has('Nunavut · дизель')) {
+    notices.push('Нунавут · Statistics Canada публикует цены по выбранным городам. В этой выборке Нунавута нет.');
+  }
   const warnings = [...failures].map(([source, reason]) => `${providers[source][0]}: ${reason}.`).sort();
   return { rates, fuel, warnings, notices, missingRates, missingFuel: [...missingFuel].sort(),
     uncoveredFuel: [...uncoveredFuel].sort(), fetchedAt: today };

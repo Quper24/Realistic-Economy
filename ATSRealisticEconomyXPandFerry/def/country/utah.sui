@@ -10,8 +10,8 @@ country_data : country.data.utah
 
 	pos: (-67000, 0, -9000)
 
-	fuel_price: 1.693713	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.226498
+	fuel_price: 1.669224	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.155198
 
 	lights_mandatory: false
 	imperial_units: true

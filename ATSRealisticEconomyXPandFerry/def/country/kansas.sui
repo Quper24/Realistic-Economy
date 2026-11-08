@@ -10,8 +10,8 @@ country_data : country.data.kansas
 
 	pos: (-10000, 0, 3000)
 
-	fuel_price: 1.604766	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.041261
+	fuel_price: 1.537296	# 1 liter = 0.264172052 US gallons
+	petrol_price: 0.989351
 
 	lights_mandatory: false
 	imperial_units: true

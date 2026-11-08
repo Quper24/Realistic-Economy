@@ -9,7 +9,7 @@ country_data : country.data.armenia
 	
 	pos: (145100, 0, 31500)
 
-	fuel_price: 1.748
+	fuel_price: 1.758601
 
 	lights_mandatory: false
 	driving_tired_offence: true

@@ -4,7 +4,8 @@ SiiNunit
 	{
 
 		# Package version can be any string with any length.
-		package_version: "1.62.0"
+		package_version: "1.62.3"
+		compatible_versions[]: "1.62.*"
 
 		# Display name can be any string with any length.
 		display_name: "Realistic Economy ATS by Quper"
@@ -12,11 +13,8 @@ SiiNunit
 		# Author can be any string with any length.
 		author: "Quper"
 
-		compatible_versions[]: "1.61.*"
-		compatible_versions[]: "1.62.*"
 
 		# Categories is an array of strings.
-		category[]: "economy"
 		category[]: "ui"
 		category[]: "other"
 

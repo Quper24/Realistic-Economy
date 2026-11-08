@@ -10,8 +10,8 @@ country_data : country.data.idaho
 
 	pos: (-76000, 0, -41000)
 
-	fuel_price: 1.719866	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.235110
+	fuel_price: 1.683727	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.149994
 
 	lights_mandatory: false
 	imperial_units: true

@@ -10,8 +10,8 @@ country_data : country.data.rhodei
 
 	pos:(102300, 0, -28500)
 
-	fuel_price: 1.671020	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.096578
+	fuel_price: 1.637153	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.063108
 
 	lights_mandatory: false
 	imperial_units: true

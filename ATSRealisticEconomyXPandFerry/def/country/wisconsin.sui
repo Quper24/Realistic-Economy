@@ -10,8 +10,8 @@ country_data : country.data.wisconsin
 
 	pos:(25300, 0, -33000)
 
-	fuel_price: 1.693369	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.193978
+	fuel_price: 1.62619	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.044404
 
 	lights_mandatory: false
 	imperial_units: true

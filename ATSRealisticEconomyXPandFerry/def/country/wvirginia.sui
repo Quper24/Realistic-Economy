@@ -10,8 +10,8 @@ country_data : country.data.wvirginia
 
 	pos:(65404, 0, -2100)
 
-	fuel_price: 1.688509	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.107700
+	fuel_price: 1.671786	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.074916
 
 	lights_mandatory: false
 	imperial_units: true

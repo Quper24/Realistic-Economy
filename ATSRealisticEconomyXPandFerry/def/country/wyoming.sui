@@ -10,8 +10,8 @@ country_data : country.data.wyoming
 
 	pos: (-47500, 0, -25000)
 
-	fuel_price: 1.690173	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.158130
+	fuel_price: 1.643599	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.093593
 
 	lights_mandatory: false
 	imperial_units: true

@@ -10,8 +10,8 @@ country_data : country.data.illinois
 
 	pos: (27500, 0, -8500)
 
-	fuel_price: 1.770296	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.290507
+	fuel_price: 1.722772	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.187427
 
 	lights_mandatory: false
 	imperial_units: true

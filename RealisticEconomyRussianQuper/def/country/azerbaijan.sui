@@ -9,7 +9,7 @@ country_data : country.data.azerbaijan
 
 	pos: (158400, 0, 27000)
 
-	fuel_price: 0.502
+	fuel_price: 0.577216
 
 	lights_mandatory: false
 	driving_tired_offence: true

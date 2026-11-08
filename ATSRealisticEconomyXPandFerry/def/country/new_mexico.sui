@@ -10,8 +10,8 @@ country_data : country.data.new_mexico
 
 	pos: (-45000, 0, 24000)
 
-	fuel_price: 1.599113	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.108440
+	fuel_price: 1.547995	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.028184
 
 	lights_mandatory: false
 	imperial_units: true

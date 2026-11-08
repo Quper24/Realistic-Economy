@@ -2,7 +2,7 @@ SiiNunit
 {
 	ferry_connection : conn.cameron_b.cameron_a {
 		price: 2
-		time: 20
+		time: 22
 		distance: 0.5
 	}
 }

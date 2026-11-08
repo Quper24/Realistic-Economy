@@ -10,7 +10,7 @@ country_data : country.data.tunisia
 	
 	pos:(-10000, 0, 83000)
 	
-	fuel_price: 0.655
+	fuel_price: 0.657032
 
 	lights_mandatory: false
 	driving_tired_offence: false

@@ -1,10 +1,11 @@
 import { execFile } from 'node:child_process';
 import { randomUUID } from 'node:crypto';
-import { appendFile, copyFile, cp, mkdir, mkdtemp, open, readFile, realpath, rename, rm, stat, writeFile } from 'node:fs/promises';
+import { copyFile, cp, mkdir, mkdtemp, open, readFile, realpath, rename, rm, stat, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { promisify } from 'node:util';
 import { replaceField } from './economy.mjs';
+import { syncReleaseBaseline } from './release-baseline.mjs';
 
 const run = promisify(execFile);
 export const panel = dirname(fileURLToPath(import.meta.url));
@@ -12,7 +13,9 @@ export const root = join(panel, '..', '..');
 export const releaseDirectory = join(root, 'dist');
 const work = join(root, '.panel-work');
 const assets = ['def', 'unit', 'material', 'ui', 'vehicle', 'locale'];
-const compatibility = /^[\t ]*compatible_versions\[\]:[^\r\n]*\r?\n/gm;
+const compatibility = /^[\t ]*compatible_versions[\t ]*\[\][\t ]*:[^\r\n]*(?:\r?\n|$)/gm;
+const displayName = /^[\t ]*display_name[\t ]*:[^\r\n]*(?:\r?\n|$)/gm;
+const economyCategory = /^[\t ]*category[\t ]*\[\][\t ]*:[\t ]*"economy"[\t ]*(?:#[^\r\n]*)?(?:\r?\n|$)/gm;
 const fuelAttributions = {
   europe: 'European diesel prices adapted from EU EnergyPrices (https://www.euenergyprices.eu/en/data), based on the European Commission Weekly Oil Bulletin, SSB, DESNZ and Swiss FSO. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).',
   malaysia: 'Peninsular Malaysia diesel prices adapted from the Ministry of Finance (https://data.gov.my/data-catalogue/fuelprice). CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).',
@@ -45,16 +48,16 @@ async function makeStage(source, stage, economy, draft, metadata, test) {
   }
   for (const [file, contents] of draft.sources) await writeFile(join(stage, file), contents, 'utf8');
   let manifest = replaceField(economy.manifest, 'package_version', () => `"${metadata.version}"`);
-  manifest = manifest.replace(compatibility, '');
+  manifest = manifest.replace(compatibility, '').replace(economyCategory, '');
   manifest = replaceField(manifest, 'package_version', raw => raw + `\n\t\tcompatible_versions[]: "${metadata.compatible}"`);
   if (test) manifest = replaceField(manifest, 'display_name', raw => raw.replace(/^"/, '"[TEST] '));
   await writeFile(join(stage, 'manifest.sii'), manifest, 'utf8');
   await copyFile(test ? join(panel, 'test.jpg') : join(source, 'image.jpg'), join(stage, 'image.jpg'));
-  const description = join(stage, 'description.txt');
-  await copyFile(join(source, 'description.txt'), description);
-  const attributions = [...draft.fuelSources].map(source => fuelAttributions[source]).filter(Boolean);
-  if (attributions.length) await appendFile(description, `\n\n${attributions.join('\n')}\n`);
-  return manifest;
+  const attributions = [...draft.fuelSources].map(source => fuelAttributions[source])
+    .filter(line => line && !economy.description.includes(line));
+  const description = economy.description + (attributions.length ? `\n\n${attributions.join('\n')}\n` : '');
+  await writeFile(join(stage, 'description.txt'), description, 'utf8');
+  return { manifest, description };
 }
 
 async function pack(stage, archive) {
@@ -85,7 +88,7 @@ function versionEntry(unit, name, versions, informational = false) {
   ].join('\n');
 }
 
-async function makeWorkshop(source, mod, destination, stage, manifest, metadata, archive) {
+async function makeWorkshop(source, mod, destination, stage, manifest, metadata) {
   const history = join(source, '_steam', mod.workshop);
   const previous = await readFile(join(history, 'versions.sii'), 'utf8');
   const entries = [];
@@ -106,12 +109,14 @@ async function makeWorkshop(source, mod, destination, stage, manifest, metadata,
     }
     entries.push(versionEntry(unit, name, versions));
   }
-  await copyFile(archive, join(destination, 'current.scs'));
+  const workshopManifest = manifest.replace(compatibility, '').replace(displayName, '');
+  await writeFile(join(stage, 'manifest.sii'), workshopManifest, 'utf8');
+  await pack(stage, join(destination, 'current.scs'));
   entries.push(versionEntry('current', 'current', [metadata.compatible]));
   const notice = join(destination, 'notice');
   await mkdir(notice);
   await copyFile(join(stage, 'image.jpg'), join(notice, 'image.jpg'));
-  await writeFile(join(notice, 'manifest.sii'), manifest.replace(compatibility, ''), 'utf8');
+  await writeFile(join(notice, 'manifest.sii'), workshopManifest, 'utf8');
   await writeFile(join(notice, 'description.txt'), `This mod release supports game version ${metadata.gameVersion}.\n`, 'utf8');
   entries.push(versionEntry('notice', 'notice', [], true));
   await writeFile(join(destination, 'versions.sii'), `SiiNunit\n{\n${entries.join('\n\n')}\n}\n`, 'utf8');
@@ -132,11 +137,11 @@ export async function buildPackage(id, economy, draft, metadata, testDestination
     throw new Error('Неожиданный путь папки сборки.');
   }
   const temporary = await mkdtemp(join(work, test ? 'test-' : 'release-'));
-  const filename = test ? `quper-${id}-test.scs` : `quper-${id}-${metadata.version}.scs`;
+  const filename = test ? `quper-${id}-test.scs` : economy.mod.filename;
   const incoming = test ? join(destination, `.${filename}.${randomUUID()}.tmp`) : null;
   try {
     const stage = join(temporary, 'stage');
-    const manifest = await makeStage(source, stage, economy, draft, metadata, test);
+    const { manifest, description } = await makeStage(source, stage, economy, draft, metadata, test);
     const output = join(temporary, 'output');
     await mkdir(output);
     const archive = join(output, filename);
@@ -147,11 +152,13 @@ export async function buildPackage(id, economy, draft, metadata, testDestination
       await rename(incoming, path);
       return { path, changes: draft.changes };
     }
-    await makeWorkshop(source, economy.mod, join(output, 'steam-workshop'), stage, manifest, metadata, archive);
+    await makeWorkshop(source, economy.mod, join(output, 'steam-workshop'), stage, manifest, metadata);
     const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
     const folder = join(destination, `quper-${id}-${metadata.version}-${timestamp}-${randomUUID().slice(0, 8)}`);
     await rename(output, folder);
-    return { path: join(folder, filename), workshop: join(folder, 'steam-workshop'), changes: draft.changes };
+    const released = new Map([...draft.sources, ['description.txt', description], ['manifest.sii', manifest]]);
+    const baselineError = await syncReleaseBaseline(root, id, economy, released).then(() => null, error => error.message);
+    return { path: join(folder, filename), workshop: join(folder, 'steam-workshop'), changes: draft.changes, baselineError };
   } finally {
     if (incoming) await rm(incoming, { force: true }).catch(() => {});
     const resolvedTemp = await realpath(temporary);

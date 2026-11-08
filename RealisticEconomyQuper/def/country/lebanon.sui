@@ -9,7 +9,7 @@ country_data: country.data.lebanon
 
 	pos:(115500, 0, 78500)
 
-	fuel_price: 0.933
+	fuel_price: 1.280079
 
 	lights_mandatory: false
 	leftside_traffic: false

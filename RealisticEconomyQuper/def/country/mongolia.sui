@@ -6,7 +6,7 @@ country_data: country.data.mongolia
 	country_code: "MN"
 	iso_country_code: mng
 	pos: (50000, 0, 951000)
-	fuel_price: 1.611
+	fuel_price: 1.385545
 	country_id: 71
 	lights_mandatory: false
 	driving_tired_offence: true

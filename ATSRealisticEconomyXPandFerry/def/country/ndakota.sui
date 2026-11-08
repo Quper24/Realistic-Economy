@@ -10,8 +10,8 @@ country_data : country.data.ndakota
 
 	pos:(-16300, 0, -48000)
 
-	fuel_price: 1.616257	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.083264
+	fuel_price: 1.565034	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.021131
 
 	lights_mandatory: false
 	imperial_units: true

@@ -10,8 +10,8 @@ country_data : country.data.tennessee
 
 	pos:(41200, 0, 16600)
 
-	fuel_price: 1.574096	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.006231
+	fuel_price: 1.543425	# 1 liter = 0.264172052 US gallons
+	petrol_price: 0.954295
 
 	lights_mandatory: false
 	imperial_units: true

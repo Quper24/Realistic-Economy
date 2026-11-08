@@ -10,8 +10,8 @@ country_data : country.data.delaware
 
 	pos:(89700, 0, -9500)
 
-	fuel_price: 1.668405	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.031169
+	fuel_price: 1.655883	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.03072
 
 	lights_mandatory: false
 	imperial_units: true

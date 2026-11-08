@@ -9,7 +9,7 @@ country_data : country.data.faroe
 
 	pos: (-51800, 0, -83500)
 
-	fuel_price: 1.265
+	fuel_price: 2.203544
 
 	lights_mandatory: true
 	driving_tired_offence: true

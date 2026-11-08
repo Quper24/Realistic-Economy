@@ -10,8 +10,8 @@ country_data : country.data.britcolumb
 
 	pos:(-90500, 0, -117000)
 
-	fuel_price: 2.053150	# 1 US gallon = 3.78541178 liter Victoria
-	petrol_price: 1.408664
+	fuel_price: 2.011564	# 1 US gallon = 3.78541178 liter Victoria
+	petrol_price: 1.497252
 
 	lights_mandatory: false
 	imperial_units: false

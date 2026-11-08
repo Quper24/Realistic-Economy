@@ -10,8 +10,8 @@ country_data : country.data.virginia
 
 	pos:(77800, 0, 1300)
 
-	fuel_price: 1.652792	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.068259
+	fuel_price: 1.626587	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.019968
 
 	lights_mandatory: false
 	imperial_units: true

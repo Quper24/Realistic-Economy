@@ -10,8 +10,8 @@ country_data : country.data.georgia
 
 	pos:(60100, 0, 33400)
 
-	fuel_price: 1.504275	# 1 liter = 0.264172052 US gallons
-	petrol_price: 0.963990
+	fuel_price: 1.48293	# 1 liter = 0.264172052 US gallons
+	petrol_price: 0.919926
 
 	lights_mandatory: false
 	imperial_units: true

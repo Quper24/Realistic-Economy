@@ -10,8 +10,8 @@ country_data : country.data.vermont
 
 	pos:(92700, 0, -42800)
 
-	fuel_price: 1.685048	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.149122
+	fuel_price: 1.664892	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.127486
 
 	lights_mandatory: false
 	imperial_units: true

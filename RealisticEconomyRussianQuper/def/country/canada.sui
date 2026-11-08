@@ -10,7 +10,7 @@ country_data : country.data.canada
 
 	pos: (-183958, 0, -192600)
 
-	fuel_price: 1.534
+	fuel_price: 1.653868
 
 	lights_mandatory: true
 	driving_tired_offence: true

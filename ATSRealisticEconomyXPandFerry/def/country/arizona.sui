@@ -10,8 +10,8 @@ country_data : country.data.arizona
 
 	pos: (-72000, 0, 22000)
 
-	fuel_price: 1.673292	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.190914
+	fuel_price: 1.644154	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.126694
 
 	lights_mandatory: false
 	imperial_units: true

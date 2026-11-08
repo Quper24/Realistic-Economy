@@ -10,8 +10,8 @@ country_data : country.data.veracruz
 
 	pos:(405, 0, 112894)
 
-	fuel_price: 1.442050	# 1 US gallon = 3.78541178 liter
-	petrol_price: 1.271389
+	fuel_price: 1.446169	# 1 US gallon = 3.78541178 liter
+	petrol_price: 1.275779
 
 	lights_mandatory: false
 	imperial_units: false	

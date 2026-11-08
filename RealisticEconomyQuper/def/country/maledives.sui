@@ -10,7 +10,7 @@ country_data : country.data.maledives
 
 	pos: (433692, 0, 105000)
 
-	fuel_price: 0.8
+	fuel_price: 1.012918
 
 	lights_mandatory: false
 	imperial_units: true

@@ -10,8 +10,8 @@ country_data: country.data.kmanitoba
 
 	pos:(-6600, 0, -102000)
 
-	fuel_price: 1.749321	# 1 US gallon = 3.78541178 liter Winnipeg
-	petrol_price: 1.203278
+	fuel_price: 1.728889	# 1 US gallon = 3.78541178 liter Winnipeg
+	petrol_price: 1.224213
 
 	lights_mandatory: true
 	imperial_units: false

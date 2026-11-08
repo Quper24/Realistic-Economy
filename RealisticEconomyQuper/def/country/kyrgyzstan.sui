@@ -6,7 +6,7 @@ country_data: country.data.kyrgyzstan
 	country_code: "KG"
 	iso_country_code: kgz
 	pos:(246823, 0, -46651)
-	fuel_price: 0.914
+	fuel_price: 1.023409
 	country_id: 66
 	lights_mandatory: false
 	driving_tired_offence: true

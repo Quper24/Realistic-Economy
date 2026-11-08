@@ -6,7 +6,7 @@ country_data: country.data.china
 	country_code: "CN"
 	iso_country_code: chn
 	pos:(339443, 0, -198452)
-	fuel_price: 1.076
+	fuel_price: 1.157266
 	country_id: 54
 	lights_mandatory: false
 	driving_tired_offence: true

@@ -10,7 +10,7 @@ country_data : country.data.niger
 
 	pos: (-42574, 0, 214612)
 
-	fuel_price: 0.942
+	fuel_price: 0.942763
 
 	lights_mandatory: false
 	driving_tired_offence: true

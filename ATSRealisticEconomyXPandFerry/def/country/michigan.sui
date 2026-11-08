@@ -10,8 +10,8 @@ country_data : country.data.michigan
 
 	pos:(45500, 0, -30000)
 
-	fuel_price: 1.799910	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.272200
+	fuel_price: 1.724409	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.101624
 
 	lights_mandatory: false
 	imperial_units: true

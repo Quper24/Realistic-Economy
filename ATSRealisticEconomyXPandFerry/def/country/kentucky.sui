@@ -10,8 +10,8 @@ country_data : country.data.kentucky
 
 	pos:(47400, 0, 6500)
 
-	fuel_price: 1.618476	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.064455
+	fuel_price: 1.597079	# 1 liter = 0.264172052 US gallons
+	petrol_price: 0.992785
 
 	lights_mandatory: false
 	imperial_units: true

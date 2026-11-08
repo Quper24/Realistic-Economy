@@ -10,7 +10,7 @@ country_data : country.data.algeria
 
 	pos:(-37500, 0, 76500)
 
-	fuel_price: 0.2
+	fuel_price: 0.202999
 
 	lights_mandatory: false
 	driving_tired_offence: false

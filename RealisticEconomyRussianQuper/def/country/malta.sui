@@ -9,7 +9,7 @@ country_data : country.data.malta
 
 	pos: (14020, 0, 83100)
 
-	fuel_price: 1.093
+	fuel_price: 1.21
 
 	lights_mandatory: false
 	imperial_units: false

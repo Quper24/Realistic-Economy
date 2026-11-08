@@ -10,8 +10,8 @@ country_data : country.data.colorado
 
 	pos: (-43000, 0, -2000)
 
-	fuel_price: 1.745226	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.177124
+	fuel_price: 1.631368	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.031275
 
 	lights_mandatory: false
 	imperial_units: true

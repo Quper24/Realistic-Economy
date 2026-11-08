@@ -10,7 +10,7 @@ country_data : country.data.morocco
 	
 	pos:(-65000, 0, 76500)
 	
-	fuel_price: 1.18
+	fuel_price: 1.525393
 
 	lights_mandatory: false
 	driving_tired_offence: false

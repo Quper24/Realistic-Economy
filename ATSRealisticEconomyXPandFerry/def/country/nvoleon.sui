@@ -10,8 +10,8 @@ country_data : country.data.nvoleon
 
 	pos:(-19645, 0, 74777)
 
-	fuel_price: 1.443546	# 1 US gallon = 3.78541178 liter
-	petrol_price: 1.290565
+	fuel_price: 1.450992	# 1 US gallon = 3.78541178 liter
+	petrol_price: 1.290782
 
 	lights_mandatory: false
 	imperial_units: false	

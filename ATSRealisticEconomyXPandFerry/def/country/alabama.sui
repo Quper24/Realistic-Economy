@@ -10,8 +10,8 @@ country_data : country.data.alabama
 
 	pos:(44300, 0, 31800)
 
-	fuel_price: 1.556105	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.006099
+	fuel_price: 1.528896	# 1 liter = 0.264172052 US gallons
+	petrol_price: 0.958971
 
 	lights_mandatory: false
 	imperial_units: true

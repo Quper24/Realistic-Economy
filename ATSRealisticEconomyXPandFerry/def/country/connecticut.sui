@@ -10,8 +10,8 @@ country_data : country.data.connecticut
 
 	pos:(96600, 0, -27000)
 
-	fuel_price: 1.697834	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.134962
+	fuel_price: 1.679315	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.097371
 
 	lights_mandatory: false
 	imperial_units: true

@@ -10,8 +10,8 @@ country_data : country.data.princeedwa
 
 	pos:(122500, 0, -65500)
 
-	fuel_price: 1.866886	# 1 US gallon = 3.78541178 liter Charlottetown
-	petrol_price: 1.395915
+	fuel_price: 1.887358	# 1 US gallon = 3.78541178 liter Charlottetown
+	petrol_price: 1.47548
 
 	lights_mandatory: false
 	imperial_units: false

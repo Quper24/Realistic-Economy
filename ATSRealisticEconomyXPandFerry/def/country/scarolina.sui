@@ -10,8 +10,8 @@ country_data : country.data.scarolina
 
 	pos:(71900, 0, 24100)
 
-	fuel_price: 1.530164	# 1 liter = 0.264172052 US gallons
-	petrol_price: 0.993921
+	fuel_price: 1.49458	# 1 liter = 0.264172052 US gallons
+	petrol_price: 0.929093
 
 	lights_mandatory: false
 	imperial_units: true

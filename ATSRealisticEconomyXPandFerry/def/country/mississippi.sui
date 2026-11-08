@@ -10,8 +10,8 @@ country_data : country.data.mississippi
 
 	pos:(29400, 0, 29700)
 
-	fuel_price: 1.544271	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.011039
+	fuel_price: 1.518593	# 1 liter = 0.264172052 US gallons
+	petrol_price: 0.97033
 
 	lights_mandatory: false
 	imperial_units: true

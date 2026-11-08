@@ -10,8 +10,8 @@ country_data : country.data.saskatchew
 
 	pos:(-33500, 0, -92000)
 
-	fuel_price: 1.768443	# 1 US gallon = 3.78541178 liter Regina
-	petrol_price: 1.257103
+	fuel_price: 1.704975	# 1 US gallon = 3.78541178 liter Regina
+	petrol_price: 1.247412
 
 	lights_mandatory: false
 	imperial_units: false

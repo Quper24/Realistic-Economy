@@ -10,8 +10,8 @@ country_data : country.data.newyork
 
 	pos:(82500, 0, -31000)
 
-	fuel_price: 1.715586	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.157496
+	fuel_price: 1.701215	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.125505
 
 	lights_mandatory: false
 	imperial_units: true

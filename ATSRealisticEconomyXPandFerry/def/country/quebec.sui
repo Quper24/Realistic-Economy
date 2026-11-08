@@ -10,8 +10,8 @@ country_data : country.data.quebec
 
 	pos:(94000, 0, -81500)
 
-	fuel_price: 2.051025	# 1 US gallon = 3.78541178 liter Quebec
-	petrol_price: 1.354130
+	fuel_price: 2.038689	# 1 US gallon = 3.78541178 liter Quebec
+	petrol_price: 1.404097
 
 	lights_mandatory: false
 	imperial_units: false

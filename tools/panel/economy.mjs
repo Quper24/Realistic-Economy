@@ -4,11 +4,12 @@ import { join } from 'node:path';
 import { definitionChange, editableDefinitions, editedDefinition, editorText } from './definitions.mjs';
 import { ferrySettings, recalculateFerries } from './ferries.mjs';
 import { applyMarket, currencies, readSiiDirectory } from './market.mjs';
+import { finishPendingRelease } from './release-baseline.mjs';
 
 export const mods = {
-  ets2: { name: 'ETS2', dir: 'RealisticEconomyQuper', game: 'Euro Truck Simulator 2', currency: 'EUR', workshop: 'Realistic Economy' },
-  'ets2-russia': { name: 'ETS2 Russia', dir: 'RealisticEconomyRussianQuper', game: 'Euro Truck Simulator 2', currency: 'RUB', workshop: 'Realistic Economy Russian Police' },
-  ats: { name: 'ATS', dir: 'ATSRealisticEconomyXPandFerry', game: 'American Truck Simulator', currency: 'USD', workshop: 'RealisticEconomyATS' }
+  ets2: { name: 'ETS2', dir: 'RealisticEconomyQuper', filename: 'RealisticEconomyQuper.scs', game: 'Euro Truck Simulator 2', currency: 'EUR', workshop: 'Realistic Economy' },
+  'ets2-russia': { name: 'ETS2 Russia', dir: 'RealisticEconomyRussianQuper', filename: 'RealisticEconomyRussianQuper.scs', game: 'Euro Truck Simulator 2', currency: 'RUB', workshop: 'Realistic Economy Russian Police' },
+  ats: { name: 'ATS', dir: 'ATSRealisticEconomyXPandFerry', filename: 'ATSRealisticEconomy.scs', game: 'American Truck Simulator', currency: 'USD', workshop: 'RealisticEconomyATS' }
 };
 
 const truck = 'def/economy_data.sii';
@@ -80,6 +81,7 @@ export function replaceField(source, key, readValue) {
 
 export async function loadEconomy(root, id) {
   const mod = mods[id];
+  await finishPendingRelease(root, id, mod);
   const definitions = editableDefinitions(id);
   const files = [truck, ...definitions.map(item => item.file)];
   const sources = new Map(await Promise.all(files.map(async file => [file, await readFile(join(root, mod.dir, file), 'utf8')])));
@@ -87,7 +89,7 @@ export async function loadEconomy(root, id) {
     readSiiDirectory(join(root, mod.dir), 'def/country'),
     readSiiDirectory(join(root, mod.dir), 'def/ferry/connection')
   ]);
-  const manifest = await readFile(join(root, mod.dir, 'manifest.sii'), 'utf8');
+  const [manifest, description] = await Promise.all(['manifest.sii', 'description.txt'].map(file => readFile(join(root, mod.dir, file), 'utf8')));
   const version = manifest.match(/^\s*package_version:\s*"([^"]+)"/m)?.[1];
   const gameVersion = [...manifest.matchAll(/^[\t ]*compatible_versions\[\]:[\t ]*"(\d+\.\d+)\.\*"/gm)].at(-1)?.[1];
   if (!version || !gameVersion) throw new Error('Не найдены версии в manifest.sii.');
@@ -117,7 +119,7 @@ export async function loadEconomy(root, id) {
   const dataRevision = createHash('sha256').update(JSON.stringify([...countries, ...ferries])).digest('hex');
   const documents = definitions.map(item => ({ ...item, text: editorText(sources.get(item.file)) }));
   return { mod, fields, sources, documents, revision, previousRevision, dataRevision, countries, ferries,
-    ferrySettings: ferrySettings(id), rub, manifest, version, gameVersion };
+    ferrySettings: ferrySettings(id), rub, manifest, description, version, gameVersion };
 }
 
 const show = value => Array.isArray(value) ? `(${value.join(', ')})` : String(value);

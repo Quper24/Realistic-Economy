@@ -10,7 +10,7 @@ country_data : country.data.zambia
 
 	pos: (100000, 0, 445000)
 
-	fuel_price: 1.337
+	fuel_price: 1.511363
 
 	lights_mandatory: false
 	driving_tired_offence: true

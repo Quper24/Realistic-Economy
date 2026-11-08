@@ -10,7 +10,7 @@ country_data : country.data.kosovo
 
 	pos: (42000, 0, 44000)
 
-	fuel_price: 1.71
+	fuel_price: 1.87
 
 	lights_mandatory: true
 	driving_tired_offence: true

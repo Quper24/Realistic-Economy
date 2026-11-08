@@ -10,8 +10,8 @@ country_data : country.data.knorthwest
 
 	pos: (-67000, 0, -159000)
 
-	fuel_price: 1.567306	# 1 US gallon = 3.78541178 liter Yellowknife
-	petrol_price: 1.263477
+	fuel_price: 1.540438	# 1 US gallon = 3.78541178 liter Yellowknife
+	petrol_price: 1.294168
 
 	lights_mandatory: true
 	imperial_units: false

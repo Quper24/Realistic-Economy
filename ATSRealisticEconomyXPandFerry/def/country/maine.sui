@@ -10,8 +10,8 @@ country_data : country.data.maine
 
 	pos:(106000, 0, -51000)
 
-	fuel_price: 1.694558	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.135227
+	fuel_price: 1.673187	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.101677
 
 	lights_mandatory: false
 	imperial_units: true

@@ -9,7 +9,7 @@ country_data : country.data.ireland
 
 	pos: (-69000, 0, -33000)
 
-	fuel_price: 1.746
+	fuel_price: 2.122
 
 	lights_mandatory: false
 	imperial_units: false

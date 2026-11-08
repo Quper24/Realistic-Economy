@@ -99,7 +99,7 @@
 		revenue_coef_per_km: 0.06 # Revenue coefficient per km used during freight market jobs.
 		cargo_market_revenue_coef_per_km: 0.09 # Revenue coefficient per km used during cargo market jobs.
 
-		reward_bonus_level: 0.015
+		reward_bonus_level: 0.01
 
 		#  Experience points
 		free_roam_report_limit: 100
@@ -195,55 +195,55 @@
 		currency_sign3[]: ""
 
 		currency_code[]: "CHF"
-		currency_ratio[]: 0.9246
+		currency_ratio[]: 0.91617
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " CHF"
 
 		currency_code[]: "CZK"
-		currency_ratio[]: 24.3720
+		currency_ratio[]: 24.372
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " Kč"
 
 		currency_code[]: "GBP"
-		currency_ratio[]: 0.8380
+		currency_ratio[]: 0.83464
 		currency_sign1[]: ""
 		currency_sign2[]: "£"
 		currency_sign3[]: ""
 
 		currency_code[]: "PLN"
-		currency_ratio[]: 4.4035
+		currency_ratio[]: 4.4029
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " zł"
 
 		currency_code[]: "HUF"
-		currency_ratio[]: 367.3400
+		currency_ratio[]: 364.58
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " Ft"
 
 		currency_code[]: "DKK"
-		currency_ratio[]: 7.4810
+		currency_ratio[]: 7.4834
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " kr"
 
 		currency_code[]: "SEK"
-		currency_ratio[]: 11.1419
+		currency_ratio[]: 11.0159
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " kr"
 
 		currency_code[]: "NOK"
-		currency_ratio[]: 10.4722
+		currency_ratio[]: 10.4854
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " kr"
 
 		currency_code[]: "RUB"
-		currency_ratio[]: 90.7100
+		currency_ratio[]: 92.1924
 		currency_sign1[]: ""
 		currency_sign2[]: "₽"
 		currency_sign3[]: ""
@@ -255,19 +255,19 @@
 		currency_sign3[]: ""
 
 		currency_code[]: "RON"
-		currency_ratio[]: 5.3533
+		currency_ratio[]: 5.3479
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " lei"
 
 		currency_code[]: "TRY"
-		currency_ratio[]: 55.7680
+		currency_ratio[]: 56.17
 		currency_sign1[]: ""
 		currency_sign2[]: "₺"
 		currency_sign3[]: ""
 
 		currency_code[]: "ALL"
-		currency_ratio[]: 90.8400
+		currency_ratio[]: 91.06
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " lek"
@@ -279,37 +279,37 @@
 		currency_sign3[]: ""
 
 		currency_code[]: "MKD"
-		currency_ratio[]: 61.7400
+		currency_ratio[]: 61.626
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " ден"
 
 		currency_code[]: "RSD"
-		currency_ratio[]: 117.6200
+		currency_ratio[]: 117.72
 		currency_sign1[]: ""
 		currency_sign2[]: "дин "
 		currency_sign3[]: ""
 
 		currency_code[]: "UAH"
-		currency_ratio[]: 50.8370
+		currency_ratio[]: 50.897
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " грн"
 
 		currency_code[]: "KZT"
-		currency_ratio[]: 506.3800
+		currency_ratio[]: 505
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " тг"
 
 		currency_code[]: "BYN"
-		currency_ratio[]: 3.3066
+		currency_ratio[]: 3.3442
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " руб"
 
 		currency_code[]: "CNY"
-		currency_ratio[]: 7.4732
+		currency_ratio[]: 7.4708
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " CNY"

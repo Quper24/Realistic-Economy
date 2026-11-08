@@ -10,8 +10,8 @@ country_data : country.data.novascotia
 
 	pos:(126000, 0, -56500)
 
-	fuel_price: 1.928502	# 1 US gallon = 3.78541178 liter Halifax
-	petrol_price: 1.347048
+	fuel_price: 1.88022	# 1 US gallon = 3.78541178 liter Halifax
+	petrol_price: 1.379113
 
 	lights_mandatory: false
 	imperial_units: false

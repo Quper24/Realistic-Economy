@@ -10,7 +10,7 @@ country_data : country.data.paraiba
 
 	pos: (-198210, 0, 337000)
 
-	fuel_price: 0.94
+	fuel_price: 1.179567
 
 	lights_mandatory: false
 	driving_tired_offence: true

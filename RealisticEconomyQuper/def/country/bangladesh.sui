@@ -10,7 +10,7 @@ country_data : country.data.bangladesh
 
 	pos: (376000, 0, -46000)
 
-	fuel_price: 0.973
+	fuel_price: 0.967049
 
 	lights_mandatory: false
 	leftside_traffic: true

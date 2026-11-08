@@ -9,7 +9,7 @@ country_data : country.data.tamaulipas
 
 	pos: (-11900, 0, 79200)
 
-	fuel_price: 1.6801
+	fuel_price: 1.415628
 
 	lights_mandatory: false
 	imperial_units: false

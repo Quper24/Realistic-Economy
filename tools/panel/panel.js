@@ -224,7 +224,7 @@ async function choose(id) {
       ? 'Папка теста · ' + current.destination
       : 'Папка игры недоступна. Можно собрать релиз.';
     renderSettings();
-    status.textContent = 'Черновик Realistic';
+    status.textContent = `База сравнения · версия ${current.version}`;
   } catch (error) {
     fields.replaceChildren();
     status.textContent = error.message;
@@ -244,7 +244,6 @@ async function run(action) {
   status.textContent = isTest ? 'Собираем тестовый пакет…' : isRelease ? 'Собираем релиз…' : 'Проверяем черновик…';
   try {
     const result = await api(action, body);
-    showChanges(result);
     if (result.path) {
       artifacts.replaceChildren();
       const locations = isRelease
@@ -257,7 +256,14 @@ async function run(action) {
       }
       artifacts.hidden = false;
     }
-    status.textContent = isTest ? 'Пакет TEST установлен' : isRelease ? 'Релиз собран'
+    if (isRelease && !result.baselineError) {
+      localStorage.removeItem('re-draft-' + selected);
+      current = await api();
+      renderSettings();
+    }
+    showChanges(result);
+    status.textContent = isTest ? 'Пакет TEST установлен' : isRelease
+      ? result.baselineError ? `Релиз собран. Ошибка сохранения базы: ${result.baselineError}` : `Релиз ${current.version} собран и сохранён как база сравнения.`
       : result.changes.length ? 'Изменения в игровых файлах' : 'Игровые значения совпадают с исходными.';
   } catch (error) {
     status.textContent = error.message;

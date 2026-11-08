@@ -10,7 +10,7 @@ country_data : country.data.zaf
 
 	pos: (50000, 0, 590000)
 
-	fuel_price: 0.938
+	fuel_price: 1.672186
 
 	lights_mandatory: false
 	leftside_traffic: true

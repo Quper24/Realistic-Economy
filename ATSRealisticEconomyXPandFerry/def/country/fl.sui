@@ -10,7 +10,7 @@ country_data : country.data.fl
 
 	pos:(72400, 0, 58000)
 
-	fuel_price: 1.667216	# 1 liter = 0.264172052 US gallons
+	fuel_price: 1.559143	# 1 liter = 0.264172052 US gallons
 
 	lights_mandatory: false
 	imperial_units: true

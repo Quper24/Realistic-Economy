@@ -10,8 +10,8 @@ country_data : country.data.louisiana
 
 	pos: (18000, 0, 45500)
 
-	fuel_price: 1.523771	# 1 liter = 0.264172052 US gallons
-	petrol_price: 0.997778
+	fuel_price: 1.497274	# 1 liter = 0.264172052 US gallons
+	petrol_price: 0.949514
 
 	lights_mandatory: false
 	imperial_units: true

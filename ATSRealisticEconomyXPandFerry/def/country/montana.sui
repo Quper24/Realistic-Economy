@@ -10,8 +10,8 @@ country_data : country.data.montana
 
 	pos: (-52000, 0, -48000)
 
-	fuel_price: 1.630417	# 1 liter = 0.264172052 US gallons kworey
-	petrol_price: 1.161934
+	fuel_price: 1.60046	# 1 liter = 0.264172052 US gallons kworey
+	petrol_price: 1.075286
 
 	lights_mandatory: false
 	imperial_units: true

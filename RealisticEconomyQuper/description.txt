@@ -89,3 +89,7 @@ This mod transforms ETS2 into a highly realistic trucking simulator where every 
 Агрегаты: Стало более износостойкими, что соответствует реальности.
 Шины: Изнашиваются быстрее, что добавляет реализма в обслуживание техники.
 Этот модификация превращает ETS2 в максимально реалистичный симулятор грузоперевозок, где каждое решение имеет значение!
+
+Additional diesel prices adapted from OpenVan.camp (https://openvan.camp/). CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).
+European diesel prices adapted from EU EnergyPrices (https://www.euenergyprices.eu/en/data), based on the European Commission Weekly Oil Bulletin, SSB, DESNZ and Swiss FSO. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).
+Peninsular Malaysia diesel prices adapted from the Ministry of Finance (https://data.gov.my/data-catalogue/fuelprice). CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).

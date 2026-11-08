@@ -10,8 +10,8 @@ country_data : country.data.colima
 
 	pos:(-44522, 0, 116337)
 
-	fuel_price: 1.443706	# 1 US gallon = 3.78541178 liter
-	petrol_price: 1.273365
+	fuel_price: 1.447241	# 1 US gallon = 3.78541178 liter
+	petrol_price: 1.276851
 
 	lights_mandatory: false
 	imperial_units: false	

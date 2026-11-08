@@ -10,7 +10,7 @@ country_data : country.data.botswana
 
 	pos: (85000, 0, 495000)
 
-	fuel_price: 1.227
+	fuel_price: 1.564991
 
 	lights_mandatory: false
 	leftside_traffic: true

@@ -10,8 +10,8 @@ country_data : country.data.pennsylvania
 
 	pos:(77000, 0, -18400)
 
-	fuel_price: 1.745517	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.172079
+	fuel_price: 1.732546	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.151552
 
 	lights_mandatory: false
 	imperial_units: true

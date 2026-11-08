@@ -10,8 +10,8 @@ country_data : country.data.jalisco
 
 	pos:(-41000, 0, 105000)
 
-	fuel_price: 1.448193	# 1 US gallon = 3.78541178 liter
-	petrol_price: 1.281644
+	fuel_price: 1.453135	# 1 US gallon = 3.78541178 liter
+	petrol_price: 1.284888
 
 	lights_mandatory: false
 	imperial_units: false	

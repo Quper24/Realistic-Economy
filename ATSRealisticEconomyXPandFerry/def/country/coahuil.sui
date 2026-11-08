@@ -10,8 +10,8 @@ country_data : country.data.coahuil
 
 	pos:(-31000, 0, 66000)
 
-	fuel_price: 1.442905	# 1 US gallon = 3.78541178 liter
-	petrol_price: 1.269092
+	fuel_price: 1.452063	# 1 US gallon = 3.78541178 liter
+	petrol_price: 1.272565
 
 	lights_mandatory: false
 	imperial_units: false	

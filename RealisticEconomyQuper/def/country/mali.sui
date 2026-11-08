@@ -10,7 +10,7 @@ country_data : country.data.mali
 
 	pos: (-125748, 0, 204612)
 
-	fuel_price: 1.433
+	fuel_price: 1.433976
 
 	lights_mandatory: false
 	driving_tired_offence: true

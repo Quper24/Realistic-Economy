@@ -10,7 +10,7 @@ country_data: country.data.ukraine
 
 	pos: (61100, 0 , -1300)
 
-	fuel_price: 1.695
+	fuel_price: 2.054542
 
 	lights_mandatory: false
 	driving_tired_offence: true

@@ -10,8 +10,8 @@ country_data : country.data.minnesota
 
 	pos:(5300, 0, -41000)
 
-	fuel_price: 1.642965	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.107436
+	fuel_price: 1.596814	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.033203
 
 	lights_mandatory: false
 	imperial_units: true

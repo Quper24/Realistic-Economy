@@ -10,8 +10,8 @@ country_data : country.data.guanajua
 
 	pos:(-27766, 0, 104478)
 
-	fuel_price: 1.443706	# 1 US gallon = 3.78541178 liter
-	petrol_price: 1.273899
+	fuel_price: 1.448848	# 1 US gallon = 3.78541178 liter
+	petrol_price: 1.277923
 
 	lights_mandatory: false
 	imperial_units: false	

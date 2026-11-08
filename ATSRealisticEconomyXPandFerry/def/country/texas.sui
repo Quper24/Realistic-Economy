@@ -10,8 +10,8 @@ country_data : country.data.texas
 
 	pos: (-15000, 0, 44000)
 
-	fuel_price: 1.514868	# 1 liter = 0.264172052 US gallons
-	petrol_price: 0.980105
+	fuel_price: 1.480499	# 1 liter = 0.264172052 US gallons
+	petrol_price: 0.921643
 
 	lights_mandatory: false
 	imperial_units: true

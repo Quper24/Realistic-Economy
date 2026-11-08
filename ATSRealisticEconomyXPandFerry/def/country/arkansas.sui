@@ -10,8 +10,8 @@ country_data : country.data.arkansas
 
 	pos: (17000, 0, 20000)
 
-	fuel_price: 1.557823	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.013364
+	fuel_price: 1.528605	# 1 liter = 0.264172052 US gallons
+	petrol_price: 0.964069
 
 	lights_mandatory: false
 	imperial_units: true

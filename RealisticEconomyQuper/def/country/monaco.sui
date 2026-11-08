@@ -9,7 +9,7 @@ country_data : country.data.monaco
 
 	pos: (-12350, 0, 38800)
 
-	fuel_price: 2.402
+	fuel_price: 2.343
 
 	lights_mandatory: false
 	driving_tired_offence: true

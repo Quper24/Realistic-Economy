@@ -10,8 +10,8 @@ country_data : country.data.aguasca
 
 	pos:(-34500, 0, 96500)
 
-	fuel_price: 1.443225	# 1 US gallon = 3.78541178 liter
-	petrol_price: 1.277959
+	fuel_price: 1.448312	# 1 US gallon = 3.78541178 liter
+	petrol_price: 1.281673
 
 	lights_mandatory: false
 	imperial_units: false	

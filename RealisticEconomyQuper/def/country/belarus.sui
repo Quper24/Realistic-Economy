@@ -10,7 +10,7 @@ country_data : country.data.belarus
 	
 	pos: (59073, 0, -15130)
 
-	fuel_price: 0.831
+	fuel_price: 0.816339
 	
 	lights_mandatory: true
 	driving_tired_offence: true

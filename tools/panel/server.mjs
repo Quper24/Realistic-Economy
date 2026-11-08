@@ -64,6 +64,7 @@ createServer(async (request, response) => {
     }
     const [, id, action] = request.url.match(/^\/api\/mods\/([a-z0-9-]+)(?:\/(market|preview|test|release))?$/) ?? [];
     if (!Object.hasOwn(mods, id)) return reply(response, 404, { error: 'Раздел не найден.' });
+    if (busy.has(id)) return reply(response, 409, { error: 'Сборка этого мода уже запущена.' });
     if (!action && request.method === 'GET') {
       const economy = await loadEconomy(root, id);
       const { mod, fields, documents, revision, previousRevision, dataRevision, ferrySettings, rub, version, gameVersion } = economy;

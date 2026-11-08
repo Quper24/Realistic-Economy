@@ -10,8 +10,8 @@ country_data : country.data.oklahoma
 
 	pos: (-6000, 0, 17000)
 
-	fuel_price: 1.566884	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.031882
+	fuel_price: 1.508845	# 1 liter = 0.264172052 US gallons
+	petrol_price: 0.958707
 
 	lights_mandatory: false
 	imperial_units: true

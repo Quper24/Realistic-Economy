@@ -8,7 +8,7 @@ country_data: country.data.sdakota
 
 	pos: (-17400, 0, -31600)
 
-	fuel_price: 1.2811
+	fuel_price: 1.554626
 
 	lights_mandatory: false
 	imperial_units: true

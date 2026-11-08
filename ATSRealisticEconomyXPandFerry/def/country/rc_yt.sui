@@ -10,7 +10,7 @@ country_data : country.data.rc_yt
 
 	pos: (-110155.91, 0, -164417.14)
 
-	fuel_price: 1.766011	# 1 US gallon = 3.78541178 liter Whitehorse
+	fuel_price: 1.780998	# 1 US gallon = 3.78541178 liter Whitehorse
 
 	lights_mandatory: false
 	imperial_units: false

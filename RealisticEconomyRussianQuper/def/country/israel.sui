@@ -9,7 +9,7 @@ country_data: country.data.israel
 
 	pos:(113000, 0, 96000)
 
-	fuel_price: 1.986
+	fuel_price: 2.458009
 
 	lights_mandatory: false
 	leftside_traffic: false

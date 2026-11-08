@@ -5,3 +5,8 @@
 
 Это мод Realistic Russia Economy by Quper.
 Корректирует штрафы, цены на недвижимость и кредиты.
+
+
+Additional diesel prices adapted from OpenVan.camp (https://openvan.camp/). CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).
+European diesel prices adapted from EU EnergyPrices (https://www.euenergyprices.eu/en/data), based on the European Commission Weekly Oil Bulletin, SSB, DESNZ and Swiss FSO. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).
+Peninsular Malaysia diesel prices adapted from the Ministry of Finance (https://data.gov.my/data-catalogue/fuelprice). CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).

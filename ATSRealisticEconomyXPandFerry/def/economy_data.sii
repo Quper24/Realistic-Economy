@@ -93,7 +93,7 @@
 		revenue_coef_per_km: 0.07 # Revenue coefficient per km used during freight market jobs.
 		cargo_market_revenue_coef_per_km: 0.09 # Revenue coefficient per km used during cargo market jobs.
 
-		reward_bonus_level: 0.02
+		reward_bonus_level: 0.01
 
 		#  Experience points
 		free_roam_report_limit: 161		# 100 miles
@@ -188,49 +188,49 @@
 		currency_sign3[]: ""
 
 		currency_code[]: "CAD"
-		currency_ratio[]: 1.4
+		currency_ratio[]: 1.4009
 		currency_sign1[]: ""
 		currency_sign2[]: "$"
 		currency_sign3[]: ""
 
 		currency_code[]: "MXN"
-		currency_ratio[]: 18.66
+		currency_ratio[]: 18.6631
 		currency_sign1[]: ""
 		currency_sign2[]: "$"
 		currency_sign3[]: ""
 
 		currency_code[]: "EUR"
-		currency_ratio[]: 0.89
+		currency_ratio[]: 0.89197
 		currency_sign1[]: ""
 		currency_sign2[]: "€"
 		currency_sign3[]: ""
 
 		currency_code[]: "RUB"
-		currency_ratio[]: 80.85
+		currency_ratio[]: 82.1386
 		currency_sign1[]: ""
 		currency_sign2[]: "₽"
 		currency_sign3[]: ""
 
 		currency_code[]: "UAH"
-		currency_ratio[]: 45.34
+		currency_ratio[]: 45.399
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " гр"
 
 		currency_code[]: "KZT"
-		currency_ratio[]: 451.59
+		currency_ratio[]: 450.45
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " тг"
 
 		currency_code[]: "BYN"
-		currency_ratio[]: 2.95
+		currency_ratio[]: 2.9829
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: "руб"
 
 		currency_code[]: "CNY"
-		currency_ratio[]: 6.66
+		currency_ratio[]: 6.6637
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " CNY"

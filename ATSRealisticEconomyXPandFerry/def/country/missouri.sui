@@ -10,8 +10,8 @@ country_data : country.data.missouri
 
 	pos: (15000, 0, 4000)
 
-	fuel_price: 1.608385	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.035607
+	fuel_price: 1.567386	# 1 liter = 0.264172052 US gallons
+	petrol_price: 0.977833
 
 	lights_mandatory: false
 	imperial_units: true

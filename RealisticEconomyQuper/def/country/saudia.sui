@@ -9,7 +9,7 @@ country_data: country.data.saudia
 
 	pos:(130000, 0, 106000)
 
-	fuel_price: 0.389
+	fuel_price: 0.425765
 
 	lights_mandatory: false
 	leftside_traffic: false

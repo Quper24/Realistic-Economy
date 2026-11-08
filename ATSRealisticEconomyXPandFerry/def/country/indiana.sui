@@ -10,8 +10,8 @@ country_data : country.data.indiana
 
 	pos:(42000, 0, -8800)
 
-	fuel_price: 1.802684	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.050137
+	fuel_price: 1.75257	# 1 liter = 0.264172052 US gallons
+	petrol_price: 0.956541
 
 	lights_mandatory: false
 	imperial_units: true

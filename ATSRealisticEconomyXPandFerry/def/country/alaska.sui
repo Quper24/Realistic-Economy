@@ -10,8 +10,8 @@ country_data : country.data.alaska
 
 	pos: (-141539, 0, -196614)
 
-	fuel_price: 1.716035	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.278593
+	fuel_price: 1.678945	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.219313
 
 	lights_mandatory: false
 	imperial_units: true

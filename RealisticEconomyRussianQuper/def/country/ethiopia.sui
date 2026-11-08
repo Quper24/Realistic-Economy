@@ -10,7 +10,7 @@ country_data : country.data.ethiopia
 
 	pos: (194780, 0, 235995)
 
-	fuel_price: 0.901
+	fuel_price: 0.996576
 
 	lights_mandatory: false
 	driving_tired_offence: false

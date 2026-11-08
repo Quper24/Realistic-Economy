@@ -10,8 +10,8 @@ country_data : country.data.alberta
 
 	pos:(-57500, 0, -107500)
 
-	fuel_price: 1.619007	# 1 US gallon = 3.78541178 liter Edmonton
-	petrol_price: 1.041802
+	fuel_price: 1.701763	# 1 US gallon = 3.78541178 liter Edmonton
+	petrol_price: 1.1771
 
 	lights_mandatory: false
 	imperial_units: false

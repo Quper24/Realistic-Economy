@@ -10,8 +10,8 @@ country_data : country.data.nhampshire
 
 	pos:(99000, 0, -38000)
 
-	fuel_price: 1.680557	# 1 liter = 0.264172052 US gallons
-	petrol_price: 1.110817
+	fuel_price: 1.6534	# 1 liter = 0.264172052 US gallons
+	petrol_price: 1.082577
 
 	lights_mandatory: false
 	imperial_units: true

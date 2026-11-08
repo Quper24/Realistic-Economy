@@ -10,8 +10,8 @@ country_data : country.data.ncarolina
 
 	pos:(74500, 0, 11500)
 
-	fuel_price: 1.462826	# 1 liter = 0.264172052 US gallons
-	petrol_price: 0.919477
+	fuel_price: 1.437202	# 1 liter = 0.264172052 US gallons
+	petrol_price: 0.864714
 
 	lights_mandatory: false
 	imperial_units: true
